@@ -1,0 +1,104 @@
+---
+layout: post
+permalink: "maison-dans-la-colline"
+title: "Maison dans la colline"
+date: 2026-01-06 15:19:21 +0100
+category: "Construction neuve"
+thumbnail1: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE01.avif"
+thumbnail2: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN COUPE.avif"
+subtitle1: ""
+subtitle2: ""
+nextprojecttitle: "Projet 3"
+nextprojectpermalink: "projet3"
+nextprojectthumbnail: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
+img1: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE01.avif"
+captionimg1: ""
+img2: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE02.avif"
+captionimg2: ""
+img3: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN BUREAU.avif"
+captionimg3: ""
+img4: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN COUPE.avif"
+captionimg4: ""
+img5: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN RDC.avif"
+captionimg5: ""
+img6: ""
+captionimg6: ""
+img7: ""
+captionimg7: ""
+img8: ""
+captionimg8: ""
+text1: "Maître d’ouvrage // Privé
+    Mission // Esquisse
+    Superficie // 187 m2 + 60 m2 garage
+    Montant des travaux // 500 000 € HT"
+text2: "Pensé en dialogue avec le site, ce projet s’insère dans son environnement en limitant son impact. Elle vient épouser la pente de tout son long s’ouvrant sur le grand paysage."
+text3: "Cette maison se parcours tout en long avec une différence de niveaux pour chaque usage tout en laissant les espaces ouverts, et le regard filer avec un sentiment de respiration."
+text4: "La lumière naturelle étant le second point le plus important en privilégiant les espaces traversants tout en favorisant une intimité par rapport aux voisins."
+text5: "Les vues s’orientent vers le grand paysage et les pièces de vie largement ouverte sur le sud ouest comme la piscine."
+text6: ""
+---
+<div id="main-page-content">                 
+    <!-- Row -->
+    <!--<div class="content-row row_padding_top row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
+        <figure class="has-animation" data-delay="200">
+            <a href="images/projects/stena01.jpg" class="image-link"><img src="/assets/images/projects/stena01.jpg" alt="Image Title"></a>
+            <figcaption>Image Caption</figcaption>
+        </figure>
+        <hr><hr class="destroy">
+        <p class="has-opacity">These images are credited to the following author.</p>
+        <br>
+        <div class="button-box has-animation" data-delay="100">             
+            <div class="clapat-button-wrap parallax-wrap hide-ball">
+                <div class="clapat-button parallax-element">
+                    <div class="button-border rounded parallax-element-second">
+                        <a target="_blank" href="https://www.behance.net/gallery/195834077/Stena-Humidifier">
+                            <span data-hover="View Project">View Project</span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div> -->
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row full light-section disable-header-gradient change-header-color" data-bgcolor="#ffffff">
+        <figure class="has-parallax has-parallax-content" data-delay="100">
+            <img src="{{ page.img2 }}" alt="Image Title">
+            <div class="parallax-image-content content-max-width text-align-center light-content">
+                <div class="outer">
+                    <div class="inner">                                            
+                        <h2 class="has-mask-fill">{{ page.text1 }}</h2>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
+        <div class="one_half">
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img1 }}" class="image-link"><img src="{{ page.img1 }}" alt="Image Title"></a>
+                <figcaption>Image Caption</figcaption>
+            </figure>
+            <hr><br><br>
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}" alt="Image Title"></a>
+                <figcaption>Image Caption</figcaption>
+            </figure>
+        </div>   
+        <div class="one_half last">                                                
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img3 }}" class="image-link"><img src="{{ page.img3 }}" alt="Image Title"></a>
+                <figcaption>Image Caption</figcaption>
+            </figure>
+            <hr><br><br>
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img4 }}" class="image-link"><img src="{{ page.img4 }}" alt="Image Title"></a>
+                <figcaption>Image Caption</figcaption>
+            </figure>                                             
+        </div>                               
+    </div> 
+    <!--/Row -->
+</div>
+<!--/Main Page Content --> 

@@ -1,0 +1,71 @@
+<!-- Header -->
+<header class="clapat-header classic-menu invert-header" data-menucolor="#0c0c0c">
+
+    <!-- Gradient -->
+    <div class="header-gradient"></div>
+    <!--/Gradient -->
+
+    <div id="header-container">
+
+        <!-- Logo -->
+        <div id="clapat-logo" class="hide-ball">
+            <a class="ajax-link" data-type="page-transition" href="/">
+                <img class="black-logo" src="/assets/images/FAIRE LOGO 2026 full.webp" alt="FAIRE Architecte Logo">
+                <img class="white-logo" src="/assets/images/FAIRE LOGO 2026 full.webp" alt="FAIRE Architecte Logo">
+            </a>
+        </div>
+        <!--/Logo -->
+
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
+        {%- assign page_titles = site.pages | map: 'title' | compact %}
+
+        <!-- Navigation -->
+        {%- unless page_titles == empty %}
+        <nav class="clapat-nav-wrapper">
+            <div class="nav-height">
+
+                {% include nav-items.html %}
+
+            </div>
+        </nav>
+        {%- endunless %}
+        <!--/Navigation -->
+
+
+        <!-- Header Button -->
+        <!--<a class="header-button ajax-link" data-type="page-transition" href="/contact.html">
+            <div class="button-icon-link right">
+                <div class="icon-wrap-scale">
+                    <div class="icon-wrap parallax-wrap">
+                        <div class="button-icon parallax-element">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-text sticky right"><span data-hover="Contact">Contact</span></div>
+            </div>
+        </a> -->
+        <!--/Header Button -->
+
+
+        <!-- Menu Burger -->
+        <div class="button-wrap right menu burger-lines">
+            <div class="icon-wrap parallax-wrap">
+                <div class="button-icon parallax-element">
+                    <div id="burger-wrapper">
+                        <div id="menu-burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="button-text sticky right"><span data-hover="Menu">Menu</span></div>-->
+        </div>
+        <!--/Menu Burger -->
+
+    </div>
+</header>
+<!--/Header -->

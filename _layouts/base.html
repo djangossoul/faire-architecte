@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+    {%- include head.html -%}
+
+    <body class="smooth-scroll rounded-borders hero-below-caption disable-ajaxload" data-primary-color="#fffff0">
+
+        <main>
+
+            <div class="cd-index cd-main-content">
+
+                <!-- Page Content -->
+                <div id="clapat-page-content" class="dark-content" data-bgcolor="#ffffff">
+
+                    {% include header.html %}
+
+                    <!-- Content Scroll -->
+                    <div id="content-scroll">
+
+                        <!-- Main -->
+                        <div id="main">
+
+                                {{ content }}
+
+                        </div>
+                        <!--/Main -->
+
+                        {% include footer.html %}
+
+                    </div>
+                    <!--/Content Scroll -->
+
+                    <div id="app"></div>
+
+                </div>
+                <!--/Page Content -->
+
+            </div>
+        </main>
+
+        {%- include sub-footer.html -%}
+
+    </body>
+
+</html>

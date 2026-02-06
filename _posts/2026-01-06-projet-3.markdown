@@ -1,0 +1,96 @@
+---
+layout: post
+permalink: "projet3"
+title: "Projet 3"
+date: 2026-01-06 15:19:21 +0100
+category: "Construction neuve"
+thumbnail1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
+thumbnail2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
+subtitle1: ""
+subtitle2: ""
+nextprojecttitle: "Projet 5"
+nextprojectpermalink: "projet5"
+nextprojectthumbnail: "/assets/images/02hero.jpg"
+img1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
+captionimg1: "Lorem ipsum"
+img2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
+captionimg2: "Lorem ipsum"
+img3: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB APRES - ACA.avif"
+captionimg3: "Lorem ipsum"
+img4: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB AVANT - ACA.avif"
+captionimg4: "Lorem ipsum"
+img5: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB CROQUIS - ACA 1.avif"
+captionimg5: "Lorem ipsum"
+img6: "/assets/images/projects/Maison Urbaine 1930 - 02 CHAMBRE ROUGE APRES - ACA.avif"
+captionimg6: "Lorem ipsum"
+img7: "/assets/images/projects/Maison Urbaine 1930 - 02 CHAMBRE ROUGE AVANT - ACA.avif"
+captionimg7: "Lorem ipsum"
+img8: "/assets/images/projects/Maison Urbaine 1930 - 03 SDD APRES - ACA.avif"
+captionimg8: "Lorem ipsum"
+img9: "/assets/images/projects/Maison Urbaine 1930 - 03 SDD AVANT - ACA.avif"
+captionimg9: "Lorem ipsum"
+img10: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
+captionimg10: "Lorem ipsum"
+img11: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CUISINE APRES - ACA.avif"
+captionimg11: "Lorem ipsum"
+img12: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CUISINE CHANTIER - ACA.avif"
+captionimg12: "Lorem ipsum"
+img13: "/assets/images/projects/Maison Urbaine 1930 - 05 CHAMBRE MARRON APRES - ACA.avif"
+captionimg13: "Lorem ipsum"
+img14: "/assets/images/projects/Maison Urbaine 1930 - 05 CHAMBRE MARRON TRAVAUX - ACA.avif"
+captionimg14: "Lorem ipsum"
+text1a: "Maître d’ouvrage // Privé"
+text1b: "Mission // Complète"
+text1c: "Superficie // 94 m2 existant + 63m2 surélévation"
+text1d: "Montant des travaux // < 300 000 € HT"
+text2: "Cette maison typique rémoise a été abîmée dans son usage par ses anciens propriétaires."
+text3: "Que se soit les sols, les murs ou les plafonds, tout a été recouvert par des matériaux bas de gamme."
+text4: "L’enjeu est de redonner ses lettres de noblesse à cette demeure en retrouvant au maximum les matériaux d’origine (parquet, carreaux de ciment...) Tout en lui offrant un nouvel usage d’habitation mêlant tous le confort traditionnel avec un enjeu énergétique non négligeable."
+text5: "Isolation, système de chauffage, électricité, plomberie, tout est repensé et mis aux normes pour cette nouvelle vie."
+text6: ""
+---
+<div id="main-page-content">                 
+    <!-- Row -->
+    <div class="content-row row_padding_top row_padding_bottom dark-section text-align-center" data-bgcolor="#0c0c0c">                            
+        <div class="pinned-lists-wrapper brick-mode" data-duration="4x">                                
+            <p class="has-shuffle-onscroll-disable">Details</p> 
+            <ul class="pinned-lists">
+                <li>{{ page.text1a }}</li>
+                <li>{{ page.text1b }}</li>
+                <li>{{ page.text1c }}</li>
+                <li>{{ page.text1d }}</li>
+            </ul>
+        </div>
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row text-align-center dark-section" data-bgcolor="#0c0c0c">
+        <div class="pinned-gallery">
+            <div class="pinned-image">
+                <img src="{{ page.img2 }}" alt="Image Title">
+            </div>
+        <div class="pinned-image">
+            <img src="{{ page.img3 }}" alt="Image Title">
+        </div>
+        <div class="pinned-image">
+            <img src="{{ page.img4 }}" alt="Image Title">
+        </div>
+    </div>    
+    <hr><hr class="destroy">
+        <p class="has-opacity">Les images de ce projet sont crédités à <a class="link" href="https://cadetarchitecte.com/" target="_blank">Atelier Cadet Architecte</a>.</p>
+        <br>
+        <!--<div class="button-box has-animation" data-delay="100">             
+            <div class="clapat-button-wrap parallax-wrap hide-ball">
+                <div class="clapat-button parallax-element">
+                    <div class="button-border rounded parallax-element-second">
+                        <a target="_blank" href="https://www.behance.net/gallery/194770379/P9250">
+                            <span data-hover="View Project">View Project</span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>-->
+    </div> 
+    <!--/Row -->
+</div>
+<!--/Main Page Content --> 

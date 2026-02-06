@@ -1,0 +1,92 @@
+---
+layout: base
+---
+
+<!-- Hero Section -->
+<div id="hero" class="has-image autoscroll">
+    <div id="hero-styles">
+        <div id="hero-caption" class="content-full-width parallax-scroll-caption">
+
+            <div class="inner">
+                <h1 class="hero-title caption-timeline"><span>{{ page.title }}</span></h1>
+                <div class="hero-subtitle caption-timeline onload-shuffle">
+                    <!--<div>
+                        <span>Maître d’ouvrage</span>
+                    </div>
+                    <div class="secondary-font">
+                        <span>{{ page.subtitle1 }}</span>
+                    </div>-->
+                </div>
+            </div>
+
+            <div id="hero-footer" class="">
+                <div class="hero-footer-left">
+                    <div class="button-wrap left scroll-down">
+                        <div class="icon-wrap parallax-wrap">
+                            <div class="button-icon parallax-element">
+                                <i class="fa-solid fa-arrow-down"></i>
+                            </div>
+                        </div>
+                        <!--<div class="button-text sticky left"><span data-hover="Scroller pour Explorer">Scroller pour Explorer</span></div>-->
+                    </div>
+                </div>
+                <div class="hero-footer-right">
+                    <!--<div id="share" class="page-action-content" data-text="Partager:"></div>-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="hero-image-wrapper" class="change-header-color hero-pixels-cover-disabled parallax-scroll-image">
+    <div id="hero-background-layer" class="parallax-scroll-image">
+        <div id="hero-bg-image" class="hero-bg-image" style="background-image:url('{{ page.thumbnail1 }}')"></div>
+    </div>
+</div>
+<!--/Hero Section -->
+<!-- Main Content -->
+<div id="main-content">
+    {{ content }}
+
+    <!-- Project Navigation -->
+    <!--<div id="project-nav" class="pinned-nav-caption auto-trigger move-title-onload" data-next-bgcolor="#b8b6a7">
+        <div class="next-project-wrap">
+
+            <div id="next-project-caption" class="text-align-center content-full-width">
+                <div class="next-caption-wrapper">
+                    <a class="next-ajax-link-project" data-type="page-transition" href="/{{ page.nextprojectpermalink }}"
+                        data-firstline="Projet" data-secondline="Suivant"></a>
+                    <div class="next-caption">
+                        <div class="next-hero-title caption-timeline has-shuffle-title" data-firstline="Keep"
+                            data-secondline="Scrolling"><span>{{ page.nextprojecttitle }}</span></div>
+                        <div class="next-hero-subtitle caption-timeline secondary-font"><span>Scroller pour Explorer</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="next-hero-progress"><span></span></div>
+
+            <div class="next-project-image-wrapper">
+                <div class="next-project-image next-project-image-effects">
+                    <div class="next-project-image-bg" style="background-image:url({{ page.nextprojectthumbnail }})"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>-->
+    <!--/Project Navigation -->
+    <!-- Page Navigation --> 
+    <div id="page-nav" class="move-nav-onloadx">
+        <div class="page-nav-wrap">
+            <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
+                <div class="inner">
+                    <a class="next-ajax-link-page" data-type="page-transition" data-centerline="GO TO" href="{{ page.nextprojectpermalink }}">
+                        <div class="next-hero-title caption-timeline" data-infotextbefore="Projet Suivant" data-infotextafter="">{{ page.nextprojecttitle }}</div>
+                    </a>                                  
+                </div>               
+            </div>
+        </div>
+    </div>      
+    <!--/Page Navigation -->
+</div>
+<!--/Main Content -->

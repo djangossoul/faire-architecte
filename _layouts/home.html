@@ -1,0 +1,271 @@
+---
+layout: base
+---
+<!-- Main Content -->
+<div id="main-content">
+    <!-- Hero Section -->
+    <div id="hero">
+        <div id="hero-styles">
+            <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
+                <div class="inner">
+                    <h1 class="hero-title caption-timeline" data-infotextbefore=""
+                        data-infotextafter="">
+                        <div>
+                            <span><img class="black-logo" src="/assets/images/FAIRE-LOGO-2026-full.webp" alt="FAIRE Architecte Logo"></span>
+                            <!--<span>FAIRE</span>-->
+                        </div>
+                    </h1>
+                    <div class="hero-subtitle caption-timeline onload-shuffle-disabled">
+                        <!--<div><span>Rénovation, </span></div>
+                        <div class="secondary-font"><span>creative web solutions</span></div>-->
+                        <div>
+                            <img class="" src="/assets/images/FAIRE LOGO 2026 baseline.webp" alt="FAIRE Architecte Baseline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hero-footer" class="has-border">
+                <div class="hero-footer-left">
+                    <div class="button-wrap left scroll-down">
+                        <div class="icon-wrap parallax-wrap">
+                            <div class="button-icon parallax-element">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                        <!--<div class="button-text sticky left"><span data-hover=""></span></div>-->
+                    </div>
+                </div>
+                <div class="hero-footer-right">
+                    <!--<div id="info-text"><span></span></div>-->
+                </div>
+            </div>
+        </div>
+        <div id="hero-interaction">
+            <div class="hero-column col-left">
+                <div class="col-img-wrapper small-img"><img src="/assets/images/01hero1.jpg" alt=""></div>
+                <div class="col-img-wrapper large-img"><img src="/assets/images/01hero.jpg" alt=""></div>
+            </div>
+            <div class="hero-column col-right">
+                <div class="col-img-wrapper large-img"><img src="/assets/images/02hero.jpg" alt=""></div>
+                <div class="col-img-wrapper small-img"><img src="/assets/images/02hero1.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!--/Hero Section -->
+    <!-- Main Page Content -->
+    <div id="main-page-content">
+        <!-- Fit Thumb Screen Effects -->
+        <div id="itemsWrapperLinks">
+            <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
+                <!-- Row-->
+                <div class="content-row full row_padding_top row_padding_left row_padding_right light-section fadeout-element"
+                    data-bgcolor="transparent">
+                    <div class="landing-intro-wrapper">
+                        <h2 class="new-hero-title">
+                            <div class="hero-title-placeholder"></div>
+                            <span>pour vos</span>
+                            <span>projets<br><span class="text-rotator-wrapper secondary-font">
+                                    <span class="text-rotator">
+                                        <span>de rénovation</span>
+                                        <span>d'extensions</span>
+                                        <span>d'accès public</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+                <!--/Row -->
+                <!-- Row -->
+                <div class="content-row full light-section row_padding_left row_padding_right row_padding_bottom fadeout-element"
+                    data-bgcolor="transparent">
+                    <hr>
+                    <div class="three_fourth"></div>
+                    <div class="one_fourth last vertical-parallax" data-startparallax="0" data-endparallax="0">
+                        <div class="landing-video-disabled content-timeline-disabled">
+                            <div class="content-video-wrapper-disabled">
+                                <!--<video loop="" muted="" playsinline="" class="bgvid">
+                                    <source src="/assets/images/intro.mp4" type="video/mp4">
+                                </video>-->
+                                <img src="/assets/images/Flo-portrait-apropos.jpg" class="item-image grid__item-img" alt="">
+                            </div>
+                        </div>
+                        <hr>
+                        <hr>
+                        <hr>
+                        <p class="has-opacity">Voici ma façon de voir, ma valeur ajoutée et même ma façon de travailler si
+                            ça peut me permettre de me démarquer.</p>
+                        <div class="button-wrap right button-link has-animation">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <a class="ajax-link" data-type="page-transition" href="/a-propos">
+                                <div class="button-text sticky right">
+                                    <span data-hover="En savoir plus">En savoir plus</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--/Row -->
+                <!-- Row -->
+                 {%- if site.posts.size > 0 -%}
+                <div class="content-row full text-align-center dark-section disable-header-gradient" data-bgcolor="#ffffff">
+                    <div class="snap-slider-holder">
+                        <div class="snap-slider-images">
+                            <div class="snap-slider-images-wrapper">
+                                {%- for post in site.posts -%}
+                                    <div class="snap-slide trigger-item change-header-color">
+                                        <div class="img-mask">
+                                            <div class="section-image trigger-item-link">
+                                                <img src="{{ post.thumbnail1 }}" class="item-image grid__item-img" alt="">
+                                            </div>
+                                            <img src="{{ post.thumbnail1 }}" class="grid__item-img grid__item-img--large" alt="">
+                                        </div>
+                                    </div>
+                                {%- endfor -%}
+                            </div>
+                        </div>
+                        <div class="snap-slider-thumbs">
+                            <div class="snap-slider-thumbs-wrapper">
+                                {%- for post in site.posts -%}
+                                    <div class="thumb-slide" data-centerline="OPEN">
+                                        <a class="slide-link" data-type="page-transition" href="{{ post.url | relative_url }}">
+                                        <div class="thumb-slide-img">
+                                            <img src="{{ post.thumbnail2 }}" class="item-image grid__item-img" alt="">
+                                        </div>
+                                        <!--<a class="slide-link" data-type="page-transition" href="{{ post.url | relative_url }}"></a>-->
+                                        </a>
+                                    </div>
+                                {%- endfor -%}
+                            </div>
+                        </div>
+                        <div class="snap-slider-captions">
+                            <div class="snap-slider-captions-wrapper content-full-width">
+                                {%- for post in site.posts -%}
+                                    <div class="snap-slide-caption">
+                                        <div class="slide-title"><span>{{ post.title | escape }}</span></div>
+                                        <div class="slide-subtitle"><span>{{ post.category | escape }}</span></div>
+                                    </div>
+                                {%- endfor -%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%- endif -%}
+                <!--/Row -->
+                <!-- Row -->
+                <div class="content-row small text-align-center light-section" data-bgcolor="#ffffff">
+                    <hr>
+                    <hr>
+                    <hr>
+                    <!--<p class="has-shuffle-disabled no-margins">Continuer d'explorer</p>-->
+                    <br>
+                    <div class="button-box">
+                        <div class="clapat-button-wrap parallax-wrap hide-ball">
+                            <div class="clapat-button parallax-element">
+                                <div class="button-border outline rounded parallax-element-second">
+                                    <a class="ajax-link" data-type="page-transition" href="/portfolio">
+                                        <span data-hover="Tous les Projets">Voir le portfolio</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Row -->
+                <!-- Row -->
+                <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff" >
+                    <div class="pinned-lists-wrapper font-mode" data-duration="3x" style="/*background-image:url('/assets/images/07hero.jpg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat;*/">
+                        <style>
+                            .subtitle-with-img:after {
+                                content: "";
+                                width: 50vw;
+                                height: 50vh;
+                                background:  url("/assets/images/projects/02_CROQUIS EXTENSION SUR EXISTANT 04.avif") no-repeat;
+                                background-attachment: fixed;
+                                background-size: 50vw auto;
+                                background-position: center;
+                                /*top: 10px;
+                                right: 5px;*/
+                                z-index:-1;
+                                position: absolute;
+                                display: inline-block;
+                                }
+                        </style>
+                        <p class="subtitle-with-img">Mes savoir-faires</p>
+                        <ul class="pinned-lists">
+                            <li>construction neuve</li>
+                            <li>extensions</li>
+                            <li>rénovation</li>
+                            <!--<li data-infotextafter="">aménagements</li>-->
+                            <li>aménagements</li>
+                            <li>création de meubles</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/Row -->
+                <!-- Row -->
+                <div class="content-row row_padding_top light-section text-align-center" data-bgcolor="#ffffff">
+                    <div class="one_third has-animation" data-delay="100">
+                        <div class="box-icon-wrapper block-boxes">
+                            <div class="box-icon">
+                                <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="box-icon-content">
+                                <h6 class="no-margins"><a href="https://maps.app.goo.gl/s1jPQaeyLTY29m8x9" target="_blank">18, rue du Dr Lemoine, 51100 Reims</a></h6>
+                                <!--<p>Adresse</p>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one_third has-animation" data-delay="200">
+                        <hr>
+                        <p class="bigger">. . .</p>
+                    </div>
+                    <div class=" one_third last has-animation" data-delay="300">
+                        <div class="box-icon-wrapper block-boxes">
+                            <div class="box-icon">
+                                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="box-icon-content">
+                                <h6 class="no-margins" itemprop="telephone"><a href="tel:+33680042486">06 80 04 24 86</a></h6>
+                                <!--<p>Téléphone</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Row -->
+                <!-- Row -->
+                <div class="content-row full row_padding_top light-section text-align-center" data-bgcolor="#ffffff">
+
+                    <p class="bigger has-shuffle-disabled no-margins secondary-font">Envie de travailler ensemble ?</p>
+                    <div id="copy-email" data-hover-message="Copy Mail" data-clicked-message="Copied">
+                        <span><a href="mailto:fairearchitecture@gmail.com">fairearchitecture@gmail.com</a></span>
+                    </div>
+                </div>
+                <!--/Row -->
+
+
+            </div>
+        </div>
+        <!-- Fit Thumb Screen Effects -->
+    </div>
+    <!--/Main Page Content -->
+
+    <!-- Page Navigation --> 
+    <div id="page-nav" class="move-nav-onloadx">
+        <div class="page-nav-wrap">
+            <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
+                <div class="inner">
+                    <a class="next-ajax-link-page" data-type="page-transition" data-centerline="GO TO" href="/portfolio">
+                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante" data-infotextafter="">A propos</div>
+                    </a>                                  
+                </div>               
+            </div>
+        </div>
+    </div>      
+    <!--/Page Navigation -->
+</div>
+<!--/Main Content -->
