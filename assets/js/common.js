@@ -716,19 +716,19 @@ Function Scroll Effects
 			heroPlaceholder.appendChild(heroCaptionInner);
 			
 			if (!$('body').hasClass("show-loader")) {
-				let preloaderTimeout = 3000;
+				let preloaderTimeout = 0;
 				if (typeof window.preloaderTimeout !== 'undefined') {
 					preloaderTimeout = window.preloaderTimeout;
 				}
 			
 				setTimeout(function() {				
 					gsap.set($(".new-hero-title .hero-title-placeholder div span"), {yPercent:50, opacity:0});				
-					gsap.to($(".new-hero-title .hero-title-placeholder div span"), {duration: 0.5, yPercent:0, opacity:1, stagger:0.05, delay:0.6, ease:Power3.easeOut });
+					gsap.to($(".new-hero-title .hero-title-placeholder div span"), {duration: 0.5, yPercent:0, opacity:1, stagger:0.05, delay:0, ease:Power3.easeOut });
 				}, preloaderTimeout);
 				
 			} else {
 				gsap.set($(".new-hero-title .hero-title-placeholder div span"), {yPercent:50, opacity:0});
-				gsap.to($(".new-hero-title .hero-title-placeholder div span"), {duration: 0.5, yPercent:0, opacity:1, stagger:0.05, delay:0.3, ease:Power3.easeOut });
+				gsap.to($(".new-hero-title .hero-title-placeholder div span"), {duration: 0.5, yPercent:0, opacity:1, stagger:0.05, delay:0, ease:Power3.easeOut });
 			}
 			
 			if (heroPlaceholder) {
