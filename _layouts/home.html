@@ -11,7 +11,7 @@ layout: base
                     <h1 class="hero-title caption-timeline" data-infotextbefore=""
                         data-infotextafter="">
                         <div>
-                            <span><img class="black-logo" src="/assets/images/FAIRE-LOGO-2026-full.webp" alt="FAIRE Architecte Logo"></span>
+                            <span><img class="black-logo" src="/assets/images/FAIRE LOGO 01-26 MAJ mot plain.svg" alt="FAIRE Architecte Logo"></span>
                             <!--<span>FAIRE</span>-->
                         </div>
                     </h1>
@@ -116,7 +116,7 @@ layout: base
                     <div class="snap-slider-holder">
                         <div class="snap-slider-images">
                             <div class="snap-slider-images-wrapper">
-                                {%- for post in site.posts -%}
+                                {%- for post in site.posts limit: 2 -%}
                                     <div class="snap-slide trigger-item change-header-color">
                                         <div class="img-mask">
                                             <div class="section-image trigger-item-link">
@@ -130,7 +130,7 @@ layout: base
                         </div>
                         <div class="snap-slider-thumbs">
                             <div class="snap-slider-thumbs-wrapper">
-                                {%- for post in site.posts -%}
+                                {%- for post in site.posts limit: 2 -%}
                                     <div class="thumb-slide" data-centerline="OPEN">
                                         <a class="slide-link" data-type="page-transition" href="{{ post.url | relative_url }}">
                                         <div class="thumb-slide-img">
@@ -144,10 +144,10 @@ layout: base
                         </div>
                         <div class="snap-slider-captions">
                             <div class="snap-slider-captions-wrapper content-full-width">
-                                {%- for post in site.posts -%}
+                                {%- for post in site.posts limit: 2 -%}
                                     <div class="snap-slide-caption">
                                         <div class="slide-title"><span>{{ post.title | escape }}</span></div>
-                                        <div class="slide-subtitle"><span>{{ post.category | escape }}</span></div>
+                                        <div class="slide-subtitle"><span>{{ post.categories | join: ', ' }}</span></div>
                                     </div>
                                 {%- endfor -%}
                             </div>
@@ -197,14 +197,61 @@ layout: base
                         </style>
                         <p class="subtitle-with-img">Mes savoir-faires</p>
                         <ul class="pinned-lists">
-                            <li>construction neuve</li>
-                            <li>extensions</li>
-                            <li>rénovation</li>
-                            <!--<li data-infotextafter="">aménagements</li>-->
-                            <li>aménagements</li>
-                            <li>création de meubles</li>
+                            <li><a href="/portfolio/construction" data-infotextafter="Cliquer pour voir tous les projets de constructions neuves">construction neuve</a></li>
+                            <li><a href="/portfolio/extension" data-infotextafter="Cliquer pour voir tous les projets d'extensions">extension</a></li>
+                            <li><a href="/portfolio/renovation" data-infotextafter="Cliquer pour voir tous les projets de rénovations">rénovation</a></li>
+                            <li><a href="/portfolio/meubles" data-infotextafter="Cliquer pour voir tous les projets de créations de meubles">création de meubles</a></li>
                         </ul>
                     </div>
+                </div>
+                <!--/Row -->
+                <!-- Row -->
+                <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff">
+                    <p class="bigger has-shuffle-disabled secondary-font"></p>
+                    <h2 class="has-animation">Comment se passe un projet d’architecture ?</h2>
+                    <hr>
+                    <!-- Flex Lists -->
+                    <ul class="flex-lists-wrapper">
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On se rencontre</span>
+                            <span class="flex-list-right" style="width:85%;">On parle de vous, de vos envies, de vos contraintes et de votre budget. Bref, on pose les bases avant de dessiner quoi que ce soit.</span>
+                        </li>
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On vérifie que le projet tient debout</span>
+                            <span class="flex-list-right" style="width:85%;">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles.
+C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
+                        </li>
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On esquisse</span>
+                            <span class="flex-list-right" style="width:85%;">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans
+la réalité.</span>
+                        </li>
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On s’occupe de l’administratif (promis, vous n’y pensez pas)</span>
+                            <span class="flex-list-right" style="width:85%;">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les
+administrations.</span>
+                        </li>
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On prépare le chantier</span>
+                            <span class="flex-list-right" style="width:85%;">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien
+ça coûte et comment bien le faire.</span>
+                        </li>
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On choisit les bonnes entreprises</span>
+                            <span class="flex-list-right" style="width:85%;">J’analyse les devis, je compare, je négocie et je vous aide à faire les bons choix.</span>
+                        </li>
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On construit, pour de vrai</span>
+                            <span class="flex-list-right" style="width:85%;">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais
+exactement comme prévu... et c’est normal.</span>
+                        </li>
+                        <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">On livre</span>
+                            <span class="flex-list-right" style="width:85%;">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme,
+fonctionnel et à votre image.</span>
+                        </li>
+                    </ul>
+                    <hr class="destroy">
                 </div>
                 <!--/Row -->
                 <!-- Row -->

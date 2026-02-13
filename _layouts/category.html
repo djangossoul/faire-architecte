@@ -1,0 +1,192 @@
+---
+layout: page
+---
+
+<!--<ul class="posts-list">
+  
+  {% assign category = page.categories | default: page.title %}
+  <h2>{{ category }}</h2>
+  {% for post in site.categories[category] %}
+    <li>
+      <h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <small>{{ post.date | date_to_string }}</small>
+      </h3>
+    </li>
+  {% endfor %}
+  
+</ul>-->
+
+
+{% assign category = page.categories | default: page.title %}
+
+
+<!--<div>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.categories contains category %}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <b>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </b> - <i>{{ post.date | date: date_format }}</i>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>-->
+<!-- Main Content -->
+<div id="main-content">
+    <!-- Hero Section -->
+    <div id="hero">
+        <div id="hero-styles">
+            <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
+                <div class="inner">
+                    <h1 class="hero-title caption-timeline generate-spans" data-infotextbefore="Catégorie du portfolio"
+                        data-infotextafter="" style="font-size: calc(1rem + 10vw); line-height: calc(1rem + 12vw);">
+                        <div><span>{{ category }}</span></div>
+                    </h1>
+                    <div class="hero-subtitle caption-timeline onload--disabled">
+                        <div><span>{{ content }}</span></div>
+                    </div>
+                </div>
+            </div>
+            <div id="hero-footer" class="has-border">
+                <div class="hero-footer-left">
+                    <div class="button-wrap left scroll-down">
+                        <div class="icon-wrap parallax-wrap">
+                            <div class="button-icon parallax-element">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                        <!--<div class="button-text sticky left"><span data-hover="Scroller pour Explorer">Scroller pour Explorer</span>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="hero-footer-right">
+                    <div class="button-wrap right show-filters">
+                        <div class="icon-wrap parallax-wrap">
+                            <div class="button-icon parallax-element">
+                                <i class="fa-solid fa-sort"></i>
+                            </div>
+                        </div>
+                        <div class="button-text sticky right"><span data-close="Voir les catégories" data-hover="Voir les catégories">Voir les catégories</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Hero Section -->
+    <!-- Main Page Content -->
+    <div id="main-page-content">
+        <!-- Fit Thumb Screen Effects -->
+        <div id="itemsWrapperLinks">
+            <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
+                <div id="filters-gradient">
+                  <ul id="filters" class="filters-options-wrapper">
+
+                    {% for sitecategory in site.categories %}
+                      {% capture category_name %}{{ sitecategory | first }}{% endcapture %}
+                      <li class="filters-timeline link">
+                        <a class="filter-option{% if category == category_name %} is_active{% endif %}" href="/portfolio/{{ category_name | slugize }}">{{ category_name }}, </a>
+                      </li>   
+                    {% endfor %}
+
+                      <li class="filters-timeline link">
+                        <a id="all" class="filter-option" href="/portfolio/" data-filter="">
+                          Tous les projets
+                        </a>
+                      </li> 
+                  </ul>
+                </div>
+                {% if site.categories[category].size > 0 %}
+                  <!-- ClaPat Portfolio -->
+                  <div class="showcase-portfolio expand-grid">
+                    {%- assign date_format = site.minima.date_format | default: "%Y" -%}
+
+                    {% for post in site.categories[category] %}
+                      <div class="clapat-item photo-filter">
+                        <div class="slide-inner trigger-item" data-centerline="OPEN">                                                    
+                          <div class="img-mask pixels-cover-disabled">
+                            <a class="slide-link" data-type="page-transition" href="{{ post.url | relative_url }}"></a>
+                            <div class="section-image trigger-item-link">
+                              <img src="{{ post.thumbnail1 }}" class="item-image grid__item-img" alt="">
+                            </div>                                                
+                            <img src="{{ post.thumbnail1 }}" class="grid__item-img grid__item-img--large" alt="">
+                            <div class="section-thumb">
+                              <img src="{{ post.thumbnail2 }}" alt="">
+                            </div>                              
+                          </div>
+                          <style>
+                            .slide-caption2{
+                              z-index: 10;
+                              position: absolute;
+                              left: 0px;
+                              top: 0;
+                              height: 100%;
+                              width: 100%;
+                              box-sizing: border-box;
+                              padding: 25px 30px;
+                              cursor: default;
+                              pointer-events: none;
+                              text-align: left;
+                              opacity: 0;
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-between;
+                              -webkit-transition: all 0.15s ease-out 0s;
+                              transition: all 0.15s ease-out 0s;
+                            }
+                          </style>
+                          <div class="slide-caption trigger-item-link-secondary">
+                            <div class="slide-title secondary-font" style="color:#FFFFFF;"><span style="-webkit-text-stroke: 1px black;">{{ post.title | escape }}</span></div>                                                    
+                            <div class="slide-date"><span>{{ post.date | date: date_format }}</span></div>
+                            <div class="slide-cat secondary-font" style="color:#FFFFFF;"><span style="-webkit-text-stroke: 1px black;">{{ post.categories }}</span></div>                                             
+                          </div>
+                        </div>
+                      </div>
+                    {%- endfor -%}
+                  </div>
+                  <!-- ClaPat Portfolio -->
+                {% else %}
+                  <div class="showcase-portfolio expand-grid">
+                    <p>Aucun projet trouvé pour cette catégorie.</p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  </div>
+                {%- endif -%}
+                
+            </div>                                                           
+        </div>    
+        <!-- Fit Thumb Screen Effects -->
+    </div>
+    <!--/Main Page Content -->
+    <!-- Page Navigation --> 
+    <div id="page-nav" class="move-nav-onload">
+        <div class="page-nav-wrap">
+            <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
+                <div class="inner">
+                    <a class="next-ajax-link-page" data-type="page-transition" data-centerline="GO TO" href="/a-propos">
+                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page suivante" data-infotextafter="">A propos</div>
+                    </a>                                   
+                </div>               
+            </div>
+        </div>
+    </div>      
+    <!--/Page Navigation -->
+</div>
+<!--/Main Content -->

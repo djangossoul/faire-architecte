@@ -101,6 +101,10 @@ Primary use:	Showcase Portfolio
 	body.hidden {
 		opacity:0;
 	}
+
+	strong {
+		font-weight:bold;
+	}
 	
 	.secondary-font {
 		/*font-family:"Playfair Display", serif;*/
@@ -1842,7 +1846,7 @@ Primary use:	Showcase Portfolio
 		opacity:1!important;		
 	}
 	
-	@media all and (min-width: 1025px) {
+	/*@media all and (min-width: 1025px) {
 		
 		.light-content .classic-menu .flexnav li a.shape-ball {
 			border:1px solid rgb(255,255,255);
@@ -2370,7 +2374,7 @@ Primary use:	Showcase Portfolio
 			
 		}
 	
-	}
+	}*/
 
 	.clapat-nav-wrapper, .clapat-nav-wrapper.open {
 		background:transparent;
@@ -3443,11 +3447,11 @@ Primary use:	Showcase Portfolio
 		padding: 10px 60px;
 	}
 	
-	@media (min-width: 1025px) {
+	/*@media (min-width: 1025px) {
 	  .clapat-header.classic-menu .clapat-nav-wrapper {
 		top: 17px;
 	  }
-	}
+	}*/
 	
 	.clapat-footer {
     	height: 100px;
@@ -3465,6 +3469,209 @@ Primary use:	Showcase Portfolio
 	
 }
 
+/* Hamburger menu always visible */
+.classic-menu .button-wrap.right.menu {
+	display: block;
+}
+.clapat-nav-wrapper {
+		height: 100vh;
+		height: 100dvh;
+		width: 100%;
+		position: fixed;
+		left: 0;
+    	top: 0;		
+		box-sizing: border-box;
+		visibility: visible;
+		pointer-events:none;
+		opacity:0;
+		padding:20px 0;	
+	}
+	
+	.clapat-nav-wrapper.open {
+		visibility:visible;
+		pointer-events:initial;
+	}
+	
+#header-container {
+		padding: 10px 40px;
+	}
+	
+	.clapat-nav-wrapper {
+		height: 100vh;
+		height: 100dvh;
+		width: 100%;
+		position: fixed;
+		left: 0;
+    	top: 0;		
+		box-sizing: border-box;
+		visibility: visible;
+		pointer-events:none;
+		opacity:0;
+		padding:20px 0;	
+	}
+	
+	.clapat-nav-wrapper.open {
+		visibility:visible;
+		pointer-events:initial;
+	}
+	
+	.nav-height {
+		position: relative;
+		height: 100%;
+		padding: 40px 0;
+		width: 100%;
+		box-sizing: border-box;
+		overflow-y: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.flexnav {
+		padding: 0 20px;
+    	max-height: 2000px;
+		display: block;
+		width: auto;
+		text-align:center;
+		box-sizing:border-box;
+		background: transparent;
+		-webkit-transition: all 0.2s ease-in 0.6s;
+		transition: all 0.2s ease-in 0.6s;
+	}
+	
+	.flexnav.flexnav-show {
+		-webkit-transition: all .3s ease-out 0.2s;
+		transition: all .3s ease-out 0.2s;	
+	}
+	
+	.flexnav.opacity {
+		opacity: 1;
+	}
+	
+	.flexnav li {
+		padding:0;
+		-webkit-transition: color .15s ease-out 0s;
+		transition: color .15s ease-out 0s;	
+	}
+	
+	.flexnav:hover li  {
+		color:rgba(255,255,255,0.4)
+	}
+	
+	.flexnav li:hover {
+		color:rgba(255,255,255,1)
+	}
+	
+	.flexnav li a, .flexnav li ul li a {
+    	background: transparent;
+	}
+	
+	.flexnav li a {
+		font-weight:500;
+		padding:0;
+		border:none;
+		-webkit-transition: all .1s ease-in-out 0s;
+		transition: all .1s ease-in-out 0s;
+	}
+	
+	.flexnav > li > a {
+		font-size: calc(1rem + 4vw);
+		line-height: calc(1rem + 5vw);		
+	}
+	
+	.flexnav > li > .touch-button {
+		width: 100%;		
+		height:calc(1rem + 5vw);
+		display: block;
+	}
+	
+	.flexnav li a {
+		color:#000;
+	}
+	
+	.invert-header .flexnav li a {
+		color: #fff;
+	}
+	
+	.flexnav:hover li a {
+		opacity:0.3;
+	}
+	
+	.flexnav li:hover a, .flexnav li a.active {
+		opacity:1;
+	}
+	
+	.flexnav li a span {
+		position: relative;
+		display: block;
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+	
+	.flexnav .touch-button {
+		width: 100%;
+		display: block;
+		height:10vw;
+	}
+	
+	.flexnav li ul {
+		margin-bottom:15px;
+	}
+	
+	.flexnav li ul li a {
+		padding: 3px 0;
+		font-weight: 500;
+		text-transform:none;
+		font-size: 18px;
+		line-height: 28px;
+		border-top: none;
+		opacity:0.4;
+		-webkit-text-stroke:none;
+	}
+	
+	.uppercase-text .flexnav li ul li a {
+		text-transform:uppercase;		
+	}
+	
+	.flexnav li ul li:hover a, .flexnav li ul li a.active{
+		opacity:1;
+	}
+	
+	.flexnav:hover li ul li a {
+		opacity:0.3;
+	}
+	
+	.flexnav:hover li ul li a.active, .flexnav:hover li ul li:hover > a {
+		opacity:1;
+	}
+	
+	.flexnav ul li ul li a {
+		background: transparent;
+	}
+	
+	.flexnav li ul li ul li a {
+		padding: 10px 40px;	
+	}
+	
+	.flexnav li ul li .touch-button {
+		height:30px;
+	}
+	
+	.flexnav .touch-button .navicon {
+		display:none;
+	}
+	
+	.header-button {
+		display:none;
+	}
+	
+	#menu-burger span.touch-button {
+		display:none;
+	}
+	
+	.classic-menu .button-wrap.right.menu {
+		display: block;
+	}
 
 @media only screen and (max-width: 1024px) {
 	

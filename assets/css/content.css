@@ -129,8 +129,11 @@
 	}
 	
 	.caption-animated .hero-title::before {
-		opacity:0.6;
-		left: -130px;
+		opacity: 0.6;
+		left: 0;
+		top: 0;
+		width: 100%;
+		text-align: center;
 	}
 	
 	.caption-animated .hero-title::after {
@@ -311,7 +314,7 @@
 		transform-origin: center bottom;
 	}
 	
-	.hero-title-placeholder span:last-child::after {
+	/*.hero-title-placeholder span:last-child::after {
 		content:"";
 		width:0px;
 		height:13%;
@@ -321,7 +324,7 @@
 		top: calc(50% - 4px);
 		-webkit-transition: all 0.1s ease-out 0s;
 		transition: all 0.1s ease-out 0s;
-	}
+	}*/
 	
 	.hero-title-placeholder.completed span:last-child::after {
 		width:10%;
@@ -980,13 +983,17 @@
 		width:auto;
 		height:20px;
 		position: absolute;
-		left: -130px;
-		top: calc(50% - 0px);
+		/*left: -130px;
+		top: calc(50% - 0px);*/
 		-webkit-transition: all 0.3s ease-out 0s;
 		transition: all 0.3s ease-out 0s;
 		letter-spacing: 0;
 		opacity:0.6;
 		pointer-events:none;
+		left: 0;
+		top: 0;
+		width: 100%;
+		text-align: center;
 	}
 	
 	.next-hero-title::after {

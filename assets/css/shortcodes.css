@@ -3833,9 +3833,9 @@
 		height: auto;
 		width: auto;
 		position: absolute;
-		font-size: calc((1rem + 12vw) / 2);
-  		line-height: calc((1rem + 14vw) / 2);
-		letter-spacing: -0.2vw;
+		font-size: calc((1rem + 10vw) / 2);
+  		line-height: calc((1rem + 12vw) / 2);
+		letter-spacing: 0vw;
 		font-weight: 500;
 		color: #000;
 		margin: 0;

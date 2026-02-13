@@ -195,7 +195,7 @@
 	}
 	
 	#filters li:not(:first-child) a {
-		font-family:"Playfair Display", serif;
+		/*font-family:"Playfair Display", serif;*/
 		font-style: normal;
 		font-weight:400;
 	}

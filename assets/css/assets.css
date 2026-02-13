@@ -207,7 +207,7 @@
 		color:#666
 	}
 	@media all and (min-width:1025px){
-		.flexnav li a,.flexnav li ul li a{
+		/*.flexnav li a,.flexnav li ul li a{
 			border-bottom:none
 		}
 		.flexnav,.flexnav li{
@@ -258,7 +258,7 @@
 		}
 		.menu-button{
 			display:none
-		}
+		}*/
 	}
 	
 	

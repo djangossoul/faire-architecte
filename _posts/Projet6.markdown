@@ -1,9 +1,9 @@
 ---
 layout: post
-permalink: "projet6"
 title: "Projet 6"
+categories:
+- Construction
 date: 2026-01-06 15:19:21 +0100
-category: "Construction neuve"
 thumbnail1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
 thumbnail2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
 subtitle1: ""

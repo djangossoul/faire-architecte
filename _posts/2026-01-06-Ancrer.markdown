@@ -1,9 +1,9 @@
 ---
 layout: post
-permalink: "maison-dans-la-colline"
-title: "Maison dans la colline"
+title: "Ancrer"
+categories:
+- Construction
 date: 2026-01-06 15:19:21 +0100
-category: "Construction neuve"
 thumbnail1: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE01.avif"
 thumbnail2: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN COUPE.avif"
 subtitle1: ""

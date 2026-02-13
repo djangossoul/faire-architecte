@@ -54,17 +54,17 @@ permalink: /a-propos/
                         </div>
                         <ul class="parallax-content">
                             <li class="parallax-list">
-                                <div><span><p class="">Mes valeurs</p></span></div>
+                                <div style="top: 0px; position: fixed; width: 100%; margin-top: 100px;"><span><p class="">Mes valeurs</p></span></div>
                                 <div><span>Humanité</span></div>
                                 <div><span class="secondary-font">Des espaces qui respirent et qui ressemblent à ceux qui les habitent</span></div>
                             </li>
                             <li class="parallax-list">
-                                <div><span><p class="">Mes valeurs</p></span></div>
+                                <div style="top: 0px; position: fixed; width: 100%; margin-top: 100px;"><span><p class="">Mes valeurs</p></span></div>
                                 <div><span>Artisanat & Savoir-faire</span></div>
                                 <div><span class="secondary-font">Les mains disent parfois mieux que les mots</span></div>
                             </li>
                             <li class="parallax-list">
-                                <div><span><p class="">Mes valeurs</p></span></div>
+                                <div style="top: 0px; position: fixed; width: 100%; margin-top: 100px;"><span><p class="">Mes valeurs</p></span></div>
                                 <div><span>Co-construction</span></div>
                                 <div><span class="secondary-font">Que ce soit avec les clients, les artisans ou les partenaires, la collaboration et l'intelligence collective rend chaque projet meilleur</span></div>
                             </li>
@@ -80,11 +80,11 @@ permalink: /a-propos/
                                 <div class="tml-title">Floriane Jean</div>
                                 <div class="">
                                     <p>FAIRE ARCHITECTURE, un nom simple, presque évident... </p>
-                                    <p>Presque aussi évident que j’aime concevoir, créer, fabriquer, imaginer, assembler, ajuster et surtout FAIRE ENSEMBLE.</p>
-                                    <p>Et pourtant, il cache une déclaration d’intentions : FAIRE, c’est l’acronyme de FAbrique d’Intentions REvées. Parce que chaque projet commence par un rêve, une envie, une intuition et que mon rôle est justement de lui donner forme, matière et cohérence.</p>
+                                    <p>Presque aussi évident que j’aime concevoir, créer, fabriquer, imaginer, assembler, ajuster et surtout <strong>FAIRE ENSEMBLE</strong>.</p>
+                                    <p>Et pourtant, il cache une déclaration d’intentions : FAIRE, c’est l’acronyme de FAbrique d’Intentions REvées. Parce que chaque projet commence par un rêve, une envie, une intuition et que mon rôle est justement de <strong>lui donner forme, matière et cohérence</strong>.</p>
                                     <p>Après 10 ans à façonner ma vision du métier,j’ai souhaité créer ma fabrique fidèle à ma vision :</p>
                                     <p>Une architecture humaine, artisanale, ancrée dans le local et le réel mais toujours portée par une touche d’imaginaire.</p>
-                                    <p>Pour moi, FAIRE, c’est avant tout faire ensemble : échanger, comprendre, ajuster, travailler main dans la main avec les clients comme avec les artisans. C’est écouter les lieux, sentir les matières, chercher la simplicité juste, créer des espaces qui respirent et durent.</p>
+                                    <p>Pour moi, FAIRE, c’est avant tout <strong>faire ensemble</strong> : échanger, comprendre, ajuster, travailler main dans la main avec les clients comme avec les artisans. C’est écouter les lieux, sentir les matières, chercher la simplicité juste, créer des espaces qui respirent et durent.</p>
                                 </div>
                             </li>
                         </ul>
@@ -110,7 +110,6 @@ permalink: /a-propos/
                             <li>construction neuve</li>
                             <li>extensions</li>
                             <li>rénovation</li>
-                            <li>aménagements</li>
                             <li>création de meubles</li>
                         </ul>
                     </div>
@@ -119,7 +118,7 @@ permalink: /a-propos/
                 <!-- Row -->
                 <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff">
                     <p class="bigger has-shuffle-disabled secondary-font"></p>
-                    <h2 class="has-animation">Mon travail quotidien</h2>
+                    <h2 class="has-animation">Comment se passe un projet d'architecture ?</h2>
                     <hr>
                     <!-- Flex Lists -->
                     <ul class="flex-lists-wrapper">
@@ -128,8 +127,12 @@ permalink: /a-propos/
                             <span class="flex-list-right" style="width:85%;">plans, volumes, matériaux, optimisation fonctionnelle et énergétique</span>
                         </li>
                         <li class="flex-list link has-animation">
+                            <span class="flex-list-left" style="font-size: 20px;">Optimisation budgétaire</span>
+                            <span class="flex-list-right" style="width:85%;">chiffrage réaliste, arbitrages techniques, maîtrise des coûts</span>
+                        </li>
+                        <li class="flex-list link has-animation">
                             <span class="flex-list-left" style="font-size: 20px;">Dépôt et obtention des autorisations</span>
-                            <span class="flex-list-right" style="width:85%;">permis de construire, déclarations préalables, instruction administrative</span>
+                            <span class="flex-list-right" style="width:85%;">permis de construire, déclarations préalables, instruction administrative, urbanisme, patrimoine, déclaration ERP, accessibilité PMR, RE2020, Bilan carbone</span>
                         </li>
                         <li class="flex-list link has-animation">
                             <span class="flex-list-left" style="font-size: 20px;">Consultation et sélection des entreprises</span>
@@ -140,16 +143,8 @@ permalink: /a-propos/
                             <span class="flex-list-right" style="width:85%;">conformité au projet, coordination, gestion des imprévus</span>
                         </li>
                         <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Optimisation budgétaire</span>
-                            <span class="flex-list-right" style="width:85%;">chiffrage réaliste, arbitrages techniques, maîtrise des coûts</span>
-                        </li>
-                        <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Mise en conformité réglementaire</span>
-                            <span class="flex-list-right" style="width:85%;">normes thermiques (RE2020), accessibilité, urbanisme, patrimoine</span>
-                        </li>
-                        <li class="flex-list link has-animation">
                             <span class="flex-list-left" style="font-size: 20px;">Réception et garanties</span>
-                            <span class="flex-list-right" style="width:85%;">vérification des travaux, levée des réserves, sécurisation juridique</span>
+                            <span class="flex-list-right" style="width:85%;">vérification des travaux, levée des réserves, sécurisation juridique, garanties décénnales, garanties de parfait achèvement</span>
                         </li>
                     </ul>
                     <hr class="destroy">

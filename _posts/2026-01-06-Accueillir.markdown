@@ -1,9 +1,9 @@
 ---
 layout: post
-permalink: "maison-urbaine-1930"
-title:  "Maison Urbaine 1930"
+title:  "Accueillir"
+categories:
+- Rénovation
 date:   2026-01-06 12:19:21 +0100
-category: "Rénovation"
 thumbnail1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
 thumbnail2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
 subtitle1: ""

@@ -31,14 +31,14 @@ layout: base
                     </div>
                 </div>
                 <div class="hero-footer-right">
-                    <!--<div class="button-wrap right show-filters">
+                    <div class="button-wrap right show-filters">
                         <div class="icon-wrap parallax-wrap">
                             <div class="button-icon parallax-element">
                                 <i class="fa-solid fa-sort"></i>
                             </div>
                         </div>
-                        <div class="button-text sticky right"><span data-close="Tous les projets" data-hover="Tous les projets">Tous les projets</span></div>
-                    </div>-->
+                        <div class="button-text sticky right"><span data-close="Voir les catégories" data-hover="Voir les catégories">Voir les catégories</span></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,27 +56,20 @@ layout: base
                                 <span>Tous les projets</span>
                             </a>
                         </li>
-                        <li class="filters-timeline link">
-                            <a class="filter-option" href="#" data-filter="design-filter">
-                                <span>construction neuve</span>
-                            </a>
-                        </li>
-                        <li class="filters-timeline link">
-                            <a class="filter-option" href="#" data-filter="video-filter">
-                                <span>extension/rénovation</span>
-                            </a>
-                        </li>
-                        <li class="filters-timeline link">
-                            <a class="filter-option" href="#" data-filter="photo-filter">
-                                <span>aménagement</span>
-                            </a>
-                        </li>
+                        {% for sitecategory in site.categories %}
+                        {% capture category_name %}{{ sitecategory | first }}{% endcapture %}
+                          <li class="filters-timeline link">
+                            <a class="filter-option{% if category == category_name %} is_active{% endif %}" href="/portfolio/{{ category_name | slugize }}">{{ category_name }}, </a>
+                          </li>
+                          
+                        {% endfor %}
                     </ul>
                 </div>
                 {%- if site.posts.size > 0 -%}
                 <!-- ClaPat Portfolio -->
                 <div class="showcase-portfolio expand-grid">
                     {%- assign date_format = site.minima.date_format | default: "%Y" -%}
+                    {% assign page_categories = page.categories | first %}
                     {%- for post in site.posts -%}
                         <div class="clapat-item photo-filter">
                             <div class="slide-inner trigger-item" data-centerline="OPEN">                                                    
@@ -91,28 +84,30 @@ layout: base
                                     </div>                              
                                 </div>
                                 <style>
-                                    .slide-caption2{z-index: 10;
-                                    position: absolute;
-                                    left: 0px;
-                                    top: 0;
-                                    height: 100%;
-                                    width: 100%;
-                                    box-sizing: border-box;
-                                    padding: 25px 30px;
-                                    cursor: default;
-                                    pointer-events: none;
-                                    text-align: left;
-                                    opacity: 0;
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: space-between;
-                                    -webkit-transition: all 0.15s ease-out 0s;
-                                    transition: all 0.15s ease-out 0s;}
+                                    .slide-caption2{
+                                        z-index: 10;
+                                        position: absolute;
+                                        left: 0px;
+                                        top: 0;
+                                        height: 100%;
+                                        width: 100%;
+                                        box-sizing: border-box;
+                                        padding: 25px 30px;
+                                        cursor: default;
+                                        pointer-events: none;
+                                        text-align: left;
+                                        opacity: 0;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        -webkit-transition: all 0.15s ease-out 0s;
+                                        transition: all 0.15s ease-out 0s;
+                                    }
                                 </style>
-                                <div class="slide-caption2 trigger-item-link-secondary">
-                                    <div class="slide-title secondary-font" style="color:#FFFFFF;"><span>{{ post.title | escape }}</span></div>                                                    
+                                <div class="slide-caption trigger-item-link-secondary">
+                                    <div class="slide-title secondary-font" style="color:#FFFFFF;"><span style="-webkit-text-stroke: 1px black;">{{ post.title | escape }}</span></div>                                                    
                                     <div class="slide-date"><span>{{ post.date | date: date_format }}</span></div>
-                                    <div class="slide-cat secondary-font" style="color:#FFFFFF;"><span>{{ post.categories }}</span></div>                                             
+                                    <div class="slide-cat secondary-font" style="color:#FFFFFF;"><span style="-webkit-text-stroke: 1px black;">{{ post.categories }}</span></div>                                             
                                 </div>
                             </div>
                         </div>
