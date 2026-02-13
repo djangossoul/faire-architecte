@@ -1,103 +1,158 @@
 ---
 layout: post
-title: "Façonner"
+title:  "Façonner"
 categories:
-- Construction
-date: 2026-01-06 15:19:21 +0100
-thumbnail1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
-thumbnail2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
-subtitle1: ""
-subtitle2: ""
-nextprojecttitle: "Projet 5"
-nextprojectpermalink: "projet5"
-nextprojectthumbnail: "/assets/images/02hero.jpg"
-img1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
-captionimg1: "Lorem ipsum"
-img2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
-captionimg2: "Lorem ipsum"
-img3: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB APRES - ACA.avif"
-captionimg3: "Lorem ipsum"
-img4: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB AVANT - ACA.avif"
-captionimg4: "Lorem ipsum"
-img5: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB CROQUIS - ACA 1.avif"
-captionimg5: "Lorem ipsum"
-img6: "/assets/images/projects/Maison Urbaine 1930 - 02 CHAMBRE ROUGE APRES - ACA.avif"
+- Meubles
+date:   2026-01-06 12:19:21 +0100
+thumbnail1: "/assets/images/projects/02_CROQUIS EXTENSION SUR EXISTANT 01.avif"
+thumbnail2: "/assets/images/projects/Conception Espace - 03_ Aménagement cuisine salon.avif"
+detail1: "Maître d’ouvrage // "
+detail2: "Mission // Esquisse"
+detail3: "Superficie // "
+detail4: " Montant des travaux // "
+detail5: ""
+detail6: "" 
+nextprojecttitle: "Accueillir"
+nextprojectpermalink: "/portfolio/renovation/accueillir"
+nextprojectthumbnail: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
+description1: "Que cela soit pour la définition des espaces ou des meubles, le dessin est l’outil essentiel de FAIRE ARCHITECTE. Imaginer, expérimenter, concevoir, la main permet de passer du rêve à l’intention et de l’intention à la réalité."
+description2: "Par un geste simple, la conception s’affine du global au détail, tout en questionnant les matières, les couleurs et la lumière.. Il devient langage sensible qui permet d’imaginer autrement et de concevoir avec justesse."
+
+type1: text
+img1: ""
+captionimg1: ""
+text1: ""
+type2: text
+img2: ""
+captionimg2: ""
+text2: ""
+
+type3: img
+img3: "/assets/images/projects/02_CROQUIS EXTENSION SUR EXISTANT 01.avif"
+captionimg3: "CROQUIS de recherche sur habitation existante"
+text3: ""
+type4: img
+img4: "/assets/images/projects/02_CROQUIS EXTENSION SUR EXISTANT 03.avif"
+captionimg4: "PERSPECTIVE ET AXONOMÉTRIE projectuelle"
+text4: ""
+type5: img
+img5: "/assets/images/projects/Conception Meuble - 03_CROQUIS MEUBLE A.avif"
+captionimg5: "CONCEPTION DE MEUBLES _ Entrée, rangements, piano"
+text5: ""
+type6: img
+img6: "/assets/images/projects/Conception Meuble - 03_CROQUIS MEUBLE.avif"
 captionimg6: "Lorem ipsum"
-img7: "/assets/images/projects/Maison Urbaine 1930 - 02 CHAMBRE ROUGE AVANT - ACA.avif"
-captionimg7: "Lorem ipsum"
-img8: "/assets/images/projects/Maison Urbaine 1930 - 03 SDD APRES - ACA.avif"
-captionimg8: "Lorem ipsum"
-img9: "/assets/images/projects/Maison Urbaine 1930 - 03 SDD AVANT - ACA.avif"
-captionimg9: "Lorem ipsum"
-img10: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
-captionimg10: "Lorem ipsum"
-img11: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CUISINE APRES - ACA.avif"
-captionimg11: "Lorem ipsum"
-img12: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CUISINE CHANTIER - ACA.avif"
-captionimg12: "Lorem ipsum"
-img13: "/assets/images/projects/Maison Urbaine 1930 - 05 CHAMBRE MARRON APRES - ACA.avif"
-captionimg13: "Lorem ipsum"
-img14: "/assets/images/projects/Maison Urbaine 1930 - 05 CHAMBRE MARRON TRAVAUX - ACA.avif"
-captionimg14: "Lorem ipsum"
-text1a: "Maître d’ouvrage // Privé"
-text1b: "Mission // Complète"
-text1c: "Superficie // 94 m2 existant + 63m2 surélévation"
-text1d: "Montant des travaux // < 300 000 € HT"
-text2: "Cette maison typique rémoise a été abîmée dans son usage par ses anciens propriétaires."
-text3: "Que se soit les sols, les murs ou les plafonds, tout a été recouvert par des matériaux bas de gamme."
-text4: "L’enjeu est de redonner ses lettres de noblesse à cette demeure en retrouvant au maximum les matériaux d’origine (parquet, carreaux de ciment...) Tout en lui offrant un nouvel usage d’habitation mêlant tous le confort traditionnel avec un enjeu énergétique non négligeable."
-text5: "Isolation, système de chauffage, électricité, plomberie, tout est repensé et mis aux normes pour cette nouvelle vie."
 text6: ""
+
+type7: img
+img7: "/assets/images/projects/Conception Espace - 03_ Aménagement cuisine salon.avif"
+captionimg7: "CONCEPTION D’ESPACE _ La cuisine ouverte"
+text7: ""
+type8: img
+img8: "/assets/images/projects/Conception Espace - 03_ Aménagement SALON bibliotheque.avif"
+captionimg8: "CONCEPTION D’ESPACE _ Le salon"
+text8: ""
+type9: text
+img9: ""
+captionimg9: ""
+text9: ""
+type10: img
+img10: "/assets/images/projects/.avif"
+captionimg10: ""
+text10: ""
 ---
-<div id="main-page-content">
-    <!-- Row -->
-    <div class="content-row small row_padding_top text-align-center" data-bgcolor="#0c0c0c">
-        <h1>Description du projet</h1>
-        <p><span>{{ page.text3 }}</span><br><span>{{ page.text4 }}</span></p>
-        <hr><hr>
-        </div> 
-    <!--/Row -->              
-    <!-- Row -->
-    <div class="content-row row_padding_top row_padding_bottom dark-section text-align-center" data-bgcolor="#0c0c0c">                            
-        <div class="pinned-lists-wrapper brick-mode" data-duration="4x">                                
-            <p class="has-shuffle-onscroll-disable">Details</p> 
-            <ul class="pinned-lists">
-                <li>{{ page.text1a }}</li>
-                <li>{{ page.text1b }}</li>
-                <li>{{ page.text1c }}</li>
-                <li>{{ page.text1d }}</li>
-            </ul>
+<div id="main-page-content">   
+     <!-- Row -->
+    <div class="content-row small row_padding_top" data-bgcolor="#0c0c0c">
+        <h1>Description</h1>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
+            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
+            <hr><hr>
         </div>
     </div> 
     <!--/Row -->
     <!-- Row -->
-    <div class="content-row text-align-center dark-section" data-bgcolor="#0c0c0c">
-        <div class="pinned-gallery">
-            <div class="pinned-image">
-                <img src="{{ page.img2 }}" alt="Image Title">
-            </div>
-        <div class="pinned-image">
-            <img src="{{ page.img3 }}" alt="Image Title">
-        </div>
-        <div class="pinned-image">
-            <img src="{{ page.img4 }}" alt="Image Title">
-        </div>
-    </div>    
-    <hr><hr class="destroy">
-        <p class="has-opacity">Les images de ce projet sont crédités à <a class="link" href="https://cadetarchitecte.com/" target="_blank">Atelier Cadet Architecte</a>.</p>
-        <br>
-        <!--<div class="button-box has-animation" data-delay="100">             
+    <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
+        <div class="">
+        {% if page.type1 == "img" %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img1 }}" class="image-link"><img src="{{ page.img1 }}" alt="{{ page.captionimg1 }}"></a>
+                <figcaption>{{ page.captionimg1 }}</figcaption>
+            </figure>
+        {% elsif page.type1 == "text" %}
+            <p>{{ page.text1 }}</p>
+        {% endif %}
+            <hr><br><br>
+        {% if page.type2 == "img" %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}" alt="{{ page.captionimg2 }}"></a>
+                <figcaption>{{ page.captionimg2 }}</figcaption>
+            </figure>
+        {% elsif page.type2 == "text" %}
+            <p>{{ page.text2 }}</p>
+        {% endif %}
+        </div>                   
+    </div> 
+    <!--/Row -->         
+    <!-- Row -->
+    <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
+        <div class="one_half">
+            {% if page.type3 == "img" %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img3 }}" class="image-link"><img src="{{ page.img3 }}" alt="{{ page.captionimg3 }}"></a>
+                <figcaption>{{ page.captionimg3 }}</figcaption>
+            </figure>
+            {% elsif page.type3 == "text" %}
+                <p>{{ page.text3 }}</p>
+            {% endif %}
+            <hr><br><br>
+            {% if page.type4 == "img" %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img4 }}" class="image-link"><img src="{{ page.img4 }}" alt="{{ page.captionimg4 }}"></a>
+                <figcaption>{{ page.captionimg4 }}</figcaption>
+            </figure>
+            {% elsif page.type4 == "text" %}
+                <p>{{ page.text4 }}</p>
+            {% endif %}
+        </div>   
+        <div class="one_half last">
+            {% if page.type5 == "img" %}                                              
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img5 }}" class="image-link"><img src="{{ page.img5 }}" alt="{{ page.captionimg5 }}"></a>
+                <figcaption>{{ page.captionimg5 }}</figcaption>
+            </figure>
+            {% elsif page.type5 == "text" %}
+                <p>{{ page.text5 }}</p>
+            {% endif %}
+            <hr><br><br>
+            {% if page.type6 == "img" %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img6 }}" class="image-link"><img src="{{ page.img6 }}" alt="{{ page.captionimg6 }}"></a>
+                <figcaption>{{ page.captionimg6 }}</figcaption>
+            </figure>
+            {% elsif page.type6 == "text" %}
+                <p>{{ page.text6 }}</p>
+            {% endif %}                                           
+        </div>                               
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
+        <hr>
+        <hr class="destroy">
+        <div class="button-box has-animation" data-delay="100">             
             <div class="clapat-button-wrap parallax-wrap hide-ball">
                 <div class="clapat-button parallax-element">
                     <div class="button-border rounded parallax-element-second">
-                        <a target="_blank" href="https://www.behance.net/gallery/194770379/P9250">
-                            <span data-hover="View Project">View Project</span>
+                        <a target="_blank" href="/contact">
+                            <span data-hover="Je me lance !">Me contacter</span>
                         </a>
                     </div>
                 </div>
             </div> 
-        </div>-->
-    </div> 
-    <!--/Row -->
+        </div>
+    </div>
+    <!--/Row -->   
 </div>
 <!--/Main Page Content --> 
