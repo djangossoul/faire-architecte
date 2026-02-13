@@ -2688,7 +2688,7 @@ Function Showcase Gallery
 				$("body").append('<div class="temporary-hero"><div class="outer content-full-width text-align-center"><div class="inner"></div></div></div>');
 				
 				gsap.to(".slider-zoom-wrapper .slide-cat span, .slider-zoom-wrapper .slide-date span", { duration: 0.3, y:30, opacity:0, delay:0, stagger:0, ease:Power2.easeIn});
-				gsap.to(".showcase-gallery a.slide-link", { duration: 0.3, opacity:0, scale:0.8, delay:0, ease:Power2.easeIn });
+				//gsap.to(".showcase-gallery a.slide-link", { duration: 0.3, opacity:0, scale:0.8, delay:0, ease:Power2.easeIn });
 				gsap.to($(".slider-thumbs-wrapper .trigger-item"), {duration: 0.3, y: 160, x:0,  opacity:1, stagger:0.05,  delay:0, ease:Power2.easeIn});
 				
 				gsap.to($(".showcase-gallery .clapat-sync-slide .slide-title span"), {duration: 0.3, y: -70, opacity:0, ease:Power2.easeIn});

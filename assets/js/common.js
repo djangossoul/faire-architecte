@@ -442,7 +442,7 @@ Function Scroll Effects
 				}
 			});
 			
-			$('a.ajax-link, a.slide-link, a.next-ajax-link-page').on('click', function() {
+			/*$('a.ajax-link, a.slide-link, a.next-ajax-link-page').on('click', function() {
 				// Restore the original image source when you leave the page
 				if ($(".clapat-header").hasClass("swapped-logo")) {
 				
@@ -453,7 +453,7 @@ Function Scroll Effects
 					}});
 				
 				}
-			});
+			});*/
 			
 		}
 		

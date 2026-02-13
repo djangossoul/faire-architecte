@@ -8,8 +8,8 @@ thumbnail1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.
 thumbnail2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
 subtitle1: ""
 subtitle2: ""
-nextprojecttitle: "Maison dans la colline"
-nextprojectpermalink: "maison-dans-la-colline"
+nextprojecttitle: "Ancrer"
+nextprojectpermalink: "/portfolio/construction/ancrer"
 nextprojectthumbnail: "/assets/images/02hero.jpg"
 img1: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
 captionimg1: "Lorem ipsum"
@@ -51,11 +51,223 @@ text6: ""
 ---
 <div id="main-page-content">
     <!-- Row -->
+    <div class="content-row small row_padding_top text-align-center" data-bgcolor="#0c0c0c">
+        <h1>Description du projet</h1>
+        <p><span>{{ page.text2 }}</span><br><span>{{ page.text3 }}</span></p>
+        <hr><hr>
+        </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <!--<div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
+        <div class="one_half">
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img1 }}" class="image-link"><img src="{{ page.img1 }}" alt="{{ page.captionimg1 }}"></a>
+                <figcaption>{{ page.captionimg1 }}</figcaption>
+            </figure>
+            <hr><br><br>
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}" alt="{{ page.captionimg2 }}"></a>
+                <figcaption>{{ page.captionimg2 }}</figcaption>
+            </figure>
+        </div>   
+        <div class="one_half last">                                                
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img3 }}" class="image-link">
+                    <img src="{{ page.img3 }}" alt="{{ page.captionimg3 }}">
+                </a>
+                <figcaption>{{ page.captionimg3 }}</figcaption>
+            </figure>
+            <hr><br><br>
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img4 }}" class="image-link">
+                    <img src="{{ page.img4 }}" alt="{{ page.captionimg4 }}">
+                </a>
+                <figcaption>{{ page.captionimg4 }}</figcaption>
+            </figure>                                             
+        </div>                               
+    </div>-->
+    <!-- Row -->
+    <div class="content-row" data-bgcolor="#0c0c0c">
+        <div class="zoom-gallery2">
+            <ul class="zoom-wrapper-gallery" data-heightratio="0.6">
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img1 }}" class="image-link">
+                            <img src="{{ page.img1 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg1 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img2 }}" class="image-link">
+                            <img src="{{ page.img2 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg2 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img3 }}" class="image-link">
+                            <img src="{{ page.img3 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg3 }}</figcaption>
+                    </div>
+                </li>
+            </ul>
+            <div class="zoom-wrapper-thumb"></div>
+        </div> 
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row" data-bgcolor="#0c0c0c">
+        <div class="zoom-gallery2">
+            <ul class="zoom-wrapper-gallery" data-heightratio="0.6" style="align-items: center;">
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img4 }}" class="image-link">
+                            <img src="{{ page.img4 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg4 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper" style="background-color:transparent;">
+                        <p>{{ page.text4 }}</p>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img5 }}" class="image-link">
+                            <img src="{{ page.img5 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg5 }}</figcaption>
+                    </div>
+                </li>
+            </ul>
+            <div class="zoom-wrapper-thumb"></div>
+        </div> 
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row" data-bgcolor="#0c0c0c">
+        <div class="zoom-gallery2">
+            <ul class="zoom-wrapper-gallery" data-heightratio="0.6">
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img6 }}" class="image-link">
+                            <img src="{{ page.img6 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg6 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img7 }}" class="image-link">
+                            <img src="{{ page.img7 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg7 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img8 }}" class="image-link">
+                            <img src="{{ page.img8 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg8 }}</figcaption>
+                    </div>
+                </li>
+            </ul>
+            <div class="zoom-wrapper-thumb"></div>
+        </div> 
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row" data-bgcolor="#0c0c0c">
+        <div class="zoom-gallery2">
+            <ul class="zoom-wrapper-gallery" data-heightratio="0.6" style="align-items: center;">
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img9 }}" class="image-link">
+                            <img src="{{ page.img9 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg9 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper" style="background-color:transparent;">
+                        <p>{{ page.text5 }}</p>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img10 }}" class="image-link">
+                            <img src="{{ page.img10 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg10 }}</figcaption>
+                    </div>
+                </li>
+            </ul>
+            <div class="zoom-wrapper-thumb"></div>
+        </div> 
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row" data-bgcolor="#0c0c0c">
+        <div class="zoom-gallery2">
+            <ul class="zoom-wrapper-gallery" data-heightratio="0.6">
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img11 }}" class="image-link">
+                            <img src="{{ page.img11 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg11 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img12 }}" class="image-link">
+                            <img src="{{ page.img12 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg12 }}</figcaption>
+                    </div>
+                </li>
+                <li class="zoom-center">
+                    <div class="zoom-img-wrapper">
+                        <a href="{{ page.img13 }}" class="image-link">
+                            <img src="{{ page.img13 }}">
+                        </a>
+                        <figcaption>{{ page.captionimg13 }}</figcaption>
+                    </div>
+                </li>
+            </ul>
+            <div class="zoom-wrapper-thumb"></div>
+        </div> 
+    </div> 
+    <!--/Row -->
+    <!-- Row -->
+    <div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
+        <hr>
+        <hr class="destroy">
+        <div class="button-box has-animation" data-delay="100">             
+            <div class="clapat-button-wrap parallax-wrap hide-ball">
+                <div class="clapat-button parallax-element">
+                    <div class="button-border rounded parallax-element-second">
+                        <a target="_blank" href="/contact">
+                            <span data-hover="Je me lance !">Me contacter</span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!--/Row -->
+    <!-- Row -->
     <div class="content-row small row_padding_top light-section" data-bgcolor="#ffffff">
         <figure>
-            <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}"
-                    alt="Image Title"></a>
-            <figcaption>{{ page.captionimg2 }}</figcaption>
+            <a href="{{ page.img14 }}" class="image-link"><img src="{{ page.img2 }}"
+                    alt="{{ page.captionimg14 }}"></a>
+            <figcaption>{{ page.captionimg14 }}</figcaption>
         </figure>
     </div>
     <!--/Row -->
@@ -63,96 +275,10 @@ text6: ""
     <div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
         <hr>
         <hr class="destroy">
-        <p class="has-opacity">Les images de ce projet sont crédités à <a class="link" href="https://cadetarchitecte.com/" target="_blank">Atelier Cadet Architecte</a>.</p>
+        <p class="has-opacity">Les images de ce projet sont créditées à <a class="link" href="https://cadetarchitecte.com/" target="_blank">Atelier Cadet Architecte</a>.</p>
         <br>
-        <!--<div class="button-box has-animation" data-delay="100">
-            <div class="clapat-button-wrap parallax-wrap hide-ball">
-                <div class="clapat-button parallax-element">
-                    <div class="button-border rounded parallax-element-second">
-                        <a target="_blank" href="https://www.behance.net/gallery/170397053/Son-of-a-Tailor">
-                            <span data-hover="View Project">View Project</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </div>
     <!--/Row -->
-    <!-- Row -->
-    <!--<div class="content-row full light-section disable-header-gradient change-header-color" data-bgcolor="#ffffff">
-        <figure class="has-parallax">
-            <img src="/assets/images/projects/son02.jpg" alt="Image Title">
-        </figure>
-    </div>-->
-    <!--/Row -->
-    <!-- Row -->
-    <!--<div class="content-row small row_padding_top row_padding_bottom light-section text-align-center"
-        data-bgcolor="#c8c8c8">
-        <div class="pinned-lists-wrapper scale-mode" data-duration="3x">
-            <p class="has-shuffle-onscroll">Best Features</p>
-            <ul class="pinned-lists">
-                <li>Responsive</li>
-                <li>Dynamic</li>
-                <li>Interactive</li>
-                <li>Creative</li>
-                <li>Minimalist</li>
-            </ul>
-        </div>
-    </div>-->
-    <!--/Row -->
-    <!-- Row -->
-    <div class="content-row full light-section" data-bgcolor="#ffffff">
-        <div class="clapat-slider-wrapper content-slider small-looped-carousel has-animation autocenter light-cursor">
-            <div class="clapat-slider">
-                <div class="clapat-slider-viewport">
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img3 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img4 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img5 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img6 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img7 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img8 }}" alt="Image Title"></div>
-                    </div>
-                     <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img9 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img10 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img11 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img12 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img13 }}" alt="Image Title"></div>
-                    </div>
-                    <div class="clapat-slide">
-                        <div class="slide-img"><img src="{{ page.img14 }}" alt="Image Title"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="clapat-controls">
-                <div class="clapat-button-next slider-button-next"></div>
-                <div class="clapat-button-prev slider-button-prev"></div>
-                <div class="clapat-pagination"></div>
-            </div>
-        </div>
-        <hr class="destroy">
-        <hr class="destroy">
-        <hr>
-    </div>
-    <!--/Row -->
+    
 </div>
 <!--/Main Page Content -->

@@ -37,7 +37,14 @@ text4: "La lumière naturelle étant le second point le plus important en privil
 text5: "Les vues s’orientent vers le grand paysage et les pièces de vie largement ouverte sur le sud ouest comme la piscine."
 text6: ""
 ---
-<div id="main-page-content">                 
+<div id="main-page-content">   
+    <!-- Row -->
+    <div class="content-row small row_padding_top text-align-center" data-bgcolor="#0c0c0c">
+        <h1>Description du projet</h1>
+        <p><span>{{ page.text3 }}</span><br><span>{{ page.text4 }}</span></p>
+        <hr><hr>
+        </div> 
+    <!--/Row -->              
     <!-- Row -->
     <!--<div class="content-row row_padding_top row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
         <figure class="has-animation" data-delay="200">
