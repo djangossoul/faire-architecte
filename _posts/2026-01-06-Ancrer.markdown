@@ -1,111 +1,141 @@
 ---
 layout: post
-title: "Ancrer"
+title:  "Ancrer"
 categories:
 - Construction
-date: 2026-01-06 15:19:21 +0100
-thumbnail1: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE01.avif"
-thumbnail2: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN COUPE.avif"
-subtitle1: ""
-subtitle2: ""
-nextprojecttitle: "Projet 3"
-nextprojectpermalink: "projet3"
-nextprojectthumbnail: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
-img1: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE01.avif"
-captionimg1: ""
-img2: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE02.avif"
-captionimg2: ""
-img3: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN BUREAU.avif"
-captionimg3: ""
-img4: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN COUPE.avif"
-captionimg4: ""
-img5: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN RDC.avif"
-captionimg5: ""
-img6: ""
-captionimg6: ""
-img7: ""
-captionimg7: ""
-img8: ""
-captionimg8: ""
-text1: "Maître d’ouvrage // Privé
-    Mission // Esquisse
-    Superficie // 187 m2 + 60 m2 garage
-    Montant des travaux // 500 000 € HT"
-text2: "Pensé en dialogue avec le site, ce projet s’insère dans son environnement en limitant son impact. Elle vient épouser la pente de tout son long s’ouvrant sur le grand paysage."
-text3: "Cette maison se parcours tout en long avec une différence de niveaux pour chaque usage tout en laissant les espaces ouverts, et le regard filer avec un sentiment de respiration."
-text4: "La lumière naturelle étant le second point le plus important en privilégiant les espaces traversants tout en favorisant une intimité par rapport aux voisins."
-text5: "Les vues s’orientent vers le grand paysage et les pièces de vie largement ouverte sur le sud ouest comme la piscine."
+date:   2026-01-06 12:19:21 +0100
+thumbnail1: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE02_resized.avif"
+thumbnail2: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN RDC.avif"
+detail1: "Maître d’ouvrage // Privé"
+detail2: "Mission // Esquisse"
+detail3: "Superficie // 187 m2 + 60 m2 garage"
+detail4: " Montant des travaux // 500 000 € HT"
+detail5: ""
+detail6: "" 
+nextprojecttitle: "Façonner"
+nextprojectpermalink: "/portfolio/construction/façonner"
+nextprojectthumbnail: "/assets/images/02_CROQUIS EXTENSION SUR EXISTANT 03.avif"
+description1: "Pensé en dialogue avec le site, ce projet s’insère dans son environnement en limitant son impact. Elle vient épouser la pente de tout son long s’ouvrant sur le grand paysage. Cette maison se parcours tout en long avec une différence de niveaux pour chaque usage tout en laissant les espaces ouverts, et le regard filer avec un sentiment de respiration."
+description2: "La lumière naturelle étant le second point le plus important en privilégiant les espaces traversants tout en favorisant une intimité par rapport aux voisins. Les vues s’orientent vers le grand paysage et les pièces de vie largement ouverte sur le sud ouest comme la piscine."
+
+type1: img
+img1: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN COUPE.avif"
+captionimg1: "Lorem ipsum"
+text1: ""
+type2: img
+img2: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE01_resized.avif"
+captionimg2: "Lorem ipsum"
+text2: ""
+
+type3: img
+img3: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN RDC.avif"
+captionimg3: "Lorem ipsum"
+text3: ""
+type4: img
+img4: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN BUREAU.avif"
+captionimg4: "Lorem ipsum"
+text4: ""
+type5: text
+img5: ""
+captionimg5: "Lorem"
+text5: "Voici un exemple de texte qu'on peut intégrer à la place d'une image"
+type6: img
+img6: "/assets/images/projects/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE02_resized.avif"
+captionimg6: "Lorem ipsum"
 text6: ""
 ---
 <div id="main-page-content">   
-    <!-- Row -->
-    <div class="content-row small row_padding_top text-align-center" data-bgcolor="#0c0c0c">
-        <h1>Description du projet</h1>
-        <p><span>{{ page.text3 }}</span><br><span>{{ page.text4 }}</span></p>
-        <hr><hr>
-        </div> 
-    <!--/Row -->              
-    <!-- Row -->
-    <!--<div class="content-row row_padding_top row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
-        <figure class="has-animation" data-delay="200">
-            <a href="images/projects/stena01.jpg" class="image-link"><img src="/assets/images/projects/stena01.jpg" alt="Image Title"></a>
-            <figcaption>Image Caption</figcaption>
-        </figure>
-        <hr><hr class="destroy">
-        <p class="has-opacity">These images are credited to the following author.</p>
-        <br>
-        <div class="button-box has-animation" data-delay="100">             
-            <div class="clapat-button-wrap parallax-wrap hide-ball">
-                <div class="clapat-button parallax-element">
-                    <div class="button-border rounded parallax-element-second">
-                        <a target="_blank" href="https://www.behance.net/gallery/195834077/Stena-Humidifier">
-                            <span data-hover="View Project">View Project</span>
-                        </a>
-                    </div>
-                </div>
-            </div> 
-        </div> 
-    </div> -->
-    <!--/Row -->
-    <!-- Row -->
-    <div class="content-row full light-section disable-header-gradient change-header-color" data-bgcolor="#ffffff">
-        <figure class="has-parallax has-parallax-content" data-delay="100">
-            <img src="{{ page.img2 }}" alt="Image Title">
-            <div class="parallax-image-content content-max-width text-align-center light-content">
-                <div class="outer">
-                    <div class="inner">                                            
-                        <h2 class="has-mask-fill">{{ page.text1 }}</h2>
-                    </div>
-                </div>
-            </div>
-        </figure>
+     <!-- Row -->
+    <div class="content-row small row_padding_top" data-bgcolor="#0c0c0c">
+        <h1>Description</h1>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
+            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
+            <hr><hr>
+        </div>
     </div> 
     <!--/Row -->
     <!-- Row -->
     <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
+        <div class="">
+        {% if page.type1 == "img" %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img1 }}" class="image-link"><img src="{{ page.img1 }}" alt="{{ page.captionimg1 }}"></a>
+                <figcaption>{{ page.captionimg1 }}</figcaption>
+            </figure>
+        {% elsif page.type1 == "text" %}
+            <p>{{ page.text1 }}</p>
+        {% endif %}
+            <hr><br><br>
+        {% if page.type2 == "img" %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}" alt="{{ page.captionimg2 }}"></a>
+                <figcaption>{{ page.captionimg2 }}</figcaption>
+            </figure>
+        {% elsif page.type2 == "text" %}
+            <p>{{ page.text2 }}</p>
+        {% endif %}
+        </div>                   
+    </div> 
+    <!--/Row -->         
+    <!-- Row -->
+    <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
         <div class="one_half">
+            {% if page.type3 == "img" %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img1 }}" class="image-link"><img src="{{ page.img1 }}" alt="Image Title"></a>
-                <figcaption>Image Caption</figcaption>
+                <a href="{{ page.img3 }}" class="image-link"><img src="{{ page.img3 }}" alt="{{ page.captionimg3 }}"></a>
+                <figcaption>{{ page.captionimg3 }}</figcaption>
             </figure>
+            {% elsif page.type3 == "text" %}
+                <p>{{ page.text3 }}</p>
+            {% endif %}
             <hr><br><br>
+            {% if page.type4 == "img" %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}" alt="Image Title"></a>
-                <figcaption>Image Caption</figcaption>
+                <a href="{{ page.img4 }}" class="image-link"><img src="{{ page.img4 }}" alt="{{ page.captionimg4 }}"></a>
+                <figcaption>{{ page.captionimg4 }}</figcaption>
             </figure>
+            {% elsif page.type4 == "text" %}
+                <p>{{ page.text4 }}</p>
+            {% endif %}
         </div>   
-        <div class="one_half last">                                                
+        <div class="one_half last">
+            {% if page.type5 == "img" %}                                              
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img3 }}" class="image-link"><img src="{{ page.img3 }}" alt="Image Title"></a>
-                <figcaption>Image Caption</figcaption>
+                <a href="{{ page.img5 }}" class="image-link"><img src="{{ page.img5 }}" alt="{{ page.captionimg5 }}"></a>
+                <figcaption>{{ page.captionimg5 }}</figcaption>
             </figure>
+            {% elsif page.type5 == "text" %}
+                <p>{{ page.text5 }}</p>
+            {% endif %}
             <hr><br><br>
+            {% if page.type6 == "img" %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img4 }}" class="image-link"><img src="{{ page.img4 }}" alt="Image Title"></a>
-                <figcaption>Image Caption</figcaption>
-            </figure>                                             
+                <a href="{{ page.img6 }}" class="image-link"><img src="{{ page.img6 }}" alt="{{ page.captionimg6 }}"></a>
+                <figcaption>{{ page.captionimg6 }}</figcaption>
+            </figure>
+            {% elsif page.type6 == "text" %}
+                <p>{{ page.text6 }}</p>
+            {% endif %}                                           
         </div>                               
     </div> 
     <!--/Row -->
+    <!-- Row -->
+    <div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
+        <hr>
+        <hr class="destroy">
+        <div class="button-box has-animation" data-delay="100">             
+            <div class="clapat-button-wrap parallax-wrap hide-ball">
+                <div class="clapat-button parallax-element">
+                    <div class="button-border rounded parallax-element-second">
+                        <a target="_blank" href="/contact">
+                            <span data-hover="Je me lance !">Me contacter</span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!--/Row -->   
 </div>
 <!--/Main Page Content --> 

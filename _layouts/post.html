@@ -10,12 +10,6 @@ layout: base
             <div class="inner">
                 <h1 class="hero-title caption-timeline"><span>{{ page.title }}</span></h1>
                 <div class="hero-subtitle caption-timeline onload-shuffle">
-                    <!--<div>
-                        <span>Maître d’ouvrage</span>
-                    </div>
-                    <div class="secondary-font">
-                        <span>{{ page.subtitle1 }}</span>
-                    </div>-->
                 </div>
             </div>
 
@@ -40,7 +34,19 @@ layout: base
 </div>
 <div id="hero-image-wrapper" class="change-header-color hero-pixels-cover-disabled parallax-scroll-image">
     <div id="hero-background-layer" class="parallax-scroll-image">
-        <div id="hero-bg-image" class="hero-bg-image" style="background-image:url('{{ page.thumbnail1 }}')"></div>
+        <div id="hero-bg-image" class="hero-bg-image" style="background-image:url('{{ page.thumbnail1 }}')">
+            <div style="position:absolute; bottom: 0; right:0; width:50%; max-width: 550px;height:auto; background-color: rgba(0,0,0,0.3); padding:25px; margin-bottom: 150px; border-radius: 5px;">
+                <div style="">
+                    <h2 style="color:#fff; font-size:1.5rem; margin-bottom:5px;">Détails du projet</h2>
+                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail1 }}</p>
+                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail2 }}</p>
+                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail3 }}</p>
+                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail4 }}</p>
+                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail5 }}</p>
+                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail6 }}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!--/Hero Section -->
@@ -48,33 +54,6 @@ layout: base
 <div id="main-content">
     {{ content }}
 
-    <!-- Project Navigation -->
-    <!--<div id="project-nav" class="pinned-nav-caption auto-trigger move-title-onload" data-next-bgcolor="#b8b6a7">
-        <div class="next-project-wrap">
-
-            <div id="next-project-caption" class="text-align-center content-full-width">
-                <div class="next-caption-wrapper">
-                    <a class="next-ajax-link-project" data-type="page-transition" href="/{{ page.nextprojectpermalink }}"
-                        data-firstline="Projet" data-secondline="Suivant"></a>
-                    <div class="next-caption">
-                        <div class="next-hero-title caption-timeline has-shuffle-title" data-firstline="Keep"
-                            data-secondline="Scrolling"><span>{{ page.nextprojecttitle }}</span></div>
-                        <div class="next-hero-subtitle caption-timeline secondary-font"><span>Scroller pour Explorer</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="next-hero-progress"><span></span></div>
-
-            <div class="next-project-image-wrapper">
-                <div class="next-project-image next-project-image-effects">
-                    <div class="next-project-image-bg" style="background-image:url({{ page.nextprojectthumbnail }})"></div>
-                </div>
-            </div>
-
-        </div>
-    </div>-->
-    <!--/Project Navigation -->
     <!-- Page Navigation --> 
     <div id="page-nav" class="move-nav-onloadx">
         <div class="page-nav-wrap">
