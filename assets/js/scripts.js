@@ -1347,18 +1347,18 @@ Function Showcase Portfolio
 					var icon = showFilters.querySelector('.button-icon i');
 			
 					// Verificăm starea curentă și alternăm
-					if (span.getAttribute('data-temp') === 'Close') {
+					if (span.getAttribute('data-temp') === 'Fermer') {
 						// Revine la starea inițială
-						span.setAttribute('data-temp', 'All Projects');
-						span.setAttribute('data-hover', 'All Projects');
-						span.textContent = 'All Projects';
+						span.setAttribute('data-temp', 'Voir les catégories');
+						span.setAttribute('data-hover', 'Voir les catégories');
+						span.textContent = 'Voir les catégories';
 						icon.classList.remove('fa-xmark');
 						icon.classList.add('fa-sort');
 					} else {
 						// Schimbă la "Close"
-						span.setAttribute('data-temp', 'Close');
-						span.setAttribute('data-hover', 'Close');
-						span.textContent = 'Close';
+						span.setAttribute('data-temp', 'Fermer');
+						span.setAttribute('data-hover', 'Fermer');
+						span.textContent = 'Fermer';
 						icon.classList.remove('fa-sort');
 						icon.classList.add('fa-xmark');
 					}

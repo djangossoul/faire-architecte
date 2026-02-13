@@ -92,12 +92,12 @@ layout: page
                     {% for sitecategory in site.categories %}
                       {% capture category_name %}{{ sitecategory | first }}{% endcapture %}
                       <li class="filters-timeline link">
-                        <a class="filter-option{% if category == category_name %} is_active{% endif %}" href="/portfolio/{{ category_name | slugize }}">{{ category_name }}, </a>
+                        <a class="filter-option2{% if category == category_name %} is_active{% endif %}" href="/portfolio/{{ category_name | slugize }}">{{ category_name }}, </a>
                       </li>   
                     {% endfor %}
 
                       <li class="filters-timeline link">
-                        <a id="all" class="filter-option" href="/portfolio/" data-filter="">
+                        <a id="all" class="filter-option2" href="/portfolio/" data-filter="">
                           Tous les projets
                         </a>
                       </li> 
