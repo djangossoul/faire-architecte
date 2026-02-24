@@ -118,33 +118,47 @@ permalink: /a-propos/
                 <!-- Row -->
                 <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff">
                     <p class="bigger has-shuffle-disabled secondary-font"></p>
-                    <h2 class="has-animation">Comment se passe un projet d'architecture ?</h2>
+                    <h2 class="has-animation">Les étapes du processus architectural</h2>
                     <hr>
                     <!-- Flex Lists -->
-                    <ul class="flex-lists-wrapper">
-                        <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Conception du projet </span>
-                            <span class="flex-list-right" style="width:85%;">plans, volumes, matériaux, optimisation fonctionnelle et énergétique</span>
+                    <ul class="flex-lists-wrapper" style="font-size: 20px;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On se rencontre</span>
+                            <span class="secondary-font" style="width:85%;">On parle de vous, de vos envies, de vos contraintes et de votre budget. Bref, on pose les bases avant de dessiner quoi que ce soit.</span>
                         </li>
-                        <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Optimisation budgétaire</span>
-                            <span class="flex-list-right" style="width:85%;">chiffrage réaliste, arbitrages techniques, maîtrise des coûts</span>
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On vérifie que le projet tient debout</span>
+                            <span class="secondary-font" style="width:85%;">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles.
+C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
                         </li>
-                        <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Dépôt et obtention des autorisations</span>
-                            <span class="flex-list-right" style="width:85%;">permis de construire, déclarations préalables, instruction administrative, urbanisme, patrimoine, déclaration ERP, accessibilité PMR, RE2020, Bilan carbone</span>
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On esquisse</span>
+                            <span class="secondary-font" style="width:85%;">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans
+la réalité.</span>
                         </li>
-                        <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Consultation et sélection des entreprises</span>
-                            <span class="flex-list-right" style="width:85%;">dossier technique, analyse des offres, négociation</span>
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On s’occupe de l’administratif (promis, vous n’y pensez pas)</span>
+                            <span class="secondary-font" style="width:85%;">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les
+administrations.</span>
                         </li>
-                        <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Direction et contrôle du chantier</span>
-                            <span class="flex-list-right" style="width:85%;">conformité au projet, coordination, gestion des imprévus</span>
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On prépare le chantier</span>
+                            <span class="secondary-font" style="width:85%;">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien
+ça coûte et comment bien le faire.</span>
                         </li>
-                        <li class="flex-list link has-animation">
-                            <span class="flex-list-left" style="font-size: 20px;">Réception et garanties</span>
-                            <span class="flex-list-right" style="width:85%;">vérification des travaux, levée des réserves, sécurisation juridique, garanties décénnales, garanties de parfait achèvement</span>
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On choisit les bonnes entreprises</span>
+                            <span class="secondary-font" style="width:85%;">J’analyse les devis, je compare, je négocie et je vous aide à faire les bons choix.</span>
+                        </li>
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On construit, pour de vrai</span>
+                            <span class="secondary-font" style="width:85%;">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais
+exactement comme prévu... et c’est normal.</span>
+                        </li>
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center;">
+                            <span class="" style="margin-bottom: 15px;">On livre</span>
+                            <span class="secondary-font" style="width:85%;">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme,
+fonctionnel et à votre image.</span>
                         </li>
                     </ul>
                     <hr class="destroy">
