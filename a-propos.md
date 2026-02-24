@@ -66,7 +66,7 @@ permalink: /a-propos/
                             <li class="parallax-list">
                                 <div style="top: 0px; position: fixed; width: 100%; margin-top: 100px;"><span><p class="">Mes valeurs</p></span></div>
                                 <div><span>Co-construction</span></div>
-                                <div><span class="secondary-font">Que ce soit avec les clients, les artisans ou les partenaires, la collaboration et l'intelligence collective rend chaque projet meilleur</span></div>
+                                <div><span class="secondary-font">La collaboration et l’intelligence collective sont au coeur de chaque projet</span></div>
                             </li>
                         </ul>
                     </div>

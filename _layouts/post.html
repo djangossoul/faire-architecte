@@ -38,12 +38,12 @@ layout: base
             <div style="position:absolute; bottom: 0; right:0; width:50%; max-width: 550px;height:auto; background-color: rgba(0,0,0,0.3); padding:25px; margin-bottom: 150px; border-radius: 5px;">
                 <div style="">
                     <h2 style="color:#fff; font-size:1.5rem; margin-bottom:5px;">Détails du projet</h2>
-                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail1 }}</p>
-                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail2 }}</p>
-                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail3 }}</p>
-                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail4 }}</p>
-                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail5 }}</p>
-                    <p style="color:#fff; font-size:1rem; margin:0;">{{ page.detail6 }}</p>
+                    <p style="color:#fff; font-size:1rem; margin:0; display: inline-flex; width: 100%;"><span style="width: 50%; text-align: left;">{{ page.detail1a }}</span>{% if page.detail1a != ""  %} // {% endif %}<span style="width: 50%; text-align: right;">{{ page.detail1b }}</span></p>
+                    <p style="color:#fff; font-size:1rem; margin:0; display: inline-flex; width: 100%;"><span style="width: 50%; text-align: left;">{{ page.detail2a }}</span>{% if page.detail2a != ""  %} // {% endif %}<span style="width: 50%; text-align: right;">{{ page.detail2b }}</span></p>
+                    <p style="color:#fff; font-size:1rem; margin:0; display: inline-flex; width: 100%;"><span style="width: 50%; text-align: left;">{{ page.detail3a }}</span>{% if page.detail3a != ""  %} // {% endif %}<span style="width: 50%; text-align: right;">{{ page.detail3b }}</span></p>
+                    <p style="color:#fff; font-size:1rem; margin:0; display: inline-flex; width: 100%;"><span style="width: 50%; text-align: left;">{{ page.detail4a }}</span>{% if page.detail4a != ""  %} // {% endif %}<span style="width: 50%; text-align: right;">{{ page.detail4b }}</span></p>
+                    <p style="color:#fff; font-size:1rem; margin:0; display: inline-flex; width: 100%;"><span style="width: 50%; text-align: left;">{{ page.detail5a }}</span>{% if page.detail5a != ""  %} // {% endif %}<span style="width: 50%; text-align: right;">{{ page.detail5b }}</span></p>
+                    <p style="color:#fff; font-size:1rem; margin:0; display: inline-flex; width: 100%;"><span style="width: 50%; text-align: left;">{{ page.detail6a }}</span>{% if page.detail6a != ""  %} // {% endif %}<span style="width: 50%; text-align: right;">{{ page.detail6b }}</span></p>
                 </div>
             </div>
         </div>
