@@ -762,7 +762,7 @@ Function Scroll Effects
 				scrollTrigger: {
 					trigger: heroCaption,
 					start: "top -30%",	
-					end: "+=80%",
+					end: "+=60%",
 					scrub: true,
 				},
 				scale: 1,
@@ -779,7 +779,7 @@ Function Scroll Effects
 			ScrollTrigger.create({
 				trigger: heroCaption,
 				start: "top -30%",					
-				end: '+=80%',
+				end: '+=60%',
 				scrub: true,
 				animation: flip,
 				onEnter: () => {
