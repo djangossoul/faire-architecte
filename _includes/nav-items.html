@@ -1,7 +1,7 @@
 <ul data-breakpoint="1025" class="flexnav">
     {%- for item in site.data.menu -%}
     <li class="menu-timeline link">
-        <a href="{{ item.url | relative_url }}" class="ajax-link" data-type="page-transition">
+        <a href="{{ item.url | relative_url }}" class="ajax-link">
             <div class="before-span">
                 <span data-hover="{{ item.title | escape }}">{{ item.title | escape }}</span>
             </div>

@@ -425,7 +425,7 @@ text18: "APRES - Chambre marron"
             <div class="clapat-button-wrap parallax-wrap hide-ball">
                 <div class="clapat-button parallax-element">
                     <div class="button-border rounded parallax-element-second">
-                        <a target="_blank" href="/contact">
+                        <a target="_self" href="/contact">
                             <span data-hover="Je me lance !">Me contacter</span>
                         </a>
                     </div>

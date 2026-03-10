@@ -1445,11 +1445,11 @@ Primary use:	Showcase Portfolio
 		border-bottom: 4px solid #999999;
 	}
 	
-	.show-loader #ball-loader {
+	/*.show-loader #ball-loader {
 		opacity:1;
 		-webkit-transition: opacity 0.2s ease-in-out 0s;
 		transition: opacity 0.2s ease-in-out 0s;
-	}
+	}*/
 	
 	@keyframes rotating {
       0% {
@@ -1468,9 +1468,9 @@ Primary use:	Showcase Portfolio
       }
 	}
 	
-	.show-loader a, .show-loader .clapat-nav-wrapper, .scale-up a, .scale-up .hide-ball, scale-up .link, .scale-up .button-wrap, .scale-up #burger-wrapper, .scale-up .disable-drag, .scale-drag a, .scale-drag .move-title {
+	/*.show-loader a, .show-loader .clapat-nav-wrapper, .scale-up a, .scale-up .hide-ball, scale-up .link, .scale-up .button-wrap, .scale-up #burger-wrapper, .scale-up .disable-drag, .scale-drag a, .scale-drag .move-title {
 		pointer-events:none!important;
-	}
+	}*/
 	
 	.disable-cursor #magic-cursor {
 		display:none;
@@ -2700,9 +2700,9 @@ Primary use:	Showcase Portfolio
 	05. Main Content
 ---------------------------------------------------*/		
 	
-	.show-loader #clapat-page-content {
+	/*.show-loader #clapat-page-content {
 		pointer-events: none !important;
-	}
+	}*/
 	
 	#content-scroll {
 		z-index:1;

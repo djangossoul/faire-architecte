@@ -716,7 +716,7 @@ Function Scroll Effects
 			heroPlaceholder.appendChild(heroCaptionInner);
 			
 			if (!$('body').hasClass("show-loader")) {
-				let preloaderTimeout = 0;
+				/*let preloaderTimeout = 0;
 				if (typeof window.preloaderTimeout !== 'undefined') {
 					preloaderTimeout = window.preloaderTimeout;
 				}
@@ -725,7 +725,7 @@ Function Scroll Effects
 					gsap.set($(".new-hero-title .hero-title-placeholder div span"), {yPercent:50, opacity:0});				
 					gsap.to($(".new-hero-title .hero-title-placeholder div span"), {duration: 0.5, yPercent:0, opacity:1, stagger:0.05, delay:0, ease:Power3.easeOut });
 				}, preloaderTimeout);
-				
+				*/
 			} else {
 				gsap.set($(".new-hero-title .hero-title-placeholder div span"), {yPercent:50, opacity:0});
 				gsap.to($(".new-hero-title .hero-title-placeholder div span"), {duration: 0.5, yPercent:0, opacity:1, stagger:0.05, delay:0, ease:Power3.easeOut });
@@ -2988,7 +2988,7 @@ Function First Load
 		});
 		
 		//Load Default Page
-		$('a.ajax-link').on('click', function() {
+		/*$('a.ajax-link').on('click', function() {
 			$("body").addClass("show-loader");	
 			setTimeout(function(){
 				$('#header-container').removeClass('light-content-header').removeClass('dark-content-header');
@@ -3014,18 +3014,18 @@ Function First Load
 			gsap.to($("#main, #hero-image-wrapper, #project-nav, .next-project-image, #app, #canvas-slider, #showcase-slider-webgl-holder, .showcase-pagination-wrap, #quickmenu-scroll, #blog, .next-project-image-wrapper"), {duration: 0.3, opacity:0, delay:0, ease:Power0.ease});					
 			gsap.to($("#footer-container, .header-middle"), {duration: 0.3, opacity:0, ease:Power0.ease});
 			gsap.to('#show-filters, #counter-wrap', {duration: 0.2, opacity:0});
-		});
+		});*/
 		
 		
 		//Load Page From Menu
 
-		$('.clapat-nav-wrapper .ajax-link').on('click', function() {
+		/*$('.clapat-nav-wrapper .ajax-link').on('click', function() {
 			$(this).parents('.menu-timeline').addClass('hover');
 			$(this).parents('.item-with-ul').addClass('hover');
 			gsap.set($(this).find('span'),{yPercent:0});	
 			$('.clapat-header').removeClass('white-header');
 			$("#app").remove();				
-		});
+		});*/
 
 		
 		$('#burger-wrapper, .menu .button-text').on('click', function() {

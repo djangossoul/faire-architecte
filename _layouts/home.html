@@ -113,7 +113,7 @@ layout: base
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </div>
                             </div>
-                            <a class="ajax-link" data-type="page-transition" href="/a-propos">
+                            <a class="ajax-link" href="/a-propos">
                                 <div class="button-text sticky right">
                                     <span data-hover="En savoir plus">En savoir plus</span>
                                 </div>
@@ -144,7 +144,7 @@ layout: base
                             <div class="snap-slider-thumbs-wrapper">
                                 {%- for post in site.posts limit: 2 -%}
                                     <div class="thumb-slide" data-centerline="OPEN">
-                                        <a class="slide-link" data-type="page-transition" href="{{ post.url | relative_url }}">
+                                        <a class="slide-link" href="{{ post.url | relative_url }}">
                                         <div class="thumb-slide-img">
                                             <img src="{{ post.thumbnailfront }}" class="item-image grid__item-img" alt="" style="background-color:#FFFFFF;">
                                         </div>
@@ -188,7 +188,7 @@ layout: base
                         <div class="clapat-button-wrap parallax-wrap hide-ball">
                             <div class="clapat-button parallax-element">
                                 <div class="button-border outline rounded parallax-element-second">
-                                    <a class="ajax-link" data-type="page-transition" href="/portfolio">
+                                    <a class="ajax-link" href="/portfolio">
                                         <span data-hover="Tous les Projets">Voir le portfolio</span>
                                     </a>
                                 </div>
@@ -328,7 +328,7 @@ fonctionnel et à votre image.</span>
         <div class="page-nav-wrap">
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
                 <div class="inner">
-                    <a class="next-ajax-link-page" data-type="page-transition" data-centerline="GO TO" href="/portfolio">
+                    <a class="next-ajax-link-page" data-centerline="GO TO" href="/portfolio">
                         <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante" data-infotextafter="">A propos</div>
                     </a>                                  
                 </div>               

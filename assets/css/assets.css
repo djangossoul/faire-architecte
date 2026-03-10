@@ -65,13 +65,13 @@
 		-moz-transition:opacity .4s .4s,visibility 0s .4s;
 		transition:opacity .6s 0s,visibility 0s .4s
 	}
-	.page-is-changing .cd-cover-layer{
+	/*.page-is-changing .cd-cover-layer{
 		opacity:1;
 		visibility:visible;
 		-webkit-transition:opacity .3s 0s,visibility 0s 0s;
 		-moz-transition:opacity .3s 0s,visibility 0s 0s;
 		transition:opacity .3s .3s,visibility 0s 0s
-	}
+	}*/
  
 
 /*--------------------------------------------------

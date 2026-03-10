@@ -176,7 +176,7 @@ fonctionnel et à votre image.</span>
         <div class="page-nav-wrap">
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">
                 <div class="inner">
-                    <a class="next-ajax-link-page" data-type="page-transition" data-centerline="GO TO" href="/contact">
+                    <a class="next-ajax-link-page" data-centerline="GO TO" href="/contact">
                         <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante"
                             data-infotextafter="">Contact</div>
                     </a>

@@ -5,7 +5,9 @@ jQuery(function ($) {
 		"use strict";
 		
 		PageLoad();		
-		ScrollEffects();		
+		if (typeof window.ScrollEffects === 'function') {
+			ScrollEffects();
+		}		
 		Sliders();	 
 		FirstLoad(); 
 		PageLoadActions();
@@ -606,7 +608,7 @@ Page Load Actions
 				
 				gsap.to($("#main-page-content, #hero, .clapat-footer, .clapat-footer-nav"), {duration: 0.3, opacity:0, ease:Power4.easeOut});
 				
-				if ($("#page-nav").hasClass("move-nav-onload")) {
+				if ($("#page-nav").hasClass("move-nav-onload-disabling")) {
 					$("body").addClass("load-next-page");
 					if ($("body").hasClass("smooth-scroll")) {
 						var moveNav = $("#content-scroll").height() - ( $("#hero").height() / 2 )  - ( $("#page-nav").height()  ) / 2 - $(".clapat-footer").height() / 2	
@@ -622,20 +624,20 @@ Page Load Actions
 		} else if ($("body").hasClass("disable-ajaxload")) {
 			
 			$('#page-nav .next-ajax-link-page').on('click', function() {					
-				$("body").addClass("load-next-page");
+				/*$("body").addClass("load-next-page");
 				$("body").addClass("show-loader");
 				$('.clapat-header').removeClass('white-header');
-				$("#app").remove();
+				$("#app").remove();*/
 				
 					
-				gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999', backgroundColor:'transparent'});
+				/*gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999', backgroundColor:'transparent'});
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 				$("#ball").removeClass("with-icon with-blur color-cursor");
 				$('#ball p').remove();
-				$('#ball i').remove();
+				$('#ball i').remove();*/
 				
-				gsap.to($("#main-page-content, #hero, #page-nav"), {duration: 0.3, opacity:0});
-				gsap.to($(".clapat-footer, .clapat-footer-nav"), {duration: 0.3, opacity:0, delay:0, ease:Power2.easeInOut});
+				/*gsap.to($("#main-page-content, #hero, #page-nav"), {duration: 0.3, opacity:0});
+				gsap.to($(".clapat-footer, .clapat-footer-nav"), {duration: 0.3, opacity:0, delay:0, ease:Power2.easeInOut});*/
 			});
 			
 		}
@@ -717,7 +719,7 @@ Page Load Actions
 							trigger: $("#project-nav"),							
 							start: () => startValue,
 							onEnter: function( st ) { 
-								$("body").addClass("show-loader");						
+								$("body").addClass("show-loader-disabling");						
 								$this.delay(500).queue(function() {
 									
 									gsap.set($("#project-nav.change-header, .next-hero-progress"), {backgroundColor:"transparent"});
@@ -771,7 +773,7 @@ Page Load Actions
 			$('.next-ajax-link-project').on('click', function() {
 				
 				if (!$("#project-nav").hasClass("auto-trigger")) {
-					$("body").addClass("show-loader");
+					$("body").addClass("show-loader-disabling");
 				}
 				
 				if ($(".clapat-header").hasClass("swapped-logo")) {
@@ -829,7 +831,7 @@ Page Load Actions
 		} else if ($("body").hasClass("disable-ajaxload")) {
 			
 			$('.next-ajax-link-project').on('click', function() {					
-				$("body").addClass("load-project-thumb-with-title").addClass("show-loader");							
+				$("body").addClass("load-project-thumb-with-title").addClass("show-loader-disabling");							
 				$('.clapat-header').removeClass('white-header');
 				$("#app").remove();									
 				gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999', backgroundColor:'transparent'});
@@ -1206,7 +1208,7 @@ Function Lazy Load
 					} else if (isMobile()) {				
 						gsap.to($(".hero-video-wrapper"), {duration: 0.2, opacity:1, delay:0.5, ease:Power2.easeOut});					
 					}					
-					$('body').removeClass("load-project-thumb-with-title").removeClass("show-loader");	
+					$('body').removeClass("load-project-thumb-with-title").removeClass("show-loader-disabling");	
 				} , 200 );
 			});			
 		} else if( $('.load-project-thumb-from-slider').length > 0 ){
@@ -1237,7 +1239,7 @@ Function Lazy Load
 					} else if (isMobile()) {				
 						gsap.to($(".hero-video-wrapper"), {duration: 0.2, opacity:1, delay:0.5, ease:Power2.easeOut});					
 					}					
-					$('body').removeClass("load-project-thumb-from-slider").removeClass("show-loader");	
+					$('body').removeClass("load-project-thumb-from-slider").removeClass("show-loader-disabling");	
 				} , 200 );
 			});			
 		}else {
@@ -1261,7 +1263,7 @@ Function Lazy Load
 			$('body').removeClass("load-project-thumb load-project-thumb-with-title load-project-thumb-from-slider load-next-page grid-open from-webgl")
 			setTimeout( function(){
 				imagesLoaded('body', function() {	
-					$('body').removeClass("show-loader disable-scroll");					
+					$('body').removeClass("show-loader-disabling disable-scroll");					
 				});
 			} , 300 );			
 		} , 1000 );
@@ -1531,7 +1533,7 @@ Function Showcase Portfolio
 					}
 				});
 				setTimeout(function() {
-					$("body").addClass("show-loader");
+					$("body").addClass("show-loader-disabling");
 				}, 300);
 				gsap.to(".showcase-portfolio .slide-caption", { duration: 0.2, opacity:0, ease:Power2.easeIn});
 				
@@ -1876,7 +1878,7 @@ Function Showcase Highlights
 			
 			$('.external-titles .slide-title').on('click', function () {
 				
-				$("body").addClass("load-project-thumb show-loader from-webgl");
+				$("body").addClass("load-project-thumb show-loader-disabling from-webgl");
 				
 				if ($('body').hasClass('hero-below-caption')) {											
 					gsap.to('#canvas-slider canvas', { duration: 1.2, scale:0.5, delay:0, ease: "back.inOut(1)" });
@@ -2694,7 +2696,7 @@ Function Showcase Gallery
 				gsap.to($(".showcase-gallery .clapat-sync-slide .slide-title span"), {duration: 0.3, y: -70, opacity:0, ease:Power2.easeIn});
 				
 				setTimeout( function(){
-					$("body").addClass("show-loader");										
+					$("body").addClass("show-loader-disabling");										
 				} , 300 );
 				
 				gsap.to("#bg-pixels", { duration: 0.3, delay:0, opacity:0, ease: Power2.easeInOut });
@@ -2983,7 +2985,9 @@ Function Showcase Snap Slider
 	window.LoadViaAjax = function() {			
 		CleanupBeforeAjax();	
 		FirstLoad();
-		ScrollEffects();
+		if (typeof window.ScrollEffects === 'function') {
+			ScrollEffects();
+		}
 		Sliders();
 		PageLoadActions();
 		ShowcasePortfolio();
