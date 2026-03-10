@@ -51,7 +51,7 @@ text6: ""
 ---
 <div id="main-page-content">   
      <!-- Row -->
-    <div class="content-row small row_padding_top" data-bgcolor="#0c0c0c">
+    <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
         <h2>Description</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>

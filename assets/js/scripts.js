@@ -1522,7 +1522,7 @@ Function Showcase Portfolio
 			
 
 			$('.trigger-item').on('click', function() {
-				if (!$('.showcase-portfolio').hasClass('list-grid')) {
+				/*if (!$('.showcase-portfolio').hasClass('list-grid')) {
 					$("body").addClass("load-project-thumb");
 				}
 				$('.showcase-portfolio .trigger-item').each(function(){
@@ -1548,7 +1548,7 @@ Function Showcase Portfolio
 				gsap.to('#ball', { duration: 0.3, borderWidth: '4px', scale: 0.5, borderColor: '#999999', backgroundColor: 'transparent' });
 				gsap.to('#ball-loader', { duration: 0.3, borderWidth: '4px', top: 0, left: 0 });
 				$("#ball").removeClass("with-blur");
-				$('#ball p').remove();
+				$('#ball p').remove();*/
 			});
 			
 		}

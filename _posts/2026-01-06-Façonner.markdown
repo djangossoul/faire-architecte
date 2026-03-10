@@ -37,7 +37,7 @@ img3: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTA
 captionimg3: "CROQUIS de recherche sur habitation existante"
 text3: ""
 type4: img
-img4: "/assets/images/projects/Conception meubles/02_CROQUIS EXTENSION SUR EXISTANT 03.jpg"
+img4: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 03.jpg"
 captionimg4: "PERSPECTIVE ET AXONOMÉTRIE projectuelle"
 text4: ""
 type5: img
@@ -68,7 +68,7 @@ text10: ""
 ---
 <div id="main-page-content">   
      <!-- Row -->
-    <div class="content-row small row_padding_top" data-bgcolor="#0c0c0c">
+    <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
         <h2>Description</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>

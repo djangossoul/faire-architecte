@@ -73,6 +73,23 @@ permalink: /a-propos/
                 </div>
                 <!--/Row -->
                 <!-- Row -->
+                <style>
+                    @media only screen and (max-width: 767px) {
+                        .team-list-captions > li{
+                            display: inline;
+                        }
+                        .tml-title {
+                            position: relative;
+                            bottom: unset;
+                            padding-bottom: 25px;
+                        }
+                        .team-list-images {
+                            width: 100%;
+                            position: relative;
+                            left: auto;
+                        }
+                    }
+                </style>
                 <div class="content-row full row_padding_top row_padding_bottom light-section" data-bgcolor="#ffffff">
                     <div class="team-list-wrapper">
                         <ul class="team-list-captions">
@@ -176,9 +193,9 @@ fonctionnel et à votre image.</span>
         <div class="page-nav-wrap">
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">
                 <div class="inner">
-                    <a class="next-ajax-link-page" data-centerline="GO TO" href="/contact">
+                    <a class="next-ajax-link-page" data-centerline="GO TO" href="/portfolio">
                         <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante"
-                            data-infotextafter="">Contact</div>
+                            data-infotextafter="">Portfolio</div>
                     </a>
                 </div>
             </div>
