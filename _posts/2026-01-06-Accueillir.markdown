@@ -4,14 +4,14 @@ title:  "Accueillir"
 categories:
 - Rénovation
 date:   2026-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
-thumbnailfront: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
+thumbnailback: "/assets/images/projects/Maison Urbaine 1930/04 SALON APRES.jpg"
+thumbnailfront: "/assets/images/projects/Maison Urbaine 1930/04 SALON CROQUIS.jpg"
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
 detail2a: "Mission"
 detail2b: "Complète"
 detail3a: "Superficie"
-detail3b: "94 m2 existant + 63m2 surélévation"
+detail3b: "120 m2"
 detail4a: "Montant des travaux"
 detail4b: "< 300 000 € HT"
 detail5a: "Maîtrise d'oeuvre"
@@ -19,61 +19,60 @@ detail5b: "Collaboration <a class='link' style='color:#FFFFFF' href='https://cad
 detail6a: ""
 detail6b: ""
 nextprojecttitle: "Ancrer"
-nextprojectpermalink: "/portfolio/construction/ancrer"
-nextprojectthumbnail: "/assets/images/02hero.jpg"
+nextprojectpermalink: "/portfolio/construction/Ancrer"
 description1: "Cette maison typique rémoise a été abîmée dans son usage par ses anciens propriétaires. Que se soit les sols, les murs ou les plafonds, tout a été recouvert par des matériaux bas de gamme."
 description2: "L’enjeu est de redonner ses lettres de noblesse à cette demeure en retrouvant au maximum les matériaux d’origine (parquet, carreaux de ciment...) Tout en lui offrant un nouvel usage d’habitation mêlant tous le confort traditionnel avec un enjeu énergétique non négligeable. Isolation, système de chauffage, électricité, plomberie, tout est repensé et mis aux normes pour cette nouvelle vie."
 
 type1: text
 img1: ""
-captionimg1: "Lorem ipsum"
+captionimg1: "AVANT - Entrée de la maison"
 text1: "Je mets du texte car je n'ai pas de photo Avant"
 type2: img
-img2: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CROQUIS - ACA.avif"
-captionimg2: "Lorem ipsum"
+img2: "/assets/images/projects/Maison Urbaine 1930/04 SALON CROQUIS.jpg"
+captionimg2: "CROQUIS DE CONCEPTION - SALON"
 text2: ""
 type3: img
-img3: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON APRES - ACA.avif"
-captionimg3: "Lorem ipsum"
+img3: "/assets/images/projects/Maison Urbaine 1930/04 SALON APRES.jpg"
+captionimg3: "APRES - Entrée de la maison salon salle à manger"
 text3: ""
 
 type4: img
-img4: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB AVANT - ACA.avif"
-captionimg4: "Lorem ipsum"
+img4: "/assets/images/projects/Maison Urbaine 1930/01 SDB AVANT.jpg"
+captionimg4: "AVANT - Salle de bains"
 text4: ""
 type5: img
-img5: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB CROQUIS - ACA 1.avif"
-captionimg5: "Lorem"
+img5: "/assets/images/projects/Maison Urbaine 1930/01 SDB CROQUIS.jpg"
+captionimg5: "CROQUIS DE CONCEPTION - Salle de bains"
 text5: ""
 type6: img
-img6: "/assets/images/projects/Maison Urbaine 1930 - 01 SDB APRES - ACA.avif"
-captionimg6: "Lorem ipsum"
+img6: "/assets/images/projects/Maison Urbaine 1930/01 SDB APRES.jpg"
+captionimg6: "APRES - Salle de bains"
 text6: ""
 
 type7: img
-img7: "/assets/images/projects/Maison Urbaine 1930 - 02 CHAMBRE ROUGE AVANT - ACA.avif"
-captionimg7: "Lorem ipsum"
+img7: "/assets/images/projects/Maison Urbaine 1930/02 CHAMBRE ROUGE AVANT.jpeg"
+captionimg7: "AVANT - Chambre rouge"
 text7: ""
 type8: text
 img8: ""
 captionimg8: ""
 text8: "Je mets du texte aussi ici"
 type9: img
-img9: "/assets/images/projects/Maison Urbaine 1930 - 02 CHAMBRE ROUGE APRES - ACA.avif"
-captionimg9: "Lorem ipsum"
+img9: "/assets/images/projects/Maison Urbaine 1930/02 CHAMBRE ROUGE APRES.jpg"
+captionimg9: "APRES - Chambre rouge"
 text9: ""
 
 type10: img
-img10: "/assets/images/projects/Maison Urbaine 1930 - 03 SDD AVANT - ACA.avif"
-captionimg10: "Lorem ipsum"
+img10: "/assets/images/projects/Maison Urbaine 1930/03 SDD AVANT.jpeg"
+captionimg10: "AVANT - Salle de douche"
 text10: ""
 type11: text
 img11: ""
 captionimg11: ""
 text11: "Et du texte là"
 type12: img
-img12: "/assets/images/projects/Maison Urbaine 1930 - 03 SDD APRES - ACA.avif"
-captionimg12: "Lorem ipsum"
+img12: "/assets/images/projects/Maison Urbaine 1930/03 SDD APRES.jpg"
+captionimg12: "APRES - Salle de douche"
 text12: ""
 
 type13: text
@@ -81,12 +80,12 @@ img13: ""
 captionimg13: "Lorem ipsum"
 text13: "Et aussi ici"
 type14: img
-img14: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CUISINE CHANTIER - ACA.avif"
-captionimg14: "Lorem ipsum"
+img14: "/assets/images/projects/Maison Urbaine 1930/04 SALON CUISINE CHANTIER.jpg"
+captionimg14: "EN CHANTIER - Salon Cuisine"
 text14: ""
 type15: img
-img15: "/assets/images/projects/Maison Urbaine 1930 - 04 SALON CUISINE APRES - ACA.avif"
-captionimg15: "Lorem ipsum"
+img15: "/assets/images/projects/Maison Urbaine 1930/04 SALON CUISINE APRES.jpg"
+captionimg15: "APRES - Salon Cuisine"
 text15: ""
 
 type16: text
@@ -94,17 +93,17 @@ img16: ""
 captionimg16: ""
 text16: "Et je crois que c'est le dernier texte que je mets"
 type17: img
-img17: "/assets/images/projects/Maison Urbaine 1930 - 05 CHAMBRE MARRON TRAVAUX - ACA.avif"
-captionimg17: "Lorem ipsum"
+img17: "/assets/images/projects/Maison Urbaine 1930/05 CHAMBRE MARRON TRAVAUX.jpg"
+captionimg17: "EN CHANTIER - Chambre marron"
 text17: ""
 type18: img
-img18: "/assets/images/projects/Maison Urbaine 1930 - 05 CHAMBRE MARRON APRES - ACA.avif"
-text18: ""
+img18: "/assets/images/projects/Maison Urbaine 1930/05 CHAMBRE MARRON APRES.jpg"
+text18: "APRES - Chambre marron"
 ---
 <div id="main-page-content">
     <!-- Row -->
     <div class="content-row small row_padding_top" data-bgcolor="#0c0c0c">
-        <h1>Description</h1>
+        <h2>Description</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>

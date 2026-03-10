@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Création de meubles
+title: Meubles
 permalink: "/portfolio/meubles"
 ---
 

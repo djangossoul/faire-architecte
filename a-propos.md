@@ -77,9 +77,10 @@ permalink: /a-propos/
                     <div class="team-list-wrapper">
                         <ul class="team-list-captions">
                             <li data-centerline="Hello">
-                                <div class="tml-title">Floriane Jean</div>
+                                <div class="" style="font-size: x-large;">QUI SUIS-JE ?</div>
+                                <div class="tml-title">Floriane Jean _ Architecte HMONP</div>
                                 <div class="">
-                                    <p>FAIRE ARCHITECTURE, un nom simple, presque évident... </p>
+                                    <p>FAIRE ARCHITECTE, un nom simple, presque évident... </p>
                                     <p>Presque aussi évident que j’aime concevoir, créer, fabriquer, imaginer, assembler, ajuster et surtout <strong>FAIRE ENSEMBLE</strong>.</p>
                                     <p>Et pourtant, il cache une déclaration d’intentions : FAIRE, c’est l’acronyme de FAbrique d’Intentions REvées. Parce que chaque projet commence par un rêve, une envie, une intuition et que mon rôle est justement de <strong>lui donner forme, matière et cohérence</strong>.</p>
                                     <p>Après 10 ans à façonner ma vision du métier,j’ai souhaité créer ma fabrique fidèle à ma vision :</p>
@@ -92,7 +93,7 @@ permalink: /a-propos/
                             <li>
                                 <div class="img-mask">
                                     <div class="section-image">
-                                        <img src="/assets/images/Flo-portrait-apropos.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="/assets/images/Floriane Jean_Janvier 2026_P1036859.jpg" class="item-image grid__item-img" alt="">
                                     </div>
                                 </div>
                             </li>
@@ -102,22 +103,8 @@ permalink: /a-propos/
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row has-clip-path row_padding_top row_padding_bottom dark-section change-header-color disable-header-gradient"
-                    data-bgcolor="#0c0c0c">
-                    <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
-                        <p class="has-shuffle-onscroll-disabled">Mes savoir-faires</p>
-                        <ul class="pinned-lists">
-                            <li>construction neuve</li>
-                            <li>extensions</li>
-                            <li>rénovation</li>
-                            <li>création de meubles</li>
-                        </ul>
-                    </div>
-                </div>
-                <!--/Row -->
-                <!-- Row -->
                 <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff">
-                    <p class="bigger has-shuffle-disabled secondary-font"></p>
+                    <p class="bigger has-shuffle-disabled secondary-font">POURQUOI TRAVAILLER ENSEMBLE ?</p>
                     <h2 class="has-animation">Les étapes du processus architectural</h2>
                     <hr>
                     <!-- Flex Lists -->
@@ -162,6 +149,21 @@ fonctionnel et à votre image.</span>
                         </li>
                     </ul>
                     <hr class="destroy">
+                </div>
+                <!--/Row -->
+                <!-- Row -->
+                <div class="content-row has-clip-path row_padding_top row_padding_bottom dark-section change-header-color disable-header-gradient"
+                    data-bgcolor="#0c0c0c">
+                    <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
+                        <p class="has-shuffle-onscroll-disabled">Mes savoir-faires</p>
+                        <ul class="pinned-lists">
+                            <li>construction neuve</li>
+                            <li>extensions</li>
+                            <li>rénovation</li>
+                            <li>création de meubles</li>
+                            <li>aménagement ERP*</li>
+                        </ul>
+                    </div>
                 </div>
                 <!--/Row -->
             </div>
