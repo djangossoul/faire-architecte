@@ -45,7 +45,7 @@ permalink: /a-propos/
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
                 <!-- Row -->
                 <div class="content-row has-clip-path full dark-section change-header-color disable-header-gradient"
-                    data-bgcolor="transparent">
+                    data-bgcolor="transparent" style="background-color:#733821;">
                     <div class="parallax-image-wrapper">
                         <div class="parallax-image" data-bg-image="/assets/images/main-qui-dessine.jpg">
                         </div>
@@ -169,7 +169,7 @@ fonctionnel et à votre image.</span>
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row has-clip-path row_padding_top row_padding_bottom dark-section change-header-color disable-header-gradient"
+                <div style="background-color:#733821!important;" class="content-row has-clip-path row_padding_top row_padding_bottom dark-section change-header-color disable-header-gradient"
                     data-bgcolor="#0c0c0c">
                     <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
                         <p class="has-shuffle-onscroll-disabled">Mes savoir-faires</p>
@@ -195,7 +195,7 @@ fonctionnel et à votre image.</span>
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/portfolio">
                         <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante"
-                            data-infotextafter="">Portfolio</div>
+                            data-infotextafter="" style="color:#733821;">Portfolio</div>
                     </a>
                 </div>
             </div>
