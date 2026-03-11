@@ -5,7 +5,7 @@ categories:
 - Meubles
 date:   2026-01-06 12:19:21 +0100
 thumbnailback: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 04.jpg"
-thumbnailfront: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 03.jpg"
+thumbnailfront: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 01.jpg"
 detail1a: "Mission "
 detail1b: "Esquisse"
 detail2a: ""
@@ -70,7 +70,7 @@ text10: ""
      <!-- Row -->
     <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
         <h2>Description</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 10px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
             <hr><hr>

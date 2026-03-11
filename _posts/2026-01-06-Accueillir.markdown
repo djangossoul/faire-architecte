@@ -23,10 +23,10 @@ nextprojectpermalink: "/portfolio/construction/Ancrer"
 description1: "Cette maison typique rémoise a été abîmée dans son usage par ses anciens propriétaires. Que se soit les sols, les murs ou les plafonds, tout a été recouvert par des matériaux bas de gamme."
 description2: "L’enjeu est de redonner ses lettres de noblesse à cette demeure en retrouvant au maximum les matériaux d’origine (parquet, carreaux de ciment...) Tout en lui offrant un nouvel usage d’habitation mêlant tous le confort traditionnel avec un enjeu énergétique non négligeable. Isolation, système de chauffage, électricité, plomberie, tout est repensé et mis aux normes pour cette nouvelle vie."
 
-type1: text
-img1: ""
+type1: img
+img1: "/assets/images/projects/Maison Urbaine 1930/04 SALON AVANT.png"
 captionimg1: "AVANT - Entrée de la maison"
-text1: "Je mets du texte car je n'ai pas de photo Avant"
+text1: ""
 type2: img
 img2: "/assets/images/projects/Maison Urbaine 1930/04 SALON CROQUIS.jpg"
 captionimg2: "CROQUIS DE CONCEPTION - SALON"
@@ -104,7 +104,7 @@ text18: "APRES - Chambre marron"
     <!-- Row -->
     <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;" data-bgcolor="#0c0c0c">
         <h2>Description</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 10px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
             <hr><hr>
