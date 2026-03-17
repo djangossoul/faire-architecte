@@ -2,10 +2,10 @@
 layout: post
 title:  "Accueillir"
 categories:
-- Rénovation
+- Renovations
 date:   2026-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/Maison Urbaine 1930/04 SALON APRES.jpg"
-thumbnailfront: "/assets/images/projects/Maison Urbaine 1930/04 SALON CROQUIS.jpg"
+thumbnailback: "/assets/images/projects/accueillir/04 SALON APRES.jpg"
+thumbnailfront: "/assets/images/projects/accueillir/04 SALON CROQUISVcarre.jpg"
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
 detail2a: "Mission"
@@ -24,80 +24,80 @@ description1: "Cette maison typique rémoise a été abîmée dans son usage par
 description2: "L’enjeu est de redonner ses lettres de noblesse à cette demeure en retrouvant au maximum les matériaux d’origine (parquet, carreaux de ciment...) Tout en lui offrant un nouvel usage d’habitation mêlant tous le confort traditionnel avec un enjeu énergétique non négligeable. Isolation, système de chauffage, électricité, plomberie, tout est repensé et mis aux normes pour cette nouvelle vie."
 
 type1: img
-img1: "/assets/images/projects/Maison Urbaine 1930/04 SALON AVANT.png"
+img1: "/assets/images/projects/accueillir/04 SALON AVANT.png"
 captionimg1: "AVANT - Entrée de la maison"
 text1: ""
 type2: img
-img2: "/assets/images/projects/Maison Urbaine 1930/04 SALON CROQUIS.jpg"
+img2: "/assets/images/projects/accueillir/04 SALON CROQUIS.jpg"
 captionimg2: "CROQUIS DE CONCEPTION - SALON"
 text2: ""
 type3: img
-img3: "/assets/images/projects/Maison Urbaine 1930/04 SALON APRES.jpg"
+img3: "/assets/images/projects/accueillir/04 SALON APRES.jpg"
 captionimg3: "APRES - Entrée de la maison salon salle à manger"
 text3: ""
 
 type4: img
-img4: "/assets/images/projects/Maison Urbaine 1930/01 SDB AVANT.jpg"
+img4: "/assets/images/projects/accueillir/01 SDB AVANT.jpg"
 captionimg4: "AVANT - Salle de bains"
 text4: ""
 type5: img
-img5: "/assets/images/projects/Maison Urbaine 1930/01 SDB CROQUIS.jpg"
+img5: "/assets/images/projects/accueillir/01 SDB CROQUIS.jpg"
 captionimg5: "CROQUIS DE CONCEPTION - Salle de bains"
 text5: ""
 type6: img
-img6: "/assets/images/projects/Maison Urbaine 1930/01 SDB APRES.jpg"
+img6: "/assets/images/projects/accueillir/01 SDB APRES.jpg"
 captionimg6: "APRES - Salle de bains"
 text6: ""
 
 type7: img
-img7: "/assets/images/projects/Maison Urbaine 1930/02 CHAMBRE ROUGE AVANT.jpeg"
+img7: "/assets/images/projects/accueillir/02 CHAMBRE ROUGE AVANT.jpeg"
 captionimg7: "AVANT - Chambre rouge"
 text7: ""
-type8: text
+type8: img
 img8: ""
 captionimg8: ""
 text8: "Je mets du texte aussi ici"
 type9: img
-img9: "/assets/images/projects/Maison Urbaine 1930/02 CHAMBRE ROUGE APRES.jpg"
+img9: "/assets/images/projects/accueillir/02 CHAMBRE ROUGE APRES.jpg"
 captionimg9: "APRES - Chambre rouge"
 text9: ""
 
 type10: img
-img10: "/assets/images/projects/Maison Urbaine 1930/03 SDD AVANT.jpeg"
+img10: "/assets/images/projects/accueillir/03 SDD AVANT.jpeg"
 captionimg10: "AVANT - Salle de douche"
 text10: ""
-type11: text
+type11: img
 img11: ""
 captionimg11: ""
 text11: "Et du texte là"
 type12: img
-img12: "/assets/images/projects/Maison Urbaine 1930/03 SDD APRES.jpg"
+img12: "/assets/images/projects/accueillir/03 SDD APRES.jpg"
 captionimg12: "APRES - Salle de douche"
 text12: ""
 
-type13: text
+type13: img
 img13: ""
 captionimg13: "Lorem ipsum"
 text13: "Et aussi ici"
 type14: img
-img14: "/assets/images/projects/Maison Urbaine 1930/04 SALON CUISINE CHANTIER.jpg"
+img14: "/assets/images/projects/accueillir/04 SALON CUISINE CHANTIER.jpg"
 captionimg14: "EN CHANTIER - Salon Cuisine"
 text14: ""
 type15: img
-img15: "/assets/images/projects/Maison Urbaine 1930/04 SALON CUISINE APRES.jpg"
+img15: "/assets/images/projects/accueillir/04 SALON CUISINE APRES.jpg"
 captionimg15: "APRES - Salon Cuisine"
 text15: ""
 
-type16: text
+type16: img
 img16: ""
 captionimg16: ""
 text16: "Et je crois que c'est le dernier texte que je mets"
 type17: img
-img17: "/assets/images/projects/Maison Urbaine 1930/05 CHAMBRE MARRON TRAVAUX.jpg"
+img17: "/assets/images/projects/accueillir/05 CHAMBRE MARRON TRAVAUX.jpg"
 captionimg17: "EN CHANTIER - Chambre marron"
 text17: ""
 type18: img
-img18: "/assets/images/projects/Maison Urbaine 1930/05 CHAMBRE MARRON APRES.jpg"
+img18: "/assets/images/projects/accueillir/05 CHAMBRE MARRON APRES.jpg"
 text18: "APRES - Chambre marron"
 ---
 <div id="main-page-content">

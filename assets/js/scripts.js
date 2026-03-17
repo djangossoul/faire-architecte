@@ -447,7 +447,7 @@ Function Page Load
 				
 				gsap.set($(".hero-title.caption-timeline span"), {yPercent:50, opacity:0});
 				
-				gsap.to($(".hero-title.caption-timeline span"), {duration: 0.01, yPercent:0, opacity:1, stagger:0.05, delay:0.6, ease:Power3.easeOut, onComplete: function() {												
+				gsap.to($(".hero-title.caption-timeline span"), {duration: 0.01, yPercent:0, opacity:1, stagger:0.05, delay:0, ease:Power3.easeOut, onComplete: function() {												
 					gsap.to($(".hero-footer-left, .hero-footer-right"), {duration: 0.3, y:0, opacity:1, ease:Power2.easeOut});					
 					gsap.set($(".page-nav-caption .caption-timeline span"), { yPercent:0, opacity:1});					
 					$("#hero-caption").addClass("caption-animated");
@@ -2227,7 +2227,7 @@ Function Showcase Gallery
 				
 				if (document.getElementById('clapat-page-content').classList.contains('dark-content')) {
 					if (gridPreview.currentImage.classList.contains('change-header')) {
-						gsap.to('#clapat-logo img.black-logo', { duration: 0.5, delay:0.15, opacity: 0, ease:Power2.easeInOut });	
+						gsap.to('#clapat-logo img.black-logo', { duration: 0.5, delay:015, opacity: 0, ease:Power2.easeInOut });	
 						gsap.to('#clapat-logo img.white-logo', { duration: 0.5, delay:0.15, opacity: 1, ease:Power2.easeInOut });						
 						gsap.to('.classic-menu .flexnav li', { duration: 0.5, delay:0.15, color: "#fff", ease:Power2.easeInOut });
 						gsap.to('header .button-wrap.menu', { duration: 0.5, delay:0.15, color: "#fff", ease:Power2.easeInOut });

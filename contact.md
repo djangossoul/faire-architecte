@@ -13,7 +13,7 @@ order : 10
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
                     <h1 class="hero-title caption-timeline" data-infotextbefore="" data-infotextafter="">
-                        <div><span>contact</span></div>
+                        <div style="color: #733821;"><span>contact</span></div>
                     </h1>
                     <div class="hero-subtitle caption-timeline onload-shuffle-disabled">
                         <!--<div><span>Envie de discuter de votre projet ?</span></div>
@@ -50,7 +50,7 @@ order : 10
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
                 <!-- Row -->
                 <div class="content-row row_padding_top row_padding_bottom dark-section text-align-center"
-                    data-bgcolor="#0c0c0c">
+                    data-bgcolor="#733821">
                     <h2 class="has-shuffle-disabled">Discutons de votre projet</h2>
                     <hr>
                     <hr>
@@ -104,7 +104,7 @@ order : 10
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row dark-section" data-bgcolor="#0c0c0c">
+                <div class="content-row dark-section" data-bgcolor="#733821">
                     <div class="clipped-image-wrapper">
                         <div class="clipped-image-pin">
                             <div class="clipped-image">
@@ -130,7 +130,7 @@ order : 10
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row dark-section text-align-center" data-bgcolor="#0c0c0c">
+                <div class="content-row dark-section text-align-center" data-bgcolor="#733821">
                     <div class="one_third has-animation" data-delay="100">
                         <div class="box-icon-wrapper block-boxes">
                             <div class="box-icon">

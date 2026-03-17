@@ -1,8 +1,8 @@
-- title: Portfolio
-  url: /portfolio/
-
 - title: À propos
   url: /a-propos/
+  
+- title: Portfolio
+  url: /portfolio/
 
 - title: Contact
   url: /contact/

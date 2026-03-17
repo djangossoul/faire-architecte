@@ -85,7 +85,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	body {
-		
+		overflow-x: hidden;
 		-webkit-transition: opacity 0.2s ease-in-out 0.2s;
 		transition: opacity 0.2s ease-in-out 0.2s;
 	}

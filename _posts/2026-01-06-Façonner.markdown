@@ -2,10 +2,10 @@
 layout: post
 title:  "Façonner"
 categories:
-- Meubles
-date:   2026-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 04.jpg"
-thumbnailfront: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 01.jpg"
+- Extensions
+date:   2025-01-06 12:19:21 +0100
+thumbnailback: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 04.jpg"
+thumbnailfront: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 01Vcarre.jpg"
 detail1a: "Mission "
 detail1b: "Esquisse"
 detail2a: ""
@@ -23,39 +23,39 @@ nextprojectpermalink: "/portfolio/rénovation/Accueillir"
 description1: "Que cela soit pour la définition des espaces ou des meubles, le dessin est l’outil essentiel de FAIRE ARCHITECTE. Imaginer, expérimenter, concevoir, la main permet de passer du rêve à l’intention et de l’intention à la réalité."
 description2: "Par un geste simple, la conception s’affine du global au détail, tout en questionnant les matières, les couleurs et la lumière.. Il devient langage sensible qui permet d’imaginer autrement et de concevoir avec justesse."
 
-type1: text
-img1: ""
-captionimg1: ""
+type1: img
+img1: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 05.jpg"
+captionimg1: "CROQUIS de recherche sur habitation existante"
 text1: ""
-type2: text
-img2: ""
-captionimg2: ""
+type2: img
+img2: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 03.jpg"
+captionimg2: "PERSPECTIVE ET AXONOMÉTRIE projectuelle"
 text2: ""
 
 type3: img
-img3: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 05.jpg"
-captionimg3: "CROQUIS de recherche sur habitation existante"
+img3: ""
+captionimg3: ""
 text3: ""
 type4: img
-img4: "/assets/images/projects/Conception meubles/2_CROQUIS EXTENSION SUR EXISTANT 03.jpg"
-captionimg4: "PERSPECTIVE ET AXONOMÉTRIE projectuelle"
+img4: ""
+captionimg4: ""
 text4: ""
 type5: img
-img5: "/assets/images/projects/Conception meubles/04_CROQUIS MEUBLE.jpg"
-captionimg5: "CONCEPTION DE MEUBLES _ Entrée, rangements, piano"
+img5: ""
+captionimg5: ""
 text5: ""
 type6: img
-img6: "/assets/images/projects/Conception meubles/04_CROQUIS MEUBLE01.jpg"
+img6: ""
 captionimg6: ""
 text6: ""
 
 type7: img
-img7: "/assets/images/projects/Conception meubles/03_ Aménagement cuisine salon.jpg"
-captionimg7: "CONCEPTION D’ESPACE _ La cuisine ouverte"
+img7: ""
+captionimg7: ""
 text7: ""
 type8: img
-img8: "/assets/images/projects/Conception meubles/03_ Aménagement SALON bibliotheque.jpg"
-captionimg8: "CONCEPTION D’ESPACE _ Le salon"
+img8: ""
+captionimg8: ""
 text8: ""
 type9: text
 img9: ""

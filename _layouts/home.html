@@ -42,12 +42,12 @@ layout: base
         </div>
         <div id="hero-interaction" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
             <div class="hero-column col-left" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
-                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/Maison Urbaine 1930/04 SALON APRES.jpg" alt=""></div>
-                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/Conception meubles/04_CROQUIS MEUBLE01.jpg" alt=""></div>
+                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/accueillir/04 SALON APRES.jpg" alt=""></div>
+                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/Croquis meubles/04_CROQUIS MEUBLE02.jpg" alt=""></div>
             </div>
             <div class="hero-column col-right" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
-                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/Maison Urbaine 1930/01 SDB CROQUIS.jpg" alt=""></div>
-                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE02.avif" alt=""></div>
+                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/accueillir/01 SDB CROQUIS.jpg" alt=""></div>
+                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg" alt=""></div>
             </div>
         </div>
     </div>
@@ -55,63 +55,202 @@ layout: base
     <!-- Main Page Content -->
     <div id="main-page-content">
         <!-- Fit Thumb Screen Effects -->
-        <div id="itemsWrapperLinks">
+        <div id="itemsWrapperLinks" >
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
                 <!-- Row-->
-                <div class="content-row full row_padding_top row_padding_left row_padding_right light-section fadeout-element"
+                <!--<div class="content-row full row_padding_top row_padding_left row_padding_right light-section fadeout-element"
                     data-bgcolor="transparent">
                     <div class="landing-intro-wrapper">
                         <h2 class="new-hero-title">
                             <style>
+                                .hero-title-placeholder + span a {
+                                    position: relative;
+                                    text-decoration: none;
+                                }
+
+                                .hero-title-placeholder + span a::before {
+                                    background: hsl(45 100% 70%);
+                                    content: "";
+                                    inset: 0;
+                                    position: absolute;
+                                    transform: scaleX(0);
+                                    transform-origin: right;
+                                    transition: transform 0.5s ease-in-out;
+                                    z-index: 1;
+                                }
+
+                                .hero-title-placeholder + span a:hover::before {
+                                    transform: scaleX(1);
+                                    transform-origin: left;
+                                }
+
                                 @media all and (max-width: 1025px) {  
-                                    .hero-title-placeholder + span{
+                                    .hero-title-placeholder + span a{
                                         padding-top:60px;
                                     }
                                 }
                             </style>
                             <div class="hero-title-placeholder"></div>
-                            <span style="font-size: calc((1rem + 10vw) / 2); line-height: calc((1rem + 12vw) / 2);">pour vos</span>
-                            <span style="font-size: calc((1rem + 10vw) / 2); line-height: calc((1rem + 12vw) / 2);">projets de<br>
-                                <!--<span class="text-rotator-wrapper secondary-font" style="display: grid;">
-                                    <span class="text-rotator">
-                                        <style>
-                                            /*.text-rotator-wrapper span:hover {
-                                                font-family: 'LEMONMILK-Regular', sans-serif;
-                                            }*/
-                                        </style>
-                                        <span>construction neuve</span>
-                                        <span>extension</span>
-                                        <span>rénovation</span>
-                                        <span>création de meubles</span>
-                                        <span>aménagement ERP*</span>
-                                    </span>
-                                </span>-->
+                            <span style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">pour vos</span>
+                            <span style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">projets de<br>
+
                             </span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 10vw) / 2); line-height: calc((1rem + 12vw) / 2);">construction neuve</span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 10vw) / 2); line-height: calc((1rem + 12vw) / 2);">extension</span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 10vw) / 2); line-height: calc((1rem + 12vw) / 2);">rénovation</span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 10vw) / 2); line-height: calc((1rem + 12vw) / 2);">création de meubles</span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 10vw) / 2); line-height: calc((1rem + 12vw) / 2);">aménagement ERP*</span>
+
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a href="/portfolio/construction" data-infotextafter="Cliquer pour voir tous les projets de constructions neuves">construction neuve</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a href="/portfolio/extension" data-infotextafter="Cliquer pour voir tous les projets d'extensions">extension</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a href="/portfolio/renovation" data-infotextafter="Cliquer pour voir tous les projets de rénovations">rénovation</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a href="/portfolio/meubles" data-infotextafter="Cliquer pour voir tous les projets de créations de meubles">création de meubles</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement d'ERP">Tertiaire / ERP*</a><br \><small style="font-size: calc((0.5rem + 4vw) / 2); line-height: calc((0.5rem + 4vw) / 2); letter-spacing: 0.01rem; display: block; color: gray;">*Établissements Recevant du Public</small>
+                            </span>
                         </h2>
                     </div>
-                </div>
+                </div>-->
                 <!--/Row -->
+                
                 <!-- Row -->
-                <div class="content-row full light-section row_padding_left row_padding_right row_padding_bottom fadeout-element"
+                <!--<div class="content-row full light-section row_padding_left row_padding_right row_padding_bottom fadeout-element"
                     data-bgcolor="transparent">
                     <hr>
                     <div class="three_fourth"></div>
                     <div class="one_fourth last vertical-parallax" data-startparallax="0" data-endparallax="0">
                         <div class="landing-video-disabled content-timeline-disabled">
                             <div class="content-video-wrapper-disabled">
-                                <!--<video loop="" muted="" playsinline="" class="bgvid">
-                                    <source src="/assets/images/intro.mp4" type="video/mp4">
-                                </video>-->
-                                <img src="/assets/images/Floriane Jean_Janvier 2026_P1037013.jpg" class="item-image grid__item-img" alt="">
+                                <img src="/assets/images/Floriane Jean_Janvier 2026_P1037013.jpg" class="item-image grid__item-img" alt="" style="border-radius:5px;">
                             </div>
                         </div>
                         <hr>
-                        <hr>
+                        <p class="has-opacity">Une architecture humaine, artisanale, ancrée dans le local et le réel toujours portée par une touche d’imaginaire.</p>
+                        <div class="button-wrap right button-link has-animation">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <a class="ajax-link" href="/a-propos">
+                                <div class="button-text sticky right">
+                                    <span data-hover="En savoir plus">En savoir plus</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>-->
+                <!--/Row -->
+                <!-- Row-->
+                 <style>
+                    .category-protfolio {
+                        position: relative;
+                        text-decoration: none;
+                    }
+
+                    .category-protfolio::before {
+                        background: hsl(0, 0%, 100%);
+                        content: "";
+                        inset: 0;
+                        position: absolute;
+                        transform: scaleX(0);
+                        transform-origin: right;
+                        transition: transform 0.5s ease-in-out;
+                        z-index: -1;
+                    }
+
+                    .category-protfolio:hover::before {
+                        transform: scaleX(1);
+                        transform-origin: left;
+                    }
+                    .savoirfaires{
+                        display: flex;
+                        width: 100%;
+                        flex-direction: row;
+                    }
+
+                    .landing-intro-wrapper, .one_fourth2{
+                        flex: 1;
+                        width:50%;
+                    }
+                    .one_fourth2, .one_fourth3{
+                        align-self: flex-end;
+                    }
+                    .one_fourth2 .landing-video-disabled.content-timeline-disabled {
+                        width:50%;     
+                        margin-left: auto;
+                        margin-right: 0px;
+
+                    }
+                    .one_fourth3 .inner_one_fourth3{
+                        width:25%;     
+                        margin-left: auto;
+                        margin-right: 0px;
+
+                    }
+
+                    @media all and (max-width: 1025px) {
+                        .savoirfaires{
+                            flex-direction: column;
+                        } 
+                        .hero-title-placeholder + span a{
+                            padding-top:60px;
+                        }
+                        .landing-intro-wrapper{
+                            width:100%;
+                        }
+                        .one_fourth2 .landing-video-disabled.content-timeline-disabled{
+                            width:100%;
+                        }
+                        .one_fourth3 .inner_one_fourth3{
+                            width:50%;
+                        }
+                    }
+                    
+                </style>
+                <div class="savoirfaires content-row full row_padding_top row_padding_left row_padding_right light-section fadeout-element"
+                    data-bgcolor="transparent" style="background: #D4DEEA; background: linear-gradient(0deg,rgba(212, 222, 234, 1) 0%, rgba(212, 222, 234, 1) 85%, rgba(255, 255, 255, 0) 100%);">
+                    <div class="landing-intro-wrapper">
+                        <h2 class="new-hero-title" style="display: contents!important;">
+                            
+                            <div class="hero-title-placeholder"></div>
+                            <span style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">pour vos</span>
+                            <span style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">projets de</span>
+
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a class="category-protfolio" href="/portfolio/constructions" data-infotextafter="Cliquer pour voir tous les projets de constructions neuves">construction neuve</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a class="category-protfolio" href="/portfolio/extensions" data-infotextafter="Cliquer pour voir tous les projets d'extensions">extension</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a class="category-protfolio" href="/portfolio/renovations" data-infotextafter="Cliquer pour voir tous les projets de rénovations">rénovation</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a class="category-protfolio" href="/portfolio/meubles" data-infotextafter="Cliquer pour voir tous les projets de créations de meubles">création de meubles</a>
+                            </span>
+                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                                <a class="category-protfolio" href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement d'ERP">Tertiaire / ERP*</a><br \><small style="font-size: calc((0.5rem + 4vw) / 2); line-height: calc((0.5rem + 4vw) / 2); letter-spacing: 0.01rem; display: block; color: gray;">*Établissements Recevant du Public</small>
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="one_fourth2 last2 vertical-parallax" data-startparallax="0" data-endparallax="0">
+                        <div class="landing-video-disabled content-timeline-disabled">
+                            <div class="content-video-wrapper-disabled">
+                                <!--<video loop="" muted="" playsinline="" class="bgvid">
+                                    <source src="/assets/images/intro.mp4" type="video/mp4">
+                                </video>-->
+                                <img src="/assets/images/Floriane Jean_Janvier 2026_P1037013.jpg" class="item-image grid__item-img" alt="" style="border-radius:5px;">
+                            </div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+                <div class="one_fourth3 row_padding_right row_padding_left" style="padding-bottom:40px; background: #D4DEEA;">
+                    <div class="inner_one_fourth3">
                         <hr>
                         <p class="has-opacity">Une architecture humaine, artisanale, ancrée dans le local et le réel toujours portée par une touche d’imaginaire.</p>
                         <div class="button-wrap right button-link has-animation">
@@ -135,36 +274,60 @@ layout: base
                     <div class="snap-slider-holder">
                         <div class="snap-slider-images">
                             <div class="snap-slider-images-wrapper">
-                                {%- for post in site.posts limit: 2 -%}
+                                {% assign thepost = site.posts | where:"title","Façonner" | first %}
+                                {% assign thepost2 = site.posts | where:"title","Accueillir" | first %}
+                                {% if thepost %}
                                     <div class="snap-slide trigger-item change-header-color">
                                         <div class="img-mask">
                                             <div class="section-image trigger-item-link">
-                                                <img src="{{ post.thumbnailback }}" class="item-image grid__item-img" alt="">
+                                                <img src="{{ thepost.thumbnailback }}" class="item-image grid__item-img" alt="">
                                             </div>
-                                            <img src="{{ post.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="">
+                                            <img src="{{ thepost.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="">
                                         </div>
                                     </div>
-                                {%- endfor -%}
+                                {% endif %}
+                                
+                                {% if thepost2 %}
+                                    <div class="snap-slide trigger-item change-header-color">
+                                        <div class="img-mask">
+                                            <div class="section-image trigger-item-link">
+                                                <img src="{{ thepost2.thumbnailback }}" class="item-image grid__item-img" alt="">
+                                            </div>
+                                            <img src="{{ thepost2.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="">
+                                        </div>
+                                    </div>
+                                {% endif %}
+                                
                             </div>
                         </div>
                         <div class="snap-slider-thumbs">
                             <div class="snap-slider-thumbs-wrapper">
-                                {%- for post in site.posts limit: 2 -%}
+                                {% if thepost %}
                                     <div class="thumb-slide" data-centerline="OPEN">
-                                        <a class="slide-link" href="{{ post.url | relative_url }}">
+                                        <a class="slide-link" href="{{ thepost.url | relative_url }}">
                                         <div class="thumb-slide-img">
-                                            <img src="{{ post.thumbnailfront }}" class="item-image grid__item-img" alt="" style="background-color:#FFFFFF;">
+                                            <img src="{{ thepost.thumbnailfront }}" class="item-image grid__item-img" alt="" style="background-color:#FFFFFF;">
                                         </div>
-                                        <!--<a class="slide-link" data-type="page-transition" href="{{ post.url | relative_url }}"></a>-->
+                                        <!--<a class="slide-link" data-type="page-transition" href="{{ thepost.url | relative_url }}"></a>-->
                                         </a>
                                     </div>
-                                {%- endfor -%}
+                                {% endif %}
+                                
+                                {% if thepost2 %}
+                                    <div class="thumb-slide" data-centerline="OPEN">
+                                        <a class="slide-link" href="{{ thepost2.url | relative_url }}">
+                                        <div class="thumb-slide-img">
+                                            <img src="{{ thepost2.thumbnailfront }}" class="item-image grid__item-img" alt="" style="background-color:#FFFFFF;">
+                                        </div>
+                                        <!--<a class="slide-link" data-type="page-transition" href="{{ thepost2.url | relative_url }}"></a>-->
+                                        </a>
+                                    </div>
+                                {% endif %}
                             </div>
                         </div>
                         <div class="snap-slider-captions">
                             <div class="snap-slider-captions-wrapper content-full-width">
-                                {% assign thepost = site.posts | where:"title","Façonner" | first %}
-                                {% assign thepost2 = site.posts | where:"title","Accueillir" | first %}
+                                
                                 {% if thepost %}
                                     <div class="snap-slide-caption">
                                         <div class="slide-title" style="width: auto; line-height: 36px; margin-top: 14px; margin-bottom: 14px;"><span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px; font-family: 'LEMONMILK-Regular', serif;">{{ thepost.title | escape }}</span></div>
@@ -185,7 +348,7 @@ layout: base
                 {%- endif -%}
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row small text-align-center light-section" data-bgcolor="#ffffff">
+                <div class="content-row small text-align-center light-section" data-bgcolor="#f6dace">
                     <hr>
                     <hr>
                     <hr>
@@ -205,56 +368,50 @@ layout: base
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff">
+                <div class="content-row row_padding_top text-align-center light-section2" data-bgcolor="#ffffff" style="background: #f6dace; background: linear-gradient(0deg,rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 5%, rgba(246, 218, 206, 1) 100%); padding-left: 60px; padding-right: 60px;">
                     <p class="bigger has-shuffle-disabled secondary-font">POURQUOI TRAVAILLER ENSEMBLE ?</p>
-                    <h2 class="has-animation">Les étapes du processus architectural</h2>
+                    <h2 class="has-animation">Les étapes de mon processus architectural</h2>
                     <hr>
                     <!-- Flex Lists -->
                     <ul class="flex-lists-wrapper" style="font-size: 20px;">
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #3d4020;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none; ">
                             <span class="" style="margin-bottom: 15px;">On se rencontre</span>
                             <span class="secondary-font" style="width:85%;">On parle de vous, de vos envies, de vos contraintes et de votre budget. Bref, on pose les bases avant de dessiner quoi que ce soit.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #6e86a6;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
                             <span class="" style="margin-bottom: 15px;">On vérifie que le projet tient debout</span>
-                            <span class="secondary-font" style="width:85%;">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles.
-C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
+                            <span class="secondary-font" style="width:85%;">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles. C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #6e86a6;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
                             <span class="" style="margin-bottom: 15px;">On esquisse</span>
-                            <span class="secondary-font" style="width:85%;">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans
-la réalité.</span>
+                            <span class="secondary-font" style="width:85%;">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans la réalité.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #723821;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
                             <span class="" style="margin-bottom: 15px;">On s’occupe de l’administratif (promis, vous n’y pensez pas)</span>
-                            <span class="secondary-font" style="width:85%;">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les
-administrations.</span>
+                            <span class="secondary-font" style="width:85%;">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les administrations.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #723821;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
                             <span class="" style="margin-bottom: 15px;">On prépare le chantier</span>
-                            <span class="secondary-font" style="width:85%;">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien
-ça coûte et comment bien le faire.</span>
+                            <span class="secondary-font" style="width:85%;">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien ça coûte et comment bien le faire.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #723821;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
                             <span class="" style="margin-bottom: 15px;">On choisit les bonnes entreprises</span>
                             <span class="secondary-font" style="width:85%;">J’analyse les devis, je compare, je négocie et je vous aide à faire les bons choix.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #723821;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
                             <span class="" style="margin-bottom: 15px;">On construit, pour de vrai</span>
-                            <span class="secondary-font" style="width:85%;">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais
-exactement comme prévu... et c’est normal.</span>
+                            <span class="secondary-font" style="width:85%;">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais exactement comme prévu... et c’est normal.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; color: #723821;">
+                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
                             <span class="" style="margin-bottom: 15px;">On livre</span>
-                            <span class="secondary-font" style="width:85%;">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme,
-fonctionnel et à votre image.</span>
+                            <span class="secondary-font" style="width:85%;">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme, fonctionnel et à votre image.</span>
                         </li>
                     </ul>
                     <hr class="destroy">
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff" >
+                <!--<div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#ffffff" >
                     <div class="pinned-lists-wrapper font-mode" data-duration="3x" style="/*background-image:url('/assets/images/07hero.jpg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat;*/">
                         <style>
                             .subtitle-with-img:after {
@@ -265,8 +422,6 @@ fonctionnel et à votre image.</span>
                                 background-attachment: fixed;
                                 background-size: 50vw auto;
                                 background-position: center;
-                                /*top: 10px;
-                                right: 5px;*/
                                 z-index:-1;
                                 position: absolute;
                                 display: inline-block;
@@ -281,7 +436,7 @@ fonctionnel et à votre image.</span>
                             <li><a href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement d'ERP">aménagement ERP*</a></li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
                 <!--/Row -->
                 <!-- Row -->
                 <div class="content-row row_padding_top light-section text-align-center" data-bgcolor="#ffffff">
@@ -331,12 +486,12 @@ fonctionnel et à votre image.</span>
     <!--/Main Page Content -->
 
     <!-- Page Navigation --> 
-    <div id="page-nav" class="move-nav-onloadx" style="background: #6F87A3; background: linear-gradient(0deg, rgba(111, 135, 163, 1) 0%, rgba(255, 255, 255, 1) 100%);">
+    <div id="page-nav" class="move-nav-onloadx" >
         <div class="page-nav-wrap">
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/a-propos">
-                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante" data-infotextafter="">A propos</div>
+                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante" data-infotextafter="" style="color:#3D4025;">A propos</div>
                     </a>                                  
                 </div>               
             </div>

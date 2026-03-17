@@ -2,10 +2,10 @@
 layout: post
 title:  "Ancrer"
 categories:
-- Construction
-date:   2026-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE02_resized.avif"
-thumbnailfront: "/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN RDC.avif"
+- Constructions
+date:   2025-01-06 12:19:21 +0100
+thumbnailback: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg"
+thumbnailfront: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN RDCVcarre.jpg"
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
 detail2a: "Mission"
@@ -24,28 +24,28 @@ description1: "Pensé en dialogue avec le site, ce projet s’insère dans son e
 description2: "La lumière naturelle étant le second point le plus important en privilégiant les espaces traversants tout en favorisant une intimité par rapport aux voisins. Les vues s’orientent vers le grand paysage et les pièces de vie largement ouverte sur le sud ouest comme la piscine."
 
 type1: img
-img1: "/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN COUPE.avif"
+img1: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN COUPE.jpg"
 captionimg1: "COUPE DU PROJET _ Montrer les différences de niveaux qui s’adaptent au terrain"
 text1: ""
 type2: img
-img2: "/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE01_resized.avif"
+img2: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE COUPE.jpg"
 captionimg2: "MAQUETTE DE CONCEPTION"
 text2: ""
 
 type3: img
-img3: "/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN RDC.avif"
+img3: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN RDC.jpg"
 captionimg3: "PLAN REZ DE CHAUSSEE _ Montrer la fluidité des espaces et leur répartition"
 text3: ""
 type4: img
-img4: "/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION PLAN BUREAU.avif"
+img4: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN R+1.jpg"
 captionimg4: "PLAN DEMI NIVEAU _ Un bureau ouvert l'espace de vie"
 text4: ""
-type5: text
+type5: img
 img5: ""
 captionimg5: ""
 text5: "Voici un exemple de texte qu'on peut intégrer à la place d'une image"
 type6: img
-img6: "/assets/images/projects/Maison sur la colline/Maison sur la colline - 01_MAISON CONSTRUCTION MAQUETTE02_resized.avif"
+img6: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg"
 captionimg6: "MAQUETTE DE CONCEPTION _ Montrer les espaces à l’échelle et leur cohérences globales"
 text6: ""
 ---
