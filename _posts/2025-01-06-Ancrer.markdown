@@ -1,11 +1,22 @@
 ---
 layout: post
 title:  "Ancrer"
+seo_title: "Ancrer – Maison neuve 187 m² ancrée dans le paysage | FAIRE Architecte Reims"
+description: "Maison neuve de 187 m² conçue en esquisse par FAIRE Architecte. Implantation en pente, espaces traversants, ouverture sur le grand paysage. Budget : 500 000 € HT."
 categories:
 - Constructions
+breadcrumbs:
+  - name: "Accueil"
+    url: "/"
+  - name: "Portfolio"
+    url: "/portfolio/"
+  - name: "Constructions"
+    url: "/portfolio/constructions/"
 date:   2025-01-06 12:19:21 +0100
 thumbnailback: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg"
+thumbnailback-alt: ""
 thumbnailfront: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN RDCVcarre.jpg"
+thumbnailfront-alt: ""
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
 detail2a: "Mission"
@@ -23,37 +34,35 @@ nextprojectpermalink: "/portfolio/meubles/Façonner"
 description1: "Pensé en dialogue avec le site, ce projet s’insère dans son environnement en limitant son impact. Elle vient épouser la pente de tout son long s’ouvrant sur le grand paysage. Cette maison se parcours tout en long avec une différence de niveaux pour chaque usage tout en laissant les espaces ouverts, et le regard filer avec un sentiment de respiration."
 description2: "La lumière naturelle étant le second point le plus important en privilégiant les espaces traversants tout en favorisant une intimité par rapport aux voisins. Les vues s’orientent vers le grand paysage et les pièces de vie largement ouverte sur le sud ouest comme la piscine."
 
-type1: img
 img1: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN COUPE.jpg"
+altimg1: "Coupe architecturale du projet Ancrer – maison neuve en pente, niveaux décalés, FAIRE Architecte"
 captionimg1: "COUPE DU PROJET _ Montrer les différences de niveaux qui s’adaptent au terrain"
-text1: ""
-type2: img
-img2: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE COUPE.jpg"
-captionimg2: "MAQUETTE DE CONCEPTION"
-text2: ""
 
-type3: img
+img2: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE COUPE.jpg"
+altimg2: "Maquette de conception en coupe – projet Ancrer, maison neuve 187 m², FAIRE Architecte"
+captionimg2: "Maquette de conception_vue en coupe, montrer le rapport intérieur/extérieur"
+
 img3: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN RDC.jpg"
+altimg3: "Plan de rez-de-chaussée – projet Ancrer, maison neuve ouverte sur le paysage, FAIRE Architecte"
 captionimg3: "PLAN REZ DE CHAUSSEE _ Montrer la fluidité des espaces et leur répartition"
-text3: ""
-type4: img
+
 img4: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN R+1.jpg"
+altimg4: "Plan demi-niveau avec bureau ouvert – projet Ancrer, construction neuve, FAIRE Architecte"
 captionimg4: "PLAN DEMI NIVEAU _ Un bureau ouvert l'espace de vie"
-text4: ""
-type5: img
+
 img5: ""
+altimg5: ""
 captionimg5: ""
-text5: "Voici un exemple de texte qu'on peut intégrer à la place d'une image"
-type6: img
+
 img6: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg"
+altimg6: "Maquette vue de dessus – projet Ancrer, implantation sur terrain en pente, FAIRE Architecte"
 captionimg6: "MAQUETTE DE CONCEPTION _ Montrer les espaces à l’échelle et leur cohérences globales"
-text6: ""
 ---
 <div id="main-page-content">   
      <!-- Row -->
     <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
         <h2>Description</h2>
-        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 25px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
             <hr><hr>
@@ -63,22 +72,22 @@ text6: ""
     <!-- Row -->
     <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
         <div class="">
-        {% if page.type1 == "img" %}
+        {% if page.img1 and page.img1 != "" and page.img1 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img1 }}" class="image-link"><img src="{{ page.img1 }}" alt="{{ page.captionimg1 }}"></a>
+                <a href="{{ page.img1 }}" class="image-link">
+                    <img src="{{ page.img1 }}" alt="{{ page.altimg1  | default: page.captionimg1 }}">
+                </a>
                 <figcaption>{{ page.captionimg1 }}</figcaption>
             </figure>
-        {% elsif page.type1 == "text" %}
-            <p>{{ page.text1 }}</p>
         {% endif %}
             <hr><br><br>
-        {% if page.type2 == "img" %}
+        {% if page.img2 and page.img2 != "" and page.img2 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}" alt="{{ page.captionimg2 }}"></a>
+                <a href="{{ page.img2 }}" class="image-link">
+                    <img src="{{ page.img2 }}" alt="{{ page.altimg2  | default: page.captionimg2 }}">
+                </a>
                 <figcaption>{{ page.captionimg2 }}</figcaption>
             </figure>
-        {% elsif page.type2 == "text" %}
-            <p>{{ page.text2 }}</p>
         {% endif %}
         </div>                   
     </div> 
@@ -86,41 +95,41 @@ text6: ""
     <!-- Row -->
     <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
         <div class="one_half">
-            {% if page.type3 == "img" %}
+            {% if page.img3 and page.img3 != "" and page.img3 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img3 }}" class="image-link"><img src="{{ page.img3 }}" alt="{{ page.captionimg3 }}"></a>
+                <a href="{{ page.img3 }}" class="image-link">
+                    <img src="{{ page.img3 }}" alt="{{ page.altimg3  | default: page.captionimg3 }}">
+                </a>
                 <figcaption>{{ page.captionimg3 }}</figcaption>
             </figure>
-            {% elsif page.type3 == "text" %}
-                <p>{{ page.text3 }}</p>
             {% endif %}
             <hr><br><br>
-            {% if page.type4 == "img" %}
+            {% if page.img4 and page.img4 != "" and page.img4 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img4 }}" class="image-link"><img src="{{ page.img4 }}" alt="{{ page.captionimg4 }}"></a>
+                <a href="{{ page.img4 }}" class="image-link">
+                    <img src="{{ page.img4 }}" alt="{{ page.altimg4  | default: page.captionimg4 }}">
+                </a>
                 <figcaption>{{ page.captionimg4 }}</figcaption>
             </figure>
-            {% elsif page.type4 == "text" %}
-                <p>{{ page.text4 }}</p>
             {% endif %}
         </div>   
         <div class="one_half last">
-            {% if page.type5 == "img" %}                                              
+            {% if page.img5 and page.img5 != "" and page.img5 != nil %}                                              
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img5 }}" class="image-link"><img src="{{ page.img5 }}" alt="{{ page.captionimg5 }}"></a>
+                <a href="{{ page.img5 }}" class="image-link">
+                    <img src="{{ page.img5 }}" alt="{{ page.altimg5  | default: page.captionimg5 }}">
+                </a>
                 <figcaption>{{ page.captionimg5 }}</figcaption>
             </figure>
-            {% elsif page.type5 == "text" %}
-                <p>{{ page.text5 }}</p>
             {% endif %}
             <hr><br><br>
-            {% if page.type6 == "img" %}
+            {% if page.img6 and page.img6 != "" and page.img6 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img6 }}" class="image-link"><img src="{{ page.img6 }}" alt="{{ page.captionimg6 }}"></a>
+                <a href="{{ page.img6 }}" class="image-link">
+                    <img src="{{ page.img6 }}" alt="{{ page.altimg6 | default: page.captionimg6 }}">
+                </a>
                 <figcaption>{{ page.captionimg6 }}</figcaption>
             </figure>
-            {% elsif page.type6 == "text" %}
-                <p>{{ page.text6 }}</p>
             {% endif %}                                           
         </div>                               
     </div> 

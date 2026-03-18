@@ -2,7 +2,11 @@
 layout: page
 title: Contact
 permalink: /contact/
-order : 10
+seo_title: "Contacter FAIRE Architecte – Architecte à Reims | Floriane Jean HMONP"
+description: "Contactez FAIRE Architecte à Reims pour discuter de votre projet de construction, extension ou rénovation. Floriane Jean, architecte HMONP, répond à vos questions."
+breadcrumbs:
+  - name: "Accueil"
+    url: "/"
 ---
 
 <!-- Main Content -->

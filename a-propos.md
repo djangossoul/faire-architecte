@@ -2,6 +2,11 @@
 layout: page
 title: À Propos
 permalink: /a-propos/
+seo_title: "Floriane Jean, Architecte HMONP à Reims – FAIRE Architecte"
+description: "Floriane Jean, architecte HMONP à Reims. Découvrez la démarche de FAIRE Architecte : co-construction, savoir-faire artisanal et suivi complet de votre projet, de l'esquisse à la livraison."
+breadcrumbs:
+  - name: "Accueil"
+    url: "/"
 ---
 <!-- Main Content -->
 <div id="main-content">
@@ -111,7 +116,7 @@ permalink: /a-propos/
                             <li>
                                 <div class="img-mask">
                                     <div class="section-image">
-                                        <img src="/assets/images/Floriane Jean_Janvier 2026_P1036859.jpg" class="item-image grid__item-img" alt="">
+                                        <img src="/assets/images/Floriane Jean_Janvier 2026_P1036859.jpg" class="item-image grid__item-img" alt="Floriane Jean, architecte HMONP à Reims, fondatrice de FAIRE Architecte">
                                     </div>
                                 </div>
                             </li>

@@ -8,18 +8,32 @@ layout: base
         <div id="hero-styles">
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
-                    <h1 class="hero-title caption-timeline" data-infotextbefore=""
+                    <style>
+                        .sr-only {
+                            position: absolute;
+                            width: 1px;
+                            height: 1px;
+                            padding: 0;
+                            margin: -1px;
+                            overflow: hidden;
+                            clip: rect(0, 0, 0, 0);
+                            white-space: nowrap;
+                            border: 0;
+                        }
+                    </style>
+                    <h1 class="sr-only">Architecte HMONP à Reims – Construction, Rénovation, Extension</h1>
+                    <div class="hero-title caption-timeline" data-infotextbefore=""
                         data-infotextafter="">
                         <div>
-                            <span><img class="black-logo" src="/assets/images/FAIRE LOGO 01-26 MAJ mot plain.svg" alt="FAIRE Architecte Logo" style="max-width: 50vw;"></span>
+                            <span><img class="black-logo" src="/assets/images/FAIRE LOGO 01-26 MAJ mot plain.svg" alt="FAIRE Architecte – Architecte HMONP à Reims" style="max-width: 50vw;"></span>
                             <!--<span>FAIRE</span>-->
                         </div>
-                    </h1>
+                    </div>
                     <div class="hero-subtitle caption-timeline onload-shuffle-disabled">
                         <!--<div><span>Rénovation, </span></div>
                         <div class="secondary-font"><span>creative web solutions</span></div>-->
                         <div>
-                            <img class="" src="/assets/images/FAIRE LOGO 2026 baseline.webp" alt="FAIRE Architecte Baseline" style="max-width: 80vw;">
+                            <img class="" src="/assets/images/FAIRE LOGO 2026 baseline.webp" alt="FAIRE Architecte – FAbrique d'Intentions REvées, architecte HMONP à Reims" style="max-width: 80vw;">
                         </div>
                     </div>
                 </div>
@@ -42,12 +56,12 @@ layout: base
         </div>
         <div id="hero-interaction" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
             <div class="hero-column col-left" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
-                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/accueillir/04 SALON APRES.jpg" alt=""></div>
-                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/Croquis meubles/04_CROQUIS MEUBLE02.jpg" alt=""></div>
+                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/accueillir/04 SALON APRES.jpg" alt="Salon rénové après travaux – projet Accueillir, maison rémoise, FAIRE Architecte"></div>
+                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/Croquis meubles/04_CROQUIS MEUBLE02.jpg" alt="Croquis de conception de meuble sur mesure – FAIRE Architecte"></div>
             </div>
             <div class="hero-column col-right" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
-                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/accueillir/01 SDB CROQUIS.jpg" alt=""></div>
-                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg" alt=""></div>
+                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/accueillir/01 SDB CROQUIS.jpg" alt="Croquis de salle de bains – projet Accueillir, rénovation Reims, FAIRE Architecte"></div>
+                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg" alt="Maquette de conception vue de dessus – projet Ancrer, maison neuve, FAIRE Architecte"></div>
             </div>
         </div>
     </div>
@@ -243,7 +257,7 @@ layout: base
                                 <!--<video loop="" muted="" playsinline="" class="bgvid">
                                     <source src="/assets/images/intro.mp4" type="video/mp4">
                                 </video>-->
-                                <img src="/assets/images/Floriane Jean_Janvier 2026_P1037013.jpg" class="item-image grid__item-img" alt="" style="border-radius:5px;">
+                                <img src="/assets/images/Floriane Jean_Janvier 2026_P1037013.jpg" class="item-image grid__item-img" alt="Floriane Jean, architecte HMONP, fondatrice de FAIRE Architecte à Reims" style="border-radius:5px;">
                             </div>
                         </div>
                         <!---->
@@ -306,7 +320,7 @@ layout: base
                                     <div class="thumb-slide" data-centerline="OPEN">
                                         <a class="slide-link" href="{{ thepost.url | relative_url }}">
                                         <div class="thumb-slide-img">
-                                            <img src="{{ thepost.thumbnailfront }}" class="item-image grid__item-img" alt="" style="background-color:#FFFFFF;">
+                                            <img src="{{ thepost.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
                                         </div>
                                         <!--<a class="slide-link" data-type="page-transition" href="{{ thepost.url | relative_url }}"></a>-->
                                         </a>
@@ -317,7 +331,7 @@ layout: base
                                     <div class="thumb-slide" data-centerline="OPEN">
                                         <a class="slide-link" href="{{ thepost2.url | relative_url }}">
                                         <div class="thumb-slide-img">
-                                            <img src="{{ thepost2.thumbnailfront }}" class="item-image grid__item-img" alt="" style="background-color:#FFFFFF;">
+                                            <img src="{{ thepost2.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost2.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
                                         </div>
                                         <!--<a class="slide-link" data-type="page-transition" href="{{ thepost2.url | relative_url }}"></a>-->
                                         </a>

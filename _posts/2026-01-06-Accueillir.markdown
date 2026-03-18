@@ -1,11 +1,22 @@
 ---
 layout: post
 title:  "Accueillir"
+seo_title: "Accueillir – Rénovation complète d'une maison rémoise 120 m² | FAIRE Architecte"
+description: "Rénovation complète d'une maison rémoise de 120 m² par FAIRE Architecte : restauration des parquets et carreaux de ciment, isolation, mise aux normes, nouveau projet d'habitation."
 categories:
 - Renovations
+breadcrumbs:
+  - name: "Accueil"
+    url: "/"
+  - name: "Portfolio"
+    url: "/portfolio/"
+  - name: "Rénovations"
+    url: "/portfolio/renovations/"
 date:   2026-01-06 12:19:21 +0100
 thumbnailback: "/assets/images/projects/accueillir/04 SALON APRES.jpg"
+thumbnailback-alt: ""
 thumbnailfront: "/assets/images/projects/accueillir/04 SALON CROQUISVcarre.jpg"
+thumbnailfront-alt: "Croquis de conception du salon – projet Accueillir, rénovation Reims, FAIRE Architecte"
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
 detail2a: "Mission"
@@ -20,91 +31,86 @@ detail6a: ""
 detail6b: ""
 nextprojecttitle: "Ancrer"
 nextprojectpermalink: "/portfolio/construction/Ancrer"
-description1: "Cette maison typique rémoise a été abîmée dans son usage par ses anciens propriétaires. Que se soit les sols, les murs ou les plafonds, tout a été recouvert par des matériaux bas de gamme."
-description2: "L’enjeu est de redonner ses lettres de noblesse à cette demeure en retrouvant au maximum les matériaux d’origine (parquet, carreaux de ciment...) Tout en lui offrant un nouvel usage d’habitation mêlant tous le confort traditionnel avec un enjeu énergétique non négligeable. Isolation, système de chauffage, électricité, plomberie, tout est repensé et mis aux normes pour cette nouvelle vie."
+description1: "Transformée en bureaux au fil du temps, cette maison typiquement rémoise avait perdu son caractère originel, dissimulé sous des matériaux bas de gamme appliqués du sol au plafond.<br><br><strong>Révéler pour mieux restaurer</strong><br><br>L'enjeu principal de la rénovation est de redonner à cette demeure son identité première. Là où cela est possible, les matériaux d'origine sont mis à nu et valorisés : parquet, carreaux de ciment, moulures - autant d'éléments qui témoignent du caractère architectural de la maison."
+description2: "<strong>Un confort contemporain, une âme préservée</strong><br><br>Le projet réaffirme la vocation d'habitation du lieu en conjuguant respect du bâti existant et exigences contemporaines. L'ensemble des systèmes techniques — isolation, chauffage, électricité, plomberie - a été intégralement repensé et mis aux normes, offrant à cette maison une nouvelle vie, fidèle à son identité et adaptée aux usages d’aujourd’hui.<br>Elle offre aujourd’hui trois chambres et une salle d’eau à chaque étage pour satisfaire l’intimité de ses occupants."
 
-type1: img
 img1: "/assets/images/projects/accueillir/04 SALON AVANT.png"
+altimg1: "État initial du salon-entrée avant rénovation – projet Accueillir, Reims"
 captionimg1: "AVANT - Entrée de la maison"
-text1: ""
-type2: img
+
 img2: "/assets/images/projects/accueillir/04 SALON CROQUIS.jpg"
+altimg2: "Croquis de conception du salon – projet Accueillir, FAIRE Architecte"
 captionimg2: "CROQUIS DE CONCEPTION - SALON"
-text2: ""
-type3: img
+
 img3: "/assets/images/projects/accueillir/04 SALON APRES.jpg"
+altimg3: "Salon et salle à manger rénovés, parquet restauré – projet Accueillir, Reims"
 captionimg3: "APRES - Entrée de la maison salon salle à manger"
-text3: ""
 
-type4: img
 img4: "/assets/images/projects/accueillir/01 SDB AVANT.jpg"
+altimg4: "Salle de bains avant rénovation – projet Accueillir, maison rémoise"
 captionimg4: "AVANT - Salle de bains"
-text4: ""
-type5: img
+
 img5: "/assets/images/projects/accueillir/01 SDB CROQUIS.jpg"
+altimg5: "Croquis de conception de la salle de bains – projet Accueillir, FAIRE Architecte"
 captionimg5: "CROQUIS DE CONCEPTION - Salle de bains"
-text5: ""
-type6: img
+
 img6: "/assets/images/projects/accueillir/01 SDB APRES.jpg"
+altimg6: "Salle de bains rénovée avec matériaux d'origine restitués – projet Accueillir, Reims"
 captionimg6: "APRES - Salle de bains"
-text6: ""
 
-type7: img
 img7: "/assets/images/projects/accueillir/02 CHAMBRE ROUGE AVANT.jpeg"
+altimg7: "Chambre avant rénovation, revêtements dégradés – projet Accueillir, Reims"
 captionimg7: "AVANT - Chambre rouge"
-text7: ""
-type8: img
+
 img8: ""
+altimg8: ""
 captionimg8: ""
-text8: "Je mets du texte aussi ici"
-type9: img
+
 img9: "/assets/images/projects/accueillir/02 CHAMBRE ROUGE APRES.jpg"
+altimg9: "Chambre rénovée – projet Accueillir, maison rémoise, FAIRE Architecte"
 captionimg9: "APRES - Chambre rouge"
-text9: ""
 
-type10: img
 img10: "/assets/images/projects/accueillir/03 SDD AVANT.jpeg"
+altimg10: "Salle de douche avant travaux – projet Accueillir, Reims"
 captionimg10: "AVANT - Salle de douche"
-text10: ""
-type11: img
+
 img11: ""
+altimg11: ""
 captionimg11: ""
-text11: "Et du texte là"
-type12: img
+
 img12: "/assets/images/projects/accueillir/03 SDD APRES.jpg"
+altimg12: "Salle de douche rénovée – projet Accueillir, FAIRE Architecte"
 captionimg12: "APRES - Salle de douche"
-text12: ""
 
-type13: img
 img13: ""
-captionimg13: "Lorem ipsum"
-text13: "Et aussi ici"
-type14: img
-img14: "/assets/images/projects/accueillir/04 SALON CUISINE CHANTIER.jpg"
-captionimg14: "EN CHANTIER - Salon Cuisine"
-text14: ""
-type15: img
-img15: "/assets/images/projects/accueillir/04 SALON CUISINE APRES.jpg"
-captionimg15: "APRES - Salon Cuisine"
-text15: ""
+altimg13: ""
+captionimg13: ""
 
-type16: img
+img14: "/assets/images/projects/accueillir/04 SALON CUISINE CHANTIER.jpg"
+altimg14: "Salon-cuisine en cours de chantier – projet Accueillir, Reims"
+captionimg14: "EN CHANTIER - Salon Cuisine"
+
+img15: "/assets/images/projects/accueillir/04 SALON CUISINE APRES.jpg"
+altimg15: "Salon-cuisine après rénovation complète – projet Accueillir, FAIRE Architecte"
+captionimg15: "APRES - Salon Cuisine"
+
 img16: ""
+altimg16: ""
 captionimg16: ""
-text16: "Et je crois que c'est le dernier texte que je mets"
-type17: img
+
 img17: "/assets/images/projects/accueillir/05 CHAMBRE MARRON TRAVAUX.jpg"
+altimg17: "Chambre en cours de travaux – projet Accueillir, maison rémoise"
 captionimg17: "EN CHANTIER - Chambre marron"
-text17: ""
-type18: img
+
 img18: "/assets/images/projects/accueillir/05 CHAMBRE MARRON APRES.jpg"
-text18: "APRES - Chambre marron"
+altimg18: "Chambre rénovée – projet Accueillir, FAIRE Architecte Reims"
+captionimg18: "APRES - Chambre marron"
 ---
 <div id="main-page-content">
     <!-- Row -->
     <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;" data-bgcolor="#0c0c0c">
         <h2>Description</h2>
-        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 25px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
             <hr><hr>
@@ -116,44 +122,32 @@ text18: "APRES - Chambre marron"
         <div class="zoom-gallery2">
             <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
                 <li class="zoom-center">
-                    {% if page.type1 == "img" %}
+                    {% if page.img1 and page.img1 != "" and page.img1 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img1 }}" class="image-link">
-                                <img src="{{ page.img1 }}">
+                                <img src="{{ page.img1 }}" alt="{{ page.altimg1  | default: page.captionimg1 }}">
                             </a>
                             <figcaption>{{ page.captionimg1 }}</figcaption>
                         </div>
-                        {% elsif page.type1 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text1 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type2 == "img" %}
+                    {% if page.img2 and page.img2 != "" and page.img2 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img2 }}" class="image-link">
-                                <img src="{{ page.img2 }}">
+                                <img src="{{ page.img2 }}" alt="{{ page.altimg2  | default: page.captionimg2 }}">
                             </a>
                             <figcaption>{{ page.captionimg2 }}</figcaption>
                         </div>
-                        {% elsif page.type2 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text2 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type3 == "img" %}
+                    {% if page.img3 and page.img3 != "" and page.img3 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img3 }}" class="image-link">
-                                <img src="{{ page.img3 }}">
+                                <img src="{{ page.img3 }}" alt="{{ page.altimg3  | default: page.captionimg3 }}">
                             </a>
                             <figcaption>{{ page.captionimg3 }}</figcaption>
-                        </div>
-                        {% elsif page.type3 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text3 }}</p>
                         </div>
                     {% endif %}
                 </li>
@@ -167,45 +161,33 @@ text18: "APRES - Chambre marron"
         <div class="zoom-gallery2">
             <ul class="zoom-wrapper-gallery" data-heightratio="0.6" style="align-items: center; padding-top:25px;">
                 <li class="zoom-center">
-                    {% if page.type4 == "img" %}
+                    {% if page.img4 and page.img4 != "" and page.img4 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img4 }}" class="image-link">
-                                <img src="{{ page.img4 }}">
+                                <img src="{{ page.img4 }}" alt="{{ page.altimg4  | default: page.captionimg4 }}">
                             </a>
                             <figcaption>{{ page.captionimg4 }}</figcaption>
                         </div>
-                        {% elsif page.type4 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text4 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type5 == "img" %}
+                    {% if page.img5 and page.img5 != "" and page.img5 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img5 }}" class="image-link">
-                                <img src="{{ page.img5 }}">
+                                <img src="{{ page.img5 }}"  alt="{{ page.altimg5  | default: page.captionimg5 }}">
                             </a>
                             <figcaption>{{ page.captionimg5 }}</figcaption>
                         </div>
-                        {% elsif page.type5 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text5 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type6 == "img" %}
+                    {% if page.img6 and page.img6 != "" and page.img6 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img6 }}" class="image-link">
-                                <img src="{{ page.img6 }}">
+                                <img src="{{ page.img6 }}"  alt="{{ page.altimg6  | default: page.captionimg6 }}">
                             </a>
                             <figcaption>{{ page.captionimg6 }}</figcaption>
                         </div>
-                        {% elsif page.type6 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text6 }}</p>
-                        </div>
                     {% endif %}
                 </li>
             </ul>
@@ -218,45 +200,33 @@ text18: "APRES - Chambre marron"
         <div class="zoom-gallery2">
             <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
                 <li class="zoom-center">
-                    {% if page.type7 == "img" %}
+                    {% if page.img7 and page.img7 != "" and page.img7 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img7 }}" class="image-link">
-                                <img src="{{ page.img7 }}">
+                                <img src="{{ page.img7 }}"  alt="{{ page.altimg7  | default: page.captionimg7 }}">
                             </a>
                             <figcaption>{{ page.captionimg7 }}</figcaption>
                         </div>
-                        {% elsif page.type7 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text7 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type8 == "img" %}
+                    {% if page.img8 and page.img8 != "" and page.img8 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img8 }}" class="image-link">
-                                <img src="{{ page.img8 }}">
+                                <img src="{{ page.img8 }}" alt="{{ page.altimg8  | default: page.captionimg8 }}">
                             </a>
                             <figcaption>{{ page.captionimg8 }}</figcaption>
                         </div>
-                        {% elsif page.type8 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text8 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type9 == "img" %}
+                    {% if page.img9 and page.img9 != "" and page.img9 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img9 }}" class="image-link">
-                                <img src="{{ page.img9 }}">
+                                <img src="{{ page.img9 }}" alt="{{ page.altimg9  | default: page.captionimg9 }}">
                             </a>
                             <figcaption>{{ page.captionimg9 }}</figcaption>
                         </div>
-                        {% elsif page.type9 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text9 }}</p>
-                        </div>
                     {% endif %}
                 </li>
             </ul>
@@ -269,45 +239,33 @@ text18: "APRES - Chambre marron"
         <div class="zoom-gallery2">
             <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
                 <li class="zoom-center">
-                    {% if page.type10 == "img" %}
+                    {% if page.img10 and page.img10 != "" and page.img10 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img10 }}" class="image-link">
-                                <img src="{{ page.img10 }}">
+                                <img src="{{ page.img10 }}" alt="{{ page.altimg10  | default: page.captionimg10 }}">
                             </a>
                             <figcaption>{{ page.captionimg10 }}</figcaption>
                         </div>
-                        {% elsif page.type10 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text10 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type11 == "img" %}
+                    {% if page.img11 and page.img11 != "" and page.img11 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img11 }}" class="image-link">
-                                <img src="{{ page.img11 }}">
+                                <img src="{{ page.img11 }}" alt="{{ page.altimg11  | default: page.captionimg11 }}">
                             </a>
                             <figcaption>{{ page.captionimg11 }}</figcaption>
                         </div>
-                        {% elsif page.type11 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text11 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type12 == "img" %}
+                    {% if page.img12 and page.img12 != "" and page.img12 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img12 }}" class="image-link">
-                                <img src="{{ page.img12 }}">
+                                <img src="{{ page.img12 }}" alt="{{ page.altimg12  | default: page.captionimg12 }}">
                             </a>
                             <figcaption>{{ page.captionimg12 }}</figcaption>
                         </div>
-                        {% elsif page.type12 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text12 }}</p>
-                        </div>
                     {% endif %}
                 </li>
             </ul>
@@ -320,44 +278,32 @@ text18: "APRES - Chambre marron"
         <div class="zoom-gallery2">
             <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
                 <li class="zoom-center">
-                    {% if page.type13 == "img" %}
+                    {% if page.img13 and page.img13 != "" and page.img13 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img13 }}" class="image-link">
-                                <img src="{{ page.img13 }}">
+                                <img src="{{ page.img13 }}" alt="{{ page.altimg13  | default: page.captionimg13 }}">
                             </a>
                             <figcaption>{{ page.captionimg13 }}</figcaption>
                         </div>
-                        {% elsif page.type13 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text13 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type14 == "img" %}
+                    {% if page.img14 and page.img14 != "" and page.img14 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img14 }}" class="image-link">
-                                <img src="{{ page.img14 }}">
+                                <img src="{{ page.img14 }}" alt="{{ page.altimg14  | default: page.captionimg14 }}">
                             </a>
                             <figcaption>{{ page.captionimg14 }}</figcaption>
                         </div>
-                        {% elsif page.type14 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text14 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type15 == "img" %}
+                    {% if page.img15 and page.img15 != "" and page.img15 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img15 }}" class="image-link">
-                                <img src="{{ page.img15 }}">
+                                <img src="{{ page.img15 }}" alt="{{ page.altimg15  | default: page.captionimg15 }}">
                             </a>
                             <figcaption>{{ page.captionimg15 }}</figcaption>
-                        </div>
-                        {% elsif page.type15 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text15 }}</p>
                         </div>
                     {% endif %}
                 </li>
@@ -371,44 +317,32 @@ text18: "APRES - Chambre marron"
         <div class="zoom-gallery2">
             <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
                 <li class="zoom-center">
-                    {% if page.type16 == "img" %}
+                    {% if page.img16 and page.img16 != "" and page.img16 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img16 }}" class="image-link">
-                                <img src="{{ page.img16 }}">
+                                <img src="{{ page.img16 }}" alt="{{ page.altimg16  | default: page.captionimg16 }}">
                             </a>
                             <figcaption>{{ page.captionimg16 }}</figcaption>
                         </div>
-                        {% elsif page.type16 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text16 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type17 == "img" %}
+                    {% if page.img17 and page.img17 != "" and page.img17 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img17}}" class="image-link">
-                                <img src="{{ page.img17 }}">
+                                <img src="{{ page.img17 }}" alt="{{ page.altimg17  | default: page.captionimg17 }}">
                             </a>
                             <figcaption>{{ page.captionimg17 }}</figcaption>
                         </div>
-                        {% elsif page.type17 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text17 }}</p>
-                        </div>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
-                    {% if page.type18 == "img" %}
+                    {% if page.img18 and page.img18 != "" and page.img18 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img18 }}" class="image-link">
-                                <img src="{{ page.img18 }}">
+                                <img src="{{ page.img18 }}" alt="{{ page.altimg18  | default: page.captionimg18 }}">
                             </a>
                             <figcaption>{{ page.captionimg18 }}</figcaption>
-                        </div>
-                        {% elsif page.type18 == "text" %}
-                        <div class="zoom-img-wrapper" style="background-color:transparent;">
-                            <p>{{ page.text18 }}</p>
                         </div>
                     {% endif %}
                 </li>

@@ -2,6 +2,11 @@
 layout: page
 title: Politique de confidentialité
 permalink: /politique-de-confidentialite/
+seo_title: "Politique de confidentialité | FAIRE Architecte"
+description: "Politique de confidentialité de FAIRE Architecte : informations sur la collecte, l'utilisation et la protection de vos données personnelles sur le site fairearchitecte"
+breadcrumbs:
+  - name: "Accueil"
+    url: "/"
 ---
 <!-- Main Content -->
 <div id="main-content">

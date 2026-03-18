@@ -27,8 +27,22 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: "faire-architecte.com"
 url: "faire-architecte.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+logo: "/assets/images/FAIRE LOGO 01-26 MAJ mot plain.svg"
+author:
+  name: "Floriane Jean"
+social:
+  name: "FAIRE Architecte"
+  links:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/floriane-jean-8289a667/"
+    - name: "Instagram"
+      url: "https://www.instagram.com/faire_architecte/"
+    - name: "Facebook"
+      url: "https://www.facebook.com/profile.php?id=61580655621227"
+    - name: "Email"
+      url: "mailto:contact@faire-architecte.com"
+google_site_verification: "your_google_site_verification_code_here"
+locales: "fr-FR"
 
 # Build settings
 theme: minima

@@ -1,11 +1,22 @@
 ---
 layout: post
 title:  "Façonner"
+seo_title: "Façonner – Croquis et conception d'extension sur existant | FAIRE Architecte"
+description: "Le dessin comme outil de conception chez FAIRE Architecte. Croquis d'extension sur existant : perspectives, axonométries et recherches formelles pour passer de l'intention au projet."
 categories:
-- Extensions
+- Meubles
+breadcrumbs:
+  - name: "Accueil"
+    url: "/"
+  - name: "Portfolio"
+    url: "/portfolio/"
+  - name: "Meubles"
+    url: "/portfolio/meubles/"
 date:   2025-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 04.jpg"
-thumbnailfront: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 01Vcarre.jpg"
+thumbnailback: "/assets/images/projects/faconner/03_ Aménagement salon Bibliothèque.jpg"
+thumbnailback-alt: ""
+thumbnailfront: "/assets/images/projects/faconner/04_CROQUIS MEUBLE02Vcarrea.jpg"
+thumbnailfront-alt: ""
 detail1a: "Mission "
 detail1b: "Esquisse"
 detail2a: ""
@@ -23,54 +34,51 @@ nextprojectpermalink: "/portfolio/rénovation/Accueillir"
 description1: "Que cela soit pour la définition des espaces ou des meubles, le dessin est l’outil essentiel de FAIRE ARCHITECTE. Imaginer, expérimenter, concevoir, la main permet de passer du rêve à l’intention et de l’intention à la réalité."
 description2: "Par un geste simple, la conception s’affine du global au détail, tout en questionnant les matières, les couleurs et la lumière.. Il devient langage sensible qui permet d’imaginer autrement et de concevoir avec justesse."
 
-type1: img
-img1: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 05.jpg"
-captionimg1: "CROQUIS de recherche sur habitation existante"
-text1: ""
-type2: img
-img2: "/assets/images/projects/faconner/2_CROQUIS EXTENSION SUR EXISTANT 03.jpg"
-captionimg2: "PERSPECTIVE ET AXONOMÉTRIE projectuelle"
-text2: ""
+img1: "/assets/images/projects/faconner/04_CROQUIS MEUBLE.jpg"
+altimg1: ""
+captionimg1: ""
 
-type3: img
-img3: ""
-captionimg3: ""
-text3: ""
-type4: img
-img4: ""
-captionimg4: ""
-text4: ""
-type5: img
-img5: ""
-captionimg5: ""
-text5: ""
-type6: img
-img6: ""
-captionimg6: ""
-text6: ""
+img2: "/assets/images/projects/faconner/04_CROQUIS MEUBLE01.jpg"
+altimg2: ""
+captionimg2: ""
 
-type7: img
-img7: ""
-captionimg7: ""
-text7: ""
-type8: img
-img8: ""
-captionimg8: ""
-text8: ""
-type9: text
+img3: "/assets/images/projects/faconner/04_CROQUIS MEUBLE02.jpg"
+altimg3: ""
+captionimg3: "Un meuble qui sépare les espaces salon et bureau sans les diviser "
+
+img4: "/assets/images/projects/faconner/04_CROQUIS MEUBLE03.jpg"
+altimg4: ""
+captionimg4: "D’un coté le meuble TV et de l’autre une bibliothèque rangement pour le bureau"
+
+img5: "/assets/images/projects/faconner/04_CROQUIS MEUBLE04.jpg"
+altimg5: ""
+captionimg5: "Une cloison accordéon permettant de fermer ou ouvrir la cuisine sur la salle à manger"
+
+img6: "/assets/images/projects/faconner/03_ Aménagement salon Bibliothèque.jpg"
+altimg6: ""
+captionimg6: "Un meuble tv banquette pour le salon pour accueillir un maximum de convives"
+
+img7: "/assets/images/projects/faconner/03_ Aménagement cuisine salon.jpg"
+altimg7: ""
+captionimg7: "Une cuisine en « L » permettant l’intégration de l’espace repas"
+
+img8: "/assets/images/projects/faconner/03_ Aménagement CHAMBRE bureau.jpg"
+altimg8: ""
+captionimg8: "Optimisation de l’espace pour offrir un espace bureau et un dressing"
+
 img9: ""
+altimg9: ""
 captionimg9: ""
-text9: ""
-type10: img
+
 img10: ""
+altimg11: ""
 captionimg10: ""
-text10: ""
 ---
 <div id="main-page-content">   
      <!-- Row -->
     <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
         <h2>Description</h2>
-        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 25px;">
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
             <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
             <hr><hr>
@@ -80,22 +88,22 @@ text10: ""
     <!-- Row -->
     <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
         <div class="">
-        {% if page.type1 == "img" %}
+        {% if page.img1 and page.img1 != "" and page.img1 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img1 }}" class="image-link"><img src="{{ page.img1 }}" alt="{{ page.captionimg1 }}"></a>
+                <a href="{{ page.img1 }}" class="image-link">
+                    <img src="{{ page.img1 }}" alt="{{ page.altimg1  | default: page.captionimg1 }}">
+                </a>
                 <figcaption>{{ page.captionimg1 }}</figcaption>
             </figure>
-        {% elsif page.type1 == "text" %}
-            <p>{{ page.text1 }}</p>
         {% endif %}
             <hr><br><br>
-        {% if page.type2 == "img" %}
+        {% if page.img2 and page.img2 != "" and page.img2 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img2 }}" class="image-link"><img src="{{ page.img2 }}" alt="{{ page.captionimg2 }}"></a>
+                <a href="{{ page.img2 }}" class="image-link">
+                    <img src="{{ page.img2 }}" alt="{{ page.altimg2  | default: page.captionimg2 }}">
+                </a>
                 <figcaption>{{ page.captionimg2 }}</figcaption>
             </figure>
-        {% elsif page.type2 == "text" %}
-            <p>{{ page.text2 }}</p>
         {% endif %}
         </div>                   
     </div> 
@@ -103,41 +111,41 @@ text10: ""
     <!-- Row -->
     <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
         <div class="one_half">
-            {% if page.type3 == "img" %}
+            {% if page.img3 and page.img3 != "" and page.img3 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img3 }}" class="image-link"><img src="{{ page.img3 }}" alt="{{ page.captionimg3 }}"></a>
+                <a href="{{ page.img3 }}" class="image-link">
+                    <img src="{{ page.img3 }}" alt="{{ page.altimg3  | default: page.captionimg3 }}">
+                </a>
                 <figcaption>{{ page.captionimg3 }}</figcaption>
             </figure>
-            {% elsif page.type3 == "text" %}
-                <p>{{ page.text3 }}</p>
             {% endif %}
             <hr><br><br>
-            {% if page.type4 == "img" %}
+            {% if page.img4 and page.img4 != "" and page.img4 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img4 }}" class="image-link"><img src="{{ page.img4 }}" alt="{{ page.captionimg4 }}"></a>
+                <a href="{{ page.img4 }}" class="image-link">
+                    <img src="{{ page.img4 }}" alt="{{ page.altimg4  | default: page.captionimg4 }}">
+                </a>
                 <figcaption>{{ page.captionimg4 }}</figcaption>
             </figure>
-            {% elsif page.type4 == "text" %}
-                <p>{{ page.text4 }}</p>
             {% endif %}
         </div>   
         <div class="one_half last">
-            {% if page.type5 == "img" %}                                              
+            {% if page.img5 and page.img5 != "" and page.img5 != nil %}                                             
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img5 }}" class="image-link"><img src="{{ page.img5 }}" alt="{{ page.captionimg5 }}"></a>
+                <a href="{{ page.img5 }}" class="image-link">
+                    <img src="{{ page.img5 }}" alt="{{ page.altimg5 | default: page.captionimg5 }}">
+                </a>
                 <figcaption>{{ page.captionimg5 }}</figcaption>
             </figure>
-            {% elsif page.type5 == "text" %}
-                <p>{{ page.text5 }}</p>
             {% endif %}
             <hr><br><br>
-            {% if page.type6 == "img" %}
+            {% if page.img6 and page.img6 != "" and page.img6 != nil %}
             <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img6 }}" class="image-link"><img src="{{ page.img6 }}" alt="{{ page.captionimg6 }}"></a>
+                <a href="{{ page.img6 }}" class="image-link">
+                    <img src="{{ page.img6 }}" alt="{{ page.altimg6  | default: page.captionimg6 }}">
+                </a>
                 <figcaption>{{ page.captionimg6 }}</figcaption>
             </figure>
-            {% elsif page.type6 == "text" %}
-                <p>{{ page.text6 }}</p>
             {% endif %}                                           
         </div>                               
     </div> 
