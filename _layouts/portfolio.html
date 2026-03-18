@@ -74,7 +74,7 @@ layout: base
                         <div class="clapat-item photo-filter">
                             <div class="slide-inner trigger-item" data-centerline="OPEN">                                                    
                                 <div class="img-mask pixels-cover-disabled">
-                                    <a class="slide-link" href="{{ post.url | relative_url }}"></a>
+                                    <a class="slide-link" href="{{ post.url | relative_url }}" aria-label="{{ post.thumbnailfront-alt | default: post.title }}"></a>
                                     <div class="section-image trigger-item-link">
                                         <img src="{{ post.thumbnailback }}" class="item-image grid__item-img" alt="">
                                     </div>                                                
@@ -105,9 +105,15 @@ layout: base
                                     }
                                 </style>
                                 <div class="slide-caption trigger-item-link-secondary">
-                                    <div class="slide-title secondary-font" style="color:#FFFFFF;"><span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.title | escape }}</span></div>                                                    
-                                    <div class="slide-date" style="background-color: rgba(0, 0, 0, 0.3);"><span>{{ post.date | date: date_format }}</span></div>
-                                    <div class="slide-cat secondary-font" style="color:#FFFFFF;"><span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.categories }}</span></div>                                             
+                                    <div class="slide-title secondary-font" style="color:#FFFFFF;">
+                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.title | escape }}</span>
+                                    </div>                                                    
+                                    <div class="slide-date" style="background-color: rgba(0, 0, 0, 0.3);">
+                                        <span>{{ post.date | date: date_format }}</span>
+                                    </div>
+                                    <div class="slide-cat secondary-font" style="color:#FFFFFF;">
+                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.categories }}</span>
+                                    </div>                                             
                                 </div>
                             </div>
                         </div>
