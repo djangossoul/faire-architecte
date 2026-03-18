@@ -29,8 +29,6 @@ detail5a: ""
 detail5b: ""
 detail6a: ""
 detail6b: "" 
-nextprojecttitle: "Accueillir"
-nextprojectpermalink: "/portfolio/rénovation/Accueillir"
 description1: "Que cela soit pour la définition des espaces ou des meubles, le dessin est l’outil essentiel de FAIRE ARCHITECTE. Imaginer, expérimenter, concevoir, la main permet de passer du rêve à l’intention et de l’intention à la réalité."
 description2: "Par un geste simple, la conception s’affine du global au détail, tout en questionnant les matières, les couleurs et la lumière.. Il devient langage sensible qui permet d’imaginer autrement et de concevoir avec justesse."
 

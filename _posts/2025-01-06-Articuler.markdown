@@ -29,8 +29,6 @@ detail5a: ""
 detail5b: ""
 detail6a: ""
 detail6b: "" 
-nextprojecttitle: "Accueillir"
-nextprojectpermalink: "/portfolio/rénovation/Accueillir"
 description1: "Implanté au sein d'un lotissement des années 90, ce projet s'inscrit dans une logique constructive commune à l'ensemble du quartier. La mission confiée : créer une chambre supplémentaire et un atelier, tout en repensant l'organisation intérieure existante.<br><br><strong>Une implantation pensée pour créer de l'intimité</strong><br><br>Les deux extensions sont positionnées de manière à générer un patio privatif, ménagé entre la maison, les nouveaux volumes et la limite parcellaire. Ce dispositif préserve une transparence visuelle entre la rue et le jardin, sans sacrifier l'intimité des habitants — ni l'arbre remarquable déjà présent sur le terrain."
 description2: "<br><br><strong>Une intégration par la matière et la couleur</strong><br><br>Plutôt que de s'opposer à la palette existante du lotissement, le projet choisit de s'y inscrire par une réinterprétation contemporaine. Les extensions adoptent un principe mono-matériau en façade comme en toiture, avec un bardage métallique teinté rouge tuile. Les menuiseries, renouvelées sur l'existant et neuves sur les extensions, sont laquées dans la même teinte pour assurer une unité formelle.<br><br><strong>Un intérieur entièrement repensé</strong><br><br>L'aménagement intérieur est intégralement revu pour offrir un espace de vie ouvert sur le jardin, deux chambres enfants bien isolées, et une chambre parentale tournée vers le jardin et le patio — préservant une totale intimité vis-à-vis de la rue."
 

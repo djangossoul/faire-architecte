@@ -29,8 +29,6 @@ detail5a: "Maîtrise d'oeuvre"
 detail5b: "Collaboration <a class='link' style='color:#FFFFFF' href='https://cadetarchitecte.com/' target='_blank'>ACA</a>"
 detail6a: ""
 detail6b: ""
-nextprojecttitle: "Ancrer"
-nextprojectpermalink: "/portfolio/construction/Ancrer"
 description1: "Transformée en bureaux au fil du temps, cette maison typiquement rémoise avait perdu son caractère originel, dissimulé sous des matériaux bas de gamme appliqués du sol au plafond.<br><br><strong>Révéler pour mieux restaurer</strong><br><br>L'enjeu principal de la rénovation est de redonner à cette demeure son identité première. Là où cela est possible, les matériaux d'origine sont mis à nu et valorisés : parquet, carreaux de ciment, moulures - autant d'éléments qui témoignent du caractère architectural de la maison."
 description2: "<strong>Un confort contemporain, une âme préservée</strong><br><br>Le projet réaffirme la vocation d'habitation du lieu en conjuguant respect du bâti existant et exigences contemporaines. L'ensemble des systèmes techniques — isolation, chauffage, électricité, plomberie - a été intégralement repensé et mis aux normes, offrant à cette maison une nouvelle vie, fidèle à son identité et adaptée aux usages d’aujourd’hui.<br>Elle offre aujourd’hui trois chambres et une salle d’eau à chaque étage pour satisfaire l’intimité de ses occupants."
 
