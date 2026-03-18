@@ -14,9 +14,9 @@ breadcrumbs:
     url: "/portfolio/meubles/"
 date:   2025-01-06 12:19:21 +0100
 thumbnailback: "/assets/images/projects/faconner/03_ Aménagement salon Bibliothèque.jpg"
-thumbnailback-alt: ""
+thumbnailback-alt: "Voir le projet Façonner – Conception de meubles à Reims, FAIRE Architecte"
 thumbnailfront: "/assets/images/projects/faconner/04_CROQUIS MEUBLE02Vcarrea.jpg"
-thumbnailfront-alt: ""
+thumbnailfront-alt: "Voir le projet Façonner – Conception de meubles à Reims, FAIRE Architecte"
 detail1a: "Mission "
 detail1b: "Esquisse"
 detail2a: ""

@@ -14,9 +14,9 @@ breadcrumbs:
     url: "/portfolio/renovations/"
 date:   2026-01-06 12:19:21 +0100
 thumbnailback: "/assets/images/projects/accueillir/04 SALON APRES.jpg"
-thumbnailback-alt: ""
+thumbnailback-alt: "Voir le projet Accueillir – rénovation maison rémoise, FAIRE Architecte"
 thumbnailfront: "/assets/images/projects/accueillir/04 SALON CROQUISVcarre.jpg"
-thumbnailfront-alt: "Croquis de conception du salon – projet Accueillir, rénovation Reims, FAIRE Architecte"
+thumbnailfront-alt: "Voir le projet Accueillir – rénovation maison rémoise, FAIRE Architecte"
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
 detail2a: "Mission"

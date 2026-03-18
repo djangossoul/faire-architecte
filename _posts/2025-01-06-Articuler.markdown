@@ -14,9 +14,9 @@ breadcrumbs:
     url: "/portfolio/extensions/"
 date:   2025-01-06 12:19:21 +0100
 thumbnailback: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 04.jpg"
-thumbnailback-alt: ""
+thumbnailback-alt: "Voir le projet Articuler – Extensions à Reims, FAIRE Architecte"
 thumbnailfront: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 01Vcarre.jpg"
-thumbnailfront-alt: "Croquis d'extension sur habitation existante – projet Façonner, FAIRE Architecte"
+thumbnailfront-alt: "Voir le projet Articuler – Extensions à Reims, FAIRE Architecte"
 detail1a: "Mission "
 detail1b: "Esquisse"
 detail2a: ""

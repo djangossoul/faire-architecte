@@ -141,7 +141,9 @@ breadcrumbs:
                                 <i class="fa fa-map-marker fa-2x" aria-hidden="true" style="color:#FFFFFF;"></i>
                             </div>
                             <div class="box-icon-content">
-                                <h6 class="no-margins"><a href="https://maps.app.goo.gl/s1jPQaeyLTY29m8x9" target="_blank">18, rue du Dr Lemoine, 51100 Reims</a></h6>
+                                <p class="no-margins" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                    <a href="https://maps.app.goo.gl/s1jPQaeyLTY29m8x9" target="_blank">18, rue du Dr Lemoine, 51100 Reims</a>
+                                </p>
                                 <!--<p>Adresse</p>-->
                             </div>
                         </div>
@@ -156,7 +158,9 @@ breadcrumbs:
                                 <i class="fa fa-phone fa-2x" aria-hidden="true" style="color:#FFFFFF;"></i>
                             </div>
                             <div class="box-icon-content">
-                                <h6 class="no-margins"><a href="tel:+33680042486">06 80 04 24 86</a></h6>
+                                <p class="no-margins" itemprop="telephone" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                    <a href="tel:+33680042486">06 80 04 24 86</a>
+                                </p>
                                 <!--<p>Téléphone</p>-->
                             </div>
                         </div>

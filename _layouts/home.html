@@ -56,12 +56,20 @@ layout: base
         </div>
         <div id="hero-interaction" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
             <div class="hero-column col-left" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
-                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/accueillir/04 SALON APRES.jpg" alt="Salon rénové après travaux – projet Accueillir, maison rémoise, FAIRE Architecte"></div>
-                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/faconner/04_CROQUIS MEUBLE02.jpg" alt="Croquis de conception de meuble sur mesure – FAIRE Architecte"></div>
+                <div class="col-img-wrapper small-img">
+                    <img src="/assets/images/projects/accueillir/04 SALON APRES.jpg" alt="Salon rénové après travaux – projet Accueillir, maison rémoise, FAIRE Architecte">
+                </div>
+                <div class="col-img-wrapper large-img">
+                    <img src="/assets/images/projects/faconner/04_CROQUIS MEUBLE02.jpg" alt="Croquis de conception de meuble sur mesure – FAIRE Architecte">
+                </div>
             </div>
             <div class="hero-column col-right" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
-                <div class="col-img-wrapper large-img"><img src="/assets/images/projects/accueillir/01 SDB CROQUIS.jpg" alt="Croquis de salle de bains – projet Accueillir, rénovation Reims, FAIRE Architecte"></div>
-                <div class="col-img-wrapper small-img"><img src="/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg" alt="Maquette de conception vue de dessus – projet Ancrer, maison neuve, FAIRE Architecte"></div>
+                <div class="col-img-wrapper large-img">
+                    <img src="/assets/images/projects/accueillir/01 SDB CROQUIS.jpg" alt="Croquis de salle de bains – projet Accueillir, rénovation Reims, FAIRE Architecte">
+                </div>
+                <div class="col-img-wrapper small-img">
+                    <img src="/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg" alt="Maquette de conception vue de dessus – projet Ancrer, maison neuve, FAIRE Architecte">
+                </div>
             </div>
         </div>
     </div>
@@ -319,10 +327,9 @@ layout: base
                                 {% if thepost %}
                                     <div class="thumb-slide" data-centerline="OPEN">
                                         <a class="slide-link" href="{{ thepost.url | relative_url }}">
-                                        <div class="thumb-slide-img">
-                                            <img src="{{ thepost.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
-                                        </div>
-                                        <!--<a class="slide-link" data-type="page-transition" href="{{ thepost.url | relative_url }}"></a>-->
+                                            <div class="thumb-slide-img">
+                                                <img src="{{ thepost.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
+                                            </div>
                                         </a>
                                     </div>
                                 {% endif %}
@@ -330,10 +337,9 @@ layout: base
                                 {% if thepost2 %}
                                     <div class="thumb-slide" data-centerline="OPEN">
                                         <a class="slide-link" href="{{ thepost2.url | relative_url }}">
-                                        <div class="thumb-slide-img">
-                                            <img src="{{ thepost2.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost2.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
-                                        </div>
-                                        <!--<a class="slide-link" data-type="page-transition" href="{{ thepost2.url | relative_url }}"></a>-->
+                                            <div class="thumb-slide-img">
+                                                <img src="{{ thepost2.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost2.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
+                                            </div>
                                         </a>
                                     </div>
                                 {% endif %}
@@ -460,7 +466,9 @@ layout: base
                                 <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                             </div>
                             <div class="box-icon-content">
-                                <h6 class="no-margins"><a href="https://maps.app.goo.gl/s1jPQaeyLTY29m8x9" target="_blank">18, rue du Dr Lemoine, 51100 Reims</a></h6>
+                                <p class="no-margins" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                    <a href="https://maps.app.goo.gl/s1jPQaeyLTY29m8x9" target="_blank">18, rue du Dr Lemoine, 51100 Reims</a>
+                                </p>
                                 <!--<p>Adresse</p>-->
                             </div>
                         </div>
@@ -475,7 +483,9 @@ layout: base
                                 <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                             </div>
                             <div class="box-icon-content">
-                                <h6 class="no-margins" itemprop="telephone"><a href="tel:+33680042486">06 80 04 24 86</a></h6>
+                                <p class="no-margins" itemprop="telephone" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                    <a href="tel:+33680042486">06 80 04 24 86</a>
+                                </p>
                                 <!--<p>Téléphone</p>-->
                             </div>
                         </div>
