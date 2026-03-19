@@ -6,12 +6,12 @@ Assigned to:	 G P
 Primary use:	Showcase Portfolio 
 -------------------------------------------------------------------*/
 
-@import url("content.css");
+/*@import url("content.css");
 @import url("showcase.css");
 @import url("portfolio.css");
 @import url("shortcodes.css");
 @import url("assets.css");
-
+*/
 
 /*------------------------------------------------------------------
 
@@ -27,7 +27,7 @@ Primary use:	Showcase Portfolio
 
 @font-face {
     font-family: 'WalkwayBold';
-    src: url('../fonts/WalkwayBold.ttf') format('truetype');
+    src: url('../fonts/WalkwayBold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -35,7 +35,7 @@ Primary use:	Showcase Portfolio
 
 @font-face {
     font-family: 'WalkwayUltraBold';
-    src: url('../fonts/WalkwayUltraBold.ttf') format('truetype');
+    src: url('../fonts/WalkwayUltraBold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -43,7 +43,7 @@ Primary use:	Showcase Portfolio
 
 @font-face {
     font-family: 'Univers';
-    src: url('../fonts/UniversRegular.ttf') format('truetype');
+    src: url('../fonts/UniversRegular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -51,7 +51,7 @@ Primary use:	Showcase Portfolio
 
 @font-face {
     font-family: 'LEMONMILK-Regular';
-    src: url('../fonts/LEMONMILKRegular.otf') format('truetype');
+    src: url('../fonts/LEMONMILKRegular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -916,7 +916,7 @@ Primary use:	Showcase Portfolio
 		top:0;
 		left:0;
 		background-color:#0f1010;
-		background-image:url(./images/rotate.png);
+		background-image:url(../images/rotate.png);
 		background-size:100px 100px;
 		background-position:center;
 		background-repeat:no-repeat;

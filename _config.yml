@@ -43,6 +43,7 @@ social:
       url: "mailto:contact@faire-architecte.com"
 google_site_verification: "your_google_site_verification_code_here"
 locales: "fr-FR"
+lang: "fr-FR"
 
 # Build settings
 theme: minima
