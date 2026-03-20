@@ -75,16 +75,40 @@ layout: base
                     {%- assign date_format = site.minima.date_format | default: "%Y" -%}
                     {% assign page_categories = page.categories | first %}
                     {%- for post in site.posts -%}
+                        {% assign url = post.url %}
+                        {% assign title = post.title %}
+                        {% assign thumbnailback = post.thumbnailback %}
+                        {% assign thumbnailbackalt = post.thumbnailback-alt %}
+                        {% assign thumbnailfront = post.thumbnailfront %}
+                        {% assign thumbnailfrontalt = post.thumbnailfront-alt %}
                         <div class="clapat-item photo-filter">
                             <div class="slide-inner trigger-item" data-centerline="OPEN">                                                    
                                 <div class="img-mask pixels-cover-disabled">
-                                    <a class="slide-link" href="{{ post.url | relative_url }}" aria-label="{{ post.thumbnailfront-alt | default: post.title }}"></a>
+                                    <a class="slide-link" href="{{ url | relative_url }}" aria-label="{{ thumbnailfront-alt | default: title }}"></a>
                                     <div class="section-image trigger-item-link">
-                                        <img src="{{ post.thumbnailback }}" class="item-image grid__item-img" alt="">
+                                        <!--<img src="{{ thumbnailback }}" class="item-image grid__item-img" alt="">-->
+                                        {% include img.html
+                                            path=thumbnailback
+                                            alt=thumbnailbackalt
+                                            class="item-image grid__item-img"
+                                            style=""
+                                            loading="eager" %}
                                     </div>                                                
-                                    <img src="{{ post.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="">
+                                    <!-- <img src="{{ thumbnailback }}" class="grid__item-img grid__item-img--large" alt=""> -->
+                                    {% include img.html
+                                        path=thumbnailback
+                                        alt=thumbnailbackalt
+                                        class="grid__item-img grid__item-img--large"
+                                        style=""
+                                        loading="eager" %}
                                     <div class="section-thumb">
-                                        <img src="{{ post.thumbnailfront }}" alt="">
+                                        <img src="{{ thumbnailfront }}" alt="">
+                                        {% include img.html
+                                            path=thumbnailfront
+                                            alt=thumbnailfrontalt
+                                            class=""
+                                            style=""
+                                            loading="eager" %}
                                     </div>                              
                                 </div>
                                 <style>

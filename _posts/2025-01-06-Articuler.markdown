@@ -13,9 +13,9 @@ breadcrumbs:
   - name: "Extensions"
     url: "/portfolio/extensions/"
 date:   2025-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 04.jpg"
+thumbnailback: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.jpg"
 thumbnailback-alt: "Voir le projet Articuler – Extensions à Reims, FAIRE Architecte"
-thumbnailfront: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 01Vcarre.jpg"
+thumbnailfront: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01Vcarre.jpg"
 thumbnailfront-alt: "Voir le projet Articuler – Extensions à Reims, FAIRE Architecte"
 detail1a: "Mission "
 detail1b: "Esquisse"
@@ -32,31 +32,31 @@ detail6b: ""
 description1: "Implanté au sein d'un lotissement des années 90, ce projet s'inscrit dans une logique constructive commune à l'ensemble du quartier. La mission confiée : créer une chambre supplémentaire et un atelier, tout en repensant l'organisation intérieure existante.<br><br><strong>Une implantation pensée pour créer de l'intimité</strong><br><br>Les deux extensions sont positionnées de manière à générer un patio privatif, ménagé entre la maison, les nouveaux volumes et la limite parcellaire. Ce dispositif préserve une transparence visuelle entre la rue et le jardin, sans sacrifier l'intimité des habitants — ni l'arbre remarquable déjà présent sur le terrain."
 description2: "<br><br><strong>Une intégration par la matière et la couleur</strong><br><br>Plutôt que de s'opposer à la palette existante du lotissement, le projet choisit de s'y inscrire par une réinterprétation contemporaine. Les extensions adoptent un principe mono-matériau en façade comme en toiture, avec un bardage métallique teinté rouge tuile. Les menuiseries, renouvelées sur l'existant et neuves sur les extensions, sont laquées dans la même teinte pour assurer une unité formelle.<br><br><strong>Un intérieur entièrement repensé</strong><br><br>L'aménagement intérieur est intégralement revu pour offrir un espace de vie ouvert sur le jardin, deux chambres enfants bien isolées, et une chambre parentale tournée vers le jardin et le patio — préservant une totale intimité vis-à-vis de la rue."
 
-img1: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 05.jpg"
+img1: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_05.jpg"
 altimg1: ""
 captionimg1: "Croquis de recherche d’extension sur existant"
 
-img2: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 01.jpg"
+img2: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01.jpg"
 altimg2: ""
 captionimg2: "Travail de mise en situation des extensions"
 
-img3: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 02.jpg"
+img3: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_02.jpg"
 altimg3: ""
 captionimg3: "Mise en couleur rapide dans l’esprit désiré du projet"
 
-img4: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 03.jpg"
+img4: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_03.jpg"
 altimg4: ""
 captionimg4: "Travail de façade rapport entre existant et crée"
 
-img5: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 04.jpg"
+img5: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.jpg"
 altimg5: ""
 captionimg5: "Vue de dessus de l’ensemble du projet "
 
-img6: "/assets/images/projects/articuler/2_CROQUIS EXTENSION SUR EXISTANT 06.jpg"
+img6: ""
 altimg6: ""
 captionimg6: "Insertion, mise en situation avec la matérialité"
 
-img7: "/assets/images/projects/articuler/2_PLAN EXTENSION SUR EXISTANT 06 - copie.jpg"
+img7: "/assets/images/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.jpg"
 altimg7: ""
 captionimg7: "Plan représentant l’existant en gris hachuré et le projet en rouge"
 

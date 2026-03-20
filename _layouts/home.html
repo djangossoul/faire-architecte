@@ -25,7 +25,7 @@ layout: base
                     <div class="hero-title caption-timeline" data-infotextbefore=""
                         data-infotextafter="">
                         <div>
-                            <span><img class="black-logo" src="/assets/images/FAIRE LOGO 01-26 MAJ mot plain.svg" alt="FAIRE Architecte – Architecte HMONP à Reims" style="max-width: 50vw;"></span>
+                            <span><img class="black-logo" src="/assets/images/FAIRE_LOGO_01-26_MAJ_mot_plain.svg" alt="FAIRE Architecte – Architecte HMONP à Reims" fetchpriority=high style="max-width: 50vw;"></span>
                             <!--<span>FAIRE</span>-->
                         </div>
                     </div>
@@ -33,7 +33,13 @@ layout: base
                         <!--<div><span>Rénovation, </span></div>
                         <div class="secondary-font"><span>creative web solutions</span></div>-->
                         <div>
-                            <img class="" src="/assets/images/FAIRE LOGO 2026 baseline.webp" alt="FAIRE Architecte – FAbrique d'Intentions REvées, architecte HMONP à Reims" style="max-width: 80vw;">
+                            <!--<img class="" src="/assets/images/FAIRE_LOGO_2026_baseline.webp" alt="FAIRE Architecte – FAbrique d'Intentions REvées, architecte HMONP à Reims" style="max-width: 80vw;">-->
+                            {% include img.html
+                                path="/assets/images/FAIRE_LOGO_2026_baseline.webp"
+                                alt="FAIRE Architecte – FAbrique d'Intentions REvées, architecte HMONP à Reims"
+                                class=""
+                                style="max-width: 80vw;"
+                                loading="" %}
                         </div>
                     </div>
                 </div>
@@ -60,18 +66,42 @@ layout: base
         <div id="hero-interaction" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
             <div class="hero-column col-left" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
                 <div class="col-img-wrapper small-img">
-                    <img src="/assets/images/projects/accueillir/04 SALON APRES.jpg" alt="Salon rénové après travaux – projet Accueillir, maison rémoise, FAIRE Architecte">
+                    <!--<img src="/assets/images/projects/accueillir/04_SALON_APRES.jpg" alt="Salon rénové après travaux – projet Accueillir, maison rémoise, FAIRE Architecte">-->
+                    {% include img.html
+                        path="/assets/images/projects/accueillir/04_SALON_APRES.jpg"
+                        alt="Salon rénové après travaux – projet Accueillir, maison rémoise, FAIRE Architecte"
+                        class=""
+                        style=""
+                        loading="eager" %}
                 </div>
                 <div class="col-img-wrapper large-img">
-                    <img src="/assets/images/projects/faconner/04_CROQUIS MEUBLE02.jpg" alt="Croquis de conception de meuble sur mesure – FAIRE Architecte">
+                    <!--<img src="/assets/images/projects/faconner/04_CROQUIS_MEUBLE02.jpg" alt="Croquis de conception de meuble sur mesure – FAIRE Architecte">-->
+                    {% include img.html
+                        path="/assets/images/projects/faconner/04_CROQUIS_MEUBLE02.jpg"
+                        alt="Croquis de conception de meuble sur mesure – FAIRE Architecte"
+                        class=""
+                        style=""
+                        loading="eager" %}
                 </div>
             </div>
             <div class="hero-column col-right" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
                 <div class="col-img-wrapper large-img">
-                    <img src="/assets/images/projects/accueillir/01 SDB CROQUIS.jpg" alt="Croquis de salle de bains – projet Accueillir, rénovation Reims, FAIRE Architecte">
+                    <!--<img src="/assets/images/projects/accueillir/01 SDB CROQUIS.jpg" alt="Croquis de salle de bains – projet Accueillir, rénovation Reims, FAIRE Architecte">-->
+                    {% include img.html
+                        path="/assets/images/projects/accueillir/01_SDB_CROQUIS.jpg"
+                        alt="Croquis de salle de bains – projet Accueillir, rénovation Reims, FAIRE Architecte"
+                        class=""
+                        style=""
+                        loading="eager" %}
                 </div>
                 <div class="col-img-wrapper small-img">
-                    <img src="/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg" alt="Maquette de conception vue de dessus – projet Ancrer, maison neuve, FAIRE Architecte">
+                    <!--<img src="/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.jpg" alt="Maquette de conception vue de dessus – projet Ancrer, maison neuve, FAIRE Architecte">-->
+                    {% include img.html
+                        path="/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.jpg"
+                        alt="Maquette de conception vue de dessus – projet Ancrer, maison neuve, FAIRE Architecte"
+                        class=""
+                        style=""
+                        loading="eager" %}
                 </div>
             </div>
         </div>
@@ -265,13 +295,16 @@ layout: base
                     <div class="one_fourth2 last2 vertical-parallax" data-startparallax="0" data-endparallax="0">
                         <div class="landing-video-disabled content-timeline-disabled">
                             <div class="content-video-wrapper-disabled">
-                                <!--<video loop="" muted="" playsinline="" class="bgvid">
-                                    <source src="/assets/images/intro.mp4" type="video/mp4">
-                                </video>-->
-                                <img src="/assets/images/Floriane Jean_Janvier 2026_P1037013.jpg" class="item-image grid__item-img" alt="Floriane Jean, architecte HMONP, fondatrice de FAIRE Architecte à Reims" style="border-radius:5px;">
+                                <!--<img src="/assets/images/Floriane_Jean_Janvier_2026_P1037013.jpg" class="item-image grid__item-img" alt="Floriane Jean, architecte HMONP, fondatrice de FAIRE Architecte à Reims" style="border-radius:5px;">
+                            -->
+                                {% include img.html
+                                    path="/assets/images/Floriane_Jean_Janvier_2026_P1037013.jpg"
+                                    alt="Floriane Jean, architecte HMONP, fondatrice de FAIRE Architecte à Reims"
+                                    class="item-image grid__item-img"
+                                    style="border-radius:5px;"
+                                    loading="eager" %}
                             </div>
                         </div>
-                        <!---->
                     </div>
                 </div>
                 <div class="one_fourth3 row_padding_right row_padding_left" style="padding-bottom:40px; background: #D4DEEA;">
@@ -303,25 +336,59 @@ layout: base
                         <div class="snap-slider-images">
                             <div class="snap-slider-images-wrapper">
                                 {% assign thepost = site.posts | where:"title","Façonner" | first %}
-                                {% assign thepost2 = site.posts | where:"title","Accueillir" | first %}
+                                {% assign thumbnailback1 = thepost.thumbnailback %}
+                                {% assign thumbnailback1alt = thepost.thumbnailback-alt %}
+                                {% assign thumbnailfront1 = thepost.thumbnailfront %}
+                                {% assign thumbnailfront1alt = thepost.thumbnailfront-alt %}
+                                
                                 {% if thepost %}
                                     <div class="snap-slide trigger-item change-header-color">
                                         <div class="img-mask">
                                             <div class="section-image trigger-item-link">
-                                                <img src="{{ thepost.thumbnailback }}" class="item-image grid__item-img" alt="">
+                                                <!--<img src="{{ thepost.thumbnailback }}" class="item-image grid__item-img" alt="{{ thepost.thumbnailback-alt }}">-->
+                                                {% include img.html
+                                                    path=thumbnailback1
+                                                    alt=thumbnailback1alt
+                                                    class="item-image grid__item-img"
+                                                    style=""
+                                                    loading="eager" %}
                                             </div>
-                                            <img src="{{ thepost.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="">
+                                            <!--<img src="{{ thepost.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="{{ thepost.thumbnailback-alt }}">-->
+                                            {% include img.html
+                                                path=thumbnailback1
+                                                alt=thumbnailback1alt
+                                                class="grid__item-img grid__item-img--large"
+                                                style=""
+                                                loading="eager" %}
                                         </div>
                                     </div>
                                 {% endif %}
+
+                                {% assign thepost2 = site.posts | where:"title","Accueillir" | first %}
+                                {% assign thumbnailback2 = thepost2.thumbnailback %}
+                                {% assign thumbnailback2alt = thepost2.thumbnailback-alt %}
+                                {% assign thumbnailfront2 = thepost2.thumbnailfront %}
+                                {% assign thumbnailfront2alt = thepost2.thumbnailfront-alt %}
                                 
                                 {% if thepost2 %}
                                     <div class="snap-slide trigger-item change-header-color">
                                         <div class="img-mask">
                                             <div class="section-image trigger-item-link">
-                                                <img src="{{ thepost2.thumbnailback }}" class="item-image grid__item-img" alt="">
+                                                <!--<img src="{{ thepost2.thumbnailback }}" class="item-image grid__item-img" alt="{{ thepost2.thumbnailback-alt }}">-->
+                                                {% include img.html
+                                                    path=thumbnailback2
+                                                    alt=thumbnailback2alt
+                                                    class="item-image grid__item-img"
+                                                    style=""
+                                                    loading="eager" %}
                                             </div>
-                                            <img src="{{ thepost2.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="">
+                                            <!--<img src="{{ thepost2.thumbnailback }}" class="grid__item-img grid__item-img--large" alt="{{ thepost2.thumbnailback-alt }}">-->
+                                            {% include img.html
+                                                path=thumbnailback2
+                                                alt=thumbnailback2alt
+                                                class="grid__item-img grid__item-img--large"
+                                                style=""
+                                                loading="eager" %}
                                         </div>
                                     </div>
                                 {% endif %}
@@ -334,7 +401,13 @@ layout: base
                                     <div class="thumb-slide" data-centerline="OPEN">
                                         <a class="slide-link" href="{{ thepost.url | relative_url }}">
                                             <div class="thumb-slide-img">
-                                                <img src="{{ thepost.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
+                                                <!--<img src="{{ thepost.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost.thumbnailfront-alt }}" style="background-color:#FFFFFF;">-->
+                                                {% include img.html
+                                                    path=thumbnailfront1
+                                                    alt=thumbnailfront1alt
+                                                    class="item-image grid__item-img"
+                                                    style="background-color:#FFFFFF;"
+                                                    loading="eager" %}
                                             </div>
                                         </a>
                                     </div>
@@ -344,7 +417,13 @@ layout: base
                                     <div class="thumb-slide" data-centerline="OPEN">
                                         <a class="slide-link" href="{{ thepost2.url | relative_url }}">
                                             <div class="thumb-slide-img">
-                                                <img src="{{ thepost2.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost2.thumbnailfront-alt | escape }}" style="background-color:#FFFFFF;">
+                                                <!--<img src="{{ thepost2.thumbnailfront }}" class="item-image grid__item-img" alt="{{ thepost2.thumbnailfront-alt }}" style="background-color:#FFFFFF;">-->
+                                                {% include img.html
+                                                    path=thumbnailfront2
+                                                    alt=thumbnailfront2alt
+                                                    class="item-image grid__item-img"
+                                                    style="background-color:#FFFFFF;"
+                                                    loading="eager" %}
                                             </div>
                                         </a>
                                     </div>

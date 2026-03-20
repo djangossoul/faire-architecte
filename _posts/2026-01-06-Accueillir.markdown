@@ -13,9 +13,9 @@ breadcrumbs:
   - name: "Rénovations"
     url: "/portfolio/renovations/"
 date:   2026-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/accueillir/04 SALON APRES.jpg"
+thumbnailback: "/assets/images/projects/accueillir/04_SALON_APRES.jpg"
 thumbnailback-alt: "Voir le projet Accueillir – rénovation maison rémoise, FAIRE Architecte"
-thumbnailfront: "/assets/images/projects/accueillir/04 SALON CROQUISVcarre.jpg"
+thumbnailfront: "/assets/images/projects/accueillir/04_SALON_CROQUISVcarre.jpg"
 thumbnailfront-alt: "Voir le projet Accueillir – rénovation maison rémoise, FAIRE Architecte"
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
@@ -32,31 +32,31 @@ detail6b: ""
 description1: "Transformée en bureaux au fil du temps, cette maison typiquement rémoise avait perdu son caractère originel, dissimulé sous des matériaux bas de gamme appliqués du sol au plafond.<br><br><strong>Révéler pour mieux restaurer</strong><br><br>L'enjeu principal de la rénovation est de redonner à cette demeure son identité première. Là où cela est possible, les matériaux d'origine sont mis à nu et valorisés : parquet, carreaux de ciment, moulures - autant d'éléments qui témoignent du caractère architectural de la maison."
 description2: "<strong>Un confort contemporain, une âme préservée</strong><br><br>Le projet réaffirme la vocation d'habitation du lieu en conjuguant respect du bâti existant et exigences contemporaines. L'ensemble des systèmes techniques — isolation, chauffage, électricité, plomberie - a été intégralement repensé et mis aux normes, offrant à cette maison une nouvelle vie, fidèle à son identité et adaptée aux usages d’aujourd’hui.<br>Elle offre aujourd’hui trois chambres et une salle d’eau à chaque étage pour satisfaire l’intimité de ses occupants."
 
-img1: "/assets/images/projects/accueillir/04 SALON AVANT.png"
+img1: "/assets/images/projects/accueillir/04_SALON_AVANT.png"
 altimg1: "État initial du salon-entrée avant rénovation – projet Accueillir, Reims"
 captionimg1: "AVANT - Entrée de la maison"
 
-img2: "/assets/images/projects/accueillir/04 SALON CROQUIS.jpg"
+img2: "/assets/images/projects/accueillir/04_SALON_CROQUIS.jpg"
 altimg2: "Croquis de conception du salon – projet Accueillir, FAIRE Architecte"
 captionimg2: "CROQUIS DE CONCEPTION - SALON"
 
-img3: "/assets/images/projects/accueillir/04 SALON APRES.jpg"
+img3: "/assets/images/projects/accueillir/04_SALON_APRES.jpg"
 altimg3: "Salon et salle à manger rénovés, parquet restauré – projet Accueillir, Reims"
 captionimg3: "APRES - Entrée de la maison salon salle à manger"
 
-img4: "/assets/images/projects/accueillir/01 SDB AVANT.jpg"
+img4: "/assets/images/projects/accueillir/01_SDB_AVANT.jpg"
 altimg4: "Salle de bains avant rénovation – projet Accueillir, maison rémoise"
 captionimg4: "AVANT - Salle de bains"
 
-img5: "/assets/images/projects/accueillir/01 SDB CROQUIS.jpg"
+img5: "/assets/images/projects/accueillir/01_SDB_CROQUIS.jpg"
 altimg5: "Croquis de conception de la salle de bains – projet Accueillir, FAIRE Architecte"
 captionimg5: "CROQUIS DE CONCEPTION - Salle de bains"
 
-img6: "/assets/images/projects/accueillir/01 SDB APRES.jpg"
+img6: "/assets/images/projects/accueillir/01_SDB_APRES.jpg"
 altimg6: "Salle de bains rénovée avec matériaux d'origine restitués – projet Accueillir, Reims"
 captionimg6: "APRES - Salle de bains"
 
-img7: "/assets/images/projects/accueillir/02 CHAMBRE ROUGE AVANT.jpeg"
+img7: "/assets/images/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.jpeg"
 altimg7: "Chambre avant rénovation, revêtements dégradés – projet Accueillir, Reims"
 captionimg7: "AVANT - Chambre rouge"
 
@@ -64,11 +64,11 @@ img8: ""
 altimg8: ""
 captionimg8: ""
 
-img9: "/assets/images/projects/accueillir/02 CHAMBRE ROUGE APRES.jpg"
+img9: "/assets/images/projects/accueillir/02_CHAMBRE_ROUGE_APRES.jpg"
 altimg9: "Chambre rénovée – projet Accueillir, maison rémoise, FAIRE Architecte"
 captionimg9: "APRES - Chambre rouge"
 
-img10: "/assets/images/projects/accueillir/03 SDD AVANT.jpeg"
+img10: "/assets/images/projects/accueillir/03_SDD_AVANT.jpeg"
 altimg10: "Salle de douche avant travaux – projet Accueillir, Reims"
 captionimg10: "AVANT - Salle de douche"
 
@@ -76,7 +76,7 @@ img11: ""
 altimg11: ""
 captionimg11: ""
 
-img12: "/assets/images/projects/accueillir/03 SDD APRES.jpg"
+img12: "/assets/images/projects/accueillir/03_SDD_APRES.jpg"
 altimg12: "Salle de douche rénovée – projet Accueillir, FAIRE Architecte"
 captionimg12: "APRES - Salle de douche"
 
@@ -84,11 +84,11 @@ img13: ""
 altimg13: ""
 captionimg13: ""
 
-img14: "/assets/images/projects/accueillir/04 SALON CUISINE CHANTIER.jpg"
+img14: "/assets/images/projects/accueillir/04_SALON_CUISINE_CHANTIER.jpg"
 altimg14: "Salon-cuisine en cours de chantier – projet Accueillir, Reims"
 captionimg14: "EN CHANTIER - Salon Cuisine"
 
-img15: "/assets/images/projects/accueillir/04 SALON CUISINE APRES.jpg"
+img15: "/assets/images/projects/accueillir/04_SALON_CUISINE_APRES.jpg"
 altimg15: "Salon-cuisine après rénovation complète – projet Accueillir, FAIRE Architecte"
 captionimg15: "APRES - Salon Cuisine"
 
@@ -96,11 +96,11 @@ img16: ""
 altimg16: ""
 captionimg16: ""
 
-img17: "/assets/images/projects/accueillir/05 CHAMBRE MARRON TRAVAUX.jpg"
+img17: "/assets/images/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.jpg"
 altimg17: "Chambre en cours de travaux – projet Accueillir, maison rémoise"
 captionimg17: "EN CHANTIER - Chambre marron"
 
-img18: "/assets/images/projects/accueillir/05 CHAMBRE MARRON APRES.jpg"
+img18: "/assets/images/projects/accueillir/05_CHAMBRE_MARRON_APRES.jpg"
 altimg18: "Chambre rénovée – projet Accueillir, FAIRE Architecte Reims"
 captionimg18: "APRES - Chambre marron"
 ---

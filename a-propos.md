@@ -117,7 +117,7 @@ breadcrumbs:
                             <li>
                                 <div class="img-mask">
                                     <div class="section-image">
-                                        <img src="/assets/images/Floriane Jean_Janvier 2026_P1036859.jpg" class="item-image grid__item-img" alt="Floriane Jean, architecte HMONP à Reims, fondatrice de FAIRE Architecte">
+                                        <img src="/assets/images/Floriane_Jean_Janvier_2026_P1036859.jpg" class="item-image grid__item-img" alt="Floriane Jean, architecte HMONP à Reims, fondatrice de FAIRE Architecte">
                                     </div>
                                 </div>
                             </li>

@@ -13,9 +13,9 @@ breadcrumbs:
   - name: "Constructions"
     url: "/portfolio/constructions/"
 date:   2025-01-06 12:19:21 +0100
-thumbnailback: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg"
+thumbnailback: "/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.jpg"
 thumbnailback-alt: "Voir le projet Ancrer – Constructions neuves à Reims, FAIRE Architecte"
-thumbnailfront: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN RDCVcarre.jpg"
+thumbnailfront: "/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDCVcarre.jpg"
 thumbnailfront-alt: "Voir le projet Ancrer – Constructions neuves à Reims, FAIRE Architecte"
 detail1a: "Maître d’ouvrage"
 detail1b: "Privé"
@@ -32,19 +32,19 @@ detail6b: ""
 description1: "Pensé en dialogue avec le site, ce projet s’insère dans son environnement en limitant son impact. Elle vient épouser la pente de tout son long s’ouvrant sur le grand paysage. Cette maison se parcours tout en long avec une différence de niveaux pour chaque usage tout en laissant les espaces ouverts, et le regard filer avec un sentiment de respiration."
 description2: "La lumière naturelle étant le second point le plus important en privilégiant les espaces traversants tout en favorisant une intimité par rapport aux voisins. Les vues s’orientent vers le grand paysage et les pièces de vie largement ouverte sur le sud ouest comme la piscine."
 
-img1: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN COUPE.jpg"
+img1: "/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_COUPE.jpg"
 altimg1: "Coupe architecturale du projet Ancrer – maison neuve en pente, niveaux décalés, FAIRE Architecte"
 captionimg1: "COUPE DU PROJET _ Montrer les différences de niveaux qui s’adaptent au terrain"
 
-img2: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE COUPE.jpg"
+img2: "/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.jpg"
 altimg2: "Maquette de conception en coupe – projet Ancrer, maison neuve 187 m², FAIRE Architecte"
 captionimg2: "Maquette de conception_vue en coupe, montrer le rapport intérieur/extérieur"
 
-img3: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN RDC.jpg"
+img3: "/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDC.jpg"
 altimg3: "Plan de rez-de-chaussée – projet Ancrer, maison neuve ouverte sur le paysage, FAIRE Architecte"
 captionimg3: "PLAN REZ DE CHAUSSEE _ Montrer la fluidité des espaces et leur répartition"
 
-img4: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION PLAN R+1.jpg"
+img4: "/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_R+1.jpg"
 altimg4: "Plan demi-niveau avec bureau ouvert – projet Ancrer, construction neuve, FAIRE Architecte"
 captionimg4: "PLAN DEMI NIVEAU _ Un bureau ouvert l'espace de vie"
 
@@ -52,7 +52,7 @@ img5: ""
 altimg5: ""
 captionimg5: ""
 
-img6: "/assets/images/projects/ancrer/01_MAISON CONSTRUCTION MAQUETTE DESSUS.jpg"
+img6: "/assets/images/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.jpg"
 altimg6: "Maquette vue de dessus – projet Ancrer, implantation sur terrain en pente, FAIRE Architecte"
 captionimg6: "MAQUETTE DE CONCEPTION _ Montrer les espaces à l’échelle et leur cohérences globales"
 ---

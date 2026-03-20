@@ -24,7 +24,7 @@ Primary use:	Showcase Portfolio
 07. Responsive Media Querries
 
 -------------------------------------------------------------------*/
-
+/*
 @font-face {
     font-family: 'WalkwayBold';
     src: url('../fonts/WalkwayBold.woff2') format('woff2');
@@ -56,13 +56,14 @@ Primary use:	Showcase Portfolio
     font-style: normal;
     font-display: swap;
 }
+*/
 	
 /*--------------------------------------------------
 	01. General Settings
 ---------------------------------------------------*/
 
+	/*
 	html,body{
-		/*font-family: 'Poppins', sans-serif;*/
 		font-family: 'LEMONMILK-Regular', sans-serif;
 		font-weight: 400;
 		font-size:16px;
@@ -71,11 +72,11 @@ Primary use:	Showcase Portfolio
 		color:#777;
 		background-color:#000;
 		letter-spacing:-0.15px;
-		user-select: none; /* supported by Chrome and Opera */
-		-webkit-user-select: none; /* Safari */
-		-khtml-user-select: none; /* Konqueror HTML */
-		-moz-user-select: none; /* Firefox */
-		-ms-user-select: none; /* Internet Explorer/Edge */		
+		user-select: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none; 
+		-moz-user-select: none;
+		-ms-user-select: none;	
 	}
 	
 	html {
@@ -107,7 +108,6 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.secondary-font {
-		/*font-family:"Playfair Display", serif;*/
 		font-family: 'WalkwayBold', serif;
 		font-style: normal;
 		font-weight:400;
@@ -176,7 +176,6 @@ Primary use:	Showcase Portfolio
 	}
 	
 	em {
-		/*font-family:"Playfair Display", serif;*/
 		font-family: 'WalkwayUltraBold', serif;
 		font-style: normal;
 		font-weight:400;
@@ -208,7 +207,6 @@ Primary use:	Showcase Portfolio
 	var,
 	samp,
 	pre {
-		/*font-family: monospace, serif;*/
 		font-family: 'WalkwayUltraBold', serif;
 		font-size: 15px;
 		-webkit-hyphens: none;
@@ -441,8 +439,8 @@ Primary use:	Showcase Portfolio
 	
 	input,
 	textarea {
-		background-image: -webkit-linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,0)); /* Removing the inner shadow, rounded corners on iOS inputs */
-	}
+		background-image: -webkit-linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,0));*/ /* Removing the inner shadow, rounded corners on iOS inputs */
+	/*}
 	
 	button, html input[type="button"], input[type="reset"], input[type="submit"] {
 		cursor: pointer;
@@ -1046,13 +1044,13 @@ Primary use:	Showcase Portfolio
 	
 	.button-wrap.no-events {
 		pointer-events:none;
-	}
+	}*/
 
 /*--------------------------------------------------
 	02. Magic Cursor
 ---------------------------------------------------*/	
 	
-	
+	/*
 	#magic-cursor {
 	  position: absolute;
 	  left:0;
@@ -1449,14 +1447,14 @@ Primary use:	Showcase Portfolio
 	.light-content #ball-loader { 
 		border-bottom: 4px solid #999999;
 	}
-	
+	*/
 	/*.show-loader #ball-loader {
 		opacity:1;
 		-webkit-transition: opacity 0.2s ease-in-out 0s;
 		transition: opacity 0.2s ease-in-out 0s;
 	}*/
 	
-	@keyframes rotating {
+	/*@keyframes rotating {
       0% {
 		-webkit-transform: translate(-14px, -14px) rotate(0deg);
 		transform: translate(-14px, -14px) rotate(0deg);
@@ -1471,13 +1469,13 @@ Primary use:	Showcase Portfolio
         -webkit-transform:  translate(-14px, -14px) rotate(360deg);
 		transform:  translate(-14px, -14px) rotate(360deg);
       }
-	}
+	}*/
 	
 	/*.show-loader a, .show-loader .clapat-nav-wrapper, .scale-up a, .scale-up .hide-ball, scale-up .link, .scale-up .button-wrap, .scale-up #burger-wrapper, .scale-up .disable-drag, .scale-drag a, .scale-drag .move-title {
 		pointer-events:none!important;
 	}*/
 	
-	.disable-cursor #magic-cursor {
+	/*.disable-cursor #magic-cursor {
 		display:none;
 	}
 	
@@ -1516,14 +1514,14 @@ Primary use:	Showcase Portfolio
 	
 	#ball.color-cursor p, #ball.color-cursor i , #ball.color-cursor #ball-drag-x::before, #ball.color-cursor #ball-drag-x::after {
 		color:currentColor!important;
-	}
+	}*/
 	
 	
 /*--------------------------------------------------
 	03. Page Preloader
 ---------------------------------------------------*/	
 	
-	.disable-ajaxload .preloader-wrap {
+	/*.disable-ajaxload .preloader-wrap {
 		display:none;
 	}
 	
@@ -1701,12 +1699,12 @@ Primary use:	Showcase Portfolio
 		font-size: 30px;
 		line-height: 50px;
 	}
-	
+	*/
 /*--------------------------------------------------
 	04. Header Elements
 ---------------------------------------------------*/	
 	
-		
+	/*	
 	.clapat-header {
 		width:100%;
 		height:120px;
@@ -1776,8 +1774,8 @@ Primary use:	Showcase Portfolio
 	}
 	
 	#clapat-page-content:not(.no-css-animation) #clapat-logo img {
-		/*-webkit-transition: opacity 0.15s ease-in-out 0s;
-		transition: opacity 0.15s ease-in-out 0s;*/
+		*//*-webkit-transition: opacity 0.15s ease-in-out 0s;
+		transition: opacity 0.15s ease-in-out 0s;*//*
 	}
 	
 	#clapat-logo img.black-logo {
@@ -1850,7 +1848,7 @@ Primary use:	Showcase Portfolio
 	.light-content-header #clapat-logo img.white-logo {
 		opacity:1!important;		
 	}
-	
+	*/
 	/*@media all and (min-width: 1025px) {
 		
 		.light-content .classic-menu .flexnav li a.shape-ball {
@@ -2197,10 +2195,10 @@ Primary use:	Showcase Portfolio
 			display:none;
 		}
 				
-		
+		*/
 		/*-- Full Screen Menu --*/	
 		
-		.fullscreen-menu .clapat-nav-wrapper {
+		/*.fullscreen-menu .clapat-nav-wrapper {
 			height: 100vh;
 			position: fixed;
 			top:0;
@@ -2379,7 +2377,7 @@ Primary use:	Showcase Portfolio
 			
 		}
 	
-	}*/
+	}
 
 	.clapat-nav-wrapper, .clapat-nav-wrapper.open {
 		background:transparent;
@@ -2699,7 +2697,7 @@ Primary use:	Showcase Portfolio
 	.button-icon-link:hover .button-text span {
 		filter: invert(1);
 	}
-	
+	*/
 	
 /*--------------------------------------------------
 	05. Main Content

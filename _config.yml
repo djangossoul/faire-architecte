@@ -50,6 +50,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-minifier
 
 show_excerpts: true
 
@@ -84,5 +85,7 @@ nav_pages:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+include:
+  - node_modules
 
 permalink: /portfolio/:categories/:title

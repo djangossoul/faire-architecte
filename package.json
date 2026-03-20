@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  },
+  "name": "faire-architecte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "detect-libc": "^2.1.2",
+    "glob": "^13.0.6",
+    "semver": "^7.7.4"
+  },
+  "scripts": {
+    "build:images": "node scripts/images.js",
+    "build:js": "esbuild assets/js/main.js --bundle --minify --outfile=assets/js/main.min.js",
+    "build": "npm run build:images && npm run build:js && bundle exec jekyll build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

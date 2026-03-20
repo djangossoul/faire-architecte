@@ -3,30 +3,63 @@ jQuery(function ($) {
 	$(document).ready(function() {
 		
 		"use strict";
+
+		// Disable all cursor/loader animations when the elements have been removed from the DOM.
+		// This prevents GSAP warnings like "target not found" without requiring the elements.
+		(function() {
+			const originalGsapTo = gsap.to;
+			gsap.to = function(target, vars, ...rest) {
+				if (typeof target === 'string' && (target.startsWith('#ball') || target.startsWith('#ball-loader'))) {
+					const selector = target.split(' ')[0];
+					if (!document.querySelector(selector)) {
+						return null;
+					}
+				}
+				return originalGsapTo.call(this, target, vars, ...rest);
+			};
+		})();
 		
-		PageLoad();		
-		if (typeof window.ScrollEffects === 'function') {
-			ScrollEffects();
-		}		
-		Sliders();	 
-		FirstLoad(); 
-		PageLoadActions();
-		ShowcasePortfolio();
-		ShowcaseHighlights();
-		ShowcaseGallery();
-		ShowcaseSnapSlider();
-		FitThumbScreenWEBGL();
-		Shortcodes();		
-		Core();
-		MouseCursor();
-		JustifiedGrid();
-		Lightbox();
-		ContactForm();	
-		PlayVideo();
-		ContactMap();
-		CustomFunction();
-		ShuffleElementsFunction();
-		InitShuffleElements();
+		// Wait for all functions to be defined before calling them (prevents load order issues)
+		(function waitForAllFunctions() {
+			const functionsToWaitFor = [
+				'PageLoad', 'ScrollEffects', 'FirstLoad', 'PageLoadActions', 'ShowcasePortfolio',
+				'ShowcaseHighlights', 'ShowcaseGallery', 'ShowcaseSnapSlider', 'FitThumbScreenWEBGL',
+				'Shortcodes', 'Core', 'MouseCursor', 'JustifiedGrid', 'Lightbox', 'ContactForm',
+				'PlayVideo', 'ContactMap', 'CustomFunction', 'ShuffleElementsFunction', 'InitShuffleElements'
+			];
+			
+			const allDefined = functionsToWaitFor.every(funcName => {
+				if (funcName === 'ScrollEffects' || funcName === 'Sliders') {
+					return typeof window[funcName] === 'function';
+				}
+				return typeof window[funcName] === 'function' || typeof eval(funcName) === 'function';
+			});
+			
+			if (allDefined) {
+				PageLoad();
+				ScrollEffects();
+				FirstLoad();
+				PageLoadActions();
+				ShowcasePortfolio();
+				ShowcaseHighlights();
+				ShowcaseGallery();
+				ShowcaseSnapSlider();
+				FitThumbScreenWEBGL();
+				Shortcodes();
+				Core();
+				MouseCursor();
+				JustifiedGrid();
+				Lightbox();
+				ContactForm();
+				PlayVideo();
+				ContactMap();
+				CustomFunction();
+				ShuffleElementsFunction();
+				InitShuffleElements();
+			} else {
+				setTimeout(waitForAllFunctions, 20);
+			}
+		})();
 	});
 	
 	
