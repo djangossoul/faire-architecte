@@ -123,7 +123,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img1 and page.img1 != "" and page.img1 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img1 }}" class="image-link">
-                                <img src="{{ page.img1 }}" alt="{{ page.altimg1  | default: page.captionimg1 }}">
+                                <!--<img src="{{ page.img1 }}" alt="{{ page.altimg1  | default: page.captionimg1 }}">-->
+                                {% assign img1 = page.img1 %}
+                                {% assign img1alt = page.altimg1 %}
+                                {% include img.html
+                                    path=img1
+                                    alt=img1alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg1 }}</figcaption>
                         </div>
@@ -133,7 +141,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img2 and page.img2 != "" and page.img2 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img2 }}" class="image-link">
-                                <img src="{{ page.img2 }}" alt="{{ page.altimg2  | default: page.captionimg2 }}">
+                                <!--<img src="{{ page.img2 }}" alt="{{ page.altimg2  | default: page.captionimg2 }}">-->
+                                {% assign img2 = page.img2 %}
+                                {% assign img2alt = page.altimg2 %}
+                                {% include img.html
+                                    path=img2
+                                    alt=img2alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg2 }}</figcaption>
                         </div>
@@ -143,7 +159,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img3 and page.img3 != "" and page.img3 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img3 }}" class="image-link">
-                                <img src="{{ page.img3 }}" alt="{{ page.altimg3  | default: page.captionimg3 }}">
+                                <!--<img src="{{ page.img3 }}" alt="{{ page.altimg3  | default: page.captionimg3 }}">-->
+                                {% assign img3 = page.img3 %}
+                                {% assign img31alt = page.altimg3 %}
+                                {% include img.html
+                                    path=img3
+                                    alt=img3alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg3 }}</figcaption>
                         </div>
@@ -162,7 +186,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img4 and page.img4 != "" and page.img4 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img4 }}" class="image-link">
-                                <img src="{{ page.img4 }}" alt="{{ page.altimg4  | default: page.captionimg4 }}">
+                                <!--<img src="{{ page.img4 }}" alt="{{ page.altimg4  | default: page.captionimg4 }}">-->
+                                {% assign img4 = page.img4 %}
+                                {% assign img4alt = page.altimg4 %}
+                                {% include img.html
+                                    path=img4
+                                    alt=img4alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg4 }}</figcaption>
                         </div>
@@ -172,7 +204,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img5 and page.img5 != "" and page.img5 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img5 }}" class="image-link">
-                                <img src="{{ page.img5 }}"  alt="{{ page.altimg5  | default: page.captionimg5 }}">
+                                <!--<img src="{{ page.img5 }}"  alt="{{ page.altimg5  | default: page.captionimg5 }}">-->
+                                {% assign img5 = page.img5 %}
+                                {% assign img5alt = page.altimg5 %}
+                                {% include img.html
+                                    path=img5
+                                    alt=img5alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg5 }}</figcaption>
                         </div>
@@ -182,7 +222,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img6 and page.img6 != "" and page.img6 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img6 }}" class="image-link">
-                                <img src="{{ page.img6 }}"  alt="{{ page.altimg6  | default: page.captionimg6 }}">
+                                <!--<img src="{{ page.img6 }}"  alt="{{ page.altimg6  | default: page.captionimg6 }}">-->
+                                {% assign img6 = page.img6 %}
+                                {% assign img6alt = page.altimg6 %}
+                                {% include img.html
+                                    path=img6
+                                    alt=img6alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg6 }}</figcaption>
                         </div>
@@ -201,7 +249,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img7 and page.img7 != "" and page.img7 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img7 }}" class="image-link">
-                                <img src="{{ page.img7 }}"  alt="{{ page.altimg7  | default: page.captionimg7 }}">
+                                <!--<img src="{{ page.img7 }}"  alt="{{ page.altimg7  | default: page.captionimg7 }}">-->
+                                {% assign img7 = page.img7 %}
+                                {% assign img7alt = page.altimg7 %}
+                                {% include img.html
+                                    path=img7
+                                    alt=img7alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg7 }}</figcaption>
                         </div>
@@ -211,7 +267,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img8 and page.img8 != "" and page.img8 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img8 }}" class="image-link">
-                                <img src="{{ page.img8 }}" alt="{{ page.altimg8  | default: page.captionimg8 }}">
+                                <!--<img src="{{ page.img8 }}" alt="{{ page.altimg8  | default: page.captionimg8 }}">-->
+                                {% assign img8 = page.img8 %}
+                                {% assign img8alt = page.altimg8 %}
+                                {% include img.html
+                                    path=img8
+                                    alt=img8alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg8 }}</figcaption>
                         </div>
@@ -221,7 +285,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img9 and page.img9 != "" and page.img9 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img9 }}" class="image-link">
-                                <img src="{{ page.img9 }}" alt="{{ page.altimg9  | default: page.captionimg9 }}">
+                                <!--<img src="{{ page.img9 }}" alt="{{ page.altimg9  | default: page.captionimg9 }}">-->
+                                {% assign img9 = page.img9 %}
+                                {% assign img9alt = page.altimg9 %}
+                                {% include img.html
+                                    path=img9
+                                    alt=img9alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg9 }}</figcaption>
                         </div>
@@ -240,7 +312,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img10 and page.img10 != "" and page.img10 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img10 }}" class="image-link">
-                                <img src="{{ page.img10 }}" alt="{{ page.altimg10  | default: page.captionimg10 }}">
+                                <!--<img src="{{ page.img10 }}" alt="{{ page.altimg10  | default: page.captionimg10 }}">-->
+                                {% assign img10 = page.img10 %}
+                                {% assign img10alt = page.altimg10 %}
+                                {% include img.html
+                                    path=img10
+                                    alt=img10alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg10 }}</figcaption>
                         </div>
@@ -250,7 +330,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img11 and page.img11 != "" and page.img11 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img11 }}" class="image-link">
-                                <img src="{{ page.img11 }}" alt="{{ page.altimg11  | default: page.captionimg11 }}">
+                                <!--<img src="{{ page.img11 }}" alt="{{ page.altimg11  | default: page.captionimg11 }}">-->
+                                {% assign img11 = page.img11 %}
+                                {% assign img11alt = page.altimg11 %}
+                                {% include img.html
+                                    path=img11
+                                    alt=img11alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg11 }}</figcaption>
                         </div>
@@ -260,7 +348,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img12 and page.img12 != "" and page.img12 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img12 }}" class="image-link">
-                                <img src="{{ page.img12 }}" alt="{{ page.altimg12  | default: page.captionimg12 }}">
+                                <!--<img src="{{ page.img12 }}" alt="{{ page.altimg12  | default: page.captionimg12 }}">-->
+                                {% assign img12 = page.img12 %}
+                                {% assign img12alt = page.altimg12 %}
+                                {% include img.html
+                                    path=img12
+                                    alt=img12alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg12 }}</figcaption>
                         </div>
@@ -279,7 +375,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img13 and page.img13 != "" and page.img13 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img13 }}" class="image-link">
-                                <img src="{{ page.img13 }}" alt="{{ page.altimg13  | default: page.captionimg13 }}">
+                                <!--<img src="{{ page.img13 }}" alt="{{ page.altimg13  | default: page.captionimg13 }}">-->
+                                {% assign img13 = page.img13 %}
+                                {% assign img13alt = page.altimg13 %}
+                                {% include img.html
+                                    path=img13
+                                    alt=img13alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg13 }}</figcaption>
                         </div>
@@ -289,7 +393,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img14 and page.img14 != "" and page.img14 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img14 }}" class="image-link">
-                                <img src="{{ page.img14 }}" alt="{{ page.altimg14  | default: page.captionimg14 }}">
+                                <!--<img src="{{ page.img14 }}" alt="{{ page.altimg14  | default: page.captionimg14 }}">-->
+                                {% assign img14 = page.img14 %}
+                                {% assign img14alt = page.altimg14 %}
+                                {% include img.html
+                                    path=img14
+                                    alt=img14alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg14 }}</figcaption>
                         </div>
@@ -299,7 +411,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img15 and page.img15 != "" and page.img15 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img15 }}" class="image-link">
-                                <img src="{{ page.img15 }}" alt="{{ page.altimg15  | default: page.captionimg15 }}">
+                                <!--<img src="{{ page.img15 }}" alt="{{ page.altimg15  | default: page.captionimg15 }}">-->
+                                {% assign img15 = page.img15 %}
+                                {% assign img15alt = page.altimg15 %}
+                                {% include img.html
+                                    path=img15
+                                    alt=img15alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg15 }}</figcaption>
                         </div>
@@ -318,7 +438,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img16 and page.img16 != "" and page.img16 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img16 }}" class="image-link">
-                                <img src="{{ page.img16 }}" alt="{{ page.altimg16  | default: page.captionimg16 }}">
+                                <!--<img src="{{ page.img16 }}" alt="{{ page.altimg16  | default: page.captionimg16 }}">-->
+                                {% assign img16 = page.img16 %}
+                                {% assign img16alt = page.altimg16 %}
+                                {% include img.html
+                                    path=img16
+                                    alt=img16alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg16 }}</figcaption>
                         </div>
@@ -328,7 +456,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img17 and page.img17 != "" and page.img17 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img17}}" class="image-link">
-                                <img src="{{ page.img17 }}" alt="{{ page.altimg17  | default: page.captionimg17 }}">
+                                <!--<img src="{{ page.img17 }}" alt="{{ page.altimg17  | default: page.captionimg17 }}">-->
+                                {% assign img17 = page.img17 %}
+                                {% assign img17alt = page.altimg17 %}
+                                {% include img.html
+                                    path=img17
+                                    alt=img17alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg17 }}</figcaption>
                         </div>
@@ -338,7 +474,15 @@ captionimg18: "APRES - Chambre marron"
                     {% if page.img18 and page.img18 != "" and page.img18 != nil %}
                         <div class="zoom-img-wrapper">
                             <a href="{{ page.img18 }}" class="image-link">
-                                <img src="{{ page.img18 }}" alt="{{ page.altimg18  | default: page.captionimg18 }}">
+                                <!--<img src="{{ page.img18 }}" alt="{{ page.altimg18  | default: page.captionimg18 }}">-->
+                                {% assign img18 = page.img18 %}
+                                {% assign img18alt = page.altimg18 %}
+                                {% include img.html
+                                    path=img18
+                                    alt=img18alt
+                                    class=""
+                                    style=""
+                                    loading="eager" %}
                             </a>
                             <figcaption>{{ page.captionimg18 }}</figcaption>
                         </div>
