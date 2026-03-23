@@ -195,9 +195,9 @@ breadcrumbs:
                     <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
                         <p class="has-shuffle-onscroll-disabled">Mes savoir-faires</p>
                         <ul class="pinned-lists">
-                            <li><a class="category-protfolio" href="/portfolio/construction" data-infotextafter="Cliquer pour voir tous les projets de constructions neuves">constructions neuve</a></li>
-                            <li><a class="category-protfolio" href="/portfolio/extension" data-infotextafter="Cliquer pour voir tous les projets d'extensions">extensions</a></li>
-                            <li><a class="category-protfolio" href="/portfolio/renovation" data-infotextafter="Cliquer pour voir tous les projets de rénovations">rénovations</a></li>
+                            <li><a class="category-protfolio" href="/portfolio/constructions" data-infotextafter="Cliquer pour voir tous les projets de constructions neuves">constructions neuve</a></li>
+                            <li><a class="category-protfolio" href="/portfolio/extensions" data-infotextafter="Cliquer pour voir tous les projets d'extensions">extensions</a></li>
+                            <li><a class="category-protfolio" href="/portfolio/renovations" data-infotextafter="Cliquer pour voir tous les projets de rénovations">rénovations</a></li>
                             <li><a class="category-protfolio" href="/portfolio/meubles" data-infotextafter="Cliquer pour voir tous les projets de créations de meubles">création de meubles</a></li>
                             <li><a class="category-protfolio" href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement de tertiaire et ERP">tertiaire / ERP*</a><small style="display: block; font-size: x-large; letter-spacing: normal; color: lightgrey; line-height: normal;">*Établissements Recevant du Public</small></li>
                         </ul>

@@ -61,49 +61,45 @@ breadcrumbs:
                     <hr>
                     <!-- Contact Form -->
                     <!-- modify this form HTML and place wherever you want your form -->
-                    <form id="my-form" action="https://formspree.io/f/myzrjgvo" method="POST">
-                        <label style="display:inline-block; margin-top:25px;">Email:</label>
+                    <form id="my-form" action="https://formspree.io/f/xdawryge" method="POST">
+                        <label>Email:</label>
                         <input type="email" name="email" />
-                        <label style="display:inline-block; margin-top:25px;">Message:</label>
+                        <label>Message:</label>
                         <input type="text" name="message" />
-                        <style>
-                            .my-form-button{margin: 50px 0; transition: transform .2s ease-out; background-color:#FFFFFF; color:#000000; font-weight: 400; font-size: 16px; line-height: 40px; overflow: hidden; width: auto; padding: 0 25px 0 25px; height: 44px; line-height: 44px; border-radius: 44px; position: relative; cursor: pointer; text-decoration: none; display: inline-block; border: none; text-align: center; width:100%; max-width:580px;}
-                            .my-form-button:hover{background-color:#000000; color:#FFFFFF;}
-                        </style>
-                        <button class="my-form-button">Envoyer</button>
+                        <button id="my-form-button">Envoyer</button>
                         <p id="my-form-status"></p>
                     </form>
                     <!-- Place this script at the end of the body tag -->
                     <script>
-                        var form = document.getElementById("my-form");
-                        async function handleSubmit(event) {
-                            event.preventDefault();
-                            var status = document.getElementById("my-form-status");
-                            var data = new FormData(event.target);
-                            fetch(event.target.action, {
-                            method: form.method,
-                            body: data,
-                            headers: {
-                                'Accept': 'application/json'
-                            }
-                            }).then(response => {
-                            if (response.ok) {
-                                status.innerHTML = "Merci pour votre message!";
-                                form.reset()
-                            } else {
-                                response.json().then(data => {
-                                if (Object.hasOwn(data, 'errors')) {
-                                    status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                                } else {
-                                    status.innerHTML = "Oops! Il y a eu un problème avec l'envoi de votre message"
-                                }
-                                })
-                            }
-                            }).catch(error => {
-                            status.innerHTML = "Oops! Il y a eu un problème avec l'envoi de votre message"
-                            });
+                    var form = document.getElementById("my-form");
+                    async function handleSubmit(event) {
+                        event.preventDefault();
+                        var status = document.getElementById("my-form-status");
+                        var data = new FormData(event.target);
+                        fetch(event.target.action, {
+                        method: form.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
                         }
-                        form.addEventListener("submit", handleSubmit)
+                        }).then(response => {
+                        if (response.ok) {
+                            status.innerHTML = "Merci pour votre contribution !";
+                            form.reset()
+                        } else {
+                            response.json().then(data => {
+                            if (Object.hasOwn(data, 'errors')) {
+                                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                            } else {
+                                status.innerHTML = "Oups ! Un problème est survenu lors de l'envoi de votre formulaire."
+                            }
+                            })
+                        }
+                        }).catch(error => {
+                        status.innerHTML = "Oups ! Un problème est survenu lors de l'envoi de votre formulaire."
+                        });
+                    }
+                    form.addEventListener("submit", handleSubmit)
                     </script>
                     <!--/Contact Form -->
                 </div>
