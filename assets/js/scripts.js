@@ -21,21 +21,17 @@ jQuery(function ($) {
 		
 		// Wait for all functions to be defined before calling them (prevents load order issues)
 		(function waitForAllFunctions() {
-			const functionsToWaitFor = [
+			const requiredFunctions = [
 				'PageLoad', 'ScrollEffects', 'FirstLoad', 'PageLoadActions', 'ShowcasePortfolio',
 				'ShowcaseHighlights', 'ShowcaseGallery', 'ShowcaseSnapSlider', 'FitThumbScreenWEBGL',
-				'Shortcodes', 'Core', 'MouseCursor', 'JustifiedGrid', 'Lightbox', 'ContactForm',
-				'PlayVideo', 'ContactMap', 'CustomFunction', 'ShuffleElementsFunction', 'InitShuffleElements'
+				'Shortcodes', 'Core', 'MouseCursor', 'JustifiedGrid', 'Lightbox',
+				'PlayVideo', 'CustomFunction', 'ShuffleElementsFunction', 'InitShuffleElements'
 			];
+			const optionalFunctions = ['ContactForm', 'ContactMap'];
 			
-			const allDefined = functionsToWaitFor.every(funcName => {
-				if (funcName === 'ScrollEffects' || funcName === 'Sliders') {
-					return typeof window[funcName] === 'function';
-				}
-				return typeof window[funcName] === 'function' || typeof eval(funcName) === 'function';
-			});
+			const allRequiredDefined = requiredFunctions.every(funcName => typeof window[funcName] === 'function');
 			
-			if (allDefined) {
+			if (allRequiredDefined) {
 				PageLoad();
 				ScrollEffects();
 				FirstLoad();
@@ -50,9 +46,9 @@ jQuery(function ($) {
 				MouseCursor();
 				JustifiedGrid();
 				Lightbox();
-				ContactForm();
+				if (typeof window.ContactForm === 'function') ContactForm();
 				PlayVideo();
-				ContactMap();
+				if (typeof window.ContactMap === 'function') ContactMap();
 				CustomFunction();
 				ShuffleElementsFunction();
 				InitShuffleElements();
