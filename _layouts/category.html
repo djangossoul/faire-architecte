@@ -113,16 +113,38 @@ layout: page
                     {%- assign date_format = site.minima.date_format | default: "%Y" -%}
 
                     {% for post in site.categories[category] %}
+                      {% assign thumbnailback = post.thumbnailback %}
+                      {% assign thumbnailbackalt = post.thumbnailback-alt %}
+                      {% assign thumbnailfront = post.thumbnailfront %}
+                      {% assign thumbnailfrontalt = post.thumbnailfront-alt %}
                       <div class="clapat-item photo-filter">
                         <div class="slide-inner trigger-item" data-centerline="OPEN">                                                    
                           <div class="img-mask pixels-cover-disabled">
                             <a class="slide-link" href="{{ post.url | relative_url }}"></a>
                             <div class="section-image trigger-item-link">
-                              <img src="{{ post.thumbnail1 }}" class="item-image grid__item-img" alt="">
+                              <!--<img src="{{ post.thumbnail1 }}" class="item-image grid__item-img" alt="">-->
+                              {% include img.html
+                                path=thumbnailback
+                                alt=thumbnailbackalt
+                                class="item-image grid__item-img"
+                                style=""
+                                loading="eager" %}
                             </div>                                                
-                            <img src="{{ post.thumbnail1 }}" class="grid__item-img grid__item-img--large" alt="">
+                            <!--<img src="{{ post.thumbnail1 }}" class="grid__item-img grid__item-img--large" alt="">-->
+                              {% include img.html
+                                path=thumbnailback
+                                alt=thumbnailbackalt
+                                class="grid__item-img grid__item-img--large"
+                                style=""
+                                loading="eager" %}
                             <div class="section-thumb">
-                              <img src="{{ post.thumbnail2 }}" alt="">
+                              <!--<img src="{{ post.thumbnail2 }}" alt="">-->
+                              {% include img.html
+                                path=thumbnailfront
+                                alt=thumbnailfrontalt
+                                class=""
+                                style=""
+                                loading="eager" %}
                             </div>                              
                           </div>
                           <style>
@@ -147,10 +169,16 @@ layout: page
                             }
                           </style>
                           <div class="slide-caption trigger-item-link-secondary">
-                            <div class="slide-title secondary-font" style="color:#FFFFFF;"><span style="-webkit-text-stroke: 1px black;">{{ post.title | escape }}</span></div>                                                    
-                            <div class="slide-date"><span>{{ post.date | date: date_format }}</span></div>
-                            <div class="slide-cat secondary-font" style="color:#FFFFFF;"><span style="-webkit-text-stroke: 1px black;">{{ post.categories }}</span></div>                                             
-                          </div>
+                                    <div class="slide-title secondary-font" style="color:#FFFFFF;">
+                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.title | escape }}</span>
+                                    </div>                                                    
+                                    <div class="slide-date" style="background-color: rgba(0, 0, 0, 0.3);">
+                                        <span>{{ post.date | date: date_format }}</span>
+                                    </div>
+                                    <div class="slide-cat secondary-font" style="color:#FFFFFF;">
+                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.categories }}</span>
+                                    </div>                                             
+                                </div>
                         </div>
                       </div>
                     {%- endfor -%}

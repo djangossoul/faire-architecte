@@ -52,7 +52,7 @@ img5: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.jpg
 altimg5: ""
 captionimg5: "Vue de dessus de l’ensemble du projet "
 
-img6: ""
+img6: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.jpg"
 altimg6: ""
 captionimg6: "Insertion, mise en situation avec la matérialité"
 
@@ -85,8 +85,8 @@ captionimg10: ""
     <!--/Row -->
     <!-- Row -->
     <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
-        <div class="">
-        {% if page.img1 and page.img1 != "" and page.img1 != nil %}
+        <div class="one_half">
+            {% if page.img1 and page.img1 != "" and page.img1 != nil %}
             <figure class="has-animation" data-delay="200">
                 <a href="{{ page.img1 }}" class="image-link">
                     <!--<img src="{{ page.img1 }}" alt="{{ page.altimg1  | default: page.captionimg1 }}">-->
@@ -101,9 +101,78 @@ captionimg10: ""
                 </a>
                 <figcaption>{{ page.captionimg1 }}</figcaption>
             </figure>
-        {% endif %}
+            {% endif %}
             <hr><br><br>
-        {% if page.img2 and page.img2 != "" and page.img2 != nil %}
+            {% if page.img3 and page.img3 != "" and page.img3 != nil %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img3 }}" class="image-link">
+                    <!--<img src="{{ page.img3 }}" alt="{{ page.altimg3  | default: page.captionimg3 }}">-->
+                    {% assign img3 = page.img3 %}
+                    {% assign img3alt = page.altimg3 %}
+                    {% include img.html
+                        path=img3
+                        alt=img3alt
+                        class=""
+                        style=""
+                        loading="eager" %}
+                </a>
+                <figcaption>{{ page.captionimg2 }}</figcaption>
+            </figure>
+            {% endif %}
+            <hr><br><br>
+            {% if page.img5 and page.img5 != "" and page.img5 != nil %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img5 }}" class="image-link">
+                    <!--<img src="{{ page.img5 }}" alt="{{ page.altimg5  | default: page.captionimg5 }}">-->
+                    {% assign img5 = page.img5 %}
+                    {% assign img5alt = page.altimg5 %}
+                    {% include img.html
+                        path=img5
+                        alt=img5alt
+                        class=""
+                        style=""
+                        loading="eager" %}
+                </a>
+                <figcaption>{{ page.captionimg5 }}</figcaption>
+            </figure>
+            {% endif %}
+            <hr><br><br>
+            {% if page.img7 and page.img7 != "" and page.img7 != nil %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img7 }}" class="image-link">
+                    <!--<img src="{{ page.img7 }}" alt="{{ page.altimg7  | default: page.captionimg7 }}">-->
+                    {% assign img7 = page.img7 %}
+                    {% assign img7alt = page.altimg7 %}
+                    {% include img.html
+                        path=img7
+                        alt=img7alt
+                        class=""
+                        style=""
+                        loading="eager" %}
+                </a>
+                <figcaption>{{ page.captionimg7 }}</figcaption>
+            </figure>
+            {% endif %}
+            <hr><br><br>
+            {% if page.img9 and page.img9 != "" and page.img9 != nil %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img9 }}" class="image-link">
+                    <!--<img src="{{ page.img9 }}" alt="{{ page.altimg9  | default: page.captionimg9 }}">-->
+                    {% assign img9 = page.img9 %}
+                    {% assign img9alt = page.altimg9 %}
+                    {% include img.html
+                        path=img9
+                        alt=img9alt
+                        class=""
+                        style=""
+                        loading="eager" %}
+                </a>
+                <figcaption>{{ page.captionimg9 }}</figcaption>
+            </figure>
+            {% endif %}
+        </div>   
+        <div class="one_half last">
+            {% if page.img2 and page.img2 != "" and page.img2 != nil %}
             <figure class="has-animation" data-delay="200">
                 <a href="{{ page.img2 }}" class="image-link">
                     <!--<img src="{{ page.img2 }}" alt="{{ page.altimg2  | default: page.captionimg2 }}">-->
@@ -118,34 +187,12 @@ captionimg10: ""
                 </a>
                 <figcaption>{{ page.captionimg2 }}</figcaption>
             </figure>
-        {% endif %}
-        </div>                   
-    </div> 
-    <!--/Row -->         
-    <!-- Row -->
-    <div class="content-row row_padding_top light-section" data-bgcolor="#ffffff">                                
-        <div class="one_half">
-            {% if page.img3 and page.img3 != "" and page.img3 != nil %}
-            <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img3 }}" class="image-link">
-                    <!--<img src="{{ page.img3 }}" alt="{{ page.altimg3  | default: page.captionimg3 }}">-->
-                    {% assign img3 = page.img3 %}
-                    {% assign img3alt = page.altimg3 %}
-                    {% include img.html
-                        path=img3
-                        alt=img3alt
-                        class=""
-                        style=""
-                        loading="eager" %}
-                </a>
-                <figcaption>{{ page.captionimg3 }}</figcaption>
-            </figure>
             {% endif %}
             <hr><br><br>
-            {% if page.img4 and page.img4 != "" and page.img4 != nil %}
+            {% if page.img4 and page.img4 != "" and page.img4 != nil %}                                             
             <figure class="has-animation" data-delay="200">
                 <a href="{{ page.img4 }}" class="image-link">
-                    <!--<img src="{{ page.img4 }}" alt="{{ page.altimg4  | default: page.captionimg4 }}">-->
+                    <!--<img src="{{ page.img4 }}" alt="{{ page.altimg4 | default: page.captionimg4 }}">-->
                     {% assign img4 = page.img4 %}
                     {% assign img4alt = page.altimg4 %}
                     {% include img.html
@@ -156,24 +203,6 @@ captionimg10: ""
                         loading="eager" %}
                 </a>
                 <figcaption>{{ page.captionimg4 }}</figcaption>
-            </figure>
-            {% endif %}
-        </div>   
-        <div class="one_half last">
-            {% if page.img5 and page.img5 != "" and page.img5 != nil %}                                             
-            <figure class="has-animation" data-delay="200">
-                <a href="{{ page.img5 }}" class="image-link">
-                    <!--<img src="{{ page.img5 }}" alt="{{ page.altimg5  | default: page.captionimg5 }}">-->
-                    {% assign img5 = page.img5 %}
-                    {% assign img5alt = page.altimg5 %}
-                    {% include img.html
-                        path=img5
-                        alt=img5alt
-                        class=""
-                        style=""
-                        loading="eager" %}
-                </a>
-                <figcaption>{{ page.captionimg5 }}</figcaption>
             </figure>
             {% endif %}
             <hr><br><br>
@@ -191,6 +220,40 @@ captionimg10: ""
                         loading="eager" %}
                 </a>
                 <figcaption>{{ page.captionimg6 }}</figcaption>
+            </figure>
+            {% endif %}       
+            <hr><br><br>
+            {% if page.img8 and page.img8 != "" and page.img8 != nil %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img8 }}" class="image-link">
+                    <!--<img src="{{ page.img8 }}" alt="{{ page.altimg8  | default: page.captionimg8 }}">-->
+                    {% assign img8 = page.img8 %}
+                    {% assign img8alt = page.altimg8 %}
+                    {% include img.html
+                        path=img8
+                        alt=img8alt
+                        class=""
+                        style=""
+                        loading="eager" %}
+                </a>
+                <figcaption>{{ page.captionimg8 }}</figcaption>
+            </figure>
+            {% endif %}       
+            <hr><br><br>
+            {% if page.img10 and page.img10 != "" and page.img10 != nil %}
+            <figure class="has-animation" data-delay="200">
+                <a href="{{ page.img10 }}" class="image-link">
+                    <!--<img src="{{ page.img10 }}" alt="{{ page.altimg10  | default: page.captionimg10 }}">-->
+                    {% assign img10 = page.img10 %}
+                    {% assign img10alt = page.altimg10 %}
+                    {% include img.html
+                        path=img10
+                        alt=img10alt
+                        class=""
+                        style=""
+                        loading="eager" %}
+                </a>
+                <figcaption>{{ page.captionimg10 }}</figcaption>
             </figure>
             {% endif %}                                           
         </div>                               

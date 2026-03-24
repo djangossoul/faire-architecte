@@ -63,7 +63,7 @@ layout: base
                         {% for sitecategory in site.categories %}
                         {% capture category_name %}{{ sitecategory | first }}{% endcapture %}
                           <li class="filters-timeline link">
-                            <a class="filter-option{% if category == category_name %} is_active{% endif %}" href="/portfolio/{{ category_name | slugize }}">{{ category_name }}, </a>
+                            <a class="filter-option2{% if category == category_name %} is_active{% endif %}" href="/portfolio/{{ category_name | slugize }}">{{ category_name }}, </a>
                           </li>
                           
                         {% endfor %}
@@ -146,8 +146,8 @@ layout: base
                             </div>
                         </div>
                     {%- endfor -%}
-                {%- endif -%}
                 </div>
+                {%- endif -%}
                 <!-- ClaPat Portfolio -->
             </div>                                                           
         </div>    
