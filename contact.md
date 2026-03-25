@@ -190,7 +190,7 @@ breadcrumbs:
                 <!--/Row -->
                 <!-- Row -->
                 <div class="content-row full row_padding_top row_padding_bottom dark-section text-align-center"
-                    data-bgcolor="#0c0c0c">
+                    data-bgcolor="#733821">
                     <p class="bigger has-shuffle-disabled no-margins secondary-font">Envie de travailler ensemble ?</p>
                     <div id="copy-email" data-hover-message="Copy Mail" data-clicked-message="Copied">
                         <span><a href="mailto:contact@faire-architecte.com">contact@faire-architecte.com</a></span>
