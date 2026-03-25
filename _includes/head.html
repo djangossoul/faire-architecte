@@ -828,10 +828,14 @@
 	}
 	
 	.light-section-wrapper, .dark-section-wrapper {
-		margin-left: calc(50% - 50vw)!important;
-		margin-right: calc(50% - 50vw)!important;
-		max-width: 1000%!important;
-		width: 100vw!important;
+		margin-left: calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
+		max-width: 1000%;
+		width: 100vw;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
 	}
 	
 	.light-section-container, .dark-section-container {
