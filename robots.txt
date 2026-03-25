@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /politique-de-confidentialite/
+
+Sitemap: https://fairearchitecte.com/sitemap.xml

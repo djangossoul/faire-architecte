@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Façonner"
-seo_title: "Façonner – Croquis et conception d'extension sur existant | FAIRE Architecte"
-description: "Le dessin comme outil de conception chez FAIRE Architecte. Croquis d'extension sur existant : perspectives, axonométries et recherches formelles pour passer de l'intention au projet."
+slug: "faconner"
+seo_title: "Façonner – Conception de meubles sur mesure à Reims | FAIRE Architecte"
+description: "Façonner – Conception de meubles sur mesure à Reims : bibliothèque, meuble TV banquette, cloison accordéon. Mission esquisse, FAIRE Architecte."
 categories:
 - Meubles
 breadcrumbs:

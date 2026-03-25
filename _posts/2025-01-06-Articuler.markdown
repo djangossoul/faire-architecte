@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Articuler"
-seo_title: 
-description: 
+slug: "articuler"
+seo_title: "Articuler – Extension de maison à Reims | FAIRE Architecte"
+description: "Articuler – Extension de maison à Reims : patio privatif, bardage métallique, chambre et atelier supplémentaires. Mission esquisse, FAIRE Architecte."
 categories:
 - Extensions
 breadcrumbs:

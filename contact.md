@@ -20,8 +20,6 @@ breadcrumbs:
                         <div style="color: #733821;"><span>contact</span></div>
                     </h1>
                     <div class="hero-subtitle caption-timeline onload-shuffle-disabled">
-                        <!--<div><span>Envie de discuter de votre projet ?</span></div>
-                        <div class="secondary-font"><span>Envoyez-moi un petit mot</span></div>-->
                     </div>
                 </div>
             </div>
@@ -34,15 +32,9 @@ breadcrumbs:
                                 <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z"/></svg>-->
                             </div>
                         </div>
-                        <!--<div class="button-text sticky left">
-                            <span data-hover="Scroller pour Explorer">Scroller pour Explorer</span>
-                        </div>-->
                     </div>
                 </div>
                 <div class="hero-footer-right">
-                    <!--<div id="info-text">
-                        <span>fairearchitecture@gmail.com</span>
-                    </div>-->
                 </div>
             </div>
         </div>
@@ -60,13 +52,43 @@ breadcrumbs:
                     <hr>
                     <hr>
                     <!-- Contact Form -->
+                    <style>
+                        #my-form-button{
+                            padding-right:20px;
+                            padding-left:20px;
+                            position: relative;
+                            text-decoration: none;
+                        }
+                        #my-form-button:hover {
+                            color:#000;
+                            border-color:#FFF;
+                        }
+                        #my-form-button::before {
+                            background: hsl(0, 0%, 100%);
+                            content: "";
+                            inset: 0;
+                            position: absolute;
+                            transform: scaleX(0);
+                            transform-origin: right;
+                            transition: transform 0.5s ease-in-out;
+                            z-index: -1;
+                        }
+                        #my-form-button:hover::before {
+                            transform: scaleX(1);
+                            transform-origin: left;
+                        }
+                    </style>
                     <!-- modify this form HTML and place wherever you want your form -->
-                    <form id="my-form" action="https://formspree.io/f/xdawryge" method="POST">
-                        <label>Email:</label>
-                        <input type="email" name="email" />
-                        <label>Message:</label>
-                        <input type="text" name="message" />
-                        <button id="my-form-button">Envoyer</button>
+                    <form id="my-form" action="https://formspree.io/f/xdawryge" method="POST" style="color:#FFFFFF;" autocomplete="on">
+                        <label style="margin-top:20px; text-align: left; display: block;">Votre nom:</label>
+                        <input type="text" name="username" id="username" autocomplete="name" style="width: 100%; padding: 10px; font-family: inherit;" required>
+                        <label style="margin-top:20px; text-align: left; display: block;">Votre email:</label>
+                        <input type="email" name="email" id="email" autocomplete="email" style="width: 100%; padding: 10px; font-family: inherit;" required />
+                        <label style="margin-top:20px; text-align: left; display: block;">Votre téléphone:</label>
+                        <input type="tel" name="telephone" autocomplete="tel" maxlength="12" style="width: 100%; padding: 10px; font-family: inherit;" required/>    
+                        <label style="margin-top:20px; text-align: left; display: block;">Votre message:</label>
+                        <textarea name="message" id="message" autocomplete="off" style="width: 100%; padding: 10px; font-family: inherit;"></textarea>
+                        <button id="my-form-button" type="submit" class="button-border outline rounded parallax-element-second" >Envoyer</button>
                         <p id="my-form-status"></p>
                     </form>
                     <!-- Place this script at the end of the body tag -->
@@ -84,19 +106,19 @@ breadcrumbs:
                         }
                         }).then(response => {
                         if (response.ok) {
-                            status.innerHTML = "Merci pour votre contribution !";
+                            status.innerHTML = "Merci pour votre message !";
                             form.reset()
                         } else {
                             response.json().then(data => {
                             if (Object.hasOwn(data, 'errors')) {
                                 status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
                             } else {
-                                status.innerHTML = "Oups ! Un problème est survenu lors de l'envoi de votre formulaire."
+                                status.innerHTML = "Oups ! Un problème est survenu lors de l'envoi de votre message."
                             }
                             })
                         }
                         }).catch(error => {
-                        status.innerHTML = "Oups ! Un problème est survenu lors de l'envoi de votre formulaire."
+                        status.innerHTML = "Oups ! Un problème est survenu lors de l'envoi de votre message."
                         });
                     }
                     form.addEventListener("submit", handleSubmit)
@@ -171,7 +193,7 @@ breadcrumbs:
                     data-bgcolor="#0c0c0c">
                     <p class="bigger has-shuffle-disabled no-margins secondary-font">Envie de travailler ensemble ?</p>
                     <div id="copy-email" data-hover-message="Copy Mail" data-clicked-message="Copied">
-                        <span><a href="mailto:fairearchitecture@gmail.com">fairearchitecture@gmail.com</a></span>
+                        <span><a href="mailto:contact@faire-architecte.com">contact@faire-architecte.com</a></span>
                     </div>
                 </div>
                 <!--/Row -->

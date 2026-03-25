@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Ancrer"
+slug: "ancrer"
 seo_title: "Ancrer – Maison neuve 187 m² ancrée dans le paysage | FAIRE Architecte Reims"
 description: "Maison neuve de 187 m² conçue en esquisse par FAIRE Architecte. Implantation en pente, espaces traversants, ouverture sur le grand paysage. Budget : 500 000 € HT."
 categories:

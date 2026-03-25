@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Accueillir"
+slug: "accueillir"
 seo_title: "Accueillir – Rénovation complète d'une maison rémoise 120 m² | FAIRE Architecte"
 description: "Rénovation complète d'une maison rémoise de 120 m² par FAIRE Architecte : restauration des parquets et carreaux de ciment, isolation, mise aux normes, nouveau projet d'habitation."
 categories:
