@@ -5,12 +5,18 @@ const path = require('path');
 
 const SIZES = [480, 800, 1200];
 const INPUT_DIR = 'assets/images';
-const OUTPUT_DIR = 'assets/images/resized';
+const OUTPUT_DIR = path.join(INPUT_DIR, 'resized');
 const DATA_FILE = '_data/responsive_images.json';
 
 const result = {};
 
-const files = glob.sync(`${INPUT_DIR}/**/*.{jpg,jpeg,png,webp}`);
+if (fs.existsSync(OUTPUT_DIR)) {
+  fs.rmSync(OUTPUT_DIR, { recursive: true, force: true });
+}
+
+const files = glob.sync(`${INPUT_DIR}/**/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}`, {
+  ignore: `${OUTPUT_DIR.replace(/\\/g, '/')}/**/*`,
+});
 
 (async () => {
   for (const file of files) {

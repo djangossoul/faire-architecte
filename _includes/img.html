@@ -1,8 +1,6 @@
 {% assign img_key = include.path | remove_first: "/assets/images/" | remove_first: "assets/images/" %}
 {% assign img = site.data.responsive_images[img_key] %}
-<!--<p>DEBUG path: "{{ include.path }}"</p>
-<p>DEBUG img_key: "{{ img_key }}"</p>
-<p>DEBUG img: "{{ site.data.responsive_images[img_key] | inspect }}"</p>-->
+
 {% if img %}
 <img
   src="{{ img.src }}"
