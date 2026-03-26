@@ -12,10 +12,6 @@ layout: base
                         data-infotextafter="">
                         <div style="color: #6D86A6;"><span>Portfolio</span></div>
                     </h1>
-                    <!--<div class="hero-subtitle caption-timeline onload--disabled">
-                        <div><span>Voici mes projets</span></div>
-                        <div class="secondary-font"><span>réalisé durant mes 10 ans d'expérience</span></div>
-                    </div>-->
                 </div>
             </div>
             <div id="hero-footer" class="has-border">
@@ -28,8 +24,6 @@ layout: base
                             -->
                             </div>
                         </div>
-                        <!--<div class="button-text sticky left"><span data-hover="Scroller pour Explorer">Scroller pour Explorer</span>
-                        </div>-->
                     </div>
                 </div>
                 <div class="hero-footer-right">
@@ -86,21 +80,19 @@ layout: base
                                 <div class="img-mask pixels-cover-disabled">
                                     <a class="slide-link" href="{{ url | relative_url }}" aria-label="{{ thumbnailfront-alt | default: title }}"></a>
                                     <div class="section-image trigger-item-link">
-                                        <!--<img src="{{ thumbnailback }}" class="item-image grid__item-img" alt="">-->
                                         {% include img.html
                                             path=thumbnailback
                                             alt=thumbnailbackalt
                                             class="item-image grid__item-img"
                                             style=""
-                                            loading="eager" %}
+                                            loading="lazy" %}
                                     </div>                                                
-                                    <!-- <img src="{{ thumbnailback }}" class="grid__item-img grid__item-img--large" alt=""> -->
                                     {% include img.html
                                         path=thumbnailback
                                         alt=thumbnailbackalt
                                         class="grid__item-img grid__item-img--large"
                                         style=""
-                                        loading="eager" %}
+                                        loading="lazy" %}
                                     <div class="section-thumb">
                                         <img src="{{ thumbnailfront }}" alt="">
                                         {% include img.html
@@ -108,7 +100,7 @@ layout: base
                                             alt=thumbnailfrontalt
                                             class=""
                                             style=""
-                                            loading="eager" %}
+                                            loading="lazy" %}
                                     </div>                              
                                 </div>
                                 <style>

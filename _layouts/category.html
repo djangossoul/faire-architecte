@@ -2,43 +2,8 @@
 layout: page
 ---
 
-<!--<ul class="posts-list">
-  
-  {% assign category = page.categories | default: page.title %}
-  <h2>{{ category }}</h2>
-  {% for post in site.categories[category] %}
-    <li>
-      <h3>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-        <small>{{ post.date | date_to_string }}</small>
-      </h3>
-    </li>
-  {% endfor %}
-  
-</ul>-->
-
-
 {% assign category = page.categories | default: page.title %}
 
-
-<!--<div>
-  <ul>
-    {% for post in site.posts %}
-      {% if post.categories contains category %}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <b>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </b> - <i>{{ post.date | date: date_format }}</i>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</div>-->
 <!-- Main Content -->
 <div id="main-content">
     <!-- Hero Section -->
@@ -65,8 +30,6 @@ layout: page
                             -->
                               </div>
                         </div>
-                        <!--<div class="button-text sticky left"><span data-hover="Scroller pour Explorer">Scroller pour Explorer</span>
-                        </div>-->
                     </div>
                 </div>
                 <div class="hero-footer-right">
@@ -87,8 +50,6 @@ layout: page
     <!--/Hero Section -->
     <!-- Main Page Content -->
     <div id="main-page-content">
-
-        
         <!-- Row -->
         <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
             <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 25px;">
@@ -97,7 +58,6 @@ layout: page
             </div>
         </div> 
         <!--/Row -->
-
         <!-- Fit Thumb Screen Effects -->
         <div id="itemsWrapperLinks">
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
@@ -134,29 +94,26 @@ layout: page
                           <div class="img-mask pixels-cover-disabled">
                             <a class="slide-link" href="{{ post.url | relative_url }}"></a>
                             <div class="section-image trigger-item-link">
-                              <!--<img src="{{ post.thumbnail1 }}" class="item-image grid__item-img" alt="">-->
                               {% include img.html
                                 path=thumbnailback
                                 alt=thumbnailbackalt
                                 class="item-image grid__item-img"
                                 style=""
-                                loading="eager" %}
+                                loading="lazy" %}
                             </div>                                                
-                            <!--<img src="{{ post.thumbnail1 }}" class="grid__item-img grid__item-img--large" alt="">-->
                               {% include img.html
                                 path=thumbnailback
                                 alt=thumbnailbackalt
                                 class="grid__item-img grid__item-img--large"
                                 style=""
-                                loading="eager" %}
+                                loading="lazy" %}
                             <div class="section-thumb">
-                              <!--<img src="{{ post.thumbnail2 }}" alt="">-->
                               {% include img.html
                                 path=thumbnailfront
                                 alt=thumbnailfrontalt
                                 class=""
                                 style=""
-                                loading="eager" %}
+                                loading="lazy" %}
                             </div>                              
                           </div>
                           <style>

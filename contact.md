@@ -132,7 +132,12 @@ breadcrumbs:
                         <div class="clipped-image-pin">
                             <div class="clipped-image">
                                 <div id="map_canvas-disabled"></div>
-                                    <img class="fit-picture" src="/assets/images/maps-contact.jpg"  alt="" />
+                                    {% include img.html
+                                        path="/assets/images/maps-contact.jpg"
+                                        alt="Localisation de FAIRE Architecte à  Reims"
+                                        class=""
+                                        style=""
+                                        loading="lazy" %}
                                 <div class="clipped-image-gradient"></div>
                             </div>
                         </div>
