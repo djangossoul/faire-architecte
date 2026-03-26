@@ -16,7 +16,7 @@ breadcrumbs:
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
                     <h1 class="hero-title caption-timeline" data-infotextbefore="" data-infotextafter="">
-                        <div style="color: #3D4025;"><span>À Propos</span></div>
+                        <div class="green-color"><span>À Propos</span></div>
                     </h1>
                 </div>
             </div>
@@ -38,13 +38,13 @@ breadcrumbs:
     </div>
     <!--/Hero Section -->
     <!-- Main Page Content -->
-    <div id="main-page-content">
+    <div id="main-page-content about-page">
         <!-- Fit Thumb Screen Effects -->
-        <div id="itemsWrapperLinks" style="background: #FFFFFF; background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 50%, rgba(246, 218, 206, 1) 100%);">
+        <div id="itemsWrapperLinks" class="about-page-inner" style="background: #FFFFFF; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 50%, rgba(246, 218, 206, 1) 100%);">
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
                 <!-- Row -->
-                <div class="content-row has-clip-path full dark-section change-header-color disable-header-gradient"
-                    data-bgcolor="transparent" style="background-color:#733821;">
+                <div class="content-row has-clip-path full dark-section change-header-color disable-header-gradient dark-red-background"
+                    data-bgcolor="transparent">
                     <div class="parallax-image-wrapper">
                         <div class="parallax-image" data-bg-image="/assets/images/main-qui-dessine.jpg">
                         </div>
@@ -53,17 +53,17 @@ breadcrumbs:
                         </div>
                         <ul class="parallax-content">
                             <li class="parallax-list">
-                                <div style="top: 0px; position: fixed; width: 100%; margin-top: 100px;"><span><p class="">Mes valeurs</p></span></div>
+                                <div class="about-values-titles"><span><p class="">Mes valeurs</p></span></div>
                                 <div><span>Humanité</span></div>
                                 <div><span class="secondary-font">Des espaces qui respirent et qui ressemblent à ceux qui les habitent</span></div>
                             </li>
                             <li class="parallax-list">
-                                <div style="top: 0px; position: fixed; width: 100%; margin-top: 100px;"><span><p class="">Mes valeurs</p></span></div>
+                                <div class="about-values-titles"><span><p class="">Mes valeurs</p></span></div>
                                 <div><span>Artisanat & Savoir-faire</span></div>
                                 <div><span class="secondary-font">Les mains disent parfois mieux que les mots</span></div>
                             </li>
                             <li class="parallax-list">
-                                <div style="top: 0px; position: fixed; width: 100%; margin-top: 100px;"><span><p class="">Mes valeurs</p></span></div>
+                                <div class="about-values-titles"><span><p class="">Mes valeurs</p></span></div>
                                 <div><span>Co-construction</span></div>
                                 <div><span class="secondary-font">La collaboration et l’intelligence collective sont au coeur de chaque projet</span></div>
                             </li>
@@ -72,29 +72,13 @@ breadcrumbs:
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <style>
-                    @media only screen and (max-width: 767px) {
-                        .team-list-captions > li{
-                            display: inline;
-                        }
-                        .tml-title {
-                            position: relative;
-                            bottom: unset;
-                            padding-bottom: 25px;
-                        }
-                        .team-list-images {
-                            width: 100%;
-                            position: relative;
-                            left: auto;
-                        }
-                    }
-                </style>
                 <div class="content-row full row_padding_top row_padding_bottom light-section" data-bgcolor="#ced4a6">
                     <div class="team-list-wrapper">
-                        <ul class="team-list-captions" style="padding-bottom:0px;">
-                            <li style="padding-bottom:0px;">
-                                <div class="bigger has-shuffle-disabled secondary-font" style="font-size: x-large;">QUI SUIS-JE ?</div>
-                                <h2 class="has-animation" style="font-family: 'LEMONMILK-Regular', sans-serif;">Floriane Jean _ Architecte HMONP*</h2><small style="display: block; font-size: x-large; letter-spacing: normal; color: gray; line-height: normal;">*Habilitation à l’exercice de la Maîtrise d’Œuvre en son Nom Propre</small>
+                        <ul class="team-list-captions">
+                            <li>
+                                <div class="bigger has-shuffle-disabled secondary-font above-about-title">QUI SUIS-JE ?</div>
+                                <h2 class="has-animation">Floriane Jean _ Architecte HMONP*</h2>
+                                <small>*Habilitation à l’exercice de la Maîtrise d’Œuvre en son Nom Propre</small>
                                 <hr>
                                 <div class="secondary-font">
                                     <p>FAIRE ARCHITECTE, un nom simple, presque évident... </p>
@@ -106,7 +90,7 @@ breadcrumbs:
                                 </div>
                             </li>
                         </ul>
-                        <ul class="team-list-images" style="height:100%; max-height:500px;">
+                        <ul class="team-list-images">
                             <li>
                                 <div class="img-mask">
                                     <div class="section-image">
@@ -124,64 +108,44 @@ breadcrumbs:
                     <h2 class="has-animation">Les étapes de mon processus architectural</h2>
                     <hr>
                     <!-- Flex Lists -->
-                    <ul class="flex-lists-wrapper" style="font-size: 20px;">
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On se rencontre</span>
-                            <span class="secondary-font" style="width:85%;">On parle de vous, de vos envies, de vos contraintes et de votre budget. Bref, on pose les bases avant de dessiner quoi que ce soit.</span>
+                    <ul class="flex-lists-wrapper">
+                        <li class="flex-list link has-animation">
+                            <span class="" >On se rencontre</span>
+                            <span class="secondary-font">On parle de vous, de vos envies, de vos contraintes et de votre budget. Bref, on pose les bases avant de dessiner quoi que ce soit.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On vérifie que le projet tient debout</span>
-                            <span class="secondary-font" style="width:85%;">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles. C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On vérifie que le projet tient debout</span>
+                            <span class="secondary-font">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles. C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On esquisse</span>
-                            <span class="secondary-font" style="width:85%;">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans la réalité.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On esquisse</span>
+                            <span class="secondary-font">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans la réalité.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On s’occupe de l’administratif (promis, vous n’y pensez pas)</span>
-                            <span class="secondary-font" style="width:85%;">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les administrations.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On s’occupe de l’administratif (promis, vous n’y pensez pas)</span>
+                            <span class="secondary-font">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les administrations.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On prépare le chantier</span>
-                            <span class="secondary-font" style="width:85%;">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien ça coûte et comment bien le faire.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On prépare le chantier</span>
+                            <span class="secondary-font">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien ça coûte et comment bien le faire.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On choisit les bonnes entreprises</span>
-                            <span class="secondary-font" style="width:85%;">J’analyse les devis, je compare, je négocie et je vous aide à faire les bons choix.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On choisit les bonnes entreprises</span>
+                            <span class="secondary-font">J’analyse les devis, je compare, je négocie et je vous aide à faire les bons choix.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On construit, pour de vrai</span>
-                            <span class="secondary-font" style="width:85%;">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais exactement comme prévu... et c’est normal.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On construit, pour de vrai</span>
+                            <span class="secondary-font">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais exactement comme prévu... et c’est normal.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On livre</span>
-                            <span class="secondary-font" style="width:85%;">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme, fonctionnel et à votre image.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On livre</span>
+                            <span class="secondary-font">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme, fonctionnel et à votre image.</span>
                         </li>
                     </ul>
                     <hr class="destroy">
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <style>
-                    .category-protfolio {
-                        position: relative;
-                        text-decoration: none;
-                    }
-                    .category-protfolio::before {
-                        background: hsl(213.68, 24.26%, 53.92%);
-                        content: "";
-                        inset: 0;
-                        position: absolute;
-                        transform: scaleX(0);
-                        transform-origin: right;
-                        transition: transform 0.5s ease-in-out;
-                        z-index: -1;
-                    }
-                    .category-protfolio:hover::before {
-                        transform: scaleX(1);
-                        transform-origin: left;
-                    }
-                </style>
                 <div class="content-row has-clip-path row_padding_top row_padding_bottom dark-section change-header-color disable-header-gradient"
                     data-bgcolor="#B4C4D9">
                     <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
@@ -191,7 +155,7 @@ breadcrumbs:
                             <li><a class="category-protfolio" href="/portfolio/extensions" data-infotextafter="Cliquer pour voir tous les projets d'extensions">extensions</a></li>
                             <li><a class="category-protfolio" href="/portfolio/renovations" data-infotextafter="Cliquer pour voir tous les projets de rénovations">rénovations</a></li>
                             <li><a class="category-protfolio" href="/portfolio/meubles" data-infotextafter="Cliquer pour voir tous les projets de créations de meubles">création de meubles</a></li>
-                            <li><a class="category-protfolio" href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement de tertiaire et ERP">tertiaire / ERP*</a><small style="display: block; font-size: x-large; letter-spacing: normal; color: lightgrey; line-height: normal;">*Établissements Recevant du Public</small></li>
+                            <li><a class="category-protfolio" href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement de tertiaire et ERP">tertiaire / ERP*</a><small>*Établissements Recevant du Public</small></li>
                         </ul>
                     </div>
                 </div>
@@ -207,8 +171,8 @@ breadcrumbs:
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/portfolio">
-                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante"
-                            data-infotextafter="" style="color:#6D86A6;">Portfolio</div>
+                        <div class="next-hero-title caption-timeline blue-color" data-infotextbefore="Page Suivante"
+                            data-infotextafter="">Portfolio</div>
                     </a>
                 </div>
             </div>

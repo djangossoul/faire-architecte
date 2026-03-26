@@ -75,11 +75,11 @@ captionimg10: ""
 ---
 <div id="main-page-content">   
      <!-- Row -->
-    <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
+    <div class="content-row small row_padding_top  padding-lat-20" data-bgcolor="#0c0c0c">
         <h2>Description</h2>
-        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 25px;">
-            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
-            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
+        <div class="secondary-font project-desc">
+            <div class="project-desc-col"><p><span>{{ page.description1 }}</span></p></div>
+            <div class="project-desc-col"><p><span>{{ page.description2 }}</span></p></div>
             <hr><hr>
         </div>
     </div> 

@@ -17,7 +17,7 @@ breadcrumbs:
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
                     <h1 class="hero-title caption-timeline" data-infotextbefore="" data-infotextafter="">
-                        <div style="color: #733821;"><span>contact</span></div>
+                        <div class="red-color"><span>contact</span></div>
                     </h1>
                     <div class="hero-subtitle caption-timeline onload-shuffle-disabled">
                     </div>
@@ -52,42 +52,16 @@ breadcrumbs:
                     <hr>
                     <hr>
                     <!-- Contact Form -->
-                    <style>
-                        #my-form-button{
-                            padding-right:20px;
-                            padding-left:20px;
-                            position: relative;
-                            text-decoration: none;
-                        }
-                        #my-form-button:hover {
-                            color:#000;
-                            border-color:#FFF;
-                        }
-                        #my-form-button::before {
-                            background: hsl(0, 0%, 100%);
-                            content: "";
-                            inset: 0;
-                            position: absolute;
-                            transform: scaleX(0);
-                            transform-origin: right;
-                            transition: transform 0.5s ease-in-out;
-                            z-index: -1;
-                        }
-                        #my-form-button:hover::before {
-                            transform: scaleX(1);
-                            transform-origin: left;
-                        }
-                    </style>
                     <!-- modify this form HTML and place wherever you want your form -->
-                    <form id="my-form" action="https://formspree.io/f/xdawryge" method="POST" style="color:#FFFFFF;" autocomplete="on">
-                        <label style="margin-top:20px; text-align: left; display: block;">Votre nom:</label>
-                        <input type="text" name="username" id="username" autocomplete="name" style="width: 100%; padding: 10px; font-family: inherit;" required>
-                        <label style="margin-top:20px; text-align: left; display: block;">Votre email:</label>
-                        <input type="email" name="email" id="email" autocomplete="email" style="width: 100%; padding: 10px; font-family: inherit;" required />
-                        <label style="margin-top:20px; text-align: left; display: block;">Votre téléphone:</label>
-                        <input type="tel" name="telephone" autocomplete="tel" maxlength="12" style="width: 100%; padding: 10px; font-family: inherit;" required/>    
-                        <label style="margin-top:20px; text-align: left; display: block;">Votre message:</label>
-                        <textarea name="message" id="message" autocomplete="off" style="width: 100%; padding: 10px; font-family: inherit;"></textarea>
+                    <form id="my-form" action="https://formspree.io/f/xdawryge" method="POST" autocomplete="on">
+                        <label>Votre nom:</label>
+                        <input type="text" name="username" id="username" autocomplete="name" required>
+                        <label>Votre email:</label>
+                        <input type="email" name="email" id="email" autocomplete="email" required />
+                        <label>Votre téléphone:</label>
+                        <input type="tel" name="telephone" autocomplete="tel" maxlength="12" required/>    
+                        <label>Votre message:</label>
+                        <textarea name="message" id="message" autocomplete="off"></textarea>
                         <button id="my-form-button" type="submit" class="button-border outline rounded parallax-element-second" >Envoyer</button>
                         <p id="my-form-status"></p>
                     </form>
@@ -162,11 +136,11 @@ breadcrumbs:
                     <div class="one_third has-animation" data-delay="100">
                         <div class="box-icon-wrapper block-boxes">
                             <div class="box-icon">
-                                <i class="fa fa-map-marker fa-2x" aria-hidden="true" style="color:#FFFFFF;"></i>
+                                <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                                 <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z"/></svg>-->
                             </div>
                             <div class="box-icon-content">
-                                <p class="no-margins" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                <p class="no-margins">
                                     <a href="https://maps.app.goo.gl/s1jPQaeyLTY29m8x9" target="_blank">18, rue du Dr Lemoine, 51100 Reims</a>
                                 </p>
                                 <!--<p>Adresse</p>-->
@@ -180,11 +154,11 @@ breadcrumbs:
                     <div class=" one_third last has-animation" data-delay="300">
                         <div class="box-icon-wrapper block-boxes">
                             <div class="box-icon">
-                                <i class="fa fa-phone fa-2x" aria-hidden="true" style="color:#FFFFFF;"></i>
+                                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                                 <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z"/></svg>-->
                             </div>
                             <div class="box-icon-content">
-                                <p class="no-margins" itemprop="telephone" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                <p class="no-margins" itemprop="telephone">
                                     <a href="tel:+33680042486">06 80 04 24 86</a>
                                 </p>
                                 <!--<p>Téléphone</p>-->

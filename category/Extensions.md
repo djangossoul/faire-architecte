@@ -12,5 +12,7 @@ breadcrumbs:
     url: "/portfolio/"
 ---
 
-Agrandir une maison existante, c'est faire dialoguer deux époques, deux matières, deux logiques constructives. L'extension n'est pas un simple ajout de surface : elle réorganise l'intérieur, redéfinit les circulations et transforme le rapport entre la maison et son terrain.
-Chaque projet est pensé à partir de l'existant — sa structure, son orientation, ses ouvertures — pour que la greffe tienne, visuellement et techniquement. J'interviens en maîtrise d'œuvre complète ou en mission esquisse selon l'avancement et les besoins du projet.
+Votre maison évolue avec vous. Qu'il s'agisse d'agrandir un espace de vie, de créer une chambre supplémentaire ou d'ajouter un atelier, une extension bien pensée transforme profondément votre quotidien.
+Chez FAIRE Architecte, nous abordons l'extension comme le dialogue entre deux époques, deux matières, deux logiques constructives. Plutôt que de singer l'existant, nous assumons une écriture contemporaine qui révèle et valorise le bâti d'origine. Chaque projet intègre une réflexion bioclimatique dès la conception : orientation optimisée, apports solaires maîtrisés, continuité thermique avec l'existant, pour un espace aussi agréable à vivre qu'économe en énergie.
+
+Nous accompagnons particuliers et propriétaires dans le Grand Est, de la conception à la livraison, en gérant l'ensemble des démarches administratives liées à votre projet d’agrandissement.

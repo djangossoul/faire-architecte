@@ -12,5 +12,9 @@ breadcrumbs:
     url: "/portfolio/"
 ---
 
-Concevoir une maison de A à Z, c'est partir d'un terrain, d'un mode de vie et d'un budget pour construire quelque chose qui n'existe pas encore. Chaque projet de construction neuve est une occasion de travailler l'implantation, l'orientation, la lumière et les matières dès l'origine — sans les contraintes d'un bâti existant.
-Architecte HMONP à Reims, j'interviens sur des projets de construction neuve en maîtrise d'œuvre complète ou en mission partielle, de l'esquisse au suivi de chantier.
+Construire une maison, c'est bien plus que bâtir quatre murs. C'est imaginer un lieu de vie qui vous ressemble, ancré dans son environnement et pensé pour durer.
+Chez FAIRE Architecte, chaque projet de construction neuve est abordé comme une réponse singulière à un contexte unique : la topographie du terrain, l'orientation, le voisinage, vos usages quotidiens. L'approche bioclimatique est au cœur de notre démarche — tirer parti de l'ensoleillement, maîtriser les apports thermiques, favoriser la ventilation naturelle — pour concevoir des maisons confortables, économes en énergie et respectueuses de leur environnement.
+
+De la première esquisse au suivi de chantier, nous vous accompagnons à chaque étape pour transformer votre projet en réalité, dans le respect de votre budget et de vos délais.
+
+Basés dans le Grand Est, nous intervenons auprès des particuliers, des artisans et des entreprises pour concevoir des bâtiments neufs alliant exigences techniques, performance énergétique et qualité architecturale.

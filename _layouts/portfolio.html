@@ -10,7 +10,7 @@ layout: base
                 <div class="inner">
                     <h1 class="hero-title caption-timeline generate-spans" data-infotextbefore=""
                         data-infotextafter="">
-                        <div style="color: #6D86A6;"><span>Portfolio</span></div>
+                        <div class="blue-color"><span>Portfolio</span></div>
                     </h1>
                 </div>
             </div>
@@ -103,36 +103,15 @@ layout: base
                                             loading="lazy" %}
                                     </div>                              
                                 </div>
-                                <style>
-                                    .slide-caption2{
-                                        z-index: 10;
-                                        position: absolute;
-                                        left: 0px;
-                                        top: 0;
-                                        height: 100%;
-                                        width: 100%;
-                                        box-sizing: border-box;
-                                        padding: 25px 30px;
-                                        cursor: default;
-                                        pointer-events: none;
-                                        text-align: left;
-                                        opacity: 0;
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: space-between;
-                                        -webkit-transition: all 0.15s ease-out 0s;
-                                        transition: all 0.15s ease-out 0s;
-                                    }
-                                </style>
                                 <div class="slide-caption trigger-item-link-secondary">
-                                    <div class="slide-title secondary-font" style="color:#FFFFFF;">
-                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.title | escape }}</span>
+                                    <div class="slide-title secondary-font">
+                                        <span>{{ post.title | escape }}</span>
                                     </div>                                                    
-                                    <div class="slide-date" style="background-color: rgba(0, 0, 0, 0.3);">
+                                    <div class="slide-date">
                                         <span>{{ post.date | date: date_format }}</span>
                                     </div>
-                                    <div class="slide-cat secondary-font" style="color:#FFFFFF;">
-                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.categories }}</span>
+                                    <div class="slide-cat secondary-font">
+                                        <span >{{ post.categories }}</span>
                                     </div>                                             
                                 </div>
                             </div>
@@ -152,7 +131,7 @@ layout: base
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/contact">
-                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page suivante" data-infotextafter="" style="color: #733821;">Contact</div>
+                        <div class="next-hero-title caption-timeline red-color" data-infotextbefore="Page suivante" data-infotextafter="" >Contact</div>
                     </a>                                   
                 </div>               
             </div>

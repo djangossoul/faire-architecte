@@ -27,11 +27,11 @@ detail3b: "120 m2"
 detail4a: "Montant des travaux"
 detail4b: "< 300 000 € HT"
 detail5a: "Maîtrise d'oeuvre"
-detail5b: "Collaboration <a class='link' style='color:#FFFFFF' href='https://cadetarchitecte.com/' target='_blank'>ACA</a>"
+detail5b: "Collaboration <a class='link project-link' href='https://cadetarchitecte.com/' target='_blank'>ACA</a>"
 detail6a: ""
 detail6b: ""
 description1: "Transformée en bureaux au fil du temps, cette maison typiquement rémoise avait perdu son caractère originel, dissimulé sous des matériaux bas de gamme appliqués du sol au plafond.<br><br><strong>Révéler pour mieux restaurer</strong><br><br>L'enjeu principal de la rénovation est de redonner à cette demeure son identité première. Là où cela est possible, les matériaux d'origine sont mis à nu et valorisés : parquet, carreaux de ciment, moulures - autant d'éléments qui témoignent du caractère architectural de la maison."
-description2: "<strong>Un confort contemporain, une âme préservée</strong><br><br>Le projet réaffirme la vocation d'habitation du lieu en conjuguant respect du bâti existant et exigences contemporaines. L'ensemble des systèmes techniques — isolation, chauffage, électricité, plomberie - a été intégralement repensé et mis aux normes, offrant à cette maison une nouvelle vie, fidèle à son identité et adaptée aux usages d’aujourd’hui.<br>Elle offre aujourd’hui trois chambres et une salle d’eau à chaque étage pour satisfaire l’intimité de ses occupants."
+description2: "<strong>Un confort contemporain, une âme préservée</strong><br><br>Le projet réaffirme la vocation d'habitation du lieu en conjuguant respect du bâti existant et exigences contemporaines. L'ensemble des systèmes techniques - isolation, chauffage, électricité, plomberie - a été intégralement repensé et mis aux normes, offrant à cette maison une nouvelle vie, fidèle à son identité et adaptée aux usages d’aujourd’hui.<br>Elle offre aujourd’hui trois chambres et une salle d’eau à chaque étage pour satisfaire l’intimité de ses occupants."
 
 img1: "/assets/images/projects/accueillir/04_SALON_AVANT.png"
 altimg1: "État initial du salon-entrée avant rénovation – projet Accueillir, Reims"
@@ -107,11 +107,11 @@ captionimg18: "APRES - Chambre marron"
 ---
 <div id="main-page-content">
     <!-- Row -->
-    <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;" data-bgcolor="#0c0c0c">
+    <div class="content-row small row_padding_top padding-lat-20" data-bgcolor="#0c0c0c">
         <h2>Description</h2>
-        <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 25px;">
-            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description1 }}</span></p></div>
-            <div style="flex-basis: 48%; box-sizing: border-box;"><p><span>{{ page.description2 }}</span></p></div>
+        <div class="secondary-font project-desc">
+            <div class="project-desc-col"><p><span>{{ page.description1 }}</span></p></div>
+            <div class="project-desc-col"><p><span>{{ page.description2 }}</span></p></div>
             <hr><hr>
         </div>
     </div> 
@@ -119,7 +119,7 @@ captionimg18: "APRES - Chambre marron"
     <!-- Row -->
     <div class="content-row" data-bgcolor="#0c0c0c">
         <div class="zoom-gallery2">
-            <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
+            <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6" >
                 <li class="zoom-center">
                     {% if page.img1 and page.img1 != "" and page.img1 != nil %}
                         <div class="zoom-img-wrapper">
@@ -179,7 +179,7 @@ captionimg18: "APRES - Chambre marron"
     <!-- Row -->
     <div class="content-row" data-bgcolor="#0c0c0c">
         <div class="zoom-gallery2">
-            <ul class="zoom-wrapper-gallery" data-heightratio="0.6" style="align-items: center; padding-top:25px;">
+            <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img4 and page.img4 != "" and page.img4 != nil %}
                         <div class="zoom-img-wrapper">
@@ -239,7 +239,7 @@ captionimg18: "APRES - Chambre marron"
     <!-- Row -->
     <div class="content-row" data-bgcolor="#0c0c0c">
         <div class="zoom-gallery2">
-            <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
+            <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img7 and page.img7 != "" and page.img7 != nil %}
                         <div class="zoom-img-wrapper">
@@ -299,7 +299,7 @@ captionimg18: "APRES - Chambre marron"
     <!-- Row -->
     <div class="content-row" data-bgcolor="#0c0c0c">
         <div class="zoom-gallery2">
-            <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
+            <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img10 and page.img10 != "" and page.img10 != nil %}
                         <div class="zoom-img-wrapper">
@@ -359,7 +359,7 @@ captionimg18: "APRES - Chambre marron"
     <!-- Row -->
     <div class="content-row" data-bgcolor="#0c0c0c">
         <div class="zoom-gallery2">
-            <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
+            <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img13 and page.img13 != "" and page.img13 != nil %}
                         <div class="zoom-img-wrapper">
@@ -419,7 +419,7 @@ captionimg18: "APRES - Chambre marron"
     <!-- Row -->
     <div class="content-row" data-bgcolor="#0c0c0c">
         <div class="zoom-gallery2">
-            <ul class="zoom-wrapper-gallery" data-heightratio="0.6"  style="align-items: center; padding-top:25px;">
+            <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img16 and page.img16 != "" and page.img16 != nil %}
                         <div class="zoom-img-wrapper">

@@ -16,8 +16,9 @@ breadcrumbs:
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
                     <h1 class="hero-title caption-timeline" data-infotextbefore="" data-infotextafter="">
-                        <div style="font-size: xxx-large;
-}"><span>{{page.title}}</span></div>
+                        <div style="font-size: xxx-large;}">
+                            <span>{{page.title}}</span>
+                        </div>
                     </h1>
                 </div>
             </div>
@@ -40,7 +41,7 @@ breadcrumbs:
     </div>
     <!--/Hero Section -->
     <!-- Main Page Content -->
-    <div id="main-page-content" class="secondary-font" style="padding:20px;">
+    <div id="main-page-content" class="secondary-font">
     <p>
     La présente charte sur le respect de la vie privée (la « Charte ») a pour objectif de formaliser notre engagement quant au respect de la vie privée des utilisateurs du site internet[URL et nom du site] (le « Site ») exploité par [nom de la société / l'entreprise individuelle / l'association exploitant le site]. 
     <br />

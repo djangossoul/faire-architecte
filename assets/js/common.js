@@ -761,8 +761,8 @@ Function Scroll Effects
 			gsap.to(span, {				  
 				scrollTrigger: {
 					trigger: heroCaption,
-					start: "top -30%",	
-					end: "+=60%",
+					start: "top -20%",	
+					end: "+=50%",
 					scrub: true,
 				},
 				scale: 1,
@@ -778,8 +778,8 @@ Function Scroll Effects
 			
 			ScrollTrigger.create({
 				trigger: heroCaption,
-				start: "top -30%",					
-				end: '+=60%',
+				start: "top -20%",					
+				end: '+=50%',
 				scrub: true,
 				animation: flip,
 				onEnter: () => {
@@ -800,8 +800,8 @@ Function Scroll Effects
 			gsap.to(".new-hero-title > span", {			
 				scrollTrigger: {
 					trigger: heroCaption,
-					start: "bottom -10%",
-					end: '+=60%',
+					start: "bottom 5%",
+					end: '+=30%',
 					scrub: true,
 				},
 				x:0,

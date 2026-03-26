@@ -12,5 +12,8 @@ breadcrumbs:
     url: "/portfolio/"
 ---
 
-Les Établissements Recevant du Public obéissent à des règles spécifiques — accessibilité, sécurité incendie, évacuation — qui structurent le projet autant que les choix architecturaux. Travailler sur un ERP, c'est concevoir des espaces qui accueillent du public tout en répondant à un cadre réglementaire précis.
-J'interviens sur des projets tertiaires et ERP en conception et maîtrise d'œuvre, en coordination avec les bureaux de contrôle et les services compétents. Cette catégorie regroupe les projets de locaux professionnels, commerces, lieux d'accueil et espaces collectifs.
+Concevoir un espace de travail ou un établissement recevant du public, c'est répondre à des enjeux fonctionnels, réglementaires et humains à la fois. Un lieu bien conçu améliore le bien-être, l'efficacité et l'image de votre structure.
+
+FAIRE Architecte accompagne entreprises, collectivités et artisans dans le Grand Est pour la conception et la réhabilitation de leurs locaux professionnels : bureaux, commerces, ateliers, ERP. Nous maîtrisons les contraintes réglementaires spécifiques à ces typologies — accessibilité, sécurité incendie, performance énergétique — et les intégrons dès la phase de conception.
+
+De l'étude de faisabilité à la livraison, nous sommes votre interlocuteur unique pour mener votre projet avec efficacité et précision.

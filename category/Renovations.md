@@ -12,5 +12,8 @@ breadcrumbs:
     url: "/portfolio/"
 ---
 
-Rénover, c'est d'abord comprendre ce qui existe : la structure, les matières d'origine, la logique spatiale initiale. Avant de proposer quoi que ce soit, je lis le bâtiment — ce qu'il cache sous les faux plafonds et les doublages, ce qu'il mérite qu'on lui restitue.
-Les projets de rénovation que je mène associent remise aux normes techniques — isolation, chauffage, électricité, plomberie — et attention portée au caractère architectural existant. L'objectif est toujours le même : un espace contemporain dans ses usages, cohérent dans son identité.
+Rénover, c'est révéler le potentiel caché d'un bâtiment. C'est aussi une opportunité de repenser les espaces, d'améliorer le confort et d'adapter votre logement à vos besoins actuels, sans renoncer à son caractère.
+
+FAIRE Architecte intervient sur tous types de rénovations — maisons de ville, bâtisses anciennes, logements transformés — avec une attention particulière portée aux matériaux d'origine et à l'identité du lieu. Nous coordonnons l'ensemble des travaux : isolation, mise aux normes des réseaux, redistribution des espaces, choix des matériaux.
+
+Dans le Grand Est, nous accompagnons particuliers et professionnels pour redonner vie à leur patrimoine bâti, avec rigueur et sensibilité.

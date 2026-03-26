@@ -9,10 +9,11 @@ layout: page
     <!-- Hero Section -->
     <div id="hero">
         <div id="hero-styles">
-            <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
+            <div id="hero-caption"
+                class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
-                    <h1 class="hero-title caption-timeline generate-spans" data-infotextbefore="Catégorie du portfolio"
-                        data-infotextafter="" style="font-size: calc(1rem + 10vw); line-height: calc(1rem + 12vw);">
+                    <h1 class="hero-title caption-timeline generate-spans category-page blue-color"
+                        data-infotextbefore="Catégorie du portfolio" data-infotextafter="">
                         <div><span>{{ category }}</span></div>
                     </h1>
                     <div class="hero-subtitle caption-timeline onload--disabled">
@@ -28,7 +29,7 @@ layout: page
                                 <i class="fa-solid fa-angle-down"></i>
                                 <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"/></svg>
                             -->
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -39,9 +40,12 @@ layout: page
                                 <i class="fa-solid fa-sort"></i>
                                 <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M130.4 268.2C135.4 280.2 147 288 160 288L480 288C492.9 288 504.6 280.2 509.6 268.2C514.6 256.2 511.8 242.5 502.7 233.3L342.7 73.3C330.2 60.8 309.9 60.8 297.4 73.3L137.4 233.3C128.2 242.5 125.5 256.2 130.5 268.2zM130.4 371.7C125.4 383.7 128.2 397.4 137.3 406.6L297.3 566.6C309.8 579.1 330.1 579.1 342.6 566.6L502.6 406.6C511.8 397.4 514.5 383.7 509.5 371.7C504.5 359.7 492.9 352 480 352L160 352C147.1 352 135.4 359.8 130.4 371.8z"/></svg>
                             -->
-                              </div>
+                            </div>
                         </div>
-                        <div class="button-text sticky right"><span data-close="Voir les catégories" data-hover="Voir les autres catégories">Voir les autres catégories</span></div>
+                        <div class="button-text sticky right">
+                            <span data-close="Voir les catégories" data-hover="Voir les autres catégories">
+                                Voir les autres catégories</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -50,111 +54,95 @@ layout: page
     <!--/Hero Section -->
     <!-- Main Page Content -->
     <div id="main-page-content">
-        <!-- Row -->
-        <div class="content-row small row_padding_top" style="padding-right: 20px; padding-left: 20px;"  data-bgcolor="#0c0c0c">
-            <div class="secondary-font" style="display: flex; flex-wrap: wrap; gap: 25px;">
-                <div style="flex-basis: 100%; box-sizing: border-box;"><p><span>{{ content }}</span></p></div>
-                <hr><hr>
-            </div>
-        </div> 
-        <!--/Row -->
+        
         <!-- Fit Thumb Screen Effects -->
         <div id="itemsWrapperLinks">
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
                 <div id="filters-gradient">
-                  <ul id="filters" class="filters-options-wrapper">
+                    <ul id="filters" class="filters-options-wrapper">
 
-                    {% for sitecategory in site.categories %}
-                      {% assign category_slug = sitecategory | first | slugify: 'latin' %}
-                      {% assign category_label = sitecategory | first %}
-                      <li class="filters-timeline link">
-                        <a class="filter-option2{% if category == category_slug %} is_active{% endif %}" href="/portfolio/{{ category_slug }}/">{{ category_label }}, </a>
-                      </li>
-                    {% endfor %}
+                        {% for sitecategory in site.categories %}
+                        {% assign category_slug = sitecategory | first | slugify: 'latin' %}
+                        {% assign category_label = sitecategory | first %}
+                        <li class="filters-timeline link">
+                            <a class="filter-option2{% if category == category_slug %} is_active{% endif %}"
+                                href="/portfolio/{{ category_slug }}/">{{ category_label }}, </a>
+                        </li>
+                        {% endfor %}
 
-                      <li class="filters-timeline link">
-                        <a id="all" class="filter-option2" href="/portfolio/" data-filter="">
-                          Tous les projets
-                        </a>
-                      </li> 
-                  </ul>
+                        <li class="filters-timeline link">
+                            <a id="all" class="filter-option2" href="/portfolio/" data-filter="">
+                                Tous les projets
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+                <!-- Row -->
+                <div class="content-row small row_padding_top padding-lat-20" data-bgcolor="#0c0c0c">
+                    <div class="secondary-font">
+                        <div>
+                            <p><span>{{ content }}</span></p>
+                        </div>
+                        <hr>
+                        <hr>
+                    </div>
+                </div>
+                <!--/Row -->
                 {% if site.categories[category].size > 0 %}
-                  <!-- ClaPat Portfolio -->
-                  <div class="showcase-portfolio expand-grid">
+                <!-- ClaPat Portfolio -->
+                <div class="showcase-portfolio expand-grid">
                     {%- assign date_format = site.minima.date_format | default: "%Y" -%}
 
                     {% for post in site.categories[category] %}
-                      {% assign thumbnailback = post.thumbnailback %}
-                      {% assign thumbnailbackalt = post.thumbnailback-alt %}
-                      {% assign thumbnailfront = post.thumbnailfront %}
-                      {% assign thumbnailfrontalt = post.thumbnailfront-alt %}
-                      <div class="clapat-item photo-filter">
-                        <div class="slide-inner trigger-item" data-centerline="OPEN">                                                    
-                          <div class="img-mask pixels-cover-disabled">
-                            <a class="slide-link" href="{{ post.url | relative_url }}"></a>
-                            <div class="section-image trigger-item-link">
-                              {% include img.html
-                                path=thumbnailback
-                                alt=thumbnailbackalt
-                                class="item-image grid__item-img"
-                                style=""
-                                loading="lazy" %}
-                            </div>                                                
-                              {% include img.html
+                    {% assign thumbnailback = post.thumbnailback %}
+                    {% assign thumbnailbackalt = post.thumbnailback-alt %}
+                    {% assign thumbnailfront = post.thumbnailfront %}
+                    {% assign thumbnailfrontalt = post.thumbnailfront-alt %}
+                    <div class="clapat-item photo-filter">
+                        <div class="slide-inner trigger-item" data-centerline="OPEN">
+                            <div class="img-mask pixels-cover-disabled">
+                                <a class="slide-link" href="{{ post.url | relative_url }}"></a>
+                                <div class="section-image trigger-item-link">
+                                    {% include img.html
+                                    path=thumbnailback
+                                    alt=thumbnailbackalt
+                                    class="item-image grid__item-img"
+                                    style=""
+                                    loading="lazy" %}
+                                </div>
+                                {% include img.html
                                 path=thumbnailback
                                 alt=thumbnailbackalt
                                 class="grid__item-img grid__item-img--large"
                                 style=""
                                 loading="lazy" %}
-                            <div class="section-thumb">
-                              {% include img.html
-                                path=thumbnailfront
-                                alt=thumbnailfrontalt
-                                class=""
-                                style=""
-                                loading="lazy" %}
-                            </div>                              
-                          </div>
-                          <style>
-                            .slide-caption2{
-                              z-index: 10;
-                              position: absolute;
-                              left: 0px;
-                              top: 0;
-                              height: 100%;
-                              width: 100%;
-                              box-sizing: border-box;
-                              padding: 25px 30px;
-                              cursor: default;
-                              pointer-events: none;
-                              text-align: left;
-                              opacity: 0;
-                              display: flex;
-                              align-items: center;
-                              justify-content: space-between;
-                              -webkit-transition: all 0.15s ease-out 0s;
-                              transition: all 0.15s ease-out 0s;
-                            }
-                          </style>
-                          <div class="slide-caption trigger-item-link-secondary">
-                                    <div class="slide-title secondary-font" style="color:#FFFFFF;">
-                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.title | escape }}</span>
-                                    </div>                                                    
-                                    <div class="slide-date" style="background-color: rgba(0, 0, 0, 0.3);">
-                                        <span>{{ post.date | date: date_format }}</span>
-                                    </div>
-                                    <div class="slide-cat secondary-font" style="color:#FFFFFF;">
-                                        <span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ post.categories }}</span>
-                                    </div>                                             
+                                <div class="section-thumb">
+                                    {% include img.html
+                                    path=thumbnailfront
+                                    alt=thumbnailfrontalt
+                                    class=""
+                                    style=""
+                                    loading="lazy" %}
                                 </div>
+                            </div>
+                            <div class="slide-caption trigger-item-link-secondary">
+                                <div class="slide-title secondary-font">
+                                    <span>{{ post.title | escape }}</span>
+                                </div>
+                                <div class="slide-date">
+                                    <span>{{ post.date | date: date_format }}</span>
+                                </div>
+                                <div class="slide-cat secondary-font">
+                                    <span>{{ post.categories }}</span>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                     {%- endfor -%}
-                  </div>
-                  <!-- ClaPat Portfolio -->
+                </div>
+                <!-- ClaPat Portfolio -->
                 {% else %}
-                  <div class="showcase-portfolio expand-grid">
+                <div class="showcase-portfolio expand-grid">
                     <p>Aucun projet trouvé pour cette catégorie.</p>
                     <br />
                     <br />
@@ -168,26 +156,27 @@ layout: page
                     <br />
                     <br />
                     <br />
-                  </div>
+                </div>
                 {%- endif -%}
-                
-            </div>                                                           
-        </div>    
+
+            </div>
+        </div>
         <!-- Fit Thumb Screen Effects -->
     </div>
     <!--/Main Page Content -->
-    <!-- Page Navigation --> 
+    <!-- Page Navigation -->
     <div id="page-nav" class="move-nav-onload">
         <div class="page-nav-wrap">
-            <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
+            <div class="page-nav-caption nav-full-caption content-full-width text-align-center">
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/a-propos">
-                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page suivante" data-infotextafter="">A propos</div>
-                    </a>                                   
-                </div>               
+                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page suivante"
+                            data-infotextafter="">A propos</div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>      
+    </div>
     <!--/Page Navigation -->
 </div>
 <!--/Main Content -->

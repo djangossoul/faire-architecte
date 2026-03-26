@@ -8,30 +8,19 @@ layout: base
         <div id="hero-styles">
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
-                    <style>
-                        .sr-only {
-                            position: absolute;
-                            width: 1px;
-                            height: 1px;
-                            padding: 0;
-                            margin: -1px;
-                            overflow: hidden;
-                            clip: rect(0, 0, 0, 0);
-                            white-space: nowrap;
-                            border: 0;
-                        }
-                    </style>
                     <h1 class="sr-only">Architecte HMONP à Reims – Construction, Rénovation, Extension</h1>
                     <div class="hero-title caption-timeline" data-infotextbefore=""
                         data-infotextafter="">
                         <div>
-                            <span><img class="black-logo" src="/assets/images/FAIRE_LOGO_01-26_MAJ_mot_plain.svg" alt="FAIRE Architecte – Architecte HMONP à Reims" fetchpriority=high style="max-width: 50vw;"></span>
+                            <span>
+                                <img class="black-logo" src="/assets/images/FAIRE_LOGO_01-26_MAJ_mot_plain.svg" alt="FAIRE Architecte – Architecte HMONP à Reims" fetchpriority=high>
+                            </span>
                             <!--<span>FAIRE</span>-->
                         </div>
                     </div>
                     <div class="hero-subtitle caption-timeline onload-shuffle-disabled">
                         <div>
-                            <img class="" src="/assets/images/FAIRE_LOGO_2026_baseline.webp" alt="FAIRE Architecte – FAbrique d'Intentions REvées, architecte HMONP à Reims" style="max-width: 80vw;">
+                            <img class="baseline" src="/assets/images/FAIRE_LOGO_2026_baseline.webp" alt="FAIRE Architecte – FAbrique d'Intentions REvées, architecte HMONP à Reims">
                         </div>
                     </div>
                 </div>
@@ -54,8 +43,8 @@ layout: base
                 </div>
             </div>
         </div>
-        <div id="hero-interaction" style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
-            <div class="hero-column col-left" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
+        <div id="hero-interaction">
+            <div class="hero-column col-left">
                 <div class="col-img-wrapper small-img">
                     {% include img.html
                         path="/assets/images/projects/accueillir/04_SALON_APRES.jpg"
@@ -73,7 +62,7 @@ layout: base
                         loading="eager" %}
                 </div>
             </div>
-            <div class="hero-column col-right" style="display: flex; flex-direction: column; flex-basis: 100%; flex: 1;">
+            <div class="hero-column col-right">
                 <div class="col-img-wrapper large-img">
                     {% include img.html
                         path="/assets/images/projects/accueillir/01_SDB_CROQUIS.jpg"
@@ -100,95 +89,31 @@ layout: base
         <div id="itemsWrapperLinks" >
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
                 <!-- Row-->
-                 <style>
-                    .category-protfolio {
-                        position: relative;
-                        text-decoration: none;
-                    }
-
-                    .category-protfolio::before {
-                        background: hsl(0, 0%, 100%);
-                        content: "";
-                        inset: 0;
-                        position: absolute;
-                        transform: scaleX(0);
-                        transform-origin: right;
-                        transition: transform 0.5s ease-in-out;
-                        z-index: -1;
-                    }
-
-                    .category-protfolio:hover::before {
-                        transform: scaleX(1);
-                        transform-origin: left;
-                    }
-                    .savoirfaires{
-                        display: flex;
-                        width: 100%;
-                        flex-direction: row;
-                    }
-
-                    .landing-intro-wrapper, .one_fourth2{
-                        flex: 1;
-                        width:50%;
-                    }
-                    .one_fourth2, .one_fourth3{
-                        align-self: flex-end;
-                    }
-                    .one_fourth2 .landing-video-disabled.content-timeline-disabled {
-                        width:50%;     
-                        margin-left: auto;
-                        margin-right: 0px;
-
-                    }
-                    .one_fourth3 .inner_one_fourth3{
-                        width:25%;     
-                        margin-left: auto;
-                        margin-right: 0px;
-
-                    }
-
-                    @media all and (max-width: 1025px) {
-                        .savoirfaires{
-                            flex-direction: column;
-                        } 
-                        .hero-title-placeholder + span a{
-                            padding-top:60px;
-                        }
-                        .landing-intro-wrapper{
-                            width:100%;
-                        }
-                        .one_fourth2 .landing-video-disabled.content-timeline-disabled{
-                            width:100%;
-                        }
-                        .one_fourth3 .inner_one_fourth3{
-                            width:50%;
-                        }
-                    }
-                    
-                </style>
                 <div class="savoirfaires content-row full row_padding_top row_padding_left row_padding_right light-section fadeout-element"
-                    data-bgcolor="transparent" style="background: #D4DEEA; background: linear-gradient(0deg,rgba(212, 222, 234, 1) 0%, rgba(212, 222, 234, 1) 85%, rgba(255, 255, 255, 0) 100%);">
+                    data-bgcolor="transparent">
                     <div class="landing-intro-wrapper">
-                        <h2 class="new-hero-title" style="display: contents!important;">
+                        <h2 class="new-hero-title">
                             
                             <div class="hero-title-placeholder"></div>
-                            <span style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">pour vos</span>
-                            <span style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">projets de</span>
+                            <span class="savoirfaire-text savoirfaire-text-first">pour vos</span>
+                            <span class="savoirfaire-text">projets de</span>
 
-                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                            <span class="secondary-font savoirfaire-text">
                                 <a class="category-protfolio" href="/portfolio/constructions" data-infotextafter="Cliquer pour voir tous les projets de constructions neuves">construction neuve</a>
                             </span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                            <span class="secondary-font savoirfaire-text">
                                 <a class="category-protfolio" href="/portfolio/extensions" data-infotextafter="Cliquer pour voir tous les projets d'extensions">extension</a>
                             </span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                            <span class="secondary-font savoirfaire-text">
                                 <a class="category-protfolio" href="/portfolio/renovations" data-infotextafter="Cliquer pour voir tous les projets de rénovations">rénovation</a>
                             </span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
+                            <span class="secondary-font savoirfaire-text">
                                 <a class="category-protfolio" href="/portfolio/meubles" data-infotextafter="Cliquer pour voir tous les projets de créations de meubles">création de meubles</a>
                             </span>
-                            <span class="secondary-font" style="font-size: calc((1rem + 8vw) / 2); line-height: calc((1rem + 10vw) / 2);">
-                                <a class="category-protfolio" href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement d'ERP">tertiaire / ERP*</a><br \><small style="font-size: calc((0.5rem + 4vw) / 2); line-height: calc((0.5rem + 4vw) / 2); letter-spacing: 0.01rem; display: block; color: gray;">*Établissements Recevant du Public</small>
+                            <span class="secondary-font savoirfaire-text">
+                                <a class="category-protfolio" href="/portfolio/erp" data-infotextafter="Cliquer pour voir tous les projets d'aménagement d'ERP">tertiaire / ERP*</a>
+                                <br \>
+                                <small>*Établissements Recevant du Public</small>
                             </span>
                         </h2>
                     </div>
@@ -205,7 +130,7 @@ layout: base
                         </div>
                     </div>
                 </div>
-                <div class="one_fourth3 row_padding_right row_padding_left" style="padding-bottom:40px; background: #D4DEEA;">
+                <div class="one_fourth3 row_padding_right row_padding_left about-text">
                     <div class="inner_one_fourth3">
                         <hr>
                         <p class="has-opacity">Une architecture humaine, artisanale, ancrée dans le local et le réel toujours portée par une touche d’imaginaire.</p>
@@ -229,7 +154,7 @@ layout: base
                 <!--/Row -->
                 <!-- Row -->
                  {%- if site.posts.size > 0 -%}
-                <div class="content-row full text-align-center dark-section disable-header-gradient" data-bgcolor="#ffffff">
+                <div class="content-row full text-align-center dark-section disable-header-gradient home-projects" data-bgcolor="#ffffff">
                     <div class="snap-slider-holder">
                         <div class="snap-slider-images">
                             <div class="snap-slider-images-wrapper">
@@ -327,15 +252,23 @@ layout: base
                                 
                                 {% if thepost %}
                                     <div class="snap-slide-caption">
-                                        <div class="slide-title" style="width: auto; line-height: 36px; margin-top: 14px; margin-bottom: 14px;"><span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px; font-family: 'LEMONMILK-Regular', serif;">{{ thepost.title | escape }}</span></div>
-                                        <div class="slide-subtitle" style="width: auto; line-height: 36px; margin-top: 14px; margin-bottom: 14px;"><span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ thepost.categories | join: ', ' }}</span></div>
+                                        <div class="slide-title">
+                                            <span>{{ thepost.title | escape }}</span>
+                                        </div>
+                                        <div class="slide-subtitle">
+                                            <span>{{ thepost.categories | join: ', ' }}</span>
+                                        </div>
                                     </div>
                                 {% endif %}
                                 
                                 {% if thepost2 %}
                                     <div class="snap-slide-caption">
-                                        <div class="slide-title" style="width: auto; line-height: 36px; margin-top: 14px; margin-bottom: 14px;"><span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px; font-family: 'LEMONMILK-Regular', serif;">{{ thepost2.title | escape }}</span></div>
-                                        <div class="slide-subtitle" style="width: auto; line-height: 36px; margin-top: 14px; margin-bottom: 14px;"><span style="background-color: rgba(0, 0, 0, 0.3); border-radius: 5px; padding-right: 20px; padding-left: 20px;">{{ thepost2.categories | join: ', ' }}</span></div>
+                                        <div class="slide-title">
+                                            <span>{{ thepost2.title | escape }}</span>
+                                        </div>
+                                        <div class="slide-subtitle">
+                                            <span>{{ thepost2.categories | join: ', ' }}</span>
+                                        </div>
                                     </div>
                                 {% endif %}
                             </div>
@@ -345,15 +278,15 @@ layout: base
                 {%- endif -%}
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row small text-align-center light-section" data-bgcolor="#B4C4D9">
+                <div class="content-row small text-align-center light-section" data-bgcolor="#F6DACE">
                     <hr>
                     <hr>
                     <div class="button-box">
                         <div class="clapat-button-wrap parallax-wrap hide-ball">
                             <div class="clapat-button parallax-element">
-                                <div class="button-border outline rounded parallax-element-second">
+                                <div class="button-border outline rounded parallax-element-second blue-color home-portfolio-link">
                                     <a class="ajax-link" href="/portfolio">
-                                        <span data-hover="Tous les Projets">Voir le portfolio</span>
+                                        <span class="blue-color" data-hover="Tous les Projets">Voir le portfolio</span>
                                     </a>
                                 </div>
                             </div>
@@ -364,43 +297,43 @@ layout: base
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row row_padding_top text-align-center light-section2" data-bgcolor="#ffffff" style="background: #f6dace; background: linear-gradient(0deg,rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 5%, rgba(246, 218, 206, 1) 100%); padding-left: 60px; padding-right: 60px;">
+                <div class="content-row row_padding_top text-align-center light-section2 home-steps" data-bgcolor="#ffffff">
                     <p class="bigger has-shuffle-disabled secondary-font">POURQUOI TRAVAILLER ENSEMBLE ?</p>
                     <h2 class="has-animation">Les étapes de mon processus architectural</h2>
                     <hr>
                     <!-- Flex Lists -->
-                    <ul class="flex-lists-wrapper" style="font-size: 20px;">
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none; ">
-                            <span class="" style="margin-bottom: 15px;">On se rencontre</span>
-                            <span class="secondary-font" style="width:85%;">On parle de vous, de vos envies, de vos contraintes et de votre budget. Bref, on pose les bases avant de dessiner quoi que ce soit.</span>
+                    <ul class="flex-lists-wrapper">
+                        <li class="flex-list link has-animation">
+                            <span class="">On se rencontre</span>
+                            <span class="secondary-font">On parle de vous, de vos envies, de vos contraintes et de votre budget. Bref, on pose les bases avant de dessiner quoi que ce soit.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On vérifie que le projet tient debout</span>
-                            <span class="secondary-font" style="width:85%;">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles. C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On vérifie que le projet tient debout</span>
+                            <span class="secondary-font">Une étude de faisabilité pour s’assurer que vos idées, le site et le budget sont compatibles. C’est le moment clé pour partir sereinement (ou s’arrêter sans regret).</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On esquisse</span>
-                            <span class="secondary-font" style="width:85%;">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans la réalité.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On esquisse</span>
+                            <span class="secondary-font">Les premières formes apparaissent. Le projet prend corps, sur le papier avant de le faire dans la réalité.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On s’occupe de l’administratif (promis, vous n’y pensez pas)</span>
-                            <span class="secondary-font" style="width:85%;">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les administrations.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On s’occupe de l’administratif (promis, vous n’y pensez pas)</span>
+                            <span class="secondary-font">Permis de construire, déclarations, dossiers réglementaires : je gère les échanges avec les administrations.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On prépare le chantier</span>
-                            <span class="secondary-font" style="width:85%;">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien ça coûte et comment bien le faire.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On prépare le chantier</span>
+                            <span class="secondary-font">Un dossier technique précis pour que les entreprises sachent exactement quoi faire, combien ça coûte et comment bien le faire.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On choisit les bonnes entreprises</span>
-                            <span class="secondary-font" style="width:85%;">J’analyse les devis, je compare, je négocie et je vous aide à faire les bons choix.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On choisit les bonnes entreprises</span>
+                            <span class="secondary-font">J’analyse les devis, je compare, je négocie et je vous aide à faire les bons choix.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On construit, pour de vrai</span>
-                            <span class="secondary-font" style="width:85%;">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais exactement comme prévu... et c’est normal.</span>
+                        <li class="flex-list link has-animation">
+                            <span class="">On construit, pour de vrai</span>
+                            <span class="secondary-font">Le chantier démarre. Je coordonne, j’anticipe, j’adapte. Parce qu’un projet ne se joue jamais exactement comme prévu... et c’est normal.</span>
                         </li>
-                        <li class="flex-list link has-animation" style="flex-direction: column; align-items: center; pointer-events: none;">
-                            <span class="" style="margin-bottom: 15px;">On livre</span>
-                            <span class="secondary-font" style="width:85%;">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme, fonctionnel et à votre image.</span>
+                        <li class="flex-list link has-animation"
+                            <span class="">On livre</span>
+                            <span class="secondary-font">Réception du chantier, vérifications, ajustements : jusqu’à ce que le projet soit conforme, fonctionnel et à votre image.</span>
                         </li>
                     </ul>
                     <hr class="destroy">
@@ -416,7 +349,7 @@ layout: base
                             -->
                             </div>
                             <div class="box-icon-content">
-                                <p class="no-margins" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                <p class="no-margins">
                                     <a href="https://maps.app.goo.gl/s1jPQaeyLTY29m8x9" target="_blank">18, rue du Dr Lemoine, 51100 Reims</a>
                                 </p>
                             </div>
@@ -434,7 +367,7 @@ layout: base
                             -->
                             </div>
                             <div class="box-icon-content">
-                                <p class="no-margins" itemprop="telephone" style="font-size: 18px; line-height: 36px; font-weight: 400; letter-spacing: -0.03vw;">
+                                <p class="no-margins" itemprop="telephone">
                                     <a href="tel:+33680042486">06 80 04 24 86</a>
                                 </p>
                             </div>
@@ -463,7 +396,7 @@ layout: base
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">                                 
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/a-propos">
-                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page Suivante" data-infotextafter="" style="color:#3D4025;">A propos</div>
+                        <div class="next-hero-title caption-timeline green-color" data-infotextbefore="Page Suivante" data-infotextafter="">A propos</div>
                     </a>                                  
                 </div>               
             </div>
