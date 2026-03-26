@@ -65,7 +65,7 @@ layout: page
                         {% assign category_slug = sitecategory | first | slugify: 'latin' %}
                         {% assign category_label = sitecategory | first %}
                         <li class="filters-timeline link">
-                            <a class="filter-option2{% if category == category_slug %} is_active{% endif %}"
+                            <a class="filter-option2{% if category | slugify: 'latin' == category_slug %} is_active{% endif %}"
                                 href="/portfolio/{{ category_slug }}">{{ category_label }}, </a>
                         </li>
                         {% endfor %}
