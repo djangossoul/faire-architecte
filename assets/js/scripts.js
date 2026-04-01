@@ -47,6 +47,7 @@ jQuery(function ($) {
 				ShowcaseSnapSlider();
 				FitThumbScreenWEBGL();
 				Shortcodes();
+				Sliders();
 				Core();
 				MouseCursor();
 				JustifiedGrid();

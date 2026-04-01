@@ -4556,13 +4556,22 @@ p .link-text {
 .green-color {
 	color: #3D4025;
 }
+.green-color-hover:hover {
+	color: #9EA660;
+}
 
 .blue-color {
 	color: #6D86A6;
 }
+.blue-color-hover:hover {
+	color: #B4C4D9;
+}
 
 .red-color {
 	color: #733821;
+}
+.red-color-hover:hover {
+	color: #BF8975;
 }
 
 .dark-red-background {
@@ -4579,9 +4588,10 @@ p .link-text {
 
 .about-values-titles {
 	top: 0px;
-	position: fixed !important;
+	/*position: fixed !important;*/
 	width: 100%;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
+	padding-bottom: 15vh;
 }
 
 ul.team-list-captions {
@@ -4641,7 +4651,7 @@ ul.flex-lists-wrapper {
 ul.flex-lists-wrapper li.flex-list {
 	flex-direction: column;
 	align-items: center;
-	pointer-events: none;
+	pointer-events: auto;
 }
 
 ul.flex-lists-wrapper li.flex-list+span:first-of-type {
@@ -4650,6 +4660,12 @@ ul.flex-lists-wrapper li.flex-list+span:first-of-type {
 
 ul.flex-lists-wrapper li.flex-list+span:nth-of-type(2) {
 	width: 85%;
+	opacity:0;
+	transition: opacity 0.3s;
+	
+}
+ul.flex-lists-wrapper li.flex-list:hover+span:nth-of-type(2) {
+	opacity:1;
 }
 
 .category-protfolio {

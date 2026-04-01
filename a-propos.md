@@ -15,7 +15,7 @@ breadcrumbs:
         <div id="hero-styles">
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
-                    <h1 class="hero-title caption-timeline" data-infotextbefore="" data-infotextafter="">
+                    <h1 class="hero-title caption-timeline" data-infoTextBefore="" data-infoTextAfter="">
                         <div class="green-color"><span>À Propos</span></div>
                     </h1>
                 </div>
@@ -53,19 +53,43 @@ breadcrumbs:
                         </div>
                         <ul class="parallax-content">
                             <li class="parallax-list">
-                                <div class="about-values-titles"><span><p class="">Mes valeurs</p></span></div>
-                                <div><span>Humanité</span></div>
-                                <div><span class="secondary-font">Des espaces qui respirent et qui ressemblent à ceux qui les habitent</span></div>
+                                <div class="about-values-titles">
+                                    <span>
+                                        <p class="">Mes valeurs</p>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Humanité</span>
+                                </div>
+                                <div>
+                                    <span class="secondary-font">Des espaces qui respirent et qui ressemblent à ceux qui les habitent</span>
+                                </div>
                             </li>
                             <li class="parallax-list">
-                                <div class="about-values-titles"><span><p class="">Mes valeurs</p></span></div>
-                                <div><span>Artisanat & Savoir-faire</span></div>
-                                <div><span class="secondary-font">Les mains disent parfois mieux que les mots</span></div>
+                                <div class="about-values-titles">
+                                    <span>
+                                        <p class="">Mes valeurs</p>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Artisanat & Savoir-faire</span>
+                                </div>
+                                <div>
+                                    <span class="secondary-font">Les mains disent parfois mieux que les mots</span>
+                                </div>
                             </li>
                             <li class="parallax-list">
-                                <div class="about-values-titles"><span><p class="">Mes valeurs</p></span></div>
-                                <div><span>Co-construction</span></div>
-                                <div><span class="secondary-font">La collaboration et l’intelligence collective sont au coeur de chaque projet</span></div>
+                                <div class="about-values-titles">
+                                    <span>
+                                        <p class="">Mes valeurs</p>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>Co-construction</span>
+                                </div>
+                                <div>
+                                    <span class="secondary-font">La collaboration et l’intelligence collective sont au coeur de chaque projet</span>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -146,6 +170,113 @@ breadcrumbs:
                 </div>
                 <!--/Row -->
                 <!-- Row -->
+                <div class="content-row row_padding_top light-section" data-bgcolor="#f6dace">  
+                    <p class="bigger has-shuffle-disabled secondary-font" style="text-align: center;">FAQ</p>
+                    <h2 class="has-animation" style="text-align: center;">Les questions les plus fréquentes</h2>
+                    <hr>
+                    <dl class="accordion has-animation">
+                        <dt>
+                            <span class="link">
+                                <div>Quels types de projets prenez-vous en charge ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            Rénovation, extension, construction neuve, aménagement intérieur, projet en secteur sauvegardé — la nature des missions varie selon les architectes. Préciser votre projet dès le premier contact permet d'évaluer rapidement la compatibilité avec le domaine d'expertise du cabinet.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>Ai-je besoin d'un architecte pour mon projet ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            </dt>
+                            <dd class="accordion-content secondary-font">
+                                Le recours à un architecte est obligatoire pour toute construction neuve ou extension portant la surface plancher au-delà de 150 m² (en France). En dessous de ce seuil, il reste recommandé pour les projets complexes ou soumis à des contraintes patrimoniales.
+                            </dd>
+                            <dt>
+                                <span class="link">
+                                    <div>Quel est le coût d'une mission d'architecture ?</div>
+                                </span>
+                                <div class="acc-icon-wrap parallax-wrap">
+                                    <div class="acc-button-icon parallax-element">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </dt>
+                            <dd class="accordion-content secondary-font">
+                                Les honoraires sont libres et dépendent de l'étendue de la mission (partielle ou complète), de la nature du projet et de sa complexité. Ils représentent généralement entre 8 % et 15 % du montant HT des travaux pour une mission complète.
+                            </dd>
+                            <dt>
+                                <span class="link">
+                                    <div>Quelle est la différence entre une mission complète et une mission partielle ?</div>
+                                </span>
+                                <div class="acc-icon-wrap parallax-wrap">
+                                    <div class="acc-button-icon parallax-element">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </dt>
+                            <dd class="accordion-content secondary-font">
+                                Une mission complète couvre l'ensemble des phases, de la conception à la réception de chantier. Une mission partielle peut se limiter au permis de construire, à l'avant-projet ou au suivi de chantier seul — utile si le client souhaite gérer lui-même certaines étapes ou fait appel à un maître d'œuvre pour l'exécution.
+                            </dd>
+                            </dl>
+                            <hr><hr><hr>
+                        </div> 
+                        <!--/Row -->
+                                   <!-- Row -->
+                                    <!--<div class="content-row row_padding_bottom light-section" data-bgcolor="#f6dace">
+                                        <p class="bigger has-shuffle-disabled secondary-font">FAQ</p>
+                                        <h2 class="has-animation">Les questions les plus fréquentes</h2>
+                                        <hr>
+                                        <dl class="accordion bigger-acc has-animation">
+                                            <dt>
+                                                <span class="link primary-font-title"><div>Friendly Support</div></span>
+                                                <div class="acc-icon-wrap parallax-wrap">
+                                                    <div class="acc-button-icon parallax-element">
+                                                        <i class="fa fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                            </dt>
+                                            <dd class="accordion-content">Our dedicated team is always here to provide you with friendly and reliable support. We prioritize your satisfaction and are committed to assisting you every step of the way.</dd>
+                                            <dt>
+                                                <span class="link primary-font-title"><div>Money Back</div></span>
+                                                <div class="acc-icon-wrap parallax-wrap">
+                                                    <div class="acc-button-icon parallax-element">
+                                                        <i class="fa fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                            </dt>
+                                            <dd class="accordion-content">We value your trust and confidence in our product. If you're not completely satisfied with your purchase, we offer a hassle-free money-back guarantee. Your satisfaction is our top priority.</dd>
+                                            <dt>
+                                                <span class="link primary-font-title"><div>Premium Quality</div></span>
+                                                <div class="acc-icon-wrap parallax-wrap">
+                                                    <div class="acc-button-icon parallax-element">
+                                                        <i class="fa fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                            </dt>
+                                            <dd class="accordion-content">Our website template is crafted with meticulous attention to detail and a focus on delivering a premium experience. From stunning design elements to seamless functionality, we ensure that our template meets the highest quality standards.</dd>
+                                            <dt>
+                                                <span class="link primary-font-title"><div>Custom Work</div></span>
+                                                <div class="acc-icon-wrap parallax-wrap">
+                                                    <div class="acc-button-icon parallax-element">
+                                                        <i class="fa fa-arrow-right"></i>
+                                                    </div>
+                                                </div>
+                                            </dt>
+                                            <dd class="accordion-content">We understand that every website is unique, and our template allows for customization to match your specific needs. With our flexible framework, you can easily tailor the template to create a website that reflects your vision and stands out from the crowd.</dd>
+                                        </dl>
+                                   </div> -->
+                                   <!--/Row -->
+                <!-- Row -->
                 <div class="content-row has-clip-path row_padding_top row_padding_bottom dark-section change-header-color disable-header-gradient"
                     data-bgcolor="#B4C4D9">
                     <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
@@ -171,8 +302,10 @@ breadcrumbs:
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/portfolio">
-                        <div class="next-hero-title caption-timeline blue-color" data-infotextbefore="Page Suivante"
-                            data-infotextafter="">Portfolio</div>
+                        <div class="next-hero-title caption-timeline blue-color blue-color-hover " data-infoTextBefore="Page Suivante" data-infoTextAfter=" Cliquez pour découvrir les projets de mon portfolio">
+                        Portfolio
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </a>
                 </div>
             </div>

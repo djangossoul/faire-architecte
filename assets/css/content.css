@@ -960,8 +960,8 @@
 	}
 	
 	.next-hero-title {
-		font-size: calc(1rem + 12vw);
-  		line-height: calc(1rem + 14vw);
+		font-size: calc(1rem + 10vw);
+  		line-height: calc(1rem + 12vw);
 		font-weight: 600;
 		position: relative;
 		display:block;
@@ -1011,8 +1011,17 @@
 		letter-spacing: 0;
 		opacity:0.6;
 		pointer-events:none;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		padding-top: 70px;
 	}
-	
+	@media only screen and (min-width: 1025px) {
+		.next-hero-title::after {
+			padding-top: 100px;
+		}
+	}
 	.show-loader .next-hero-title::before {
 		opacity:0;
 		left: -150px;

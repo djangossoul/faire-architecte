@@ -13,7 +13,7 @@ layout: page
                 class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
                     <h1 class="hero-title caption-timeline generate-spans category-page blue-color"
-                        data-infotextbefore="Catégorie du portfolio" data-infotextafter="">
+                        data-infoTextBefore="Catégorie du portfolio" data-infoTextAfter="">
                         <div><span>{{ category }}</span></div>
                     </h1>
                     <div class="hero-subtitle caption-timeline onload--disabled">
@@ -63,10 +63,11 @@ layout: page
 
                         {% for sitecategory in site.categories %}
                         {% assign categorypage = category %}
+                        {% assign categorypage_slug = categorypage | slugify: 'latin' %}
                         {% assign category_slug = sitecategory | first | slugify: 'latin' %}
                         {% assign category_label = sitecategory | first %}
                         <li class="filters-timeline link">
-                            <a class="filter-option2{% if categorypage | slugify: 'latin' == category_slug %} is_active{% endif %}"
+                            <a class="filter-option2{% if categorypage_slug == category_slug %} is_active{% endif %}"
                                 href="/portfolio/{{ category_slug }}">{{ category_label }}, </a>
                         </li>
                         {% endfor %}
@@ -170,9 +171,12 @@ layout: page
         <div class="page-nav-wrap">
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">
                 <div class="inner">
-                    <a class="next-ajax-link-page" data-centerline="GO TO" href="/a-propos">
-                        <div class="next-hero-title caption-timeline" data-infotextbefore="Page suivante"
-                            data-infotextafter="">A propos</div>
+                    <a class="next-ajax-link-page" data-centerline="GO TO" href="/contact">
+                        <div class="next-hero-title caption-timeline red-color red-color-hover" data-infoTextBefore="Page suivante"
+                            data-infoTextAfter="Cliquez pour me parler de votre projet via mon formulaire de contact">
+                            Contact
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </a>
                 </div>
             </div>

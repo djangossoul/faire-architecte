@@ -307,7 +307,6 @@
 	.rounded-borders .content-slider.looped-carousel img, .rounded-borders .content-slider.small-looped-carousel img {
 		border-radius:8px;
 	}
-	
 	.content-slider.looped-carousel .clapat-button-prev, .content-slider.looped-carousel .clapat-button-next {
 		display:none;
 	}
@@ -325,7 +324,7 @@
 	}
 	
 	.content-slider .clapat-pagination {
-		bottom:20px;
+		bottom:0px;
 	}
 	
 	.content-slider .slider-button-prev {
@@ -348,6 +347,38 @@
 		height:100%;
 		z-index:10;
 		cursor:pointer;		
+	}
+	
+	.slide-quote {
+		height: 300px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #f9f9f9;
+		padding: 20px;
+		box-sizing: border-box;
+		text-align: center;
+		border-radius: 8px;
+	}
+	
+	.slide-quote blockquote {
+		font-style: italic;
+		margin: 0 0 15px 0;
+		font-size: 1.1em;
+		line-height: 1.4;
+	}
+	
+	.slide-quote cite {
+		font-weight: bold;
+		font-size: 1em;
+		margin-bottom: 5px;
+	}
+	
+	.slide-quote span {
+		font-size: 0.9em;
+		color: #666;
 	}
 	
 	.content-slider .clapat-pagination {
@@ -465,7 +496,7 @@
 	.disable-cursor .slider-button-prev {
 		position: absolute;
 		top: calc(50% - 30px);
-		left: 0px;
+		left: -60px;
 		margin: 0;
 		width: 60px;
 		height: 60px;
@@ -506,7 +537,7 @@
 		position: absolute;
 		top: calc(50% - 30px);
 		left:auto;
-		right: 0px;
+		right: -60px;
 		margin: 0;
 		width: 60px;
 		height: 60px;
@@ -2649,12 +2680,15 @@
 		color:#000;
 	}
 	
-	.flex-list {
+	.flex-lists-wrapper .flex-list {
 		position: relative;
 		padding: 35px 80px;
 		margin: 0;
 		display: flex;
-		justify-content: space-between;		
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-height: 120px;
 	}
 	
 	.flex-list::before {
@@ -2677,36 +2711,46 @@
 		left:0;
 		bottom: 0;
 		z-index: 0;
-		background-color: currentColor;
+		background-color: transparent;
 		-webkit-transition: all 0.2s ease-out 0s;	
 		transition: all 0.2s ease-out 0s;
 	}
 	
-	.flex-list:hover::after {
+	.flex-lists-wrapper .flex-list:hover::after {
 		height: 100%;
+		background-color: #733822;
 	}
 	
-	.flex-list {
+	.flex-lists-wrapper .flex-list {
 		color: currentColor;
 		background: transparent;
+		-webkit-transition: background-color 0.2s ease-out 0s;
+		transition: background-color 0.2s ease-out 0s;
 	}
 	
-	.flex-list > span {
-		z-index: 10;		
+	.flex-lists-wrapper .flex-list > span {
+		z-index: 10;
 		color: currentColor;
-		-webkit-transition: all 0.2s ease-out 0s;	
-		transition: all 0.2s ease-out 0s;
+		-webkit-transition: color 0.2s ease-out 0s;
+		transition: color 0.2s ease-out 0s;
+		text-align: center;
 	}
 	
-	.flex-list:hover > span {
+	.flex-lists-wrapper .flex-list > span.secondary-font {
+		opacity: 0;
+		display: block;
+		-webkit-transition: opacity 0.2s ease-out 0s;
+		transition: opacity 0.2s ease-out 0s;
+	}
+
+	.flex-lists-wrapper .flex-list:hover {
+		background-color: #733822;
 		color: #fff;
 	}
-	
-	.flex-list-left {
-		width:15%;
-		text-align:left;
+
+	.flex-lists-wrapper .flex-list:hover > span.secondary-font {
+		opacity: 1;
 	}
-	
 	.flex-list-center {
 		width:70%;
 		font-size:20px;

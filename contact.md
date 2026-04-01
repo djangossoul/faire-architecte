@@ -16,7 +16,7 @@ breadcrumbs:
         <div id="hero-styles">
             <div id="hero-caption" class="content-full-width parallax-scroll-caption text-align-center hero-full-caption">
                 <div class="inner">
-                    <h1 class="hero-title caption-timeline" data-infotextbefore="" data-infotextafter="">
+                    <h1 class="hero-title caption-timeline" data-infoTextBefore="" data-infoTextAfter="">
                         <div class="red-color"><span>contact</span></div>
                     </h1>
                     <div class="hero-subtitle caption-timeline onload-shuffle-disabled">

@@ -31,3 +31,63 @@
 <script type="text/javascript" defer src="/assets/js/common.js"></script>
 <script type="text/javascript" defer src="/assets/js/contact.js"></script>
 <script type="text/javascript" defer src="/assets/js/scripts.js"></script>
+
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xdawryge",
+    title: "Parlez-moi de votre projet",
+    fields: [
+      { 
+        type: "text", 
+        label: "Nom:", 
+        name: "name",
+        required: true,
+        placeholder: "Votre nom"
+      },
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "votre@email.com"
+      },
+      { 
+        type: "number", 
+        label: "Téléphone:", 
+        name: "phone",
+        required: true,
+        placeholder: "Votre numéro de téléphone"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "Quel est votre projet ?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      button:{
+        background: "#733822"
+      },
+      iframe:{},
+      shim:{},
+      modalContainer:{},
+      modal:{},
+      title:{
+        background: "#733822",
+      },
+      description:{},
+      body:{},
+      formContainer:{},
+      formStatus:{},
+      form:{},
+      label:{},
+      input:{},
+    }
+  });
+</script>
