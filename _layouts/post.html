@@ -8,7 +8,7 @@ layout: base
         <div id="hero-caption" class="content-full-width parallax-scroll-caption">
 
             <div class="inner">
-                <h1 class="hero-title caption-timeline"><span>{{ page.title }}</span></h1>
+                <h1 class="hero-title caption-timeline blue-color"><span>{{ page.title }}</span></h1>
                 <div class="hero-subtitle caption-timeline onload-shuffle">
                 </div>
             </div>
@@ -85,9 +85,19 @@ layout: base
                     <div class="post-nav">
                         <div class="post-nav-next">
                             {% if page.next.url %}
-                            <a class="next-ajax-link-page" href="{{page.next.url}}"><div class="next-hero-title caption-timeline" data-infoTextBefore="Projet Suivant" data-infoTextAfter="">{{page.next.title}}</div></a>
+                            <a class="next-ajax-link-page" href="{{page.next.url}}">
+                                <div class="next-hero-title caption-timeline blue-color blue-color-hover" data-infoTextBefore="Projet Suivant" data-infoTextAfter="Cliquer pour voir le projet suivant">
+                                    {{page.next.title}}
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
                             {% else %}
-                            <a class="next-ajax-link-page" href="{{ site.posts.last.url }}"><div class="next-hero-title caption-timeline" data-infoTextBefore="Projet Suivant" data-infoTextAfter="">{{ site.posts.last.title }}</div></a>
+                            <a class="next-ajax-link-page" href="{{ site.posts.last.url }}">
+                                <div class="next-hero-title caption-timeline blue-color blue-color-hover" data-infoTextBefore="Projet Suivant" data-infoTextAfter="Cliquer pour voir le projet suivant">
+                                    {{ site.posts.last.title }}
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
                             {% endif %}
                         </div>
                     </div>                     

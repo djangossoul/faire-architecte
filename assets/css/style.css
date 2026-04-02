@@ -2779,32 +2779,30 @@ Primary use:	Showcase Portfolio
 }
 
 .footer-middle {
-	position: absolute;
+	max-width: 1180px;
+	height: 20px;
+	position: relative;
 	margin: 0 auto;
-	width: 100%;
-	height: inherit;
-	display: table;
 	left: 0;
-	pointer-events: none;
-	;
+	width: 100%;
+	top: 0px;
+	margin-bottom: 15px;
 }
 
 .copyright {
+	margin: 0 auto;
+	left: auto;
+	right: auto;
+	top: 0;
 	position: relative;
-	top: 25px;
 	width: auto;
-	height: 30px;
+	height: 20px;
 	overflow: hidden;
-	line-height: 30px;
+	line-height: 20px;
 	color: #000;
 	pointer-events: initial;
-	display: table;
-	width: auto;
-	padding: 0px 20px 0px 20px;
-	max-width: 820px;
-	box-sizing: border-box;
 	text-align: center;
-	margin: 0 auto;
+	font-size: 12px;
 }
 
 .light-content .copyright {
@@ -2812,14 +2810,17 @@ Primary use:	Showcase Portfolio
 }
 
 .socials-wrap {
-	position: relative;
-	float: right;
-	color: #000;
-	width: 240px;
-	height: 160px;
-	box-sizing: border-box;
-	pointer-events: initial;
-	transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	width: auto;
+	float: none;
+	display: table;
+	left: auto;
+	right: auto;
+	top: 0;
+	margin: 0 auto;
+	height: 20px;
+	line-height: 20px;
+	transform: translateX(0px) translateY(0px) !important;
+	-webkit-transform: translateX(0px) translateY(0px) !important;
 }
 
 .light-content .socials-wrap {
@@ -2888,27 +2889,19 @@ Primary use:	Showcase Portfolio
 }
 
 .socials-wrap .socials {
-	display: inline-block;
-	width: 100%;
-	text-align: right;
+	text-align: center;
+	margin: 0 auto;
+	height: 20px;
+	line-height: 20px;
+	display: table;
+	width: auto;
 }
 
-.socials li {
-	margin-right: 0px;
-	margin-left: 10px;
-	list-style: none;
-	margin-bottom: 0;
-	line-height: 40px;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 40px;
-	width: 40px;
-	float: right;
-	z-index: 2;
-	-webkit-transition: background 0.4s ease-in-out 0s;
-	transition: background 0.4s ease-in-out 0s;
+.socials li,
+.socials li a {
+	height: 20px;
+	line-height: 20px;
+	margin: 0 auto;
 }
 
 .socials-wrap .socials li {
@@ -4638,7 +4631,7 @@ ul.team-list-captions li small {
 
 ul.team-list-images {
 	height: 100%;
-	max-height: 500px;
+	max-height: 780px;
 }
 ul.team-list-images li{
 	height: 100%;
@@ -5004,4 +4997,202 @@ h1.category-page {
 }
 ul.socials {
 	font-size: 16px;
+}
+
+/*--------------------------------------------------
+	17. Responsive adjustments
+---------------------------------------------------*/
+.socials-icon, .socials-text {
+    display: none;
+}
+
+.socials-wrap .socials li {
+	opacity: 1;
+    list-style: none;
+}
+
+#footer-container {
+        height: 80px;
+        padding: 0 30px;
+        margin: 0;
+    }
+	.footer-middle {
+        max-width: 1180px;
+        height: 20px;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        width: 100%;
+        top: 0px;
+        margin-bottom: 15px;
+    }
+	
+	.socials-wrap {
+        width: auto;
+        float: none;
+        display: table;
+        left: auto;
+        right: auto;
+        top: 0;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 40px;
+        transform: translateX(0px) translateY(0px) !important;
+        -webkit-transform: translateX(0px) translateY(0px) !important;
+    }
+	.socials-wrap .socials {
+        text-align: center;
+        margin: 0 auto;
+        height: 40px;
+        line-height: 40px;
+        display: table;
+        width: auto;
+    }
+	ul.socials {
+    	font-size: 22px;
+	}
+.socials li, .socials li a {
+    height: 40px;
+    line-height: 40px;
+	width: 50px;
+}
+
+dt .link {
+	font-size: 20px;
+}
+
+.privacy-policy p{
+	font-family: 'WalkwayBold', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1025px) and (orientation:portrait) {
+	/* Home page*/
+	#clapat-logo img {
+		height: 70px;
+	}
+	#burger-wrapper {
+		width: 50px;
+		height: 50px;
+	}
+	.burger-lines #menu-burger {
+    	width: 24px;
+    	height: 33px;
+		margin-top: 1px;
+	}
+	.savoirfaires .new-hero-title span {
+		font-size: calc((1rem + 14vw) / 2);
+    	line-height: calc((1rem + 16vw) / 2);
+	}
+	.landing-intro-wrapper, .one_fourth2 {
+		padding-top:25px;
+    	width: 100%;
+	}
+	.one_fourth3 .inner_one_fourth3 {
+        width: calc(100% - 80px);
+		padding-left: 40px;
+        padding-right: 40px;
+    }
+	.button-border {
+    	height: 100px;
+		line-height: 100px;
+		border-radius: 100px!important;
+		min-width: 180px;
+		font-size: 24px;
+	}
+	.snap-slide-caption {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		margin: 0;
+		text-align: left;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		padding: 0;
+		opacity: 1;
+		-webkit-transition: opacity 0.2s ease-in-out;
+		transition: opacity 0.2s ease-in-out;
+	}
+	.snap-slider-captions {
+        align-items: flex-end;
+    }
+	.snap-slider-thumbs-wrapper {
+        width: 40vw;
+        height: 40vw;
+    }
+	/* Portfolio page*/
+	.showcase-portfolio .clapat-item {
+        width: calc(100% - 10px);
+    }
+	/* Project page */
+	.one_half {
+        width: 100%!important;
+    }
+	.project-desc-col {
+		flex-basis: 100%;
+	}
+	/* About page */
+    .team-list-wrapper {
+        position: relative;
+        box-sizing: border-box;
+        width: calc(100% - 60px);
+        margin: 0 auto;
+        overflow: hidden;
+    }
+	.team-list-captions {
+        padding-left: 0;
+	}
+	.team-list-images {
+        width: 100%;
+		height:auto;
+        position: relative;
+        left: auto;
+		margin-bottom: 30px;
+    }
+	ul.team-list-images {
+		max-height: 780px;
+	}
+	.pinned-lists li {
+		font-size: calc(1rem + 5vw);
+		line-height: calc(1rem + 6vw);
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.socials-wrap {
+		position: relative;
+		float: none;
+        display: block;
+		color: #000;
+		width: 240px;
+		height: 160px;
+		box-sizing: border-box;
+		pointer-events: initial;
+		transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	}
+	.socials-wrap .socials {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	.socials li {
+		margin-right: 0px;
+		margin-left: 10px;
+		list-style: none;
+		margin-bottom: 0;
+		line-height: 40px;
+		position: relative;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		height: 40px;
+		width: 40px;
+		z-index: 2;
+		-webkit-transition: background 0.4s ease-in-out 0s;
+		transition: background 0.4s ease-in-out 0s;
+		transform: translateY(0px)!important;
+    	-webkit-transform: translateY(0px)!important;
+	}
 }

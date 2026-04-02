@@ -176,7 +176,7 @@ captionimg6: "MAQUETTE DE CONCEPTION _ Montrer les espaces à l’échelle et le
     </div> 
     <!--/Row -->
     <!-- Row -->
-    <div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
+    <!--<div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
         <hr>
         <hr class="destroy">
         <div class="button-box has-animation" data-delay="100">             
@@ -190,7 +190,7 @@ captionimg6: "MAQUETTE DE CONCEPTION _ Montrer les espaces à l’échelle et le
                 </div>
             </div> 
         </div>
-    </div>
+    </div>-->
     <!--/Row -->   
 </div>
 <!--/Main Page Content --> 

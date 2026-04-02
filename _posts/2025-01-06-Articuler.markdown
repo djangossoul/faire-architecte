@@ -251,7 +251,7 @@ captionimg10: ""
     </div> 
     <!--/Row -->
     <!-- Row -->
-    <div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
+    <!--<div class="content-row small row_padding_bottom light-section text-align-center" data-bgcolor="#ffffff">
         <hr>
         <hr class="destroy">
         <div class="button-box has-animation" data-delay="100">             
@@ -265,7 +265,7 @@ captionimg10: ""
                 </div>
             </div> 
         </div>
-    </div>
+    </div>-->
     <!--/Row -->   
 </div>
 <!--/Main Page Content --> 
