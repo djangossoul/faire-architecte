@@ -5067,8 +5067,8 @@ dt .link {
     font-weight: 400;
 }
 
-/*@media only screen and (max-width: 1125px) and (orientation:portrait) {*/
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1125px) and (orientation:portrait) {
+/*@media only screen and (max-width: 1025px) {*/
 	 body {
     	font-size: 22px;
 	}
@@ -5094,7 +5094,7 @@ dt .link {
         font-size: calc(1rem + 6vw);
         line-height: calc(1rem + 8vw);
     }
-	.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle, .showcase-portfolio .slide-caption .slide-title, .showcase-portfolio .slide-caption .slide-cat,     .showcase-portfolio .slide-caption .slide-title, .showcase-portfolio .slide-caption .slide-cat {
+	.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle, .showcase-portfolio .slide-caption .slide-title, .showcase-portfolio .slide-caption .slide-cat, .showcase-portfolio .slide-caption .slide-title, .showcase-portfolio .slide-caption .slide-cat {
     	font-size: 34px;
 	}
 	.address-phone-section .box-icon-content, .email-section .box-icon-content{
