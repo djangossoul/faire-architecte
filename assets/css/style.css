@@ -5069,7 +5069,8 @@ dt .link {
 
 /*@media only screen and (max-width: 1125px) and (orientation:portrait) {*/
 /*@media only screen and (max-width: 1025px) {*/
-@media only screen and (hover: none) and (pointer: coarse){
+/*@media only screen and (hover: none) and (pointer: coarse){*/
+@media only screen and (orientation:portrait){
 	 body {
     	font-size: 22px;
 	}
