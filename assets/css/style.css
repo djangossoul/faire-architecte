@@ -5067,7 +5067,54 @@ dt .link {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 1025px) and (orientation:portrait) {
+/*@media only screen and (max-width: 1125px) and (orientation:portrait) {*/
+@media only screen and (max-width: 1025px) {
+	 body {
+    	font-size: 22px;
+	}
+	p {
+    	font-size: 22px;
+		line-height: 28px;
+	}
+	.bigger {
+    	font-size: 40px;
+    	line-height: 46px;
+	}
+	h2 {
+		font-size: calc(1rem + 6vw);
+		line-height: calc(1rem + 7vw);
+	}
+	ul.flex-lists-wrapper {
+    	font-size: 30px;
+	}
+	ul.flex-lists-wrapper li {
+    	line-height: 34px;
+	}
+	.flexnav>li>a {
+        font-size: calc(1rem + 6vw);
+        line-height: calc(1rem + 8vw);
+    }
+	.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle, .showcase-portfolio .slide-caption .slide-title, .showcase-portfolio .slide-caption .slide-cat,     .showcase-portfolio .slide-caption .slide-title, .showcase-portfolio .slide-caption .slide-cat {
+    	font-size: 34px;
+	}
+	.address-phone-section .box-icon-content, .email-section .box-icon-content{
+		font-size:44px;
+		line-height: 50px;
+	}
+	#copy-email {
+    	font-size: calc(1rem + 5vw);
+    	line-height: calc(1rem + 5vw);
+	}
+	.next-hero-title::before, .next-hero-title::after {
+    	font-size: 26px;
+		line-height: 30px;
+	}
+	.footer-middle .copyright, .socials-wrap {
+		font-size: 20px;
+	}
+	ul.socials {
+		font-size: 32px;
+	}
 	/* Home page*/
 	#clapat-logo img {
 		height: 70px;
@@ -5099,7 +5146,7 @@ dt .link {
 		line-height: 100px;
 		border-radius: 100px!important;
 		min-width: 180px;
-		font-size: 24px;
+		font-size: 34px;
 	}
 	.snap-slide-caption {
 		position: relative;
@@ -5122,6 +5169,12 @@ dt .link {
         width: 40vw;
         height: 40vw;
     }
+	.slide-quote {
+    	height: 450px;
+	}
+	.slide-quote blockquote {
+		font-size: 1.4em;
+	}
 	/* Portfolio page*/
 	.showcase-portfolio .clapat-item {
         width: calc(100% - 10px);
@@ -5157,6 +5210,10 @@ dt .link {
 	.pinned-lists li {
 		font-size: calc(1rem + 5vw);
 		line-height: calc(1rem + 6vw);
+	}
+	.accordion .accordion-content {
+		font-size: 22px;
+		line-height: 30px;
 	}
 }
 
