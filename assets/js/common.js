@@ -4249,7 +4249,7 @@ Function Lightbox
 				<div class="clapat-video-popup-bg-close"></div>				
 				<div class="clapat-video-popup-viewport">
 					<div class="clapat-video-popup-preloader"><div></div><div></div><div></div><div></div></div>					
-					<iframe class="clapat-video-popup-iframe" frameborder="0" allow="autoplay"></iframe>
+					<iframe class="clapat-video-popup-iframe" frameborder="0" allow="autoplay" sandbox="allow-scripts allow-presentation"></iframe>
 					<div class="clapat-video-popup-close link"></div>						
 				</div>				
 				<div class="clapat-img-video-prev link"></div>
