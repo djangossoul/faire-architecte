@@ -14,10 +14,12 @@ layout: page
                 <div class="inner">
                     <h1 class="hero-title caption-timeline generate-spans category-page blue-color"
                         data-infoTextBefore="Catégorie du portfolio" data-infoTextAfter="">
-                        <div><span>{{ category }}</span></div>
+                        <span>{{ category }}</span>
                     </h1>
                     <div class="hero-subtitle caption-timeline onload--disabled">
-                        <div><span>{{ content }}</span></div>
+                        <div>
+                            <span>{{ content }}</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -44,7 +46,8 @@ layout: page
                         </div>
                         <div class="button-text sticky right">
                             <span data-close="Voir les catégories" data-hover="Voir les autres catégories">
-                                Voir les autres catégories</span>
+                                Voir les autres catégories
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -54,7 +57,7 @@ layout: page
     <!--/Hero Section -->
     <!-- Main Page Content -->
     <div id="main-page-content">
-        
+
         <!-- Fit Thumb Screen Effects -->
         <div id="itemsWrapperLinks">
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
@@ -68,7 +71,8 @@ layout: page
                         {% assign category_label = sitecategory | first %}
                         <li class="filters-timeline link">
                             <a class="filter-option2{% if categorypage_slug == category_slug %} is_active{% endif %}"
-                                href="/portfolio/{{ category_slug }}">{{ category_label }}, </a>
+                                href="/portfolio/{{ category_slug }}">{{ category_label }},
+                            </a>
                         </li>
                         {% endfor %}
 
@@ -82,9 +86,7 @@ layout: page
                 <!-- Row -->
                 <div class="content-row small row_padding_top padding-lat-20" data-bgcolor="#0c0c0c">
                     <div class="secondary-font">
-                        <div>
-                            <p><span>{{ content }}</span></p>
-                        </div>
+                        <p>{{ content }}</p>
                         <hr>
                         <hr>
                     </div>
@@ -103,7 +105,8 @@ layout: page
                     <div class="clapat-item photo-filter">
                         <div class="slide-inner trigger-item" data-centerline="OPEN">
                             <div class="img-mask pixels-cover-disabled">
-                                <a class="slide-link" href="{{ post.url | relative_url }}"></a>
+                                <a class="slide-link" href="{{ post.url | relative_url }}">
+                                </a>
                                 <div class="section-image trigger-item-link">
                                     {% include img.html
                                     path=thumbnailback
@@ -172,7 +175,8 @@ layout: page
             <div class="page-nav-caption nav-full-caption content-full-width text-align-center">
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/contact">
-                        <div class="next-hero-title caption-timeline red-color red-color-hover" data-infoTextBefore="Page suivante"
+                        <div class="next-hero-title caption-timeline red-color red-color-hover"
+                            data-infoTextBefore="Page suivante"
                             data-infoTextAfter="Cliquez pour me parler de votre projet via mon formulaire de contact">
                             Contact
                             <i class="fa-solid fa-arrow-right"></i>

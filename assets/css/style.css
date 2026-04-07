@@ -4587,6 +4587,13 @@ p .link-text {
 	padding-bottom: 15vh;
 }
 
+.about-values-titles .about-values-label{
+	font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
 ul.team-list-captions {
 	padding-bottom: 0px;
 }

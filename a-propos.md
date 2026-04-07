@@ -38,7 +38,7 @@ breadcrumbs:
     </div>
     <!--/Hero Section -->
     <!-- Main Page Content -->
-    <div id="main-page-content about-page">
+    <div id="main-page-content" class="about-page">
         <!-- Fit Thumb Screen Effects -->
         <div id="itemsWrapperLinks" class="about-page-inner" style="background: #FFFFFF; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 50%, rgba(246, 218, 206, 1) 100%);">
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
@@ -54,9 +54,7 @@ breadcrumbs:
                         <ul class="parallax-content">
                             <li class="parallax-list">
                                 <div class="about-values-titles">
-                                    <span>
-                                        <p class="">Mes valeurs</p>
-                                    </span>
+                                    <span class="about-values-label">Mes valeurs</span>
                                 </div>
                                 <div>
                                     <span>Humanité</span>
@@ -67,9 +65,7 @@ breadcrumbs:
                             </li>
                             <li class="parallax-list">
                                 <div class="about-values-titles">
-                                    <span>
-                                        <p class="">Mes valeurs</p>
-                                    </span>
+                                    <span class="about-values-label">Mes valeurs</span>
                                 </div>
                                 <div>
                                     <span>Artisanat & Savoir-faire</span>
@@ -80,9 +76,7 @@ breadcrumbs:
                             </li>
                             <li class="parallax-list">
                                 <div class="about-values-titles">
-                                    <span>
-                                        <p class="">Mes valeurs</p>
-                                    </span>
+                                    <span class="about-values-label">Mes valeurs</span>
                                 </div>
                                 <div>
                                     <span>Co-construction</span>

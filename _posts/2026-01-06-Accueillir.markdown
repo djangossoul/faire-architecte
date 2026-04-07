@@ -25,7 +25,7 @@ detail2b: "Complète"
 detail3a: "Superficie"
 detail3b: "120 m2"
 detail4a: "Montant des travaux"
-detail4b: "< 300 000 € HT"
+detail4b: "&lt; 300 000 € HT"
 detail5a: "Maîtrise d'oeuvre"
 detail5b: "Collaboration <a class='link project-link' href='https://cadetarchitecte.com/' target='_blank'>ACA</a>"
 detail6a: ""
@@ -122,7 +122,7 @@ captionimg18: "APRES - Chambre marron"
             <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6" >
                 <li class="zoom-center">
                     {% if page.img1 and page.img1 != "" and page.img1 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img1 }}" class="image-link">
                                 {% assign img1 = page.img1 %}
                                 {% assign img1alt = page.altimg1 %}
@@ -134,12 +134,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg1 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img2 and page.img2 != "" and page.img2 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img2 }}" class="image-link">
                                 {% assign img2 = page.img2 %}
                                 {% assign img2alt = page.altimg2 %}
@@ -151,12 +151,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg2 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img3 and page.img3 != "" and page.img3 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img3 }}" class="image-link">
                                 {% assign img3 = page.img3 %}
                                 {% assign img31alt = page.altimg3 %}
@@ -168,7 +168,7 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg3 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
             </ul>
@@ -182,7 +182,7 @@ captionimg18: "APRES - Chambre marron"
             <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img4 and page.img4 != "" and page.img4 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img4 }}" class="image-link">
                                 {% assign img4 = page.img4 %}
                                 {% assign img4alt = page.altimg4 %}
@@ -194,12 +194,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg4 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img5 and page.img5 != "" and page.img5 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img5 }}" class="image-link">
                                 {% assign img5 = page.img5 %}
                                 {% assign img5alt = page.altimg5 %}
@@ -211,12 +211,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg5 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img6 and page.img6 != "" and page.img6 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img6 }}" class="image-link">
                                 {% assign img6 = page.img6 %}
                                 {% assign img6alt = page.altimg6 %}
@@ -228,7 +228,7 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg6 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
             </ul>
@@ -242,7 +242,7 @@ captionimg18: "APRES - Chambre marron"
             <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img7 and page.img7 != "" and page.img7 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img7 }}" class="image-link">
                                 {% assign img7 = page.img7 %}
                                 {% assign img7alt = page.altimg7 %}
@@ -254,12 +254,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg7 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img8 and page.img8 != "" and page.img8 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img8 }}" class="image-link">
                                 {% assign img8 = page.img8 %}
                                 {% assign img8alt = page.altimg8 %}
@@ -271,12 +271,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg8 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img9 and page.img9 != "" and page.img9 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img9 }}" class="image-link">
                                 {% assign img9 = page.img9 %}
                                 {% assign img9alt = page.altimg9 %}
@@ -288,7 +288,7 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg9 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
             </ul>
@@ -302,7 +302,7 @@ captionimg18: "APRES - Chambre marron"
             <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img10 and page.img10 != "" and page.img10 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img10 }}" class="image-link">
                                 {% assign img10 = page.img10 %}
                                 {% assign img10alt = page.altimg10 %}
@@ -314,12 +314,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg10 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img11 and page.img11 != "" and page.img11 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img11 }}" class="image-link">
                                 {% assign img11 = page.img11 %}
                                 {% assign img11alt = page.altimg11 %}
@@ -331,12 +331,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg11 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img12 and page.img12 != "" and page.img12 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img12 }}" class="image-link">
                                 {% assign img12 = page.img12 %}
                                 {% assign img12alt = page.altimg12 %}
@@ -348,7 +348,7 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg12 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
             </ul>
@@ -362,7 +362,7 @@ captionimg18: "APRES - Chambre marron"
             <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img13 and page.img13 != "" and page.img13 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img13 }}" class="image-link">
                                 {% assign img13 = page.img13 %}
                                 {% assign img13alt = page.altimg13 %}
@@ -374,12 +374,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg13 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img14 and page.img14 != "" and page.img14 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img14 }}" class="image-link">
                                 {% assign img14 = page.img14 %}
                                 {% assign img14alt = page.altimg14 %}
@@ -391,12 +391,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg14 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img15 and page.img15 != "" and page.img15 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img15 }}" class="image-link">
                                 {% assign img15 = page.img15 %}
                                 {% assign img15alt = page.altimg15 %}
@@ -408,7 +408,7 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg15 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
             </ul>
@@ -422,7 +422,7 @@ captionimg18: "APRES - Chambre marron"
             <ul class="zoom-wrapper-gallery zoom-wrapper-gallerybis" data-heightratio="0.6">
                 <li class="zoom-center">
                     {% if page.img16 and page.img16 != "" and page.img16 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img16 }}" class="image-link">
                                 {% assign img16 = page.img16 %}
                                 {% assign img16alt = page.altimg16 %}
@@ -434,12 +434,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg16 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img17 and page.img17 != "" and page.img17 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img17}}" class="image-link">
                                 {% assign img17 = page.img17 %}
                                 {% assign img17alt = page.altimg17 %}
@@ -451,12 +451,12 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg17 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
                 <li class="zoom-center">
                     {% if page.img18 and page.img18 != "" and page.img18 != nil %}
-                        <div class="zoom-img-wrapper">
+                        <figure class="zoom-img-wrapper">
                             <a href="{{ page.img18 }}" class="image-link">
                                 {% assign img18 = page.img18 %}
                                 {% assign img18alt = page.altimg18 %}
@@ -468,7 +468,7 @@ captionimg18: "APRES - Chambre marron"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg18 }}</figcaption>
-                        </div>
+                        </figure>
                     {% endif %}
                 </li>
             </ul>
