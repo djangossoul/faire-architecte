@@ -119,12 +119,13 @@ breadcrumbs:
         </p>
         <h3>5.2 A quoi servent les cookies émis sur notre Site ? </h3>
         <p>
-            Les cookies que nous émettons nous permettent :</p>
-            <ul>
-                <li>d'établir des statistiques et volumes de fréquentation et d'utilisation des divers éléments composant notre Site (rubriques et contenus visités, parcours), nous permettant d'améliorer l'intérêt et l'ergonomie du Site et, le cas échéant, de nos produits et services ;</li>
-                <li>d'adapter la présentation de notre Site aux préférences d'affichage de votre terminal (langue utilisée, résolution d'affichage, système d'exploitation utilisé, etc.) lors de vos visites sur notre Site, selon les matériels et les logiciels de visualisation ou de lecture que votre terminal comporte ;</li>
-                <li>de mémoriser des informations relatives à un formulaire que vous avez rempli sur notre Site (inscription ou accès à votre compte) ou à des produits, services ou informations que vous avez choisis sur notre Site (service souscrit, contenu d'un panier de commande, etc.) ;</li>
-            </ul>
+            Les cookies que nous émettons nous permettent :
+        </p>
+        <ul>
+            <li>d'établir des statistiques et volumes de fréquentation et d'utilisation des divers éléments composant notre Site (rubriques et contenus visités, parcours), nous permettant d'améliorer l'intérêt et l'ergonomie du Site et, le cas échéant, de nos produits et services ;</li>
+            <li>d'adapter la présentation de notre Site aux préférences d'affichage de votre terminal (langue utilisée, résolution d'affichage, système d'exploitation utilisé, etc.) lors de vos visites sur notre Site, selon les matériels et les logiciels de visualisation ou de lecture que votre terminal comporte ;</li>
+            <li>de mémoriser des informations relatives à un formulaire que vous avez rempli sur notre Site (inscription ou accès à votre compte) ou à des produits, services ou informations que vous avez choisis sur notre Site (service souscrit, contenu d'un panier de commande, etc.) ;</li>
+        </ul>
         <p>
             Lors de votre première visite sur le Site, un bandeau cookies apparaîtra en page d'accueil. Un lien cliquable permet d'en savoir plus sur la finalité et le fonctionnement des cookies et renvoie vers la présente Charte. La poursuite de la navigation sur une autre page du site ou la sélection d'un élément du Site (notamment : image, texte, lien, etc.) matérialise votre acceptation au dépôt des cookies visés sur votre ordinateur.
         </p>
