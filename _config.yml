@@ -40,6 +40,8 @@ social:
     - name: "Email"
       url: "mailto:contact@faire-architecte.com"
 google_site_verification: "your_google_site_verification_code_here"
+# Remplacer par votre ID Google Analytics (ex: G-XXXXXXXXXX)
+google_analytics: ""
 locales: "fr-FR"
 lang: "fr-FR"
 
@@ -61,9 +63,9 @@ sass:
 #     and list the `path` property (as represented via Liquid) of the pages in
 #     the order they should be rendered.
 nav_pages:
-  - index.md
+  - index.markdown
   - portfolio.md
-  - about.md
+  - a-propos.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -73,18 +75,19 @@ nav_pages:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-include:
-  - node_modules
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scripts/
+  - package.json
+  - package-lock.json
 
 permalink: /portfolio/:categories/:slug

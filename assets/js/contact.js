@@ -18,7 +18,9 @@ Function Contact Formular
 						verify: $('#verify').val()
 					},
 					function(data){
-						document.getElementById('message').innerHTML = data;
+						//document.getElementById('message').innerHTML = data;
+						// contact.js ligne 21 — remplacer innerHTML
+						document.getElementById('message').textContent = data;
 						$('#message').slideDown('slow');
 						$('#contactform img.loader').fadeOut('slow',function(){$(this).remove()});
 						$('#submit').removeAttr('disabled');

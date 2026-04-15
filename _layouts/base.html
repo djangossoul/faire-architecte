@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
     {%- include head.html -%}
+    {%- if site.google_analytics and site.google_analytics != "" -%}
+    {%- include google-analytics.html -%}
+    {%- endif -%}
     <body class="smooth-scroll rounded-borders hero-below-caption disable-ajaxload" data-primary-color="#fffff0">
         <main>
             <div class="cd-index cd-main-content">

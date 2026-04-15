@@ -971,24 +971,28 @@ Function Scroll Effects
 			
 			function moveItLeft(e, $target, movement) {
 				var $this = $(interactionTarget);
+				var w = $this.width(), h = $this.height();
+				if (!w || !h) return;
 				var relX = e.pageX - $this.offset().left;
 				var relY = e.pageY - $this.offset().top;
-				
+
 				gsap.to($target, 1, {
-					x: (relX - $this.width() / 2) / $this.width() * movement,
-					y: (relY - $this.height() / 2) / $this.height() * movement,
+					x: (relX - w / 2) / w * movement,
+					y: (relY - h / 2) / h * movement,
 					ease: "power4.out",
 				});
 			}
-			
+
 			function moveItRight(e, $target, movement) {
 				var $this = $(interactionTarget);
+				var w = $this.width(), h = $this.height();
+				if (!w || !h) return;
 				var relX = e.pageX - $this.offset().left;
 				var relY = e.pageY - $this.offset().top;
-				
+
 				gsap.to($target, 1, {
-					x: -(relX - $this.width() / 2) / $this.width() * movement,
-					y: -(relY - $this.height() / 2) / $this.height() * movement,
+					x: -(relX - w / 2) / w * movement,
+					y: -(relY - h / 2) / h * movement,
 					ease: "power4.out",
 				});
 			}
@@ -1963,17 +1967,18 @@ Function Scroll Effects
 				gsap.set(parent, { y: 0 });        
 				gsap.set(textRotatorWrapper, { height: parentLineHeight});
 		
-				setInterval(function () {
+				clearInterval(textRotator.data('rotatorInterval'));
+				var rotatorInterval = setInterval(function () {
 					var spanHeight = textRotator.find("span").eq(0).height();
-					var currentSpan = textRotator.find("span").eq(0); 
+					var currentSpan = textRotator.find("span").eq(0);
 					var nextSpan = textRotator.find("span").eq(1);
-					var nextSpanWidth = nextSpan.outerWidth();	
+					var nextSpanWidth = nextSpan.outerWidth();
 					
 					gsap.to(textRotator, {
 						duration: 0.75,
-						y: spanHeight * -1, 
+						y: spanHeight * -1,
 						ease: "back.inOut(2)",
-						onComplete: function () {							
+						onComplete: function () {
 							textRotator.append(currentSpan);
 							gsap.set(textRotator, { y: 0 });
 						},
@@ -1986,6 +1991,7 @@ Function Scroll Effects
 					});
 		
 				}, 3000);
+				textRotator.data('rotatorInterval', rotatorInterval);
 		
 			});
 		
@@ -3506,7 +3512,7 @@ Function FitThumbScreen WEBGL
 				  $body.on('mouseup mousemove', function handler(evt) {
 					if (evt.type === 'mouseup') {
 					  
-					  $('#itemsWrapperLinks .trigger-item-link, #itemsWrapperLinks .trigger-item-link-secondary').on('click', function() {					
+					  $('#itemsWrapperLinks .trigger-item-link, #itemsWrapperLinks .trigger-item-link-secondary').off('click').on('click', function() {					
 					
 							let parent_item = $(this).closest( '.trigger-item' );
 							parent_item.addClass('above');
@@ -3824,9 +3830,9 @@ Function Shortcodes
 					
 					this.positionElement = (ev) => {
 						const mousePos = getMousePos(ev);
-						if ($("body").hasClass("smooth-scroll")) {
+						if ($("body").hasClass("smooth-scroll") && scrollbar) {
 							const docScrolls = {
-								left : document.body.scrollLeft + document.documentElement.scrollLeft, 
+								left : document.body.scrollLeft + document.documentElement.scrollLeft,
 								top : - scrollbar.scrollTop
 							};
 							
@@ -4290,19 +4296,22 @@ Function Lightbox
 				// this is a vimeo url, extract the video id from it
 				let regExp = /^.*(vimeo\.com\/)((channels\/[A-z]+\/)|(groups\/[A-z]+\/videos\/))?([0-9]+)/
 				let parseUrl = regExp.exec(videoUrl);
-				let videoId = parseUrl[5];
-				detailIframe.src = 'https://player.vimeo.com/video/' + videoId + '?autoplay=1';
+				if (parseUrl && parseUrl.length > 5) {
+					let videoId = parseUrl[5];
+					detailIframe.src = 'https://player.vimeo.com/video/' + videoId + '?autoplay=1';
+				}
 			}
 			else if( videoUrl.indexOf('youtube.com/') >= 0 ){
 				
 				// this is a youtube url, extract the video id from it
 				let videoId = videoUrl.split('v=')[1];
-				let ampersandPosition = videoId.indexOf('&');
-				if(ampersandPosition != -1) {
-					
-					videoId = videoId.substring(0, ampersandPosition);
+				if (videoId) {
+					let ampersandPosition = videoId.indexOf('&');
+					if(ampersandPosition != -1) {
+						videoId = videoId.substring(0, ampersandPosition);
+					}
+					detailIframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
 				}
-				detailIframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
 			}
 			else{
 				
@@ -4991,9 +5000,14 @@ Function Core
 				  
 				  	$('main').html(section);
 				  
-				 	var clapat_title = event.match(/<title[^>]*>([^<]+)<\/title>/)[1];
+					// Utiliser DOMParser pour éviter innerHTML + null-dereferences regex
+					var parser = new DOMParser();
+					var newPageDoc = parser.parseFromString(event, 'text/html');
+					newPageHead = newPageDoc.head;
+
+					var clapat_title = newPageDoc.title || document.title;
 					$('head title').html( clapat_title );
-				  
+
 					// if we have Elementor inline styles in the target page
 					headTags = [
 								'style[id*=elementor-frontend-inline]',
@@ -5002,10 +5016,6 @@ Function Core
 								'link[id*="google-fonts"]',
 							];
 					var head = document.head;
-					var newPageRawHead = event.match(/<head[^>]*>([\s\S.]*)<\/head>/i)[0];
-					newPageHead = document.createElement('head');
-					
-					newPageHead.innerHTML = newPageRawHead;
 
 					var oldHeadTags = head.querySelectorAll(headTags);
 					var newHeadTags = newPageHead.querySelectorAll(headTags);
