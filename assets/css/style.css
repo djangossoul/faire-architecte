@@ -1999,10 +1999,15 @@ p .link-text {
 	}
 	.button-border .ajax-link span{
 		font-size: 0.7rem!important;
+		line-height: 35px !important;
 	}
 	.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle {
         font-size: 0.8rem;
     }
+	.home-steps {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 .zoom-wrapper-gallerybis {
