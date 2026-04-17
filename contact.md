@@ -28,8 +28,8 @@ breadcrumbs:
                     <div class="button-wrap left scroll-down">
                         <div class="icon-wrap parallax-wrap">
                             <div class="button-icon parallax-element">
-                                <i class="fa-solid fa-arrow-down"></i>
-                                <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z"/></svg>-->
+                                <!--<i class="fa-solid fa-arrow-down"></i>-->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="margin:10px;"><path d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z"/></svg>
                             </div>
                         </div>
                     </div>
@@ -53,15 +53,20 @@ breadcrumbs:
                     <hr>
                     <!-- Contact Form -->
                     <!-- modify this form HTML and place wherever you want your form -->
-                    <form id="my-form" action="https://formspree.io/f/xdawryge" method="POST" autocomplete="on">
-                        <label>Votre nom:</label>
-                        <input type="text" name="username" id="username" autocomplete="name" required>
-                        <label>Votre email:</label>
-                        <input type="email" name="email" id="email" autocomplete="email" required />
-                        <label>Votre téléphone:</label>
-                        <input type="tel" name="telephone" autocomplete="tel" maxlength="12" required/>    
-                        <label>Votre message:</label>
-                        <textarea name="message" id="message" autocomplete="off"></textarea>
+                    <form id="my-form" action="https://formspree.io/f/xdawryge" method="POST" autocomplete="on" style="max-width: 800px; margin-right: auto; margin-left: auto;">
+                        <label>Nom*:</label>
+                        <input type="text" name="username" id="username" autocomplete="name" placeholder="Votre nom" required>
+                        <label>Email*:</label>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="votre@email.com" required />
+                        <label>Téléphone*:</label>
+                        <input type="tel" name="telephone" autocomplete="tel" maxlength="12" placeholder="0605040302" required/>    
+                        <label>Message:</label>
+                        <textarea name="message" id="message" autocomplete="off" placeholder=""></textarea>
+                        <label>
+                            <input type="checkbox" name="terms" value="yes" required>
+                            J'accepte la <a class="link" href="/politique-de-confidentialite/">politique de confidentialité</a>
+                        </label>
+                        <hr>
                         <button id="my-form-button" type="submit" class="button-border outline rounded parallax-element-second" >Envoyer</button>
                         <p id="my-form-status"></p>
                     </form>
@@ -136,8 +141,8 @@ breadcrumbs:
                     <div class="one_third has-animation" data-delay="100">
                         <div class="box-icon-wrapper block-boxes">
                             <div class="box-icon">
-                                <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                                <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z"/></svg>-->
+                                <!--<i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>-->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="#FFFFFF"><path d="M128 252.6C128 148.4 214 64 320 64C426 64 512 148.4 512 252.6C512 371.9 391.8 514.9 341.6 569.4C329.8 582.2 310.1 582.2 298.3 569.4C248.1 514.9 127.9 371.9 127.9 252.6zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320z"/></svg>
                             </div>
                             <div class="box-icon-content">
                                 <p class="no-margins">
@@ -154,8 +159,8 @@ breadcrumbs:
                     <div class=" one_third last has-animation" data-delay="300">
                         <div class="box-icon-wrapper block-boxes">
                             <div class="box-icon">
-                                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-                                <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z"/></svg>-->
+                                <!--<i class="fa fa-phone fa-2x" aria-hidden="true"></i>-->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"  fill="#FFFFFF"><path d="M224.2 89C216.3 70.1 195.7 60.1 176.1 65.4L170.6 66.9C106 84.5 50.8 147.1 66.9 223.3C104 398.3 241.7 536 416.7 573.1C493 589.3 555.5 534 573.1 469.4L574.6 463.9C580 444.2 569.9 423.6 551.1 415.8L453.8 375.3C437.3 368.4 418.2 373.2 406.8 387.1L368.2 434.3C297.9 399.4 241.3 341 208.8 269.3L253 233.3C266.9 222 271.6 202.9 264.8 186.3L224.2 89z"/></svg>
                             </div>
                             <div class="box-icon-content">
                                 <p class="no-margins">

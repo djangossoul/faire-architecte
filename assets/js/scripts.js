@@ -1379,25 +1379,26 @@ Function Showcase Portfolio
 			
 			document.getElementById('main').addEventListener('click', function (e) {
 				if (e.target.closest('.show-filters') || e.target.id === 'close-filters') {
-					var showFilters = document.querySelector('.show-filters'); // Selectăm butonul principal
-					var span = showFilters.querySelector('.button-text span');
-					var icon = showFilters.querySelector('.button-icon i');
-			
-					// Verificăm starea curentă și alternăm
+					var showFilters = document.querySelector('.show-filters');
+					var span      = showFilters.querySelector('.button-text span');
+					var iconSort  = showFilters.querySelector('.icon-sort');
+					var iconXmark = showFilters.querySelector('.icon-xmark');
+
+					// Bascule entre les deux états
 					if (span.getAttribute('data-temp') === 'Fermer') {
-						// Revine la starea inițială
+						// Retour à l'état initial
 						span.setAttribute('data-temp', 'Voir les catégories');
 						span.setAttribute('data-hover', 'Voir les catégories');
 						span.textContent = 'Voir les catégories';
-						icon.classList.remove('fa-xmark');
-						icon.classList.add('fa-sort');
+						if (iconSort)  iconSort.style.display  = '';
+						if (iconXmark) iconXmark.style.display = 'none';
 					} else {
-						// Schimbă la "Close"
+						// Passage en mode "Fermer"
 						span.setAttribute('data-temp', 'Fermer');
 						span.setAttribute('data-hover', 'Fermer');
 						span.textContent = 'Fermer';
-						icon.classList.remove('fa-sort');
-						icon.classList.add('fa-xmark');
+						if (iconSort)  iconSort.style.display  = 'none';
+						if (iconXmark) iconXmark.style.display = '';
 					}
 			
 					// Gestionarea elementului #close-filters

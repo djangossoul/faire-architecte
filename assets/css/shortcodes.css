@@ -1889,7 +1889,7 @@
 		color:#000;
 	}
 	
-	.acc-button-icon i {
+	.acc-button-icon i, .acc-button-icon svg {
 		height: 30px;
 		line-height: 30px;
 		width: 30px;
@@ -1898,7 +1898,7 @@
     	transition:transform 0.2s ease 0s;
 	}
 	
-	dt.accordion-active .acc-button-icon i {
+	dt.accordion-active .acc-button-icon i, dt.accordion-active .acc-button-icon svg {
 		-webkit-transform: rotate(90deg);
 		transform: rotate(90deg);
 	}
@@ -2688,7 +2688,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		max-height: 120px;
+		/*max-height: 120px;*/
 	}
 	
 	.flex-list::before {
@@ -2718,7 +2718,7 @@
 	
 	.flex-lists-wrapper .flex-list:hover::after {
 		height: 100%;
-		background-color: #733822;
+		background-color: var(--color-brand);
 	}
 	
 	.flex-lists-wrapper .flex-list {
@@ -2744,7 +2744,7 @@
 	}
 
 	.flex-lists-wrapper .flex-list:hover {
-		background-color: #733822;
+		background-color: var(--color-brand);
 		color: #fff;
 	}
 
@@ -4394,7 +4394,7 @@
 		border-radius: 30px;
 	}
 	
-	.acc-button-icon i {
+	.acc-button-icon i, .acc-button-icon svg {
 		height: 30px;
 		line-height: 30px;
 		width: 30px;

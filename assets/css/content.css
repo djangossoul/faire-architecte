@@ -1006,7 +1006,7 @@
 		height:20px;
 		position: absolute;
 		right: -130px;
-		top: calc(50% - 0px);
+		/*top: calc(50% - 0px);*/
 		-webkit-transition: all 0.3s ease-out 0s;
 		transition: all 0.3s ease-out 0s;
 		letter-spacing: 0;
@@ -1016,11 +1016,11 @@
 		bottom: 0;
 		width: 100%;
 		text-align: center;
-		padding-top: calc(1rem + 12vw);
+		/*padding-top: calc(1rem + 12vw);*/
 	}
 	@media only screen and (min-width: 1025px) {
 		.next-hero-title::after {
-			padding-top: 100px;
+			/*padding-top: 100px;*/
 		}
 	}
 	.show-loader .next-hero-title::before {

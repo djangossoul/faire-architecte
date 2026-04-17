@@ -25,8 +25,8 @@ breadcrumbs:
                     <div class="button-wrap left scroll-down">
                         <div class="icon-wrap parallax-wrap">
                             <div class="button-icon parallax-element">
-                                <i class="fa-solid fa-arrow-down"></i>
-                                <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z"/></svg>-->
+                                <!--<i class="fa-solid fa-arrow-down"></i>-->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="margin:10px;"><path d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z"/></svg>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ breadcrumbs:
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row row_padding_top text-align-center light-section" data-bgcolor="#f6dace">
+                <div class="content-row row_padding_top text-align-center light-section home-steps" data-bgcolor="#f6dace">
                     <p class="bigger has-shuffle-disabled secondary-font">POURQUOI TRAVAILLER ENSEMBLE ?</p>
                     <h2 class="has-animation">Les étapes de mon processus architectural</h2>
                     <hr>
@@ -175,7 +175,8 @@ breadcrumbs:
                             </span>
                             <div class="acc-icon-wrap parallax-wrap">
                                 <div class="acc-button-icon parallax-element">
-                                    <i class="fa fa-arrow-right"></i>
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
                                 </div>
                             </div>
                         </dt>
@@ -188,90 +189,48 @@ breadcrumbs:
                             </span>
                             <div class="acc-icon-wrap parallax-wrap">
                                 <div class="acc-button-icon parallax-element">
-                                    <i class="fa fa-arrow-right"></i>
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
                                 </div>
                             </div>
-                            </dt>
-                            <dd class="accordion-content secondary-font">
-                                Le recours à un architecte est obligatoire pour toute construction neuve ou extension portant la surface plancher au-delà de 150 m² (en France). En dessous de ce seuil, il reste recommandé pour les projets complexes ou soumis à des contraintes patrimoniales.
-                            </dd>
-                            <dt>
-                                <span class="link">
-                                    <div>Quel est le coût d'une mission d'architecture ?</div>
-                                </span>
-                                <div class="acc-icon-wrap parallax-wrap">
-                                    <div class="acc-button-icon parallax-element">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            Le recours à un architecte est obligatoire pour toute construction neuve ou extension portant la surface plancher au-delà de 150 m² (en France). En dessous de ce seuil, il reste recommandé pour les projets complexes ou soumis à des contraintes patrimoniales.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>Quel est le coût d'une mission d'architecture ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
                                 </div>
-                            </dt>
-                            <dd class="accordion-content secondary-font">
-                                Les honoraires sont libres et dépendent de l'étendue de la mission (partielle ou complète), de la nature du projet et de sa complexité. Ils représentent généralement entre 8 % et 15 % du montant HT des travaux pour une mission complète.
-                            </dd>
-                            <dt>
-                                <span class="link">
-                                    <div>Quelle est la différence entre une mission complète et une mission partielle ?</div>
-                                </span>
-                                <div class="acc-icon-wrap parallax-wrap">
-                                    <div class="acc-button-icon parallax-element">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </div>
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            Les honoraires sont libres et dépendent de l'étendue de la mission (partielle ou complète), de la nature du projet et de sa complexité. Ils représentent généralement entre 8 % et 15 % du montant HT des travaux pour une mission complète.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>Quelle est la différence entre une mission complète et une mission partielle ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
                                 </div>
-                            </dt>
-                            <dd class="accordion-content secondary-font">
-                                Une mission complète couvre l'ensemble des phases, de la conception à la réception de chantier. Une mission partielle peut se limiter au permis de construire, à l'avant-projet ou au suivi de chantier seul — utile si le client souhaite gérer lui-même certaines étapes ou fait appel à un maître d'œuvre pour l'exécution.
-                            </dd>
-                            </dl>
-                            <hr><hr><hr>
-                        </div> 
-                        <!--/Row -->
-                                   <!-- Row -->
-                                    <!--<div class="content-row row_padding_bottom light-section" data-bgcolor="#f6dace">
-                                        <p class="bigger has-shuffle-disabled secondary-font">FAQ</p>
-                                        <h2 class="has-animation">Les questions les plus fréquentes</h2>
-                                        <hr>
-                                        <dl class="accordion bigger-acc has-animation">
-                                            <dt>
-                                                <span class="link primary-font-title"><div>Friendly Support</div></span>
-                                                <div class="acc-icon-wrap parallax-wrap">
-                                                    <div class="acc-button-icon parallax-element">
-                                                        <i class="fa fa-arrow-right"></i>
-                                                    </div>
-                                                </div>
-                                            </dt>
-                                            <dd class="accordion-content">Our dedicated team is always here to provide you with friendly and reliable support. We prioritize your satisfaction and are committed to assisting you every step of the way.</dd>
-                                            <dt>
-                                                <span class="link primary-font-title"><div>Money Back</div></span>
-                                                <div class="acc-icon-wrap parallax-wrap">
-                                                    <div class="acc-button-icon parallax-element">
-                                                        <i class="fa fa-arrow-right"></i>
-                                                    </div>
-                                                </div>
-                                            </dt>
-                                            <dd class="accordion-content">We value your trust and confidence in our product. If you're not completely satisfied with your purchase, we offer a hassle-free money-back guarantee. Your satisfaction is our top priority.</dd>
-                                            <dt>
-                                                <span class="link primary-font-title"><div>Premium Quality</div></span>
-                                                <div class="acc-icon-wrap parallax-wrap">
-                                                    <div class="acc-button-icon parallax-element">
-                                                        <i class="fa fa-arrow-right"></i>
-                                                    </div>
-                                                </div>
-                                            </dt>
-                                            <dd class="accordion-content">Our website template is crafted with meticulous attention to detail and a focus on delivering a premium experience. From stunning design elements to seamless functionality, we ensure that our template meets the highest quality standards.</dd>
-                                            <dt>
-                                                <span class="link primary-font-title"><div>Custom Work</div></span>
-                                                <div class="acc-icon-wrap parallax-wrap">
-                                                    <div class="acc-button-icon parallax-element">
-                                                        <i class="fa fa-arrow-right"></i>
-                                                    </div>
-                                                </div>
-                                            </dt>
-                                            <dd class="accordion-content">We understand that every website is unique, and our template allows for customization to match your specific needs. With our flexible framework, you can easily tailor the template to create a website that reflects your vision and stands out from the crowd.</dd>
-                                        </dl>
-                                   </div> -->
-                                   <!--/Row -->
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            Une mission complète couvre l'ensemble des phases, de la conception à la réception de chantier. Une mission partielle peut se limiter au permis de construire, à l'avant-projet ou au suivi de chantier seul — utile si le client souhaite gérer lui-même certaines étapes ou fait appel à un maître d'œuvre pour l'exécution.
+                        </dd>
+                    </dl>
+                    <hr><hr><hr>
+                </div> 
+                <!--/Row -->
                 <!-- Row -->
-                <div class="content-row has-clip-path row_padding_top row_padding_bottom dark-section change-header-color disable-header-gradient"
+                <div class="content-row has-clip-path row_padding_top row_padding_bottom light-section change-header-color disable-header-gradient"
                     data-bgcolor="#B4C4D9">
                     <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
                         <p class="has-shuffle-onscroll-disabled">Mes savoir-faires</p>
@@ -297,8 +256,11 @@ breadcrumbs:
                 <div class="inner">
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/portfolio">
                         <div class="next-hero-title caption-timeline blue-color blue-color-hover " data-infoTextBefore="Page Suivante" data-infoTextAfter=" Cliquez pour découvrir les projets de mon portfolio">
-                        Portfolio
-                        <i class="fa-solid fa-arrow-right"></i>
+                            Portfolio
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"
+                                style="width: 0.85em; height: 0.85em; fill: currentColor;">
+                                <path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/>
+                            </svg>
                         </div>
                     </a>
                 </div>

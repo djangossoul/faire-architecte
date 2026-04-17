@@ -52,13 +52,42 @@
 		}
 
 		/*--------------------------------------------------
-	01. General Settings
----------------------------------------------------*/
+			00. Design Tokens
+		---------------------------------------------------*/
+
+		:root {
+			/* — Palette de marque FAIRE — */
+			--color-brand:             #733821; /* Brun/rouille principal         */
+			--color-brand-hover:       #BF8975; /* Terracotta clair (état hover)   */
+			--color-brand-tan:         rgba(246, 218, 206, 1); /* Beige rosé      */
+			--color-brand-green:       #3D4025; /* Vert olive foncé                */
+			--color-brand-green-light: #9EA660; /* Vert sauge                      */
+			--color-brand-blue:        #6D86A6; /* Bleu acier                      */
+			--color-brand-blue-light:  #B4C4D9; /* Bleu doux                       */
+			--color-brand-blue-bg:     #D4DEEA; /* Bleu clair (fond de section)    */
+
+			/* — Couleurs de base — */
+			--color-black:      #000;
+			--color-white:      #fff;
+			--color-dark:       #2b2b2b;
+			--color-gray:       #777;
+			--color-gray-dark:  #444;
+			--color-gray-light: #ccc;
+
+			/* — Typographie — */
+			--font-primary:        'LEMONMILK-Regular', sans-serif;
+			--font-secondary:      'WalkwayBold', serif;
+			--font-secondary-bold: 'WalkwayUltraBold', serif;
+		}
+
+		/*--------------------------------------------------
+		01. General Settings
+		---------------------------------------------------*/
 
 		html,
 		body {
 			/*font-family: 'Poppins', sans-serif;*/
-			font-family: 'LEMONMILK-Regular', sans-serif;
+			font-family: var(--font-primary);
 			font-weight: 400;
 			font-size: 16px;
 			height: 100%;
@@ -108,14 +137,14 @@
 
 		.secondary-font {
 			/*font-family:"Playfair Display", serif;*/
-			font-family: 'WalkwayBold', serif;
+			font-family: var(--font-secondary);
 			font-style: normal;
 			font-weight: 400;
 		}
 
 		.secondary-font strong,
 		strong.secondary-font {
-			font-family: 'WalkwayUltraBold', serif;
+			font-family: var(--font-secondary-bold);
 			font-style: normal;
 			font-weight: 700;
 		}
@@ -239,7 +268,7 @@
 
 		em {
 			/*font-family:"Playfair Display", serif;*/
-			font-family: 'WalkwayUltraBold', serif;
+			font-family: var(--font-secondary-bold);
 			font-style: normal;
 			font-weight: 400;
 			font-size: 110%;
@@ -276,7 +305,7 @@
 		samp,
 		pre {
 			/*font-family: monospace, serif;*/
-			font-family: 'WalkwayUltraBold', serif;
+			font-family: var(--font-secondary-bold);
 			font-size: 15px;
 			-webkit-hyphens: none;
 			-moz-hyphens: none;
@@ -334,7 +363,7 @@
 			font-size: 1.5rem;
 			margin-bottom: 2.1875rem;
 			font-weight: 500;
-			padding-left: 3.5rem;
+			/*padding-left: 3.5rem;*/
 			margin: 0 0 1.5625rem;
 			position: relative;
 		}
@@ -795,8 +824,10 @@
 		}
 
 		p {
-			font-size: 18px;
-			line-height: 28px;
+			/*font-size: 18px;*/
+			font-size: 1.1rem;
+			/*line-height: 28px;*/
+			line-height: 1.75rem;
 			font-weight: 400;
 			margin-bottom: 10px;
 			color: #000;
@@ -812,14 +843,18 @@
 		}
 
 		.bigger {
-			font-size: 24px;
-			line-height: 36px;
+			/*font-size: 24px;
+			line-height: 36px;*/
 			font-weight: 500;
+			font-size: 1.3rem;
+			line-height: 1.75rem;
 		}
 
 		.smaller {
-			font-size: 14px;
-			line-height: 24px;
+			/*font-size: 14px;
+			line-height: 24px;*/
+			font-size: 0.9rem;
+			line-height: 1.5rem;
 		}
 
 		.container {
@@ -1251,7 +1286,8 @@
 
 		#clapat-logo img {
 			display: block;
-			height: 50px;
+			/*height: 50px;*/
+			height: 100%;
 			width: auto;
 			max-width: none;
 
@@ -1520,9 +1556,6 @@
 
 		.fullscreen-menu .open .flexnav li a span {
 			overflow: visible;
-
-		}
-
 		}
 
 		.clapat-nav-wrapper,
@@ -1847,8 +1880,8 @@
 		}
 
 		/*--------------------------------------------------
-	Hero Section
----------------------------------------------------*/
+		Hero Section
+		---------------------------------------------------*/
 		#clapat-page-content1 {
 			width: 100%;
 			height: 100vh;
@@ -1920,8 +1953,6 @@
 			margin-top: 60px;
 			margin-bottom: 100px;
 		}
-
-
 
 		/* Hero Title and Subtitle*/
 
@@ -2055,12 +2086,6 @@
 			opacity: 1 !important;
 		}
 
-
-
-
-
-
-
 		.landing-intro-wrapper {
 			position: relative;
 		}
@@ -2166,16 +2191,16 @@
 		}
 
 		/*.hero-title-placeholder span:last-child::after {
-		content:"";
-		width:0px;
-		height:13%;
-		background-color:currentColor;
-		position: absolute;
-		left: calc(100% + 20px);
-		top: calc(50% - 4px);
-		-webkit-transition: all 0.1s ease-out 0s;
-		transition: all 0.1s ease-out 0s;
-	}*/
+			content:"";
+			width:0px;
+			height:13%;
+			background-color:currentColor;
+			position: absolute;
+			left: calc(100% + 20px);
+			top: calc(50% - 4px);
+			-webkit-transition: all 0.1s ease-out 0s;
+			transition: all 0.1s ease-out 0s;
+		}*/
 
 		.hero-title-placeholder.completed span:last-child::after {
 			width: 10%;
@@ -2327,8 +2352,8 @@
 
 
 		/*--------------------------------------------------
-	Hero Image Section
----------------------------------------------------*/
+		Hero Image Section
+		---------------------------------------------------*/
 
 		#hero.has-image {
 			height: auto;
@@ -2544,8 +2569,8 @@
 		}
 
 		/*--------------------------------------------------
-	Hero Footer
----------------------------------------------------*/
+		Hero Footer
+		---------------------------------------------------*/
 
 		#hero-footer {
 			position: absolute;
@@ -2838,6 +2863,7 @@
 			color: #000;
 			margin-bottom: 0px;
 			letter-spacing: -0.4vw;
+			padding-bottom: 1vw;
 		}
 
 		.light-content .next-hero-title {
@@ -2874,7 +2900,7 @@
 			height: 20px;
 			position: absolute;
 			right: -130px;
-			top: calc(50% - 0px);
+			/*top: calc(50% - 0px);*/
 			-webkit-transition: all 0.3s ease-out 0s;
 			transition: all 0.3s ease-out 0s;
 			letter-spacing: 0;
@@ -3666,6 +3692,8 @@
 
 	<link rel="preload" href="/assets/fonts/LEMONMILKRegular.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="/assets/fonts/WalkwayBold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/assets/fonts/WalkwayUltraBold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/assets/fonts/UniversRegular.woff2" as="font" type="font/woff2" crossorigin>
 
 	<!-- Free Cookie Consent Notice Banner by ComplyDog at https://complydog.com/free-cookie-consent-banner -->
 	<script>

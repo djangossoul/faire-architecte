@@ -129,9 +129,9 @@ Function Scroll Effects
 					if (arguments.length) { scrollbar.scrollTop = value; }
 					return scrollbar.scrollTop;
 			  	}
-			});	
-					
-			scrollbar.addListener(ScrollTrigger.update);			
+			});
+
+			scrollbar.addListener(ScrollTrigger.update);
 			ScrollTrigger.defaults({ scroller: ScrollArea });
 			
 			
@@ -4065,14 +4065,15 @@ Function Lightbox
 			event.preventDefault();
 			
 			$('body').prepend(`<div class="clapat-img-popup">
-				<div class="clapat-img-popup-bg-close"></div>				
+				<div class="clapat-img-popup-bg-close"></div>
 				<div class="clapat-img-popup-viewport">
-					<div class="clapat-img-popup-preloader"><div></div><div></div><div></div><div></div></div>					
+					<div class="clapat-img-popup-preloader"><div></div><div></div><div></div><div></div></div>
 					<img />
-					<div class="clapat-img-popup-close link"></div>						
-				</div>				
-				<div class="clapat-img-popup-prev link"></div>
-				<div class="clapat-img-popup-next link"></div></div>`);
+					<div class="clapat-img-popup-close link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true" style="background-color: black; border-radius: 100%;"><path d="M320 112C434.9 112 528 205.1 528 320C528 434.9 434.9 528 320 528C205.1 528 112 434.9 112 320C112 205.1 205.1 112 320 112zM320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM231 231C221.6 240.4 221.6 255.6 231 264.9L286 319.9L231 374.9C221.6 384.3 221.6 399.5 231 408.8C240.4 418.1 255.6 418.2 264.9 408.8L319.9 353.8L374.9 408.8C384.3 418.2 399.5 418.2 408.8 408.8C418.1 399.4 418.2 384.2 408.8 374.9L353.8 319.9L408.8 264.9C418.2 255.5 418.2 240.3 408.8 231C399.4 221.7 384.2 221.6 374.9 231L319.9 286L264.9 231C255.5 221.6 240.3 221.6 231 231z"/></svg></div>
+				</div>
+				<div class="clapat-img-popup-prev link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true" style="background-color: black; border-radius: 100%;"><path d="M201.4 297.4C188.9 309.9 188.9 330.2 201.4 342.7L361.4 502.7C373.9 515.2 394.2 515.2 406.7 502.7C419.2 490.2 419.2 469.9 406.7 457.4L269.3 320L406.6 182.6C419.1 170.1 419.1 149.8 406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3L201.3 297.3z"/></svg></div>
+				<div class="clapat-img-popup-next link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true" style="background-color: black; border-radius: 100%;"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg></div>
+			</div>`);
 			
 			const details = document.querySelector('.clapat-img-popup');
 			const detailsBgClose = document.querySelector('.clapat-img-popup-bg-close');
@@ -4252,14 +4253,15 @@ Function Lightbox
 			}
 			
 			$('body').prepend(`<div class="clapat-video-popup">
-				<div class="clapat-video-popup-bg-close"></div>				
+				<div class="clapat-video-popup-bg-close"></div>
 				<div class="clapat-video-popup-viewport">
-					<div class="clapat-video-popup-preloader"><div></div><div></div><div></div><div></div></div>					
+					<div class="clapat-video-popup-preloader"><div></div><div></div><div></div><div></div></div>
 					<iframe class="clapat-video-popup-iframe" frameborder="0" allow="autoplay" sandbox="allow-scripts allow-presentation"></iframe>
-					<div class="clapat-video-popup-close link"></div>						
-				</div>				
-				<div class="clapat-img-video-prev link"></div>
-				<div class="clapat-img-video-next link"></div></div>`);
+					<div class="clapat-video-popup-close link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M320 112C434.9 112 528 205.1 528 320C528 434.9 434.9 528 320 528C205.1 528 112 434.9 112 320C112 205.1 205.1 112 320 112zM320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM231 231C221.6 240.4 221.6 255.6 231 264.9L286 319.9L231 374.9C221.6 384.3 221.6 399.5 231 408.8C240.4 418.1 255.6 418.2 264.9 408.8L319.9 353.8L374.9 408.8C384.3 418.2 399.5 418.2 408.8 408.8C418.1 399.4 418.2 384.2 408.8 374.9L353.8 319.9L408.8 264.9C418.2 255.5 418.2 240.3 408.8 231C399.4 221.7 384.2 221.6 374.9 231L319.9 286L264.9 231C255.5 221.6 240.3 221.6 231 231z"/></svg></div>
+				</div>
+				<div class="clapat-img-video-prev link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M201.4 297.4C188.9 309.9 188.9 330.2 201.4 342.7L361.4 502.7C373.9 515.2 394.2 515.2 406.7 502.7C419.2 490.2 419.2 469.9 406.7 457.4L269.3 320L406.6 182.6C419.1 170.1 419.1 149.8 406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3L201.3 297.3z"/></svg></div>
+				<div class="clapat-img-video-next link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg></div>
+			</div>`);
 			
 			const details = document.querySelector('.clapat-video-popup');
 			const detailsBgClose = document.querySelector('.clapat-video-popup-bg-close');

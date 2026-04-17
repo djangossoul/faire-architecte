@@ -19,7 +19,8 @@ layout: base
                     <div class="button-wrap left scroll-down">
                         <div class="icon-wrap parallax-wrap">
                             <div class="button-icon parallax-element">
-                                <i class="fa-solid fa-angle-down"></i>
+                                <!--<i class="fa-solid fa-arrow-down"></i>-->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="margin:10px;"><path d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z"/></svg>
                             </div>
                         </div>
                     </div>
@@ -28,7 +29,16 @@ layout: base
                     <div class="button-wrap right show-filters">
                         <div class="icon-wrap parallax-wrap">
                             <div class="button-icon parallax-element">
-                                <i class="fa-solid fa-sort"></i>
+                                <!-- icône "trier" — visible par défaut -->
+                                <svg class="icon-sort" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"
+                                    style="width:1em; height:1em; fill:currentColor;">
+                                    <path d="M130.4 268.2C135.4 280.2 147 288 160 288L480 288C492.9 288 504.6 280.2 509.6 268.2C514.6 256.2 511.8 242.5 502.7 233.3L342.7 73.3C330.2 60.8 309.9 60.8 297.4 73.3L137.4 233.3C128.2 242.5 125.5 256.2 130.5 268.2zM130.4 371.7C125.4 383.7 128.2 397.4 137.3 406.6L297.3 566.6C309.8 579.1 330.1 579.1 342.6 566.6L502.6 406.6C511.8 397.4 514.5 383.7 509.5 371.7C504.5 359.7 492.9 352 480 352L160 352C147.1 352 135.4 359.8 130.4 371.8z"/>
+                                </svg>
+                                <!-- icône "fermer" — masquée par défaut, affichée quand les filtres sont ouverts -->
+                                <svg class="icon-xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" aria-hidden="true"
+                                    style="width:0.85em; height:0.85em; fill:currentColor; display:none;">
+                                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                                </svg>
                             </div>
                         </div>
                         <div class="button-text sticky right"><span data-close="Voir les catégories" data-hover="Voir les catégories">Voir les catégories</span></div>
@@ -131,7 +141,10 @@ layout: base
                     <a class="next-ajax-link-page" data-centerline="GO TO" href="/contact">
                         <div class="next-hero-title caption-timeline red-color red-color-hover " data-infoTextBefore="Page suivante" data-infoTextAfter="Cliquez pour me parler de votre projet via mon formulaire de contact" >
                             Contact
-                            <i class="fa-solid fa-arrow-right"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true"
+                                style="width: 0.85em; height: 0.85em; fill: currentColor;">
+                                <path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/>
+                            </svg>
                         </div>
                     </a>                                   
                 </div>               

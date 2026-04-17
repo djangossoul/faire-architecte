@@ -3,7 +3,10 @@ Project:	FAIRE Architecte - Portfolio Template
 Version:	1.0
 Last change:	05/01/2026
 Assigned to:	 G P
-Primary use:	Showcase Portfolio 
+Primary use:	Showcase Portfolio
+
+Note: Les variables CSS (:root design tokens) sont définies dans
+      _includes/head.html — section "00. Design Tokens"
 -------------------------------------------------------------------*/
 
 
@@ -255,7 +258,7 @@ Primary use:	Showcase Portfolio
 }
 
 .socials li:last-child {
-	margin-left: 0px;
+	/*margin-left: 0px;*/
 }
 
 .socials li a {
@@ -609,6 +612,71 @@ Primary use:	Showcase Portfolio
 }
 
 .button-link.right:hover .button-icon i {
+	transform: scale(1.2) translateX(0px);
+	-webkit-transform: scale(1.2) translateX(0px);
+	border-radius: 100%;
+}
+
+/* === Équivalents SVG inline des règles .button-icon i ci-dessus ===
+   Les icônes FA utilisent `color` pour la couleur du glyphe.
+   Les SVG inline utilisent `fill` (qui cascade sur les <path> enfants).
+   `margin: 0 !important` écrase le style="margin:10px" inline.
+   `padding: 11px` réduit la zone de rendu SVG à 18px (40-2×11)
+   sans réduire le fond circulaire (background remplit tout le border-box).
+   `pointer-events: none` laisse les events souris remonter au
+   .parallax-wrap parent (le JS cible .icon-wrap, pas le SVG). */
+.button-link .button-icon svg {
+	display: block;
+	width: 40px;
+	height: 40px;
+	padding: 11px;
+	box-sizing: border-box;
+	margin: 0 !important;
+	background-color: #000;
+	fill: transparent;
+	border-radius: 10px;
+	transform: scale(0.3);
+	-webkit-transform: scale(0.3);
+	transition: all .3s ease-out;
+	overflow: hidden;
+	opacity: 1;
+	pointer-events: none;
+}
+
+.button-link:hover .button-icon svg {
+	background-color: #000;
+	fill: #fff;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	border-radius: 100%;
+	opacity: 1;
+}
+
+.light-content .button-link .button-icon svg,
+.dark-section .button-link .button-icon svg {
+	background-color: #fff;
+	fill: transparent;
+}
+
+.light-content .button-link:hover .button-icon svg,
+.dark-section .button-link:hover .button-icon svg {
+	background-color: #fff;
+	fill: #000;
+	opacity: 1;
+}
+
+.light-content .light-section .button-link:hover .button-icon svg {
+	background-color: #000;
+	fill: #fff;
+	opacity: 1;
+}
+
+.button-link.right .button-icon svg {
+	transform: scale(0.3) translateX(-65px) translateY(2px);
+	-webkit-transform: scale(0.3) translateX(-65px) translateY(2px);
+}
+
+.button-link.right:hover .button-icon svg {
 	transform: scale(1.2) translateX(0px);
 	-webkit-transform: scale(1.2) translateX(0px);
 	border-radius: 100%;
@@ -1828,6 +1896,113 @@ p .link-text {
 	.project-desc {
 		flex-basis: 100%;
 	}
+
+	/* Galerie de projet : 3 colonnes → 1 colonne */
+	.zoom-wrapper-gallerybis {
+		flex-wrap: wrap;
+		padding-top: 0px!important;
+	}
+
+	.zoom-wrapper-gallerybis li {
+		width: 100%;
+		max-width: 100%;
+	}
+	.zoom-wrapper-gallerybis li figure.zoom-img-wrapper{
+		padding-top: 25px;
+		background-color:transparent;
+	}
+
+	/* hero-details : pleine largeur sur mobile */
+	.hero-details {
+		width: 85%;
+	}
+
+	/* project-desc : 2 colonnes → 1 colonne */
+	.project-desc-col {
+		flex-basis: 100%;
+	}
+
+	/* Étapes du processus : max-height plus grande sur mobile
+	   (texte plus long une fois les colonnes empilées) */
+	.home-steps .flex-list:hover > span.secondary-font {
+		max-height: 600px;
+	}
+
+	/* Slider témoignages : hauteur fixe → auto pour que le blockquote
+	   ne soit pas tronqué sur petit écran.
+	   !important nécessaire pour écraser la hauteur inline fixée par le JS
+	   du carousel à l'initialisation. */
+	.small-looped-carousel .clapat-slider,
+	.small-looped-carousel .clapat-slider-viewport,
+	.small-looped-carousel .clapat-slide,
+	.slide-quote {
+		height: auto !important;
+	}
+
+	/* Problème de hauteur du viewport sur mobile :
+	   showcase.css définit .clapat-slide:not(:first-child) { position:absolute }
+	   → ces slides sont hors du flux normal → le viewport mesure seulement la
+	   hauteur du 1er slide (texte court). Le 2e slide (blockquote plus long)
+	   déborde et est coupé par overflow:hidden du .clapat-slider.
+	   Solution : CSS grid overlay → tous les slides dans la même cellule →
+	   hauteur de la row = hauteur du slide le plus grand → plus de coupure.
+	   Le JS carousel (transforms translateX) fonctionne identiquement car
+	   tous les slides démarrent à x=0 comme avec le positionnement absolu. */
+	.small-looped-carousel .clapat-slider-viewport {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+	.small-looped-carousel .clapat-slide {
+		grid-row: 1;
+		grid-column: 1;
+		position: relative;
+	}
+
+	/* .clapat-pagination est position:absolute; bottom:0; height:40px; z-index:20
+	   Elle chevauche le bas de .slide-quote et masque le <cite>.
+	   On ajoute un padding-bottom suffisant pour sortir le cite de cette zone. */
+	.slide-quote {
+		padding-bottom: 75px;
+	}
+
+	/* Section savoirfaires — pleine largeur sur mobile
+	   .one_fourth2 reste à width:50% (la règle max-width:1025px ne le modifie
+	   pas), on le force à 100% ici.
+	   .savoirfaire-text sont des spans inline : display:block les rend pleine
+	   largeur dans le .landing-intro-wrapper.
+	   .inner_one_fourth3 reste right-aligned à 50% jusqu'à 1025px ; on le
+	   passe à 100% et on annule le margin-left:auto. */
+	.one_fourth2 {
+		width: 100%!important;
+	}
+	.savoirfaire-text {
+		display: block;
+		width: 100%!important;
+	}
+	.one_fourth3 .inner_one_fourth3 {
+		width: 100%!important;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.savoirfaire-text .category-protfolio {
+		font-size: calc(1rem + 8vw);
+	}
+}
+@media all and (max-width: 479px) {
+	.savoirfaire-text .category-protfolio {
+		font-size: calc(1rem + 6vw);
+	}
+}
+@media all and (max-width: 330px) {
+	.slide-quote {
+		padding-bottom: 75px;
+	}
+	.button-border .ajax-link span{
+		font-size: 0.7rem!important;
+	}
+	.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle {
+        font-size: 0.8rem;
+    }
 }
 
 .zoom-wrapper-gallerybis {
@@ -1855,28 +2030,28 @@ p .link-text {
 	10. Page titles & background colors
 ---------------------------------------------------*/
 .green-color {
-	color: #3D4025;
+	color: var(--color-brand-green);
 }
 .green-color-hover:hover {
-	color: #9EA660;
+	color: var(--color-brand-green-light);
 }
 
 .blue-color {
-	color: #6D86A6;
+	color: var(--color-brand-blue);
 }
 .blue-color-hover:hover {
-	color: #B4C4D9;
+	color: var(--color-brand-blue-light);
 }
 
 .red-color {
-	color: #733821;
+	color: var(--color-brand);
 }
 .red-color-hover:hover {
-	color: #BF8975;
+	color: var(--color-brand-hover);
 }
 
 .dark-red-background {
-	background-color: #733821;
+	background-color: var(--color-brand);
 }
 
 /*--------------------------------------------------
@@ -1884,7 +2059,7 @@ p .link-text {
 ---------------------------------------------------*/
 .about-page .about-page-inner {
 	background: #FFFFFF;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 50%, rgba(246, 218, 206, 1) 100%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, var(--color-brand-tan) 50%, var(--color-brand-tan) 100%);
 }
 
 .about-values-titles {
@@ -1962,6 +2137,26 @@ ul.flex-lists-wrapper li.flex-list {
 	pointer-events: auto;
 }
 
+/* Section "Les étapes de mon processus architectural"
+   Centrage vertical : span 1 seul au repos, ensemble au survol.
+   La span.secondary-font doit occuper zéro hauteur quand masquée
+   (opacity:0 seul dans shortcodes.css laisse l'espace, ce qui décale span 1). */
+.home-steps .flex-list > span.secondary-font {
+	max-height: 0;
+	overflow: hidden;
+	opacity: 0;
+	margin-top: 0;
+	transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
+}
+
+/* Au survol : span 2 se déplie, l'ensemble (span1 + span2) reste centré
+   grâce aux padding symétriques (35px) de la li */
+.home-steps .flex-list:hover > span.secondary-font {
+	max-height: 300px;
+	opacity: 1;
+	margin-top: 15px;
+}
+
 ul.flex-lists-wrapper li.flex-list+span:first-of-type {
 	margin-bottom: 15px;
 }
@@ -2018,11 +2213,18 @@ ul li .category-protfolio+small {
 	display: block;
 }
 
-#my-form input,
+#my-form input:not([type='checkbox']),
 #my-form textarea {
 	width: 100%;
 	padding: 10px;
 	font-family: inherit;
+}
+#my-form input[type='checkbox'] {
+	width: auto;
+    height: auto;
+}
+#my-form input::placeholder {
+	color: lightgray;
 }
 
 #my-form-button {
@@ -2108,7 +2310,7 @@ ul li .category-protfolio+small {
 	14. Home page
 ---------------------------------------------------*/
 .home-portfolio-link{
-	color: #6D86A6!important;
+	color: var(--color-brand-blue)!important;
 }
 .sr-only {
 	position: absolute;
@@ -2219,7 +2421,7 @@ img.baseline {
 }
 
 .savoirfaires {
-	background: #D4DEEA;
+	background: var(--color-brand-blue-bg);
 	background: linear-gradient(0deg, rgba(212, 222, 234, 1) 0%, rgba(212, 222, 234, 1) 85%, rgba(255, 255, 255, 0) 100%);
 }
 
@@ -2237,12 +2439,12 @@ img.baseline {
 	line-height: calc((0.5rem + 4vw) / 2);
 	letter-spacing: 0.01rem;
 	display: block;
-	color: gray;
+	color: dimgray;
 }
 
 .home-steps {
-	background: #f6dace;
-	background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 5%, rgba(246, 218, 206, 1) 100%);
+	background: var(--color-brand-tan);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, var(--color-brand-tan) 5%, var(--color-brand-tan) 100%);
 	padding-left: 60px;
 	padding-right: 60px;
 }
@@ -2272,7 +2474,7 @@ img.baseline {
 
 .about-text {
 	padding-bottom: 40px;
-	background: #D4DEEA;
+	background: var(--color-brand-blue-bg);
 }
 
 
@@ -2376,10 +2578,23 @@ dt .link {
 	font-size: 20px;
 }
 
+.privacy-policy {
+	max-width: 1320px!important;
+}
+
 .privacy-policy p{
 	font-family: 'WalkwayBold', serif;
     font-style: normal;
     font-weight: 400;
+}
+
+/* Page Navigation — espacement symétrique ::before / ::after autour du titre.
+   content.css définit padding-top: 1vw sur .next-hero-title (espace entre le
+   bord haut et le texte principal). ::before est ancré top:0 → l'espace avant
+   le titre = padding-top = 1vw. ::after est ancré bottom:0 → l'espace après
+   le titre = padding-bottom. On l'aligne sur 1vw pour une symétrie parfaite. */
+.next-hero-title {
+    padding-bottom: 1vw;
 }
 
 /*@media only screen and (max-width: 1125px) and (orientation:portrait) {*/
