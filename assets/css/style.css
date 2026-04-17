@@ -2001,8 +2001,11 @@ p .link-text {
 		font-size: 0.7rem!important;
 		line-height: 35px !important;
 	}
-	.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle {
+	/*.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle {
         font-size: 0.8rem;
+    }*/
+	.snap-slider-captions .slide-subtitle {
+		display: none;
     }
 	.home-steps {
 		padding-left: 20px;
