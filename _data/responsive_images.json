@@ -463,13 +463,13 @@
     ],
     "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.webp"
   },
-  "projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG": {
+  "projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.jpg": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG 480w",
-      "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG 800w",
-      "/assets/images/resized/1200/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG 1200w"
+      "/assets/images/resized/480/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 480w",
+      "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 800w",
+      "/assets/images/resized/1200/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG"
+    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp"
   },
   "projects/accueillir/05_CHAMBRE_MARRON_APRES.jpg": {
     "srcset": [
@@ -479,13 +479,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_APRES.webp"
   },
-  "projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG": {
+  "projects/accueillir/04_SALON_CUISINE_CHANTIER.jpg": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG 480w",
-      "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG 800w",
-      "/assets/images/resized/1200/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG 1200w"
+      "/assets/images/resized/480/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 480w",
+      "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 800w",
+      "/assets/images/resized/1200/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp"
   },
   "projects/accueillir/04_SALON_CUISINE_APRES.jpg": {
     "srcset": [
@@ -527,13 +527,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/04_SALON_APRES.webp"
   },
-  "projects/accueillir/03_SDD_AVANT.JPEG": {
+  "projects/accueillir/03_SDD_AVANT.jpeg": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/03_SDD_AVANT.JPEG 480w",
-      "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.JPEG 800w",
-      "/assets/images/resized/1200/projects/accueillir/03_SDD_AVANT.JPEG 1200w"
+      "/assets/images/resized/480/projects/accueillir/03_SDD_AVANT.webp 480w",
+      "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.webp 800w",
+      "/assets/images/resized/1200/projects/accueillir/03_SDD_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.JPEG"
+    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.webp"
   },
   "projects/accueillir/03_SDD_APRES.jpg": {
     "srcset": [
@@ -543,13 +543,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/03_SDD_APRES.webp"
   },
-  "projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG": {
+  "projects/accueillir/02_CHAMBRE_ROUGE_AVANT.jpeg": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG 480w",
-      "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG 800w",
-      "/assets/images/resized/1200/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG 1200w"
+      "/assets/images/resized/480/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 480w",
+      "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 800w",
+      "/assets/images/resized/1200/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG"
+    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp"
   },
   "projects/accueillir/02_CHAMBRE_ROUGE_APRES.jpg": {
     "srcset": [
@@ -567,13 +567,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/01_SDB_CROQUIS.webp"
   },
-  "projects/accueillir/01_SDB_AVANT.JPG": {
+  "projects/accueillir/01_SDB_AVANT.jpg": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/01_SDB_AVANT.JPG 480w",
-      "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.JPG 800w",
-      "/assets/images/resized/1200/projects/accueillir/01_SDB_AVANT.JPG 1200w"
+      "/assets/images/resized/480/projects/accueillir/01_SDB_AVANT.webp 480w",
+      "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.webp 800w",
+      "/assets/images/resized/1200/projects/accueillir/01_SDB_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.JPG"
+    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.webp"
   },
   "projects/accueillir/01_SDB_APRES.jpg": {
     "srcset": [
