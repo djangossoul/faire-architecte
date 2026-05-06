@@ -57,13 +57,13 @@ img6: "/assets/images/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.jpg
 altimg6: ""
 captionimg6: "Insertion, mise en situation avec la matérialité"
 
-img7: "/assets/images/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.jpg"
+img7: ""
 altimg7: ""
-captionimg7: "Plan représentant l’existant en gris hachuré et le projet en rouge"
+captionimg7: ""
 
-img8: ""
+img8: "/assets/images/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.jpg"
 altimg8: ""
-captionimg8: ""
+captionimg8: "Plan représentant l’existant en gris hachuré et le projet en rouge"
 
 img9: ""
 altimg9: ""

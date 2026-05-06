@@ -23,6 +23,38 @@
     ],
     "src": "/assets/images/resized/800/main-qui-dessine.webp"
   },
+  "img-4.jpg": {
+    "srcset": [
+      "/assets/images/resized/480/img-4.webp 480w",
+      "/assets/images/resized/800/img-4.webp 800w",
+      "/assets/images/resized/1200/img-4.webp 1200w"
+    ],
+    "src": "/assets/images/resized/800/img-4.webp"
+  },
+  "img-3.jpg": {
+    "srcset": [
+      "/assets/images/resized/480/img-3.webp 480w",
+      "/assets/images/resized/800/img-3.webp 800w",
+      "/assets/images/resized/1200/img-3.webp 1200w"
+    ],
+    "src": "/assets/images/resized/800/img-3.webp"
+  },
+  "img-2.jpg": {
+    "srcset": [
+      "/assets/images/resized/480/img-2.webp 480w",
+      "/assets/images/resized/800/img-2.webp 800w",
+      "/assets/images/resized/1200/img-2.webp 1200w"
+    ],
+    "src": "/assets/images/resized/800/img-2.webp"
+  },
+  "img-1.jpg": {
+    "srcset": [
+      "/assets/images/resized/480/img-1.webp 480w",
+      "/assets/images/resized/800/img-1.webp 800w",
+      "/assets/images/resized/1200/img-1.webp 1200w"
+    ],
+    "src": "/assets/images/resized/800/img-1.webp"
+  },
   "favicon-32x32.png": {
     "srcset": [
       "/assets/images/resized/480/favicon-32x32.webp 480w",
@@ -87,6 +119,14 @@
     ],
     "src": "/assets/images/resized/800/FAIRE_LOGO_2026_simple.webp"
   },
+  "FAIRE_LOGO_2026_simple-v2.webp": {
+    "srcset": [
+      "/assets/images/resized/480/FAIRE_LOGO_2026_simple-v2.webp 480w",
+      "/assets/images/resized/800/FAIRE_LOGO_2026_simple-v2.webp 800w",
+      "/assets/images/resized/1200/FAIRE_LOGO_2026_simple-v2.webp 1200w"
+    ],
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_simple-v2.webp"
+  },
   "FAIRE_LOGO_2026_full_baseline.webp": {
     "srcset": [
       "/assets/images/resized/480/FAIRE_LOGO_2026_full_baseline.webp 480w",
@@ -110,6 +150,14 @@
       "/assets/images/resized/1200/FAIRE_LOGO_2026_baseline.webp 1200w"
     ],
     "src": "/assets/images/resized/800/FAIRE_LOGO_2026_baseline.webp"
+  },
+  "FAIRE_LOGO_2026_baseline-v2.webp": {
+    "srcset": [
+      "/assets/images/resized/480/FAIRE_LOGO_2026_baseline-v2.webp 480w",
+      "/assets/images/resized/800/FAIRE_LOGO_2026_baseline-v2.webp 800w",
+      "/assets/images/resized/1200/FAIRE_LOGO_2026_baseline-v2.webp 1200w"
+    ],
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_baseline-v2.webp"
   },
   "FAIRE-LOGO-2026-full.webp": {
     "srcset": [
@@ -303,13 +351,13 @@
     ],
     "src": "/assets/images/resized/800/projects/faconner/03_Amenagement_CHAMBRE_bureau.webp"
   },
-  "projects/articuler/2_PLAN EXTENSION SUR EXISTANT 06 - copie.jpg": {
+  "projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.jpg": {
     "srcset": [
-      "/assets/images/resized/480/projects/articuler/2_PLAN EXTENSION SUR EXISTANT 06 - copie.webp 480w",
-      "/assets/images/resized/800/projects/articuler/2_PLAN EXTENSION SUR EXISTANT 06 - copie.webp 800w",
-      "/assets/images/resized/1200/projects/articuler/2_PLAN EXTENSION SUR EXISTANT 06 - copie.webp 1200w"
+      "/assets/images/resized/480/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp 480w",
+      "/assets/images/resized/800/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp 800w",
+      "/assets/images/resized/1200/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_PLAN EXTENSION SUR EXISTANT 06 - copie.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp"
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.jpg": {
     "srcset": [
@@ -415,13 +463,13 @@
     ],
     "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.webp"
   },
-  "projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.jpg": {
+  "projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 480w",
-      "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 800w",
-      "/assets/images/resized/1200/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 1200w"
+      "/assets/images/resized/480/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG 480w",
+      "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG 800w",
+      "/assets/images/resized/1200/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.JPG"
   },
   "projects/accueillir/05_CHAMBRE_MARRON_APRES.jpg": {
     "srcset": [
@@ -431,13 +479,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_APRES.webp"
   },
-  "projects/accueillir/04_SALON_CUISINE_CHANTIER.jpg": {
+  "projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 480w",
-      "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 800w",
-      "/assets/images/resized/1200/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 1200w"
+      "/assets/images/resized/480/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG 480w",
+      "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG 800w",
+      "/assets/images/resized/1200/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.JPG"
   },
   "projects/accueillir/04_SALON_CUISINE_APRES.jpg": {
     "srcset": [
@@ -479,13 +527,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/04_SALON_APRES.webp"
   },
-  "projects/accueillir/03_SDD_AVANT.jpeg": {
+  "projects/accueillir/03_SDD_AVANT.JPEG": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/03_SDD_AVANT.webp 480w",
-      "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.webp 800w",
-      "/assets/images/resized/1200/projects/accueillir/03_SDD_AVANT.webp 1200w"
+      "/assets/images/resized/480/projects/accueillir/03_SDD_AVANT.JPEG 480w",
+      "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.JPEG 800w",
+      "/assets/images/resized/1200/projects/accueillir/03_SDD_AVANT.JPEG 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.JPEG"
   },
   "projects/accueillir/03_SDD_APRES.jpg": {
     "srcset": [
@@ -495,13 +543,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/03_SDD_APRES.webp"
   },
-  "projects/accueillir/02_CHAMBRE_ROUGE_AVANT.jpeg": {
+  "projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 480w",
-      "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 800w",
-      "/assets/images/resized/1200/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 1200w"
+      "/assets/images/resized/480/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG 480w",
+      "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG 800w",
+      "/assets/images/resized/1200/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.JPEG"
   },
   "projects/accueillir/02_CHAMBRE_ROUGE_APRES.jpg": {
     "srcset": [
@@ -519,13 +567,13 @@
     ],
     "src": "/assets/images/resized/800/projects/accueillir/01_SDB_CROQUIS.webp"
   },
-  "projects/accueillir/01_SDB_AVANT.jpg": {
+  "projects/accueillir/01_SDB_AVANT.JPG": {
     "srcset": [
-      "/assets/images/resized/480/projects/accueillir/01_SDB_AVANT.webp 480w",
-      "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.webp 800w",
-      "/assets/images/resized/1200/projects/accueillir/01_SDB_AVANT.webp 1200w"
+      "/assets/images/resized/480/projects/accueillir/01_SDB_AVANT.JPG 480w",
+      "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.JPG 800w",
+      "/assets/images/resized/1200/projects/accueillir/01_SDB_AVANT.JPG 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.JPG"
   },
   "projects/accueillir/01_SDB_APRES.jpg": {
     "srcset": [

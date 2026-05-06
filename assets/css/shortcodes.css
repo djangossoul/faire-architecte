@@ -366,18 +366,18 @@
 	.slide-quote blockquote {
 		font-style: italic;
 		margin: 0 0 15px 0;
-		font-size: 1.1em;
+		font-size: 1.1rem;
 		line-height: 1.4;
 	}
 	
 	.slide-quote cite {
 		font-weight: bold;
-		font-size: 1em;
+		font-size: 1rem;
 		margin-bottom: 5px;
 	}
 	
 	.slide-quote span {
-		font-size: 0.9em;
+		font-size: 0.9rem;
 		color: #666;
 	}
 	
@@ -1780,9 +1780,9 @@
 	
 	.accordion .accordion-content {
 		margin-bottom: 0;
-		font-size:18px;
+		font-size:var(--font-size-medium);
 		color:#000;
-		line-height: 28px;
+		line-height: var(--font-size-large);
 		padding-left: 0;
 		padding-right: 80px;
 		padding-top:10px;
@@ -1800,8 +1800,8 @@
 	}
 	
 	.accordion.bigger-acc .accordion-content {
-		font-size:18px;
-		line-height: 30px;
+		font-size:var(--font-size-medium);
+		font-size:var(--font-size-large);
 	}
 	
 	.light-content .accordion .accordion-content, .dark-section .accordion .accordion-content {
@@ -2689,6 +2689,11 @@
 		align-items: center;
 		justify-content: center;
 		/*max-height: 120px;*/
+	}
+	@media only screen and (max-width: 767px) {
+		.flex-lists-wrapper .flex-list {
+			padding: 35px 30px;
+		}
 	}
 	
 	.flex-list::before {

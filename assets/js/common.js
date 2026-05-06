@@ -4096,7 +4096,25 @@ Function Lightbox
 				gsap.to('#ball', {duration: 0.3, borderWidth:"4px",scale:0.5,backgroundColor:"rgba(153, 153, 153, 0)",opacity:1});
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 			});
-			
+
+			let swipeStartX = 0;
+			let swipeStartY = 0;
+
+			function handleSwipeStart(e) {
+				swipeStartX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+				swipeStartY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+			}
+
+			function handleSwipeEnd(e) {
+				const endX = e.type === 'touchend' ? e.changedTouches[0].clientX : e.clientX;
+				const endY = e.type === 'touchend' ? e.changedTouches[0].clientY : e.clientY;
+				const deltaX = endX - swipeStartX;
+				const deltaY = endY - swipeStartY;
+				if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY)) {
+					deltaX < 0 ? nextPopup() : prevPopup();
+				}
+			}
+
 			let onLoad = () => {
 				gsap.to(detailsPreloader, {duration: 0.2, opacity:0});
 				gsap.set(detailImage, {opacity:1});
@@ -4123,6 +4141,11 @@ Function Lightbox
 				detailsClose.addEventListener('click', hideDetails);
 				detailPrev.addEventListener('click', prevPopup);
 				detailNext.addEventListener('click', nextPopup);
+				details.addEventListener('touchstart', handleSwipeStart, { passive: true });
+				details.addEventListener('touchend', handleSwipeEnd);
+				details.addEventListener('mousedown', handleSwipeStart);
+				details.addEventListener('mouseup', handleSwipeEnd);
+				details.addEventListener('dragstart', e => e.preventDefault());
 			};
 
 			// change image

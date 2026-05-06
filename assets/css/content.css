@@ -999,8 +999,8 @@
 	
 	.next-hero-title::after {
 		content: attr(data-infoTextAfter);
-		font-size:16px;
-		line-height: 20px;
+		font-size:12px;
+		line-height: 16px;
 		font-weight:400;
 		width:auto;
 		height:20px;

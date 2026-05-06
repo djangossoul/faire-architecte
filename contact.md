@@ -106,7 +106,7 @@ breadcrumbs:
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row dark-section" data-bgcolor="#733821">
+                <!--<div class="content-row dark-section" data-bgcolor="#733821">
                     <div class="clipped-image-wrapper">
                         <div class="clipped-image-pin">
                             <div class="clipped-image">
@@ -134,7 +134,7 @@ breadcrumbs:
                             <hr>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!--/Row -->
                 <!-- Row -->
                 <div class="content-row dark-section text-align-center" data-bgcolor="#733821">
@@ -154,7 +154,7 @@ breadcrumbs:
                     </div>
                     <div class="one_third has-animation" data-delay="200">
                         <hr>
-                        <p class="bigger">. . .</p>
+                        <!--<p class="bigger">. . .</p>-->
                     </div>
                     <div class=" one_third last has-animation" data-delay="300">
                         <div class="box-icon-wrapper block-boxes">
@@ -175,7 +175,7 @@ breadcrumbs:
                 <!-- Row -->
                 <div class="content-row full row_padding_top row_padding_bottom dark-section text-align-center"
                     data-bgcolor="#733821">
-                    <p class="bigger has-shuffle-disabled no-margins secondary-font">Envie de travailler ensemble ?</p>
+                    <p class="bigger has-shuffle-disabled no-margins secondary-font above-email">Envie de travailler ensemble ?</p>
                     <div id="copy-email" data-hover-message="Copy Mail" data-clicked-message="Copied">
                         <span><a href="mailto:contact@faire-architecte.com">contact@faire-architecte.com</a></span>
                     </div>

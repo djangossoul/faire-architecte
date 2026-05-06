@@ -282,9 +282,10 @@
 		opacity:1;					
 	}
 	
-	.showcase-portfolio .slide-caption .slide-title {
-		font-size: 22px;
-		line-height: 60px;
+	.showcase-portfolio .slide-caption .slide-title, 
+	.showcase-portfolio .slide-caption .slide-cat {
+		font-size: var(--font-size-large);
+		line-height: var(--font-size-xlarge);
 		/*font-family:"Playfair Display", serif;*/
 		font-family:"LEMONMILK-Regular", serif;
 		color: #fff;
@@ -303,8 +304,8 @@
 	}
 	
 	.showcase-portfolio .slide-caption .slide-cat {
-		font-size: 22px;
-		line-height: 60px;
+		font-size: var(--font-size-large);
+		line-height: var(--font-size-xlarge);
 		/*font-family:"Playfair Display", serif;*/
 		font-family:"WalkwayUltraBold", serif;
 		color: #fff;

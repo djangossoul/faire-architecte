@@ -78,6 +78,24 @@
 			--font-primary:        'LEMONMILK-Regular', sans-serif;
 			--font-secondary:      'WalkwayBold', serif;
 			--font-secondary-bold: 'WalkwayUltraBold', serif;
+
+			/* — Font sizes — */
+			--font-size-xsmall:    0.625rem;	/* 10px */
+			--font-size-small:    0.875rem;	/* 14px */
+			--font-size-base:     1rem;	/* 16px */
+			--font-size-medium:   1.125rem;	/* 18px */
+			--font-size-large:    1.25rem;	/* 20px */
+			--font-size-xlarge:   1.5rem;	/* 24px */
+			--font-size-xxlarge:  2rem;	/* 32px */
+			--font-size-xxxlarge: 2.5rem;	/* 40px */
+			--font-size-xxxxlarge: 3rem;	/* 48px */
+			--font-size-xxxxxlarge: 4rem;	/* 64px */
+			--font-size-xxxxxxlarge: 5rem;	/* 80px */
+
+			 /* — Big title size (responsive) — */
+
+			--big-title: calc((1rem + 12vw) / 2);
+			--big-title-line-height: calc((1rem + 14vw) / 2);
 		}
 
 		/*--------------------------------------------------
@@ -89,7 +107,7 @@
 			/*font-family: 'Poppins', sans-serif;*/
 			font-family: var(--font-primary);
 			font-weight: 400;
-			font-size: 16px;
+			font-size: 16px; /* Set the root font size */
 			height: 100%;
 			width: 100%;
 			color: #777;
@@ -110,7 +128,6 @@
 		html {
 			box-sizing: border-box;
 			margin-right: 0px !important;
-
 		}
 
 		body {
@@ -390,7 +407,7 @@
 		blockquote cite,
 		blockquote small {
 			color: #2b2b2b;
-			font-size: 16px;
+			font-size: 1rem;
 			font-weight: 400;
 			line-height: 1.5;
 		}
@@ -518,7 +535,7 @@
 			bottom: 0px;
 			color: #fff;
 			font-weight: 400;
-			font-size: 10px;
+			font-size: var(--font-size-xsmall);
 			padding: 5px 10px;
 			position: absolute;
 			right: 0px;
@@ -737,8 +754,8 @@
 
 		.big-title {
 			font-weight: 600;
-			font-size: calc((1rem + 12vw) / 2);
-			line-height: calc((1rem + 14vw) / 2);
+			font-size: var(--big-title);
+			line-height: var(--big-title-line-height);
 			letter-spacing: -0.2vw;
 		}
 
@@ -1287,9 +1304,9 @@
 		#clapat-logo img {
 			display: block;
 			/*height: 50px;*/
-			height: 100%;
-			width: auto;
-			max-width: none;
+			height: auto;
+			width: 223px;
+			/*max-width: none;*/
 
 		}
 
@@ -2893,8 +2910,8 @@
 
 		.next-hero-title::after {
 			content: attr(data-infoTextAfter);
-			font-size: 16px;
-			line-height: 20px;
+			font-size: 12px;
+			line-height: 16px;
 			font-weight: 400;
 			width: auto;
 			height: 20px;
