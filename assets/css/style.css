@@ -1996,6 +1996,11 @@ p .link-text {
 		font-size: calc(1rem + 6vw);
 	}
 }
+@media all and (max-width: 430px) {
+	.snap-slider-captions .slide-subtitle {
+		display: none;
+	}
+}
 @media all and (max-width: 330px) {
 	.slide-quote {
 		padding-bottom: 75px;
@@ -2004,12 +2009,6 @@ p .link-text {
 		font-size: 0.7rem!important;
 		line-height: 35px !important;
 	}
-	/*.snap-slider-captions .slide-title, .snap-slider-captions .slide-subtitle {
-        font-size: 0.8rem;
-    }*/
-	.snap-slider-captions .slide-subtitle {
-		display: none;
-    }
 }
 
 .zoom-wrapper-gallerybis {
