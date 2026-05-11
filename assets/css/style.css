@@ -2691,8 +2691,9 @@ dt .link {
 	}
 	/* Home page*/
 	#clapat-logo img {
-		height: 70px;
-		width: auto;
+		width: 160px;
+		height: auto;
+		max-width: none !important;
 	}
 	#burger-wrapper {
 		width: 50px;
