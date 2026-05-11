@@ -2465,10 +2465,30 @@ img.baseline {
 	padding-right: 60px;
 }
 @media only screen and (max-width: 430px) {
+	/* Retire le padding du conteneur et le déplace sur les enfants directs,
+	   pour que flex-lists-wrapper et snap-slider-holder soient pleine largeur
+	   sans recourir à width:100vw (source de scroll horizontal dans smooth-scrollbar) */
+	.home-steps {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.home-steps > p,
+	.home-steps > h2,
+	.home-steps > hr {
+		padding-left: 60px;
+		padding-right: 60px;
+		box-sizing: border-box;
+	}
 	.home-steps .flex-lists-wrapper {
-		width: calc(100% + 120px) !important;
-		margin-left: -60px !important;
-		margin-right: -60px !important;
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.home-projects .snap-slider-holder {
+		width: 100% !important;
+		max-width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 }
 @media all and (max-width: 330px) {

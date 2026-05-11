@@ -520,3 +520,19 @@ layout: base
     <!--/Page Navigation -->
 </div>
 <!--/Main Content -->
+
+<script>
+/* Verrou scroll horizontal — page d'accueil uniquement.
+   Le snap-slider-holder et le flex-lists-wrapper utilisent width:100vw dans le CSS
+   du thème ; sur iOS le smooth-scrollbar détecte parfois 1-2 px de dépassement.
+   Ce listener est en dernier recours : il remet X=0 dès qu'il dérive. */
+window.addEventListener('load', function () {
+  var el = document.getElementById('content-scroll');
+  if (!el || typeof Scrollbar === 'undefined') return;
+  var sb = Scrollbar.get(el);
+  if (!sb) return;
+  sb.addListener(function (s) {
+    if (s.offset.x !== 0) sb.setPosition(0, s.offset.y);
+  });
+});
+</script>
