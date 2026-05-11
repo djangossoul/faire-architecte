@@ -123,7 +123,7 @@ breadcrumbs:
                 <!-- Row -->
                 <div class="content-row row_padding_top text-align-center light-section home-steps" data-bgcolor="#f6dace">
                     <p class="bigger has-shuffle-disabled secondary-font">POURQUOI TRAVAILLER ENSEMBLE ?</p>
-                    <h2 class="has-animation">Les étapes de mon processus architectural</h2>
+                    <h2 class="has-animation">Les étapes de mon processus<br class="mobile-only"> <span class="word-architectural">architectural</span></h2>
                     <hr>
                     <!-- Flex Lists -->
                     <ul class="flex-lists-wrapper">
