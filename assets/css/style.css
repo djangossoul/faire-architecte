@@ -398,24 +398,15 @@ Note: Les variables CSS (:root design tokens) sont définies dans
 	line-height: 40px;
 }
 
-.button-icon i.fa-solid.fa-sort {
-	font-size: 14px;
-	line-height: 38px;
-}
-
-.button-icon i {
+.button-icon i, .button-icon svg {
 	height: 40px;
 	line-height: 40px;
 	width: 40px;
 	text-align: center;
 }
 
-#main .button-icon i {
+#main .button-icon i, #main .button-icon svg {
 	line-height: 40px;
-}
-
-#main .button-icon i.fa.fa-arrow-right {
-	font-size: 14px;
 }
 
 .button-text {

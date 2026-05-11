@@ -97,6 +97,7 @@ captionimg10: ""
                         alt=img1alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg1 }}</figcaption>
@@ -113,6 +114,7 @@ captionimg10: ""
                         alt=img3alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg2 }}</figcaption>
@@ -129,6 +131,7 @@ captionimg10: ""
                         alt=img5alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg5 }}</figcaption>
@@ -145,6 +148,7 @@ captionimg10: ""
                         alt=img7alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg7 }}</figcaption>
@@ -161,6 +165,7 @@ captionimg10: ""
                         alt=img9alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg9 }}</figcaption>
@@ -178,6 +183,7 @@ captionimg10: ""
                         alt=img2alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg2 }}</figcaption>
@@ -194,6 +200,7 @@ captionimg10: ""
                         alt=img4alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg4 }}</figcaption>
@@ -210,6 +217,7 @@ captionimg10: ""
                         alt=img6alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg6 }}</figcaption>
@@ -226,6 +234,7 @@ captionimg10: ""
                         alt=img8alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg8 }}</figcaption>
@@ -242,6 +251,7 @@ captionimg10: ""
                         alt=img10alt
                         class=""
                         style=""
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         loading="lazy" %}
                 </a>
                 <figcaption>{{ page.captionimg10 }}</figcaption>

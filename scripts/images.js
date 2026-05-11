@@ -3,7 +3,7 @@ const glob = require('glob');
 const fs = require('fs');
 const path = require('path');
 
-const SIZES = [480, 800, 1200];
+const SIZES = [240, 480, 600, 800, 1200];
 const INPUT_DIR = 'assets/images';
 const OUTPUT_DIR = path.join(INPUT_DIR, 'resized');
 const DATA_FILE = '_data/responsive_images.json';
@@ -30,7 +30,7 @@ const files = glob.sync(`${INPUT_DIR}/**/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}
 
       await sharp(file)
         .resize(width)
-        .webp({ quality: 85 })
+        .webp({ quality: 75 })
         .toFile(outPath);
 
       result[relKey].srcset.push(`/${outPath} ${width}w`);

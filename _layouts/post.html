@@ -33,7 +33,10 @@ layout: base
 </div>
 <div id="hero-image-wrapper" class="change-header-color hero-pixels-cover-disabled parallax-scroll-image">
     <div id="hero-background-layer" class="parallax-scroll-image">
-        <div id="hero-bg-image" class="hero-bg-image" style="background-image:url('{{ page.thumbnailback }}')">
+        {% assign _bg_key = page.thumbnailback | remove_first: "/assets/images/" | remove_first: "assets/images/" %}
+        {% assign _bg_img = site.data.responsive_images[_bg_key] %}
+        {% if _bg_img %}{% assign _bg_url = _bg_img.srcset | last | split: " " | first %}{% else %}{% assign _bg_url = page.thumbnailback %}{% endif %}
+        <div id="hero-bg-image" class="hero-bg-image" style="background-image:url('{{ _bg_url }}')">
             <div class="hero-details">
                 <div>
                     <h2>Détails du projet</h2>

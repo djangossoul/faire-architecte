@@ -131,6 +131,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img1alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg1 }}</figcaption>
@@ -148,6 +149,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img2alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg2 }}</figcaption>
@@ -165,6 +167,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img3alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg3 }}</figcaption>
@@ -191,6 +194,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img4alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg4 }}</figcaption>
@@ -208,6 +212,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img5alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg5 }}</figcaption>
@@ -225,6 +230,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img6alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg6 }}</figcaption>
@@ -251,6 +257,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img7alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg7 }}</figcaption>
@@ -268,6 +275,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img8alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg8 }}</figcaption>
@@ -285,6 +293,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img9alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg9 }}</figcaption>
@@ -311,6 +320,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img10alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg10 }}</figcaption>
@@ -328,6 +338,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img11alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg11 }}</figcaption>
@@ -345,6 +356,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img12alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg12 }}</figcaption>
@@ -371,6 +383,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img13alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg13 }}</figcaption>
@@ -388,6 +401,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img14alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg14 }}</figcaption>
@@ -405,6 +419,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img15alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg15 }}</figcaption>
@@ -431,6 +446,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img16alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg16 }}</figcaption>
@@ -448,6 +464,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img17alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg17 }}</figcaption>
@@ -465,6 +482,7 @@ captionimg18: "APRES - Chambre marron"
                                     alt=img18alt
                                     class=""
                                     style=""
+                                    sizes="(max-width: 479px) 75vw, (max-width: 767px) 90vw, 50vw"
                                     loading="lazy" %}
                             </a>
                             <figcaption>{{ page.captionimg18 }}</figcaption>

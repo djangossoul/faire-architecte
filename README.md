@@ -112,6 +112,18 @@ npm run build:images
 
 ---
 
+## Minifier les fichiers JavaScript
+
+Génère les versions minifiées de `common.js`, `scripts.js` et `contact.js` (fichiers servis en production). À relancer après chaque modification de ces fichiers, avant de committer.
+
+```bash
+npm run build:minify-js
+```
+
+Les fichiers produits (`common.min.js`, `scripts.min.js`, `contact.min.js`) doivent être committés — ils sont servis directement par GitHub Pages.
+
+---
+
 ## Lancer le site en local
 
 ```bash

@@ -3712,6 +3712,13 @@
 	<link rel="preload" href="/assets/fonts/WalkwayUltraBold.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="/assets/fonts/UniversRegular.woff2" as="font" type="font/woff2" crossorigin>
 
+	{% if page.thumbnailback %}
+	{% assign _preload_key = page.thumbnailback | remove_first: "/assets/images/" | remove_first: "assets/images/" %}
+	{% assign _preload_img = site.data.responsive_images[_preload_key] %}
+	{% if _preload_img %}{% assign _preload_url = _preload_img.srcset | last | split: " " | first %}{% else %}{% assign _preload_url = page.thumbnailback %}{% endif %}
+	<link rel="preload" as="image" href="{{ _preload_url }}" fetchpriority="high">
+	{% endif %}
+
 	<!-- Free Cookie Consent Notice Banner by ComplyDog at https://complydog.com/free-cookie-consent-banner -->
 	<script>
 		(function (c, d, o, g) { c.cdogSettings = { version: "1.0.0" }; o = d.getElementsByTagName("head")[0]; g = d.createElement("script"); g.async = 1; g.src = "https://app.complydog.com/cookie-consent-tool.js" + "?v=" + c.cdogSettings.version + "&website=" + window.location.href; g.setAttribute("cdog-campaign", c.cdogSettings.campaignId); !c.cdogInit ? o.appendChild(g) : ""; })(window, document);

@@ -93,21 +93,23 @@ layout: base
                                             alt=thumbnailbackalt
                                             class="item-image grid__item-img"
                                             style=""
+                                            sizes="(max-width: 767px) 100vw, 50vw"
                                             loading="lazy" %}
-                                    </div>                                                
+                                    </div>
                                     {% include img.html
                                         path=thumbnailback
                                         alt=thumbnailbackalt
                                         class="grid__item-img grid__item-img--large"
                                         style=""
+                                        sizes="(max-width: 767px) 100vw, 50vw"
                                         loading="lazy" %}
                                     <div class="section-thumb">
-                                        <img src="{{ thumbnailfront }}" alt="{{ thumbnailfrontalt | escape }}">
                                         {% include img.html
                                             path=thumbnailfront
                                             alt=thumbnailfrontalt
                                             class=""
                                             style=""
+                                            sizes="(max-width: 767px) 40vw, 20vw"
                                             loading="lazy" %}
                                     </div>                              
                                 </div>

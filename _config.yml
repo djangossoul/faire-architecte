@@ -53,6 +53,11 @@ plugins:
   - jekyll-minifier
   - jekyll-sitemap
 
+jekyll-minifier:
+  compress_css: true
+  compress_javascript: false
+  minify_css_content: true
+
 show_excerpts: true
 
 sass:

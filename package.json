@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "esbuild": "^0.28.0",
     "sharp": "^0.34.5"
   },
   "name": "faire-architecte",
@@ -13,7 +14,8 @@
   "scripts": {
     "build:images": "node scripts/images.js",
     "build:js": "esbuild assets/js/main.js --bundle --minify --outfile=assets/js/main.min.js",
-    "build": "npm run build:images && npm run build:js && bundle exec jekyll build"
+    "build:minify-js": "esbuild assets/js/common.js --minify --outfile=assets/js/common.min.js && esbuild assets/js/scripts.js --minify --outfile=assets/js/scripts.min.js && esbuild assets/js/contact.js --minify --outfile=assets/js/contact.min.js",
+    "build": "npm run build:images && npm run build:js && npm run build:minify-js && bundle exec jekyll build"
   },
   "keywords": [],
   "author": "",

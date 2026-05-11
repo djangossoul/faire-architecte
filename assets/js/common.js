@@ -3571,7 +3571,7 @@ Function FitThumbScreen WEBGL
 							gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 							$("#ball").removeClass("with-icon");
 							$('#ball p').remove();
-							$('#ball i').remove();
+							$('#ball i, #ball svg').remove();
 							
 							if ($('body').hasClass('hero-below-caption')) {											
 								gsap.to('#app canvas', {duration: 1, scale:0.5, delay:0.7, ease: Power3.easeInOut});
@@ -3952,12 +3952,12 @@ Function Sliders
 					}
 				}
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '2px', top: 2, left: 2});
-				$( "#ball" ).addClass("with-icon").append( '<i class="fa fa-chevron-left"></i>' );				
+				$( "#ball" ).addClass("with-icon").append( '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="width:12px;height:12px;fill:currentColor;vertical-align:middle;" aria-hidden="true"><path d="M201.4 297.4C188.9 309.9 188.9 330.2 201.4 342.7L361.4 502.7C373.9 515.2 394.2 515.2 406.7 502.7C419.2 490.2 419.2 469.9 406.7 457.4L269.3 320L406.6 182.6C419.1 170.1 419.1 149.8 406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3L201.3 297.3z"/></svg>' );				
 			}).mouseleave(function(e) {
 				gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999', backgroundColor:'transparent'});
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 				$("#ball").removeClass("with-icon color-cursor");
-				$('#ball i').remove();
+				$('#ball i, #ball svg').remove();
 				$("body").removeClass("drag-cursor-black").removeClass("drag-cursor-white");
 			});
 			
@@ -3977,12 +3977,12 @@ Function Sliders
 					}
 				}
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '2px', top: 2, left: 2});
-				$( "#ball" ).addClass("with-icon").append( '<i class="fa fa-chevron-right"></i>' );
+				$( "#ball" ).addClass("with-icon").append( '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="width:12px;height:12px;fill:currentColor;vertical-align:middle;" aria-hidden="true"><path d="M439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C266.6 515.2 246.3 515.2 233.8 502.7C221.3 490.2 221.3 469.9 233.8 457.4L371.2 320L233.9 182.6C221.4 170.1 221.4 149.8 233.9 137.3C246.4 124.8 266.7 124.8 279.2 137.3L439.2 297.3z"/></svg>' );
 			}).mouseleave(function(e) {
 				gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999', backgroundColor:'transparent'});
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 				$("#ball").removeClass("with-icon color-cursor");
-				$('#ball i').remove();
+				$('#ball i, #ball svg').remove();
 				$("body").removeClass("drag-cursor-black").removeClass("drag-cursor-white");
 			});
 			
@@ -4250,14 +4250,14 @@ Function Lightbox
 				gsap.to('#ball', {duration: 0.2, borderWidth: '2px', scale: 1, borderColor:'#fff'});
 			}
 			gsap.to('#ball-loader', {duration: 0.2, borderWidth: '2px', top: 2, left: 2});
-			$( "#ball" ).addClass("with-icon").append( '<i class="fa-solid fa-plus"></i>' );
+			$( "#ball" ).addClass("with-icon").append( '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="width:12px;height:12px;fill:currentColor;vertical-align:middle;" aria-hidden="true"><path d="M288 96L352 96L352 288L544 288L544 352L352 352L352 544L288 544L288 352L96 352L96 288L288 288Z"/></svg>' );
 		});
 			
 		$(".image-link").mouseleave(function(e) {
 			gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999',});
 			gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 			$("#ball").removeClass("with-icon color-cursor");
-			$('#ball i').remove();
+			$('#ball i, #ball svg').remove();
 		});
 		
 		// Video Popup
@@ -4395,7 +4395,7 @@ Function Lightbox
 			gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999',});
 			gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 			$("#ball").removeClass("with-icon color-cursor");
-			$('#ball i').remove();
+			$('#ball i, #ball svg').remove();
 		});
 			
 	}//End Lightbox	
@@ -4429,7 +4429,7 @@ Function Page PlayVideo
 			$(".video-wrapper").mouseleave(function(e) {
 				gsap.to('#ball', {duration: 0.2, borderWidth: '4px', scale:0.5, borderColor:'#999999',});
 				$("#ball").removeClass("over-movie pause-movie color-cursor");
-				$('#ball i').remove();
+				$('#ball i, #ball svg').remove();
 			});
 			
 			$(".video-wrapper .control").mouseenter(function(e) {	
