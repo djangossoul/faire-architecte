@@ -34,6 +34,17 @@
 
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
+  /* Disable horizontal scroll in smooth-scrollbar — runs after all defer scripts */
+  window.addEventListener('load', function () {
+    var el = document.querySelector('#content-scroll');
+    if (!el || typeof Scrollbar === 'undefined') return;
+    var sb = Scrollbar.get(el);
+    if (!sb) return;
+    var _orig = sb.setMomentum.bind(sb);
+    sb.setMomentum = function (x, y) { _orig(0, y); };
+  });
+</script>
+<script>
   /* paste this line in verbatim */
   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
   /* customize formbutton below*/     
