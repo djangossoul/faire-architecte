@@ -28,6 +28,7 @@ Note: Les variables CSS (:root design tokens) sont définies dans
 #content-scroll {
 	z-index: 1;
 	position: relative;
+	overflow-x: hidden;
 }
 
 .smooth-scroll #content-scroll {
@@ -2315,7 +2316,7 @@ ul li .category-protfolio+small {
 .slide-caption .slide-date {
 	background-color: rgba(0, 0, 0, 0.3);
 }
-@media all and (max-width: 385px) {
+@media all and (max-width: 430px) {
 	.showcase-portfolio .slide-caption .slide-cat {
 		display: none;
 	}
@@ -2635,9 +2636,9 @@ dt .link {
 /*@media only screen and (max-width: 1025px) {*/
 /*@media only screen and (hover: none) and (pointer: coarse){*/
 /*@media only screen and (orientation:portrait){*/
-@media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2.625) and (max-width: 430px) {
 	 html, body {
-    	font-size: 22px;
+    	font-size: 18px;
 	}
 	p {
     	font-size: var(--font-size-large);
@@ -2716,11 +2717,11 @@ dt .link {
         padding-right: 40px;
     }
 	.button-border {
-    	height: 100px;
-		line-height: 100px;
-		border-radius: 100px!important;
+    	height: 60px;
+		line-height: 60px;
+		border-radius: 60px!important;
 		min-width: 180px;
-		font-size: var(--font-size-xxlarge);
+		font-size: var(--font-size-large);
 	}
 	.snap-slide-caption {
 		position: relative;
@@ -2826,4 +2827,16 @@ dt .link {
 		transform: translateY(0px)!important;
     	-webkit-transform: translateY(0px)!important;
 	}
+}
+
+/*------------------------------------------------------------------
+  Formspree widget overrides — z-index + safe-area iOS
+-------------------------------------------------------------------*/
+#formbutton-button {
+	z-index: 1000 !important;
+	bottom: calc(20px + env(safe-area-inset-bottom)) !important;
+}
+.formbutton-container {
+	z-index: 1000 !important;
+	padding-bottom: env(safe-area-inset-bottom);
 }

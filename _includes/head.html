@@ -1,6 +1,6 @@
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<!-- SEO tags -->
 	{% seo title=false %}
 	<title>
@@ -128,20 +128,25 @@
 		html {
 			box-sizing: border-box;
 			margin-right: 0px !important;
+			overflow-x: hidden;
+			overscroll-behavior-x: none;
 		}
 
 		body {
 			overflow-x: hidden;
+			overscroll-behavior-x: none;
 			-webkit-transition: opacity 0.2s ease-in-out 0.2s;
 			transition: opacity 0.2s ease-in-out 0.2s;
 		}
 
 		body.smooth-scroll {
-			overflow: hidden;
+			overflow-y: hidden;
+			overflow-x: hidden;
 		}
 
 		body.has-slider {
-			overflow: hidden;
+			overflow-y: hidden;
+			overflow-x: hidden;
 		}
 
 		body.hidden {
