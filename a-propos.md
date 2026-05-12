@@ -171,7 +171,7 @@ breadcrumbs:
                     <dl class="accordion has-animation">
                         <dt>
                             <span class="link">
-                                <div>Quels types de projets prenez-vous en charge ?</div>
+                                <div>Quel est le prix d’un architecte à Reims ?</div>
                             </span>
                             <div class="acc-icon-wrap parallax-wrap">
                                 <div class="acc-button-icon parallax-element">
@@ -181,11 +181,17 @@ breadcrumbs:
                             </div>
                         </dt>
                         <dd class="accordion-content secondary-font">
-                            Rénovation, extension, construction neuve, aménagement intérieur, projet en secteur sauvegardé — la nature des missions varie selon les architectes. Préciser votre projet dès le premier contact permet d'évaluer rapidement la compatibilité avec le domaine d'expertise du cabinet.
+                            <strong>Le prix d’un architecte varie en fonction du type de projet (construction, rénovation, extension) et du niveau d’accompagnement souhaité.</strong>
+                            <br>
+                            Chez FAIRE Architecte, nos honoraires se situent généralement entre 7% et 15% du montant des travaux. Cette fourchette dépend de la complexité du projet, de la mission confiée, de la taille du projet et du niveau de suivi.
+                            <br>
+                            Nous accordons une attention particulière à chaque projet, avec une présence régulière sur le chantier, un suivi rigoureux et un véritable souci du détail. Notre rôle est aussi de proposer des solutions adaptées, durables et cohérentes avec les attentes de nos clients.
+                            <br>
+                            Faire appel à une agence d’architecture à Reims, c’est bénéficier d’un accompagnement sur mesure, de la conception jusqu’à la réalisation, pour sécuriser votre projet et en optimiser la qualité.
                         </dd>
                         <dt>
                             <span class="link">
-                                <div>Ai-je besoin d'un architecte pour mon projet ?</div>
+                                <div>Architecte ou maitre d'oeuvre _ quelle différence ?</div>
                             </span>
                             <div class="acc-icon-wrap parallax-wrap">
                                 <div class="acc-button-icon parallax-element">
@@ -195,11 +201,21 @@ breadcrumbs:
                             </div>
                         </dt>
                         <dd class="accordion-content secondary-font">
-                            Le recours à un architecte est obligatoire pour toute construction neuve ou extension portant la surface plancher au-delà de 150 m² (en France). En dessous de ce seuil, il reste recommandé pour les projets complexes ou soumis à des contraintes patrimoniales.
+                            <strong>Architecte ou maître d'œuvre : ce n'est pas la même chose.</strong>
+                            <br>
+                            On me pose souvent cette question. Et c'est normal — les deux termes circulent, souvent mélangés.
+                            <br>
+                            Un maître d'œuvre coordonne un chantier. Un architecte, lui, conçoit, dessine, dépose les permis, choisit les matériaux, suit le chantier et engage sa responsabilité sur l'ensemble du projet.
+                            <br>
+                            En France, le titre d'architecte est protégé par la loi. Cela signifie une formation réglementée, une assurance professionnelle obligatoire et un code déontologique. Pas un simple prestataire : un interlocuteur qui répond de son travail.
+                            <br>
+                            Chez FAIRE Architecte, je suis architecte HMONP — habilitée à exercer la maîtrise d'œuvre en nom propre. Concrètement : je peux prendre en charge votre projet de A à Z, de l'esquisse à la réception de chantier, en étant seule responsable devant vous.
+                            <br>
+                            Vous avez un projet de construction, d'extension ou de rénovation à Reims ou dans la Marne ? Parlons-en — la première rencontre est sans engagement.
                         </dd>
                         <dt>
                             <span class="link">
-                                <div>Quel est le coût d'une mission d'architecture ?</div>
+                                <div>Faut-il un architecte pour une rénovation ?</div>
                             </span>
                             <div class="acc-icon-wrap parallax-wrap">
                                 <div class="acc-button-icon parallax-element">
@@ -209,11 +225,21 @@ breadcrumbs:
                             </div>
                         </dt>
                         <dd class="accordion-content secondary-font">
-                            Les honoraires sont libres et dépendent de l'étendue de la mission (partielle ou complète), de la nature du projet et de sa complexité. Ils représentent généralement entre 8 % et 15 % du montant HT des travaux pour une mission complète.
+                            <strong>Rénover sans architecte : possible. Mais est-ce toujours une bonne idée ?</strong>
+                            <br>
+                            La loi est claire : pour une rénovation intérieure sans permis de construire et sous 150 m², un architecte n'est pas obligatoire. Vous pouvez tout à fait vous en passer.
+                            <br>
+                            Alors pourquoi en prendre un ?
+                            <br>
+                            Parce qu'une rénovation, c'est rarement "juste refaire la salle de bains". C'est souvent une accumulation de décisions — abattre ou non ce mur, redistribuer les pièces, choisir des matériaux qui vieillissent bien, prévoir les réseaux, respecter les règles de copropriété… Et chaque mauvais choix coûte bien plus cher à corriger qu'à anticiper.
+                            <br>
+                            Un architecte ne sera pas rentable pour repeindre un salon. Il le deviendra dès que votre projet touche à la structure, à la distribution des espaces ou à plusieurs corps de métier à coordonner.
+                            <br>
+                            Mon rôle n'est pas de vous convaincre de m'embaucher. C'est de vous aider à prendre la bonne décision pour votre projet — y compris si cette décision, c'est de vous passer de moi.
                         </dd>
                         <dt>
                             <span class="link">
-                                <div>Quelle est la différence entre une mission complète et une mission partielle ?</div>
+                                <div>Quand faire appel à un architecte ?</div>
                             </span>
                             <div class="acc-icon-wrap parallax-wrap">
                                 <div class="acc-button-icon parallax-element">
@@ -223,7 +249,145 @@ breadcrumbs:
                             </div>
                         </dt>
                         <dd class="accordion-content secondary-font">
-                            Une mission complète couvre l'ensemble des phases, de la conception à la réception de chantier. Une mission partielle peut se limiter au permis de construire, à l'avant-projet ou au suivi de chantier seul — utile si le client souhaite gérer lui-même certaines étapes ou fait appel à un maître d'œuvre pour l'exécution.
+                            <strong>Ni trop tôt, ni trop tard. Le bon moment pour appeler un architecte.</strong>
+                            <br>
+                            Beaucoup de gens me contactent quand le projet est déjà bien avancé dans leur tête — parfois même avec des plans trouvés en ligne. Et c'est souvent là que les problèmes commencent.
+                            <br>
+                            L'architecte est le plus utile au tout début. Avant les devis, avant les plans, avant même d'acheter le terrain. Parce que c'est à ce stade qu'on peut encore tout questionner : est-ce que ce projet est faisable ici ? Est-ce que ce budget tient la route ? Est-ce que cette maison correspond vraiment à votre façon de vivre ?
+                            <br>
+                            Concrètement, faites appel à un architecte : 
+                            <br>
+                            → Dès que votre projet implique un permis de construire 
+                            <br>
+                            → Quand plusieurs artisans doivent intervenir sur le même chantier 
+                            <br>
+                            → Quand vous avez un doute sur la faisabilité ou le budget 
+                            <br>
+                            → Quand vous voulez un espace pensé pour vous — pas un plan catalogue
+                            <br>
+                            La première rencontre ne vous engage à rien. Elle sert justement à évaluer ensemble si travailler ensemble a du sens.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>Mission complète ou mission partielle ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            <strong>Vous n'êtes pas obligé de tout confier à un architecte. Voilà ce que ça change.</strong>
+                            <br>
+                            C'est une question que peu de gens osent poser : peut-on faire appel à un architecte pour une partie seulement du projet ?
+                            Oui. Et c'est même courant.
+                            <br>
+                            La mission complète, c'est l'accompagnement de A à Z : conception, permis de construire, consultation des entreprises, suivi de chantier, réception des travaux. Vous avez un seul interlocuteur du début à la fin. C'est la formule la plus sécurisante — et celle qui offre le meilleur rapport qualité/coût sur les projets complexes.
+                            <br>
+                            La mission partielle, c'est choisir uniquement les phases dont vous avez besoin. Par exemple : juste les plans et le permis, ou juste le suivi de chantier si vous gérez déjà les artisans. Certains clients arrivent avec des projets bien définis et veulent simplement une expertise sur un point précis.
+                            <br>
+                            Il n'y a pas de bonne ou mauvaise formule. Il y a celle qui correspond à votre projet, votre budget et votre niveau d'implication souhaité.
+                            C'est exactement ce qu'on clarifie lors du premier rendez-vous.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>Comment se passe le premier RDV avec un architecte ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            <strong>Vous n'avez pas à arriver avec un projet ficelé. C'est même plutôt l’inverse.</strong>
+                            <br>
+                            Beaucoup de gens repoussent le moment de contacter un architecte parce qu'ils pensent ne pas être "assez avancés" dans leur projet. Ils attendent d'avoir les idées claires, un budget précis, des plans en tête.
+                            <br>
+                            C'est exactement à l’envers.
+                            <br>
+                            Le premier rendez-vous, c'est une conversation. Pas un examen, pas un engagement. Vous expliquez votre situation, votre envie, vos contraintes — y compris budgétaires, même si vous n'êtes pas sûr des chiffres. Et moi, je vous dis honnêtement ce qui est faisable, ce qui ne l'est pas, et par où commencer.
+                            <br>
+                            Ce rendez-vous dure environ 1 heure. Il se passe chez vous, sur le site du projet, ou en agence selon ce qui est le plus utile. À l'issue, vous repartez avec une vision claire de ce que pourrait être la suite — et la liberté totale de décider si vous voulez aller plus loin.
+                            <br>
+                            Aucun honoraire n'est dû pour cette première rencontre. Et aucune pression.
+                            <br>
+                            Si vous avez un projet qui vous trotte dans la tête depuis quelques mois, c'est peut-être le bon moment pour en parler.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>L'architecte reste-t-il présent pendant les travaux ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            <strong>Les plans sont signés. Le permis est accordé. Et maintenant — l'architecte disparaît ?</strong>
+                            <br>
+                            C'est une idée reçue tenace. Beaucoup pensent que l'architecte s'arrête au dépôt du permis de construire. Que le chantier, c'est affaire d’artisans.
+                            <br>
+                            Dans les faits, c'est pendant les travaux que son rôle devient le plus concret.
+                            <br>
+                            Le suivi de chantier, c'est vérifier que ce qui a été dessiné est bien ce qui se construit. Contrôler les matériaux livrés, valider les situations de travaux avant paiement, détecter une mauvaise mise en œuvre avant qu'elle soit enterrée dans une cloison. Un problème repéré au bon moment coûte infiniment moins cher à corriger qu'une fois le carrelage posé.
+                            <br>
+                            C'est aussi être l'interlocuteur des entreprises à votre place — pour que vous n'ayez pas à arbitrer entre un plombier et un électricien qui se rejettent la faute.
+                            <br>
+                            Cette mission s'appelle le suivi de chantier, ou OPC (ordonnancement, pilotage, coordination). Elle fait partie intégrante de la mission complète. Et c'est souvent elle qui fait la différence entre un chantier qui se passe bien et un qui déraille.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>Peut-on faire appel à un architecte pour un appartement ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            <strong>L'architecture, ce n'est pas réservé aux grandes maisons.</strong>
+                            <br>
+                            Réflexe courant : on pense "architecte" quand on construit une maison. Pour un appartement, on appelle un décorateur, ou on se débrouille.
+                            <br>
+                            Pourtant, certaines des interventions les plus complexes se font dans des appartements. Redistribuer des pièces dans 60 m², ouvrir une cuisine sur un salon sans toucher à un mur porteur, gagner de la lumière dans un appartement haussmannien, transformer un T3 en T2 plus généreux — ce sont des projets qui demandent autant de réflexion qu'une extension de maison.
+                            <br>
+                            En copropriété, les contraintes s'ajoutent : règlement de copropriété, accord en assemblée générale pour certains travaux, contraintes structurelles liées à l'immeuble. Un architecte connaît ces règles et peut vous éviter de vous retrouver bloqué en cours de chantier faute d’autorisation.
+                            <br>
+                            Et pour les appartements en secteur sauvegardé — ce qui concerne une bonne partie du centre de Reims — l'œil d'un architecte sur les contraintes patrimoniales peut s'avérer décisif.
+                            Un appartement bien pensé, c'est un espace qui change votre quotidien. Quelle que soit sa taille.
+                        </dd>
+                        <dt>
+                            <span class="link">
+                                <div>Un architecte peut-il m'aider à réduire mon budget travaux ?</div>
+                            </span>
+                            <div class="acc-icon-wrap parallax-wrap">
+                                <div class="acc-button-icon parallax-element">
+                                    <!--<i class="fa fa-arrow-right"></i>-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style="fill:currentColor; width: 20px;"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z"/></svg>
+                                </div>
+                            </div>
+                        </dt>
+                        <dd class="accordion-content secondary-font">
+                            <strong>Contre toute attente : oui. Voilà comment.</strong>
+                            <br>
+                            L'architecte coûte de l'argent. C'est un fait. Alors l'idée qu'il puisse vous en faire économiser paraît un peu paradoxale.
+                            <br>
+                            Et pourtant.
+                            <br>
+                            Premier levier : la conception. Un projet bien pensé évite les erreurs coûteuses — les murs qu'on abat puis qu'on regrette, les ouvertures mal placées, les surfaces gâchées. Ce travail en amont, invisible sur le chantier, se traduit en euros économisés pendant les travaux.
+                            <br>
+                            Deuxième levier : les appels d'offres. L'architecte consulte plusieurs entreprises sur la base d'un cahier des charges précis. Cette mise en concurrence réelle, avec des prestations comparables, évite les devis flous et fait baisser les prix. Sur un chantier de 150 000 €, l'écart entre le devis le plus cher et le plus juste peut dépasser 20 %.
+                            <br>
+                            Troisième levier : le suivi. Un architecte présent sur le chantier détecte les dérapages budgétaires avant qu'ils s'accumulent. Il valide les travaux supplémentaires avant qu'ils soient réalisés — pas après.
+                            Ses honoraires sont rarement un surcoût net. Ils sont le plus souvent absorbés par ce qu'ils permettent d'éviter.
                         </dd>
                     </dl>
                     <hr><hr><hr>
