@@ -43,7 +43,7 @@ breadcrumbs:
         <div id="itemsWrapperLinks" class="about-page-inner" style="background: #FFFFFF; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(246, 218, 206, 1) 50%, rgba(246, 218, 206, 1) 100%);">
             <div id="itemsWrapper" class="webgl-fitthumbs fx-one">
                 <!-- Row -->
-                <div class="content-row has-clip-path full dark-section change-header-color disable-header-gradient dark-red-background"
+                <div id="valeurs" class="content-row has-clip-path full dark-section change-header-color disable-header-gradient dark-red-background"
                     data-bgcolor="transparent">
                     <div class="parallax-image-wrapper">
                         <div class="parallax-image" data-bg-image="/assets/images/main-qui-dessine.jpg">
@@ -90,7 +90,7 @@ breadcrumbs:
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row full row_padding_top row_padding_bottom light-section" data-bgcolor="#ced4a6">
+                <div id="qui-suis-je" class="content-row full row_padding_top row_padding_bottom light-section" data-bgcolor="#ced4a6">
                     <div class="team-list-wrapper">
                         <ul class="team-list-captions">
                             <li>
@@ -121,7 +121,7 @@ breadcrumbs:
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row row_padding_top text-align-center light-section home-steps" data-bgcolor="#f6dace">
+                <div id="processus" class="content-row row_padding_top text-align-center light-section home-steps" data-bgcolor="#f6dace">
                     <p class="bigger has-shuffle-disabled secondary-font">POURQUOI TRAVAILLER ENSEMBLE ?</p>
                     <h2 class="has-animation">Les étapes de mon processus<br class="mobile-only"> <span class="word-architectural">architectural</span></h2>
                     <hr>
@@ -164,7 +164,7 @@ breadcrumbs:
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row row_padding_top light-section" data-bgcolor="#f6dace">  
+                <div id="faq" class="content-row row_padding_top light-section" data-bgcolor="#f6dace">  
                     <p class="bigger has-shuffle-disabled secondary-font" style="text-align: center;">FAQ</p>
                     <h2 class="has-animation" style="text-align: center;">Les questions les plus fréquentes</h2>
                     <hr>
@@ -394,7 +394,7 @@ breadcrumbs:
                 </div> 
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row has-clip-path row_padding_top row_padding_bottom light-section change-header-color disable-header-gradient"
+                <div id="savoir-faires" class="content-row has-clip-path row_padding_top row_padding_bottom light-section change-header-color disable-header-gradient"
                     data-bgcolor="#B4C4D9">
                     <div class="pinned-lists-wrapper scale-mode text-align-center" data-duration="3x">
                         <p class="has-shuffle-onscroll-disabled">Mes savoir-faires</p>
