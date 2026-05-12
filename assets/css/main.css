@@ -6,3 +6,4 @@
 {% include_relative shortcodes.css %}
 {% include_relative assets.css %}
 {% include_relative style.css %}
+{% include_relative page-navigation.css %}
