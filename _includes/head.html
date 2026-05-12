@@ -23,8 +23,11 @@
 	<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/WalkwayBold.woff2" crossorigin>
 	<link rel="preconnect" href="https://formspree.io">
 	<link rel="preload" as="script" href="/assets/js/jquery.min.js">
+	<link rel="preload" as="script" href="/assets/ajax/libs/gsap/3.11.4/gsap.min.js">
+	<link rel="preload" as="script" href="/assets/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js">
 	<link rel="preload" as="script" href="/assets/js/scripts.min.js">
 	<link rel="preload" as="script" href="/assets/js/common.min.js">
+	<link rel="dns-prefetch" href="https://app.complydog.com">
 
 	<style>
 		@font-face {
@@ -3141,7 +3144,9 @@
 	</noscript>
 
 
-	{% if page.thumbnailback %}
+	{% if page.layout == 'home' %}
+	<link rel="preload" as="image" href="/assets/images/FAIRE_LOGO_01-26_MAJ_mot_plain.svg" fetchpriority="high">
+	{% elsif page.thumbnailback %}
 	{% assign _preload_key = page.thumbnailback | remove_first: "/assets/images/" | remove_first: "assets/images/" %}
 	{% assign _preload_img = site.data.responsive_images[_preload_key] %}
 	{% if _preload_img %}{% assign _preload_url = _preload_img.srcset | last | split: " " | first %}{% else %}{% assign _preload_url = page.thumbnailback %}{% endif %}

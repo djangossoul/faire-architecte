@@ -480,7 +480,7 @@ Function Page Load
 				gsap.set($(".preloader-wrap"), {visibility:'hidden', delay:0.3, yPercent: -101});
 				
 				
-				gsap.set($(".hero-title.caption-timeline span"), {yPercent:50, opacity:0});
+				gsap.set($(".hero-title.caption-timeline span"), {yPercent:50});
 				
 				gsap.to($(".hero-title.caption-timeline span"), {duration: 0.01, yPercent:0, opacity:1, stagger:0.05, delay:0, ease:Power3.easeOut, onComplete: function() {												
 					gsap.to($(".hero-footer-left, .hero-footer-right"), {duration: 0.3, y:0, opacity:1, ease:Power2.easeOut});					
