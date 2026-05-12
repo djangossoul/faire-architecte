@@ -13,13 +13,21 @@
 <script defer src="/assets/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
 <script defer src="/assets/ajax/libs/gsap/3.11.4/Flip.min.js"></script>
 
-<!-- Three.js - with guard to prevent multiple loading -->
+<!-- Three.js - lazy loaded via IntersectionObserver when .webgl-fitthumbs becomes visible -->
 <script>
-  if (typeof THREE === 'undefined' && document.querySelector('.webgl-fitthumbs')) {
-    var threeScript = document.createElement('script');
-    threeScript.src = '/assets/ajax/libs/three.js/r128/three.min.js';
-    document.head.appendChild(threeScript);
-  }
+  (function() {
+    var grid = document.querySelector('.webgl-fitthumbs');
+    if (!grid || typeof THREE !== 'undefined') return;
+    var observer = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) {
+        observer.disconnect();
+        var s = document.createElement('script');
+        s.src = '/assets/ajax/libs/three.js/r128/three.min.js';
+        document.head.appendChild(s);
+      }
+    }, { rootMargin: '300px' });
+    observer.observe(grid);
+  })();
 </script>
 
 <script defer src='/assets/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js'></script>
