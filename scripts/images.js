@@ -22,7 +22,8 @@ const files = glob.sync(`${INPUT_DIR}/**/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}
   for (const file of files) {
     const rel = path.relative(INPUT_DIR, file);
     const relKey = rel.replace(/\.[^.]+$/, ext => ext.toLowerCase());
-    result[relKey] = { srcset: [], src: '' };
+    const metadata = await sharp(file).metadata();
+    result[relKey] = { srcset: [], src: '', width: metadata.width, height: metadata.height };
 
     for (const width of SIZES) {
       const outPath = `${OUTPUT_DIR}/${width}/${rel.replace(/\.(jpg|jpeg|png)$/i, '.webp')}`;

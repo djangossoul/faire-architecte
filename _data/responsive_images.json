@@ -7,7 +7,9 @@
       "/assets/images/resized/800/rotate.webp 800w",
       "/assets/images/resized/1200/rotate.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/rotate.webp"
+    "src": "/assets/images/resized/800/rotate.webp",
+    "width": 300,
+    "height": 300
   },
   "maps-contact.jpg": {
     "srcset": [
@@ -17,7 +19,9 @@
       "/assets/images/resized/800/maps-contact.webp 800w",
       "/assets/images/resized/1200/maps-contact.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/maps-contact.webp"
+    "src": "/assets/images/resized/800/maps-contact.webp",
+    "width": 2000,
+    "height": 2000
   },
   "main-qui-dessine.jpg": {
     "srcset": [
@@ -27,7 +31,9 @@
       "/assets/images/resized/800/main-qui-dessine.webp 800w",
       "/assets/images/resized/1200/main-qui-dessine.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/main-qui-dessine.webp"
+    "src": "/assets/images/resized/800/main-qui-dessine.webp",
+    "width": 5424,
+    "height": 8144
   },
   "img-4.jpg": {
     "srcset": [
@@ -37,7 +43,9 @@
       "/assets/images/resized/800/img-4.webp 800w",
       "/assets/images/resized/1200/img-4.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/img-4.webp"
+    "src": "/assets/images/resized/800/img-4.webp",
+    "width": 800,
+    "height": 800
   },
   "img-3.jpg": {
     "srcset": [
@@ -47,7 +55,9 @@
       "/assets/images/resized/800/img-3.webp 800w",
       "/assets/images/resized/1200/img-3.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/img-3.webp"
+    "src": "/assets/images/resized/800/img-3.webp",
+    "width": 800,
+    "height": 800
   },
   "img-2.jpg": {
     "srcset": [
@@ -57,7 +67,9 @@
       "/assets/images/resized/800/img-2.webp 800w",
       "/assets/images/resized/1200/img-2.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/img-2.webp"
+    "src": "/assets/images/resized/800/img-2.webp",
+    "width": 800,
+    "height": 800
   },
   "img-1.jpg": {
     "srcset": [
@@ -67,7 +79,9 @@
       "/assets/images/resized/800/img-1.webp 800w",
       "/assets/images/resized/1200/img-1.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/img-1.webp"
+    "src": "/assets/images/resized/800/img-1.webp",
+    "width": 800,
+    "height": 800
   },
   "favicon-32x32.png": {
     "srcset": [
@@ -77,7 +91,9 @@
       "/assets/images/resized/800/favicon-32x32.webp 800w",
       "/assets/images/resized/1200/favicon-32x32.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/favicon-32x32.webp"
+    "src": "/assets/images/resized/800/favicon-32x32.webp",
+    "width": 32,
+    "height": 32
   },
   "favicon-16x16.png": {
     "srcset": [
@@ -87,7 +103,9 @@
       "/assets/images/resized/800/favicon-16x16.webp 800w",
       "/assets/images/resized/1200/favicon-16x16.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/favicon-16x16.webp"
+    "src": "/assets/images/resized/800/favicon-16x16.webp",
+    "width": 16,
+    "height": 16
   },
   "apple-touch-icon.png": {
     "srcset": [
@@ -97,7 +115,9 @@
       "/assets/images/resized/800/apple-touch-icon.webp 800w",
       "/assets/images/resized/1200/apple-touch-icon.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/apple-touch-icon.webp"
+    "src": "/assets/images/resized/800/apple-touch-icon.webp",
+    "width": 180,
+    "height": 180
   },
   "android-chrome-512x512.png": {
     "srcset": [
@@ -107,7 +127,9 @@
       "/assets/images/resized/800/android-chrome-512x512.webp 800w",
       "/assets/images/resized/1200/android-chrome-512x512.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/android-chrome-512x512.webp"
+    "src": "/assets/images/resized/800/android-chrome-512x512.webp",
+    "width": 512,
+    "height": 512
   },
   "android-chrome-192x192.png": {
     "srcset": [
@@ -117,7 +139,9 @@
       "/assets/images/resized/800/android-chrome-192x192.webp 800w",
       "/assets/images/resized/1200/android-chrome-192x192.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/android-chrome-192x192.webp"
+    "src": "/assets/images/resized/800/android-chrome-192x192.webp",
+    "width": 192,
+    "height": 192
   },
   "Floriane_Jean_Janvier_2026_P1037013.jpg": {
     "srcset": [
@@ -127,7 +151,9 @@
       "/assets/images/resized/800/Floriane_Jean_Janvier_2026_P1037013.webp 800w",
       "/assets/images/resized/1200/Floriane_Jean_Janvier_2026_P1037013.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/Floriane_Jean_Janvier_2026_P1037013.webp"
+    "src": "/assets/images/resized/800/Floriane_Jean_Janvier_2026_P1037013.webp",
+    "width": 5424,
+    "height": 8144
   },
   "Floriane_Jean_Janvier_2026_P1036859.jpg": {
     "srcset": [
@@ -137,7 +163,9 @@
       "/assets/images/resized/800/Floriane_Jean_Janvier_2026_P1036859.webp 800w",
       "/assets/images/resized/1200/Floriane_Jean_Janvier_2026_P1036859.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/Floriane_Jean_Janvier_2026_P1036859.webp"
+    "src": "/assets/images/resized/800/Floriane_Jean_Janvier_2026_P1036859.webp",
+    "width": 5424,
+    "height": 8144
   },
   "FAIRE_LOGO_2026_simple.webp": {
     "srcset": [
@@ -147,7 +175,9 @@
       "/assets/images/resized/800/FAIRE_LOGO_2026_simple.webp 800w",
       "/assets/images/resized/1200/FAIRE_LOGO_2026_simple.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_simple.webp"
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_simple.webp",
+    "width": 223,
+    "height": 67
   },
   "FAIRE_LOGO_2026_simple-v2.webp": {
     "srcset": [
@@ -157,7 +187,9 @@
       "/assets/images/resized/800/FAIRE_LOGO_2026_simple-v2.webp 800w",
       "/assets/images/resized/1200/FAIRE_LOGO_2026_simple-v2.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_simple-v2.webp"
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_simple-v2.webp",
+    "width": 600,
+    "height": 181
   },
   "FAIRE_LOGO_2026_full_baseline.webp": {
     "srcset": [
@@ -167,7 +199,9 @@
       "/assets/images/resized/800/FAIRE_LOGO_2026_full_baseline.webp 800w",
       "/assets/images/resized/1200/FAIRE_LOGO_2026_full_baseline.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_full_baseline.webp"
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_full_baseline.webp",
+    "width": 720,
+    "height": 330
   },
   "FAIRE_LOGO_2026_full.webp": {
     "srcset": [
@@ -177,7 +211,9 @@
       "/assets/images/resized/800/FAIRE_LOGO_2026_full.webp 800w",
       "/assets/images/resized/1200/FAIRE_LOGO_2026_full.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_full.webp"
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_full.webp",
+    "width": 241,
+    "height": 110
   },
   "FAIRE_LOGO_2026_baseline.webp": {
     "srcset": [
@@ -187,7 +223,9 @@
       "/assets/images/resized/800/FAIRE_LOGO_2026_baseline.webp 800w",
       "/assets/images/resized/1200/FAIRE_LOGO_2026_baseline.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_baseline.webp"
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_baseline.webp",
+    "width": 657,
+    "height": 47
   },
   "FAIRE_LOGO_2026_baseline-v2.webp": {
     "srcset": [
@@ -197,7 +235,9 @@
       "/assets/images/resized/800/FAIRE_LOGO_2026_baseline-v2.webp 800w",
       "/assets/images/resized/1200/FAIRE_LOGO_2026_baseline-v2.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_baseline-v2.webp"
+    "src": "/assets/images/resized/800/FAIRE_LOGO_2026_baseline-v2.webp",
+    "width": 864,
+    "height": 93
   },
   "FAIRE-LOGO-2026-full.webp": {
     "srcset": [
@@ -207,7 +247,9 @@
       "/assets/images/resized/800/FAIRE-LOGO-2026-full.webp 800w",
       "/assets/images/resized/1200/FAIRE-LOGO-2026-full.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/FAIRE-LOGO-2026-full.webp"
+    "src": "/assets/images/resized/800/FAIRE-LOGO-2026-full.webp",
+    "width": 241,
+    "height": 110
   },
   "shortcodes/pinned02.jpg": {
     "srcset": [
@@ -217,7 +259,9 @@
       "/assets/images/resized/800/shortcodes/pinned02.webp 800w",
       "/assets/images/resized/1200/shortcodes/pinned02.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/pinned02.webp"
+    "src": "/assets/images/resized/800/shortcodes/pinned02.webp",
+    "width": 648,
+    "height": 1081
   },
   "shortcodes/pinned01.jpg": {
     "srcset": [
@@ -227,7 +271,9 @@
       "/assets/images/resized/800/shortcodes/pinned01.webp 800w",
       "/assets/images/resized/1200/shortcodes/pinned01.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/pinned01.webp"
+    "src": "/assets/images/resized/800/shortcodes/pinned01.webp",
+    "width": 648,
+    "height": 1081
   },
   "shortcodes/image04.jpg": {
     "srcset": [
@@ -237,7 +283,9 @@
       "/assets/images/resized/800/shortcodes/image04.webp 800w",
       "/assets/images/resized/1200/shortcodes/image04.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/image04.webp"
+    "src": "/assets/images/resized/800/shortcodes/image04.webp",
+    "width": 1920,
+    "height": 1066
   },
   "shortcodes/image03.jpg": {
     "srcset": [
@@ -247,7 +295,9 @@
       "/assets/images/resized/800/shortcodes/image03.webp 800w",
       "/assets/images/resized/1200/shortcodes/image03.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/image03.webp"
+    "src": "/assets/images/resized/800/shortcodes/image03.webp",
+    "width": 1920,
+    "height": 1066
   },
   "shortcodes/image02.jpg": {
     "srcset": [
@@ -257,7 +307,9 @@
       "/assets/images/resized/800/shortcodes/image02.webp 800w",
       "/assets/images/resized/1200/shortcodes/image02.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/image02.webp"
+    "src": "/assets/images/resized/800/shortcodes/image02.webp",
+    "width": 1920,
+    "height": 1066
   },
   "shortcodes/image01.jpg": {
     "srcset": [
@@ -267,7 +319,9 @@
       "/assets/images/resized/800/shortcodes/image01.webp 800w",
       "/assets/images/resized/1200/shortcodes/image01.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/image01.webp"
+    "src": "/assets/images/resized/800/shortcodes/image01.webp",
+    "width": 1920,
+    "height": 1066
   },
   "shortcodes/collage07.jpg": {
     "srcset": [
@@ -277,7 +331,9 @@
       "/assets/images/resized/800/shortcodes/collage07.webp 800w",
       "/assets/images/resized/1200/shortcodes/collage07.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/collage07.webp"
+    "src": "/assets/images/resized/800/shortcodes/collage07.webp",
+    "width": 534,
+    "height": 667
   },
   "shortcodes/collage06.jpg": {
     "srcset": [
@@ -287,7 +343,9 @@
       "/assets/images/resized/800/shortcodes/collage06.webp 800w",
       "/assets/images/resized/1200/shortcodes/collage06.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/collage06.webp"
+    "src": "/assets/images/resized/800/shortcodes/collage06.webp",
+    "width": 1031,
+    "height": 667
   },
   "shortcodes/collage05.jpg": {
     "srcset": [
@@ -297,7 +355,9 @@
       "/assets/images/resized/800/shortcodes/collage05.webp 800w",
       "/assets/images/resized/1200/shortcodes/collage05.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/collage05.webp"
+    "src": "/assets/images/resized/800/shortcodes/collage05.webp",
+    "width": 457,
+    "height": 667
   },
   "shortcodes/collage04.jpg": {
     "srcset": [
@@ -307,7 +367,9 @@
       "/assets/images/resized/800/shortcodes/collage04.webp 800w",
       "/assets/images/resized/1200/shortcodes/collage04.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/collage04.webp"
+    "src": "/assets/images/resized/800/shortcodes/collage04.webp",
+    "width": 442,
+    "height": 667
   },
   "shortcodes/collage03.jpg": {
     "srcset": [
@@ -317,7 +379,9 @@
       "/assets/images/resized/800/shortcodes/collage03.webp 800w",
       "/assets/images/resized/1200/shortcodes/collage03.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/collage03.webp"
+    "src": "/assets/images/resized/800/shortcodes/collage03.webp",
+    "width": 445,
+    "height": 667
   },
   "shortcodes/collage02.jpg": {
     "srcset": [
@@ -327,7 +391,9 @@
       "/assets/images/resized/800/shortcodes/collage02.webp 800w",
       "/assets/images/resized/1200/shortcodes/collage02.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/collage02.webp"
+    "src": "/assets/images/resized/800/shortcodes/collage02.webp",
+    "width": 1000,
+    "height": 667
   },
   "shortcodes/collage01.jpg": {
     "srcset": [
@@ -337,7 +403,9 @@
       "/assets/images/resized/800/shortcodes/collage01.webp 800w",
       "/assets/images/resized/1200/shortcodes/collage01.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/shortcodes/collage01.webp"
+    "src": "/assets/images/resized/800/shortcodes/collage01.webp",
+    "width": 1000,
+    "height": 667
   },
   "projects/04_SALON_AVANT.png": {
     "srcset": [
@@ -347,7 +415,9 @@
       "/assets/images/resized/800/projects/04_SALON_AVANT.webp 800w",
       "/assets/images/resized/1200/projects/04_SALON_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/04_SALON_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/04_SALON_AVANT.webp",
+    "width": 1536,
+    "height": 1024
   },
   "projects/faconner/04_CROQUIS_MEUBLE04.jpg": {
     "srcset": [
@@ -357,7 +427,9 @@
       "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE04.webp 800w",
       "/assets/images/resized/1200/projects/faconner/04_CROQUIS_MEUBLE04.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE04.webp"
+    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE04.webp",
+    "width": 2253,
+    "height": 1694
   },
   "projects/faconner/04_CROQUIS_MEUBLE03.jpg": {
     "srcset": [
@@ -367,7 +439,9 @@
       "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE03.webp 800w",
       "/assets/images/resized/1200/projects/faconner/04_CROQUIS_MEUBLE03.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE03.webp"
+    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE03.webp",
+    "width": 2352,
+    "height": 1880
   },
   "projects/faconner/04_CROQUIS_MEUBLE02Vcarrea.jpg": {
     "srcset": [
@@ -377,7 +451,9 @@
       "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE02Vcarrea.webp 800w",
       "/assets/images/resized/1200/projects/faconner/04_CROQUIS_MEUBLE02Vcarrea.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE02Vcarrea.webp"
+    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE02Vcarrea.webp",
+    "width": 2480,
+    "height": 2480
   },
   "projects/faconner/04_CROQUIS_MEUBLE02.jpg": {
     "srcset": [
@@ -387,7 +463,9 @@
       "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE02.webp 800w",
       "/assets/images/resized/1200/projects/faconner/04_CROQUIS_MEUBLE02.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE02.webp"
+    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE02.webp",
+    "width": 2472,
+    "height": 1757
   },
   "projects/faconner/04_CROQUIS_MEUBLE01.jpg": {
     "srcset": [
@@ -397,7 +475,9 @@
       "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE01.webp 800w",
       "/assets/images/resized/1200/projects/faconner/04_CROQUIS_MEUBLE01.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE01.webp"
+    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE01.webp",
+    "width": 1077,
+    "height": 1622
   },
   "projects/faconner/04_CROQUIS_MEUBLE.jpg": {
     "srcset": [
@@ -407,7 +487,9 @@
       "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE.webp 800w",
       "/assets/images/resized/1200/projects/faconner/04_CROQUIS_MEUBLE.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE.webp"
+    "src": "/assets/images/resized/800/projects/faconner/04_CROQUIS_MEUBLE.webp",
+    "width": 1518,
+    "height": 874
   },
   "projects/faconner/03_Amenagement_salon_Bibliotheque.jpg": {
     "srcset": [
@@ -417,7 +499,9 @@
       "/assets/images/resized/800/projects/faconner/03_Amenagement_salon_Bibliotheque.webp 800w",
       "/assets/images/resized/1200/projects/faconner/03_Amenagement_salon_Bibliotheque.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/03_Amenagement_salon_Bibliotheque.webp"
+    "src": "/assets/images/resized/800/projects/faconner/03_Amenagement_salon_Bibliotheque.webp",
+    "width": 1486,
+    "height": 975
   },
   "projects/faconner/03_Amenagement_cuisine_salon.jpg": {
     "srcset": [
@@ -427,7 +511,9 @@
       "/assets/images/resized/800/projects/faconner/03_Amenagement_cuisine_salon.webp 800w",
       "/assets/images/resized/1200/projects/faconner/03_Amenagement_cuisine_salon.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/03_Amenagement_cuisine_salon.webp"
+    "src": "/assets/images/resized/800/projects/faconner/03_Amenagement_cuisine_salon.webp",
+    "width": 1630,
+    "height": 1127
   },
   "projects/faconner/03_Amenagement_CHAMBRE_bureau.jpg": {
     "srcset": [
@@ -437,7 +523,9 @@
       "/assets/images/resized/800/projects/faconner/03_Amenagement_CHAMBRE_bureau.webp 800w",
       "/assets/images/resized/1200/projects/faconner/03_Amenagement_CHAMBRE_bureau.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/faconner/03_Amenagement_CHAMBRE_bureau.webp"
+    "src": "/assets/images/resized/800/projects/faconner/03_Amenagement_CHAMBRE_bureau.webp",
+    "width": 1382,
+    "height": 1065
   },
   "projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.jpg": {
     "srcset": [
@@ -447,7 +535,9 @@
       "/assets/images/resized/800/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_PLAN_EXTENSION_SUR_EXISTANT_06-copie.webp",
+    "width": 4142,
+    "height": 3283
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.jpg": {
     "srcset": [
@@ -457,7 +547,9 @@
       "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_06.webp",
+    "width": 3134,
+    "height": 2214
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_05.jpg": {
     "srcset": [
@@ -467,7 +559,9 @@
       "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_05.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_05.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_05.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_05.webp",
+    "width": 886,
+    "height": 1427
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.jpg": {
     "srcset": [
@@ -477,7 +571,9 @@
       "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_04.webp",
+    "width": 1100,
+    "height": 1143
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_03.jpg": {
     "srcset": [
@@ -487,7 +583,9 @@
       "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_03.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_03.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_03.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_03.webp",
+    "width": 1079,
+    "height": 453
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_02.jpg": {
     "srcset": [
@@ -497,7 +595,9 @@
       "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_02.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_02.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_02.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_02.webp",
+    "width": 850,
+    "height": 491
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01Vcarre.jpg": {
     "srcset": [
@@ -507,7 +607,9 @@
       "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01Vcarre.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01Vcarre.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01Vcarre.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01Vcarre.webp",
+    "width": 2480,
+    "height": 2480
   },
   "projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01.jpg": {
     "srcset": [
@@ -517,7 +619,9 @@
       "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01.webp 800w",
       "/assets/images/resized/1200/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01.webp"
+    "src": "/assets/images/resized/800/projects/articuler/2_CROQUIS_EXTENSION_SUR_EXISTANT_01.webp",
+    "width": 898,
+    "height": 371
   },
   "projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDCVcarre.jpg": {
     "srcset": [
@@ -527,7 +631,9 @@
       "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDCVcarre.webp 800w",
       "/assets/images/resized/1200/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDCVcarre.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDCVcarre.webp"
+    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDCVcarre.webp",
+    "width": 2480,
+    "height": 2480
   },
   "projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDC.jpg": {
     "srcset": [
@@ -537,7 +643,9 @@
       "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDC.webp 800w",
       "/assets/images/resized/1200/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDC.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDC.webp"
+    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_RDC.webp",
+    "width": 2366,
+    "height": 1637
   },
   "projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_R+1.jpg": {
     "srcset": [
@@ -547,7 +655,9 @@
       "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_R+1.webp 800w",
       "/assets/images/resized/1200/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_R+1.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_R+1.webp"
+    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_R+1.webp",
+    "width": 2368,
+    "height": 1640
   },
   "projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_COUPE.jpg": {
     "srcset": [
@@ -557,7 +667,9 @@
       "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_COUPE.webp 800w",
       "/assets/images/resized/1200/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_COUPE.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_COUPE.webp"
+    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_PLAN_COUPE.webp",
+    "width": 2283,
+    "height": 1025
   },
   "projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.jpg": {
     "srcset": [
@@ -567,7 +679,9 @@
       "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.webp 800w",
       "/assets/images/resized/1200/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.webp"
+    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_DESSUS.webp",
+    "width": 6041,
+    "height": 8400
   },
   "projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.jpg": {
     "srcset": [
@@ -577,7 +691,9 @@
       "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.webp 800w",
       "/assets/images/resized/1200/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.webp"
+    "src": "/assets/images/resized/800/projects/ancrer/01_MAISON_CONSTRUCTION_MAQUETTE_COUPE.webp",
+    "width": 8400,
+    "height": 2852
   },
   "projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.jpg": {
     "srcset": [
@@ -587,7 +703,9 @@
       "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_TRAVAUX.webp",
+    "width": 4032,
+    "height": 3024
   },
   "projects/accueillir/05_CHAMBRE_MARRON_APRES.jpg": {
     "srcset": [
@@ -597,7 +715,9 @@
       "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_APRES.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/05_CHAMBRE_MARRON_APRES.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_APRES.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/05_CHAMBRE_MARRON_APRES.webp",
+    "width": 8400,
+    "height": 11200
   },
   "projects/accueillir/04_SALON_CUISINE_CHANTIER.jpg": {
     "srcset": [
@@ -607,7 +727,9 @@
       "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_CHANTIER.webp",
+    "width": 4032,
+    "height": 3024
   },
   "projects/accueillir/04_SALON_CUISINE_APRES.jpg": {
     "srcset": [
@@ -617,7 +739,9 @@
       "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_APRES.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/04_SALON_CUISINE_APRES.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_APRES.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CUISINE_APRES.webp",
+    "width": 8400,
+    "height": 11200
   },
   "projects/accueillir/04_SALON_CROQUISVcarre.jpg": {
     "srcset": [
@@ -627,7 +751,9 @@
       "/assets/images/resized/800/projects/accueillir/04_SALON_CROQUISVcarre.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/04_SALON_CROQUISVcarre.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CROQUISVcarre.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CROQUISVcarre.webp",
+    "width": 2480,
+    "height": 2480
   },
   "projects/accueillir/04_SALON_CROQUIS.jpg": {
     "srcset": [
@@ -637,7 +763,9 @@
       "/assets/images/resized/800/projects/accueillir/04_SALON_CROQUIS.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/04_SALON_CROQUIS.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CROQUIS.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_CROQUIS.webp",
+    "width": 1275,
+    "height": 1276
   },
   "projects/accueillir/04_SALON_AVANT.png": {
     "srcset": [
@@ -647,7 +775,9 @@
       "/assets/images/resized/800/projects/accueillir/04_SALON_AVANT.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/04_SALON_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_AVANT.webp",
+    "width": 1536,
+    "height": 1024
   },
   "projects/accueillir/04_SALON_APRES.jpg": {
     "srcset": [
@@ -657,7 +787,9 @@
       "/assets/images/resized/800/projects/accueillir/04_SALON_APRES.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/04_SALON_APRES.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_APRES.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/04_SALON_APRES.webp",
+    "width": 8400,
+    "height": 11200
   },
   "projects/accueillir/03_SDD_AVANT.jpeg": {
     "srcset": [
@@ -667,7 +799,9 @@
       "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/03_SDD_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_AVANT.webp",
+    "width": 4032,
+    "height": 3024
   },
   "projects/accueillir/03_SDD_APRES.jpg": {
     "srcset": [
@@ -677,7 +811,9 @@
       "/assets/images/resized/800/projects/accueillir/03_SDD_APRES.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/03_SDD_APRES.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_APRES.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/03_SDD_APRES.webp",
+    "width": 8400,
+    "height": 11200
   },
   "projects/accueillir/02_CHAMBRE_ROUGE_AVANT.jpeg": {
     "srcset": [
@@ -687,7 +823,9 @@
       "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_AVANT.webp",
+    "width": 4032,
+    "height": 3024
   },
   "projects/accueillir/02_CHAMBRE_ROUGE_APRES.jpg": {
     "srcset": [
@@ -697,7 +835,9 @@
       "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_APRES.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/02_CHAMBRE_ROUGE_APRES.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_APRES.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/02_CHAMBRE_ROUGE_APRES.webp",
+    "width": 8400,
+    "height": 11200
   },
   "projects/accueillir/01_SDB_CROQUIS.jpg": {
     "srcset": [
@@ -707,7 +847,9 @@
       "/assets/images/resized/800/projects/accueillir/01_SDB_CROQUIS.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/01_SDB_CROQUIS.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_CROQUIS.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_CROQUIS.webp",
+    "width": 952,
+    "height": 1170
   },
   "projects/accueillir/01_SDB_AVANT.jpg": {
     "srcset": [
@@ -717,7 +859,9 @@
       "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/01_SDB_AVANT.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_AVANT.webp",
+    "width": 4032,
+    "height": 3024
   },
   "projects/accueillir/01_SDB_APRES.jpg": {
     "srcset": [
@@ -727,7 +871,9 @@
       "/assets/images/resized/800/projects/accueillir/01_SDB_APRES.webp 800w",
       "/assets/images/resized/1200/projects/accueillir/01_SDB_APRES.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_APRES.webp"
+    "src": "/assets/images/resized/800/projects/accueillir/01_SDB_APRES.webp",
+    "width": 8400,
+    "height": 11200
   },
   "OLD/Floriane Jean_Janvier 2026_P1036959.jpg": {
     "srcset": [
@@ -737,7 +883,9 @@
       "/assets/images/resized/800/OLD/Floriane Jean_Janvier 2026_P1036959.webp 800w",
       "/assets/images/resized/1200/OLD/Floriane Jean_Janvier 2026_P1036959.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/OLD/Floriane Jean_Janvier 2026_P1036959.webp"
+    "src": "/assets/images/resized/800/OLD/Floriane Jean_Janvier 2026_P1036959.webp",
+    "width": 5424,
+    "height": 8144
   },
   "OLD/Flo-portrait-apropos.jpg": {
     "srcset": [
@@ -747,6 +895,8 @@
       "/assets/images/resized/800/OLD/Flo-portrait-apropos.webp 800w",
       "/assets/images/resized/1200/OLD/Flo-portrait-apropos.webp 1200w"
     ],
-    "src": "/assets/images/resized/800/OLD/Flo-portrait-apropos.webp"
+    "src": "/assets/images/resized/800/OLD/Flo-portrait-apropos.webp",
+    "width": 5424,
+    "height": 8144
   }
 }
