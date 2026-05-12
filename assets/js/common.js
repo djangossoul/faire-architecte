@@ -61,7 +61,7 @@ Function Scroll Effects
 			
 		
 		
-		let enableSmoothScrollMobile = true;
+		let enableSmoothScrollMobile = false;
 		if( isMobile() ){
 			
 			if( !enableSmoothScrollMobile ){
