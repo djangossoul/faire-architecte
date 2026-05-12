@@ -12,6 +12,13 @@
 			overflow: hidden;
 		}
 
+		#page-nav .next-hero-title::after {
+			left: 0;
+			right: 0;
+			width: 100%;
+			text-align: center;
+		}
+
 		.page-nav-wrap {
 			position: relative;
 			left: 0;

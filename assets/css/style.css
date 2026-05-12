@@ -2650,7 +2650,7 @@ dt .link {
 }
 
 /* Page Navigation — espacement symétrique ::before / ::after autour du titre.
-   content.css définit padding-top: 1vw sur .next-hero-title (espace entre le
+   head.html définit padding-top: 1vw sur .next-hero-title (espace entre le
    bord haut et le texte principal). ::before est ancré top:0 → l'espace avant
    le titre = padding-top = 1vw. ::after est ancré bottom:0 → l'espace après
    le titre = padding-bottom. On l'aligne sur 1vw pour une symétrie parfaite. */

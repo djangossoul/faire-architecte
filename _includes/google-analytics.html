@@ -1,8 +1,11 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
+if (!window._gaLoaded) {
+    window._gaLoaded = true;
+    var gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+    document.head.appendChild(gaScript);
     window.dataLayer = window.dataLayer || [];
-    function gtag() { window.dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-</script>
+    window.gtag = function() { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', '{{ site.google_analytics }}');
+}
