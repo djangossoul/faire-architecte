@@ -24,7 +24,7 @@ jQuery(function ($) {
 			const functionsToWaitFor = [
 				'PageLoad', 'ScrollEffects', 'FirstLoad', 'PageLoadActions', 'ShowcasePortfolio',
 				'ShowcaseHighlights', 'ShowcaseGallery', 'ShowcaseSnapSlider', 'FitThumbScreenWEBGL',
-				'Shortcodes', 'Core', 'MouseCursor', 'JustifiedGrid', 'Lightbox', 'ContactForm',
+				'Shortcodes', 'Core', 'MouseCursor', 'JustifiedGrid', 'Lightbox',
 				'PlayVideo', 'ContactMap', 'CustomFunction', 'ShuffleElementsFunction', 'InitShuffleElements'
 			];
 
@@ -52,7 +52,7 @@ jQuery(function ($) {
 				MouseCursor();
 				JustifiedGrid();
 				Lightbox();
-				ContactForm();
+				if (typeof ContactForm === 'function') ContactForm();
 				PlayVideo();
 				ContactMap();
 				CustomFunction();
@@ -2263,7 +2263,7 @@ Function Showcase Gallery
 				
 				if (document.getElementById('clapat-page-content').classList.contains('dark-content')) {
 					if (gridPreview.currentImage.classList.contains('change-header')) {
-						gsap.to('#clapat-logo img.black-logo', { duration: 0.5, delay:015, opacity: 0, ease:Power2.easeInOut });	
+						gsap.to('#clapat-logo img.black-logo', { duration: 0.5, delay:0.15, opacity: 0, ease:Power2.easeInOut });	
 						gsap.to('#clapat-logo img.white-logo', { duration: 0.5, delay:0.15, opacity: 1, ease:Power2.easeInOut });						
 						gsap.to('.classic-menu .flexnav li', { duration: 0.5, delay:0.15, color: "#fff", ease:Power2.easeInOut });
 						gsap.to('header .button-wrap.menu', { duration: 0.5, delay:0.15, color: "#fff", ease:Power2.easeInOut });
@@ -3036,7 +3036,7 @@ Function Showcase Snap Slider
 		JustifiedGrid();
 		Lightbox();
 		PlayVideo();
-		ContactForm();
+		if (typeof ContactForm === 'function') ContactForm();
 		ContactMap();
 		CustomFunction();
 		ShuffleElementsFunction();
