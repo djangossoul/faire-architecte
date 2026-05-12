@@ -25,7 +25,7 @@ jQuery(function ($) {
 				'PageLoad', 'ScrollEffects', 'FirstLoad', 'PageLoadActions', 'ShowcasePortfolio',
 				'ShowcaseHighlights', 'ShowcaseGallery', 'ShowcaseSnapSlider', 'FitThumbScreenWEBGL',
 				'Shortcodes', 'Core', 'MouseCursor', 'JustifiedGrid', 'Lightbox',
-				'PlayVideo', 'ContactMap', 'CustomFunction', 'ShuffleElementsFunction', 'InitShuffleElements'
+				'PlayVideo', 'CustomFunction', 'ShuffleElementsFunction', 'InitShuffleElements'
 			];
 
 
@@ -54,7 +54,7 @@ jQuery(function ($) {
 				Lightbox();
 				if (typeof ContactForm === 'function') ContactForm();
 				PlayVideo();
-				ContactMap();
+				if (typeof ContactMap === 'function') ContactMap();
 				CustomFunction();
 				ShuffleElementsFunction();
 				InitShuffleElements();
