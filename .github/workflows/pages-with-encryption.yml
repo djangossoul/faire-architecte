@@ -35,6 +35,14 @@ jobs:
           source: ./
           destination: ./_site
 
+      - name: Minify assets
+        run: |
+          npm i -D esbuild html-minifier-terser
+          npx esbuild _site/assets/js/plugins.js --minify --allow-overwrite --outfile=_site/assets/js/plugins.js
+          npx esbuild _site/assets/js/clapat.js --minify --allow-overwrite --outfile=_site/assets/js/clapat.js
+          npx esbuild _site/assets/ajax/libs/smooth-scrollbar/8.4.0/smooth-scrollbar.js --minify --allow-overwrite --outfile=_site/assets/ajax/libs/smooth-scrollbar/8.4.0/smooth-scrollbar.js
+          find _site -name "*.html" | xargs -I{} npx html-minifier-terser --minify-css true --remove-comments true -o {} {}
+
       # Begin encryption code.
       # This portion of the build job was written by Evan Baldonado (EvanBaldonado.com). Please do not remove this comment.
       # Note: this only encrypts .html pages and not any of the corresponding assets.

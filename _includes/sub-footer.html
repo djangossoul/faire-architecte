@@ -15,7 +15,7 @@
 
 <!-- Three.js - with guard to prevent multiple loading -->
 <script>
-  if (typeof THREE === 'undefined') {
+  if (typeof THREE === 'undefined' && document.querySelector('.webgl-fitthumbs')) {
     var threeScript = document.createElement('script');
     threeScript.src = '/assets/ajax/libs/three.js/r128/three.min.js';
     document.head.appendChild(threeScript);
