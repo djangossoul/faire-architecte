@@ -468,8 +468,8 @@ Function Page Load
 		function initOnFirstLoad() {
 			
 			
-			imagesLoaded('body', function() {
-				
+			imagesLoaded('#hero', function() {
+
 				//Animate Preloader
 				
 				
@@ -534,7 +534,7 @@ Function Page Load
 				
 				gsap.set($("#main-page-content"), {opacity:0});				
 																										
-				gsap.to($("#main-page-content, #page-nav"), {duration: 1.7, opacity:1, delay:0.5, ease:Power3.easeOut, onComplete: function() {
+				gsap.to($("#main-page-content, #page-nav"), {duration: 0.6, opacity:1, delay:0, ease:Power3.easeOut, onComplete: function() {
 					gsap.set($("#main-page-content"), { clearProps: "y" });
 					gsap.set($(".page-nav-caption .caption-timeline span"), { yPercent:0, opacity:1});
 					gsap.set($(".next-caption .caption-timeline span"), { yPercent:0, opacity:1});
