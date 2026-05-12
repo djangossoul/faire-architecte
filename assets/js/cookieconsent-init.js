@@ -84,7 +84,24 @@ CookieConsent.run({
                         {
                             title: 'Strictement nécessaires',
                             description: 'Ces cookies assurent le bon fonctionnement du site (mémorisation de vos préférences de cookies). Ils ne peuvent pas être désactivés.',
-                            linkedCategory: 'necessary'
+                            linkedCategory: 'necessary',
+                            cookieTable: {
+                                caption: 'Cookies nécessaires',
+                                headers: {
+                                    name: 'Nom',
+                                    domain: 'Domaine',
+                                    duration: 'Durée',
+                                    desc: 'Description'
+                                },
+                                body: [
+                                    {
+                                        name: 'cc_cookie',
+                                        domain: location.hostname,
+                                        duration: '1 an',
+                                        desc: 'Mémorise vos préférences en matière de cookies'
+                                    }
+                                ]
+                            }
                         },
                         {
                             title: 'Mesure d\'audience — Google Analytics',
