@@ -124,6 +124,135 @@ Les fichiers produits (`common.min.js`, `scripts.min.js`, `contact.min.js`) doiv
 
 ---
 
+## Ajouter un nouveau projet au portfolio
+
+### 1. Préparer les images
+
+Créer un sous-dossier dans `assets/images/projects/` portant le **slug** du projet (en minuscules, sans accents, sans espaces) :
+
+```
+assets/images/projects/nom-du-projet/
+```
+
+Y déposer toutes les images du projet en `.jpg` ou `.png`. Nommer les fichiers de façon claire (ex. `01_FACADE_AVANT.jpg`, `02_PLAN_RDC.jpg`…).
+
+Pour les deux images de vignette (thumbnail), prévoir une version carrée suffixée `Vcarre` — ex. `01_FACADE_AVANTVcarre.jpg` — utilisée comme thumbnail de face sur la page portfolio.
+
+---
+
+### 2. Créer le fichier du projet
+
+Copier un fichier existant de `_posts/` et le renommer selon le format :
+
+```
+_posts/AAAA-MM-JJ-NomDuProjet.markdown
+```
+
+La date dans le nom de fichier détermine l'ordre d'affichage (du plus récent au plus ancien).
+
+---
+
+### 3. Renseigner l'en-tête (front matter)
+
+Ouvrir le fichier et modifier les champs entre les `---` :
+
+```yaml
+---
+layout: post
+title:  "Nom du projet"          # Titre affiché sur la page
+slug: "nom-du-projet"            # Identifiant URL (minuscules, sans accents, sans espaces)
+seo_title: "Nom – Description courte | FAIRE Architecte"
+description: "Description meta pour le référencement (150-160 caractères)."
+categories:
+- Constructions                  # Une seule catégorie parmi : Constructions, Extensions, Rénovations, Meubles
+breadcrumbs:
+  - name: "Accueil"
+    url: "/"
+  - name: "Portfolio"
+    url: "/portfolio/"
+  - name: "Constructions"        # Adapter à la catégorie
+    url: "/portfolio/constructions/"  # Adapter : /extensions/, /renovations/, /meubles/
+date: 2026-01-06 12:00:00 +0100  # Date du projet
+
+# Vignettes sur la page portfolio
+thumbnailback: "/assets/images/projects/nom-du-projet/01_IMAGE_PRINCIPALE.jpg"
+thumbnailback-alt: "Voir le projet Nom – catégorie à Reims, FAIRE Architecte"
+thumbnailfront: "/assets/images/projects/nom-du-projet/01_IMAGE_VCAREEVcarre.jpg"
+thumbnailfront-alt: "Voir le projet Nom – catégorie à Reims, FAIRE Architecte"
+
+# Détails affichés dans la fiche projet (laisser vide si non renseigné)
+detail1a: "Maître d'ouvrage"
+detail1b: "Privé"
+detail2a: "Mission"
+detail2b: "Esquisse"
+detail3a: "Superficie"
+detail3b: "100 m²"
+detail4a: "Montant des travaux"
+detail4b: "200 000 € HT"
+detail5a: ""
+detail5b: ""
+detail6a: ""
+detail6b: ""
+
+# Textes de description (HTML autorisé pour le gras, les sauts de ligne…)
+description1: "Premier paragraphe de description du projet."
+description2: "Deuxième paragraphe de description du projet."
+
+# Images (jusqu'à 10 — laisser vide si non utilisée)
+img1: "/assets/images/projects/nom-du-projet/01_IMAGE.jpg"
+altimg1: "Description de l'image pour l'accessibilité"
+captionimg1: "Légende affichée sous l'image"
+
+img2: "/assets/images/projects/nom-du-projet/02_IMAGE.jpg"
+altimg2: ""
+captionimg2: "Légende image 2"
+
+img3: ""
+altimg3: ""
+captionimg3: ""
+
+# … répéter jusqu'à img10
+---
+```
+
+Le corps du fichier (après le second `---`) contient le HTML de mise en page — **ne pas le modifier** si vous vous basez sur un projet existant de la même structure.
+
+---
+
+### 4. Générer les vignettes responsive
+
+Après avoir déposé les images, lancer le script de génération :
+
+```bash
+npm run build:images
+```
+
+Cela crée les versions redimensionnées dans `assets/images/resized/` et met à jour `_data/responsive_images.json`. **Ces fichiers doivent être inclus dans le commit.**
+
+---
+
+### 5. Vérifier en local
+
+```bash
+bundle exec jekyll serve
+```
+
+Ouvrir `http://localhost:4000/portfolio/` pour vérifier que le projet apparaît bien dans la bonne catégorie, et `http://localhost:4000/nom-du-projet/` pour contrôler la page de détail.
+
+---
+
+### 6. Publier
+
+```bash
+git add .
+git commit -m "Ajout du projet Nom du projet"
+git push origin main
+```
+
+Le site se met en ligne automatiquement en 1 à 2 minutes via GitHub Actions.
+
+---
+
 ## Lancer le site en local
 
 ```bash
