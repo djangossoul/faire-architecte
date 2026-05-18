@@ -2872,7 +2872,7 @@ dt .link {
 /*------------------------------------------------------------------
   Footer mobile — empilage copyright / socials
 -------------------------------------------------------------------*/
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 580px) {
 	.clapat-footer {
 		height: auto !important;
 		overflow: visible !important;
