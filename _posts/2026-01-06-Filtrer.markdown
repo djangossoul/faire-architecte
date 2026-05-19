@@ -30,24 +30,24 @@ detail5a: ""
 detail5b: ""
 detail6a: ""
 detail6b: ""
-description1: "Enfouie sous le bâtiment de bureaux et de , cette cave de vieillissement avait accumulé les années sans jamais être vraiment traitée. Humidité stagnante, carrelage dégradé, éclairage inadapté : l'espace fonctionnait, mais ne répondait plus ni aux exigences de conservation, ni à celles du travail quotidien.<br><br><strong>Assainir sans trahir</strong><br><br>La contrainte budgétaire a guidé chaque choix vers l'essentiel. Sols, murs et plafonds ont été repris avec des matériaux sélectionnés pour leur résistance à l'humidité permanente des caves champenoises et aux lavages à grande eau récurrents — une cave qui travaille demande des surfaces qui encaissent."
+description1: "Enfouie sous le bâtiment de bureaux et de production, cette cave de vieillissement avait accumulé les années sans jamais être vraiment traitée. Humidité stagnante, carrelage dégradé, éclairage inadapté : l'espace fonctionnait, mais ne répondait plus ni aux exigences de conservation, ni à celles du travail quotidien.<br><br><strong>Assainir sans trahir</strong><br><br>La contrainte budgétaire a guidé chaque choix vers l'essentiel. Sols, murs et plafonds ont été repris avec des matériaux sélectionnés pour leur résistance à l'humidité permanente des caves champenoises et aux lavages à grande eau récurrents — une cave qui travaille demande des surfaces qui encaissent."
 description2: "<strong>Une lumière à double détente</strong><br><br>Le vrai enjeu du projet était lumineux. La conservation du vin exige une lumière douce, filtrée, sans UV — une lumière qui respecte les fûts et les bouteilles. Le travail, lui, demande l'inverse : un éclairage puissant, précis, fonctionnel pour la manipulation des tonneaux et le nettoyage. Les deux régimes coexistent, séparés, complémentaires.<br><br><strong>Filtrer, c'est choisir ce qu'on laisse passer.</strong>"
 
 img1: "/assets/images/projects/filtrer/A.jpg"
 altimg1: "Cave de vieillissement rénovée – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg1: ""
+captionimg1: "Stockage gagné à la place d’anciennes cuves béton"
 
 img2: "/assets/images/projects/filtrer/B.jpg"
 altimg2: "Intérieur de la cave de vieillissement rénovée – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg2: ""
+captionimg2: "Mise en valeur des alcôves par la lumière"
 
 img3: "/assets/images/projects/filtrer/C.jpg"
 altimg3: "Vue de la cave après rénovation – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg3: ""
+captionimg3: "Une alcôve au service de la présentation de produit"
 
 img4: "/assets/images/projects/filtrer/02a.jpg"
 altimg4: "Cave de vieillissement avant rénovation – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg4: "AVANT"
+captionimg4: "Dépose des anciennes cuves béton et du mur (avant)"
 
 img5: ""
 altimg5: ""
@@ -55,11 +55,11 @@ captionimg5: ""
 
 img6: "/assets/images/projects/filtrer/02b.jpg"
 altimg6: "Cave de vieillissement après rénovation – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg6: "APRÈS"
+captionimg6: "Ouverture visuelle sur le petit caveau et la salle de stockage (après)"
 
 img7: "/assets/images/projects/filtrer/03a.jpg"
 altimg7: "Espace de la cave avant travaux – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg7: "AVANT"
+captionimg7: "Petit caveau en brique (avant)"
 
 img8: "/assets/images/projects/filtrer/03aps.jpg"
 altimg8: "Espace de la cave après rénovation – projet Filtrer, Sacy, Marne, FAIRE Architecte"
@@ -67,11 +67,11 @@ captionimg8: ""
 
 img9: "/assets/images/projects/filtrer/03apsr.jpg"
 altimg9: "Vue de la cave rénovée avec éclairage adapté – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg9: "APRÈS"
+captionimg9: "Mise en lumière et ajout d’un mur ardoise (après)"
 
 img10: "/assets/images/projects/filtrer/05a.jpg"
 altimg10: "Allée de la cave avant rénovation – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg10: "AVANT"
+captionimg10: "Salle de stockage brute et froide (avant)"
 
 img11: ""
 altimg11: ""
@@ -79,11 +79,11 @@ captionimg11: ""
 
 img12: "/assets/images/projects/filtrer/05ap.jpg"
 altimg12: "Allée de la cave après rénovation – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg12: "APRÈS"
+captionimg12: "Mise en lumière et reprise du sol plus adapté à l’usage (après)"
 
 img13: "/assets/images/projects/filtrer/06a.jpg"
 altimg13: "Zone de stockage de la cave avant travaux – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg13: "AVANT"
+captionimg13: "Salle de stockage brute et froide (avant)"
 
 img14: ""
 altimg14: ""
@@ -91,7 +91,7 @@ captionimg14: ""
 
 img15: "/assets/images/projects/filtrer/06aps.jpg"
 altimg15: "Zone de stockage rénovée – projet Filtrer, Sacy, Marne, FAIRE Architecte"
-captionimg15: "APRÈS"
+captionimg15: "Lumière de « visite » et lumière de « travail » (après)"
 
 img16: ""
 altimg16: ""
