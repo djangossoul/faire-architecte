@@ -40,7 +40,8 @@
 			padding-bottom: 0px;
 			margin: 0 auto;
 			height: calc(100vh - 120px);
-			top: -20%;
+			top: 0;
+			transform: translateY(-20%);
 			opacity: 0;
 			position: relative;
 			box-sizing: border-box;

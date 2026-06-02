@@ -2526,17 +2526,17 @@ Function Scroll Effects
 		}			
 		
 		gsap.to('.page-nav-caption', {
-			duration: 1, 
-			top: "0", 
-			scale: 1, 
-			opacity: 1, 
+			duration: 1,
+			y: "0%",
+			scale: 1,
+			opacity: 1,
 			ease: Linear.easeNone,
 			scrollTrigger: {
 				trigger: '#page-nav',
 				start: startValue,
 				end: () => `+=${$('#page-nav').outerHeight() + $('.clapat-footer').outerHeight()}`,
 				scrub: true,
-			}			
+			}
 		});
 		
 		
