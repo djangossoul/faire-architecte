@@ -2463,6 +2463,11 @@ img.baseline {
 	background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, var(--color-brand-tan) 5%, var(--color-brand-tan) 100%);
 	padding-left: 60px;
 	padding-right: 60px;
+	overflow-x: clip;
+}
+
+.home-projects {
+	overflow-x: clip;
 }
 @media only screen and (max-width: 430px) {
 	/* Retire le padding du conteneur et le déplace sur les enfants directs,
