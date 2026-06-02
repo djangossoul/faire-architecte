@@ -128,13 +128,37 @@ Function Scroll Effects
 				scrollTop(value) {
 					if (arguments.length) { scrollbar.scrollTop = value; }
 					return scrollbar.scrollTop;
-			  	}
+				},
+				getBoundingClientRect() {
+					return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
+				},
+				pinType: ScrollArea.style.transform ? "transform" : "fixed"
 			});
 
 			scrollbar.addListener(ScrollTrigger.update);
 			ScrollTrigger.defaults({ scroller: ScrollArea });
-			
-			
+
+			// iOS < 16 : overscroll-behavior-y n'est pas supporté.
+			// On prévient le touchmove aux limites pour bloquer le pull-to-refresh
+			// et le rebond (bounce). Le smooth-scrollbar écoute sur #content-scroll ;
+			// preventDefault() ici ne l'affecte pas (pas de stopPropagation).
+			var _isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) ||
+				(navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+			if (_isIOS) {
+				var _touchStartY = 0;
+				document.addEventListener('touchstart', function(e) {
+					_touchStartY = e.touches[0].pageY;
+				}, { passive: true });
+				document.addEventListener('touchmove', function(e) {
+					var deltaY = e.touches[0].pageY - _touchStartY;
+					var scrollTop = scrollbar.scrollTop;
+					var maxScrollTop = scrollbar.limit.y;
+					if ((scrollTop <= 0 && deltaY > 0) || (scrollTop >= maxScrollTop && deltaY < 0)) {
+						e.preventDefault();
+					}
+				}, { passive: false });
+			}
+
 		}// End Smooth Scroll
 		
 		
