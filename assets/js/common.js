@@ -4071,9 +4071,25 @@ Function Lightbox
 ---------------------------------------------------*/
 	
 	window.Lightbox = function() {
-		
+
 		// Image Popup
 		const items = gsap.utils.toArray(".image-link");
+
+		// Résout la meilleure URL pour le lightbox : prend la plus grande entrée srcset
+		// (1200px webp) si disponible, sinon img.src (800px), sinon le href original.
+		function getLightboxSrc(item) {
+			const img = item.querySelector('img');
+			if (img) {
+				const srcset = img.getAttribute('srcset');
+				if (srcset) {
+					const entries = srcset.split(',').map(s => s.trim());
+					const last = entries[entries.length - 1];
+					return last.split(' ')[0];
+				}
+				if (img.src) return img.src;
+			}
+			return item.getAttribute('href');
+		}
 		
 		let sourceItem = null; // keeps track of which item is the source (clicked to open)
 		let activeItem = null; // keeps track of which item is opened (details)
@@ -4174,7 +4190,7 @@ Function Lightbox
 
 			// change image
 			detailImage.addEventListener("load", onLoad);
-			detailImage.src = item.getAttribute('href');
+			detailImage.src = getLightboxSrc(item);
 						
 			// set the source item that was clicked
 			sourceItem = activeItem = item;
@@ -4236,7 +4252,7 @@ Function Lightbox
 			
 			sourceItem = activeItem = items[nextIndex];
 			detailImage.addEventListener("load", onLoad);
-			detailImage.src = activeItem.getAttribute('href');
+			detailImage.src = getLightboxSrc(activeItem);
 		}
 		
 		function prevPopup() {
@@ -4259,7 +4275,7 @@ Function Lightbox
 			
 			sourceItem = activeItem = items[prevIndex];
 			detailImage.addEventListener("load", onLoad);
-			detailImage.src = activeItem.getAttribute('href');
+			detailImage.src = getLightboxSrc(activeItem);
 		}
 		
 		gsap.utils.toArray('.image-link').forEach(item => item.addEventListener('click', () => showDetails(item)));
