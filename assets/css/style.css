@@ -258,9 +258,6 @@ Note: Les variables CSS (:root design tokens) sont définies dans
 	-webkit-transform: translateY(10px);
 }
 
-.socials li:last-child {
-	/*margin-left: 0px;*/
-}
 
 .socials li a {
 	color: #000;
@@ -2866,11 +2863,14 @@ dt .link {
   Formspree widget overrides — z-index + safe-area iOS
 -------------------------------------------------------------------*/
 #formbutton-button {
-	z-index: 1000 !important;
 	bottom: calc(20px + env(safe-area-inset-bottom)) !important;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
 }
+#formbutton-buttonImage {
+	transform: scaleX(-1);
+}
+
 .formbutton-container {
-	z-index: 1000 !important;
 	padding-bottom: env(safe-area-inset-bottom);
 }
 
