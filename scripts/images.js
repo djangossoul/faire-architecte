@@ -23,13 +23,18 @@ const files = glob.sync(`${INPUT_DIR}/**/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}
     const rel = path.relative(INPUT_DIR, file);
     const relKey = rel.replace(/\.[^.]+$/, ext => ext.toLowerCase());
     const metadata = await sharp(file).metadata();
-    result[relKey] = { srcset: [], src: '', width: metadata.width, height: metadata.height };
+    // EXIF orientations 5-8 impliquent une rotation de 90°/270° qui inverse largeur et hauteur
+    const rotated = metadata.orientation >= 5 && metadata.orientation <= 8;
+    const displayWidth  = rotated ? metadata.height : metadata.width;
+    const displayHeight = rotated ? metadata.width  : metadata.height;
+    result[relKey] = { srcset: [], src: '', width: displayWidth, height: displayHeight };
 
     for (const width of SIZES) {
       const outPath = `${OUTPUT_DIR}/${width}/${rel.replace(/\.(jpg|jpeg|png)$/i, '.webp')}`;
       fs.mkdirSync(path.dirname(outPath), { recursive: true });
 
       await sharp(file)
+        .rotate()          // applique l'orientation EXIF et supprime le flag du fichier de sortie
         .resize(width)
         .webp({ quality: 75 })
         .toFile(outPath);
