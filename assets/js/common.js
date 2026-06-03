@@ -132,7 +132,7 @@ Function Scroll Effects
 				getBoundingClientRect() {
 					return { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight };
 				},
-				pinType: ScrollArea.style.transform ? "transform" : "fixed"
+				pinType: "transform"
 			});
 
 			scrollbar.addListener(ScrollTrigger.update);
